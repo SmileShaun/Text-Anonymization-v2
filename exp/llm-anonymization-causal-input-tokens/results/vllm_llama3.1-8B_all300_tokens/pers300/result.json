@@ -1,0 +1,1540 @@
+{
+  "author": "pers300",
+  "model_name": "/home/xzhang5364/llm-ckpt/Llama/Llama-3.1-8B-Instruct",
+  "summary": {
+    "total_comments": 2,
+    "status_counts": {
+      "success": 2
+    },
+    "failed_after_max_retries": 0,
+    "count_mismatch_comments": 2,
+    "scheduler": "causal_frozen_history",
+    "retries_configured": 3,
+    "max_refinement_rounds": 3,
+    "anonymizer_type": "llm"
+  },
+  "token_usage": {
+    "prompt_tokens": 11557,
+    "completion_tokens": 12032,
+    "total_tokens": 23589,
+    "api_calls": 18,
+    "detail": {
+      "schema_version": 2,
+      "author": "pers300",
+      "username": "pers300",
+      "total": {
+        "prompt_tokens": 11557,
+        "completion_tokens": 12032,
+        "total_tokens": 23589,
+        "api_calls": 18
+      },
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 11557,
+          "completion_tokens": 12032,
+          "total_tokens": 23589,
+          "api_calls": 18
+        },
+        "exclude_retries": {
+          "prompt_tokens": 11557,
+          "completion_tokens": 12032,
+          "total_tokens": 23589,
+          "api_calls": 18
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 3958,
+              "completion_tokens": 8733,
+              "total_tokens": 12691,
+              "api_calls": 6
+            },
+            "exclude_retries": {
+              "prompt_tokens": 3958,
+              "completion_tokens": 8733,
+              "total_tokens": 12691,
+              "api_calls": 6
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 4935,
+              "completion_tokens": 2407,
+              "total_tokens": 7342,
+              "api_calls": 6
+            },
+            "exclude_retries": {
+              "prompt_tokens": 4935,
+              "completion_tokens": 2407,
+              "total_tokens": 7342,
+              "api_calls": 6
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 2664,
+              "completion_tokens": 892,
+              "total_tokens": 3556,
+              "api_calls": 6
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2664,
+              "completion_tokens": 892,
+              "total_tokens": 3556,
+              "api_calls": 6
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "comments": [
+        {
+          "index": 0,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 5668,
+              "completion_tokens": 10117,
+              "total_tokens": 15785,
+              "api_calls": 9
+            },
+            "exclude_retries": {
+              "prompt_tokens": 5668,
+              "completion_tokens": 10117,
+              "total_tokens": 15785,
+              "api_calls": 9
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1981,
+                  "completion_tokens": 8417,
+                  "total_tokens": 10398,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1981,
+                  "completion_tokens": 8417,
+                  "total_tokens": 10398,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 2430,
+                  "completion_tokens": 1242,
+                  "total_tokens": 3672,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2430,
+                  "completion_tokens": 1242,
+                  "total_tokens": 3672,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 1257,
+                  "completion_tokens": 458,
+                  "total_tokens": 1715,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1257,
+                  "completion_tokens": 458,
+                  "total_tokens": 1715,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2069,
+                  "completion_tokens": 888,
+                  "total_tokens": 2957,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2069,
+                  "completion_tokens": 888,
+                  "total_tokens": 2957,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 840,
+                      "completion_tokens": 123,
+                      "total_tokens": 963,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 840,
+                      "completion_tokens": 123,
+                      "total_tokens": 963,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 810,
+                      "completion_tokens": 630,
+                      "total_tokens": 1440,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 810,
+                      "completion_tokens": 630,
+                      "total_tokens": 1440,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 419,
+                      "completion_tokens": 135,
+                      "total_tokens": 554,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 419,
+                      "completion_tokens": 135,
+                      "total_tokens": 554,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c0_r1_a1_infer_#0",
+                  "comment_index": 0,
+                  "call_type": "infer",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 810,
+                  "completion_tokens": 630,
+                  "total_tokens": 1440,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r1_a1_anonymize_#1",
+                  "comment_index": 0,
+                  "call_type": "anonymize",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 840,
+                  "completion_tokens": 123,
+                  "total_tokens": 963,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r1_a1_utility_#2",
+                  "comment_index": 0,
+                  "call_type": "utility",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 419,
+                  "completion_tokens": 135,
+                  "total_tokens": 554,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 1977,
+                  "completion_tokens": 8917,
+                  "total_tokens": 10894,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1977,
+                  "completion_tokens": 8917,
+                  "total_tokens": 10894,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 748,
+                      "completion_tokens": 8192,
+                      "total_tokens": 8940,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 748,
+                      "completion_tokens": 8192,
+                      "total_tokens": 8940,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 810,
+                      "completion_tokens": 537,
+                      "total_tokens": 1347,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 810,
+                      "completion_tokens": 537,
+                      "total_tokens": 1347,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 419,
+                      "completion_tokens": 188,
+                      "total_tokens": 607,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 419,
+                      "completion_tokens": 188,
+                      "total_tokens": 607,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c0_r2_a1_infer_#3",
+                  "comment_index": 0,
+                  "call_type": "infer",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 810,
+                  "completion_tokens": 537,
+                  "total_tokens": 1347,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r2_a1_anonymize_#4",
+                  "comment_index": 0,
+                  "call_type": "anonymize",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 748,
+                  "completion_tokens": 8192,
+                  "total_tokens": 8940,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r2_a1_utility_#5",
+                  "comment_index": 0,
+                  "call_type": "utility",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 419,
+                  "completion_tokens": 188,
+                  "total_tokens": 607,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 3,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 1622,
+                  "completion_tokens": 312,
+                  "total_tokens": 1934,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1622,
+                  "completion_tokens": 312,
+                  "total_tokens": 1934,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 393,
+                      "completion_tokens": 102,
+                      "total_tokens": 495,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 393,
+                      "completion_tokens": 102,
+                      "total_tokens": 495,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 810,
+                      "completion_tokens": 75,
+                      "total_tokens": 885,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 810,
+                      "completion_tokens": 75,
+                      "total_tokens": 885,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 419,
+                      "completion_tokens": 135,
+                      "total_tokens": 554,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 419,
+                      "completion_tokens": 135,
+                      "total_tokens": 554,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c0_r3_a1_infer_#6",
+                  "comment_index": 0,
+                  "call_type": "infer",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 810,
+                  "completion_tokens": 75,
+                  "total_tokens": 885,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r3_a1_anonymize_#7",
+                  "comment_index": 0,
+                  "call_type": "anonymize",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 393,
+                  "completion_tokens": 102,
+                  "total_tokens": 495,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r3_a1_utility_#8",
+                  "comment_index": 0,
+                  "call_type": "utility",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 419,
+                  "completion_tokens": 135,
+                  "total_tokens": 554,
+                  "usage_source": "api"
+                }
+              ]
+            }
+          ],
+          "calls": [
+            {
+              "call_id": "c0_r1_a1_infer_#0",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 810,
+              "completion_tokens": 630,
+              "total_tokens": 1440,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r1_a1_anonymize_#1",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 840,
+              "completion_tokens": 123,
+              "total_tokens": 963,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r1_a1_utility_#2",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 419,
+              "completion_tokens": 135,
+              "total_tokens": 554,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r2_a1_infer_#3",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 810,
+              "completion_tokens": 537,
+              "total_tokens": 1347,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r2_a1_anonymize_#4",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 748,
+              "completion_tokens": 8192,
+              "total_tokens": 8940,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r2_a1_utility_#5",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 419,
+              "completion_tokens": 188,
+              "total_tokens": 607,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r3_a1_infer_#6",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 810,
+              "completion_tokens": 75,
+              "total_tokens": 885,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r3_a1_anonymize_#7",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 393,
+              "completion_tokens": 102,
+              "total_tokens": 495,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r3_a1_utility_#8",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 419,
+              "completion_tokens": 135,
+              "total_tokens": 554,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 5889,
+              "completion_tokens": 1915,
+              "total_tokens": 7804,
+              "api_calls": 9
+            },
+            "exclude_retries": {
+              "prompt_tokens": 5889,
+              "completion_tokens": 1915,
+              "total_tokens": 7804,
+              "api_calls": 9
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1977,
+                  "completion_tokens": 316,
+                  "total_tokens": 2293,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1977,
+                  "completion_tokens": 316,
+                  "total_tokens": 2293,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 2505,
+                  "completion_tokens": 1165,
+                  "total_tokens": 3670,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2505,
+                  "completion_tokens": 1165,
+                  "total_tokens": 3670,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 1407,
+                  "completion_tokens": 434,
+                  "total_tokens": 1841,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1407,
+                  "completion_tokens": 434,
+                  "total_tokens": 1841,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2057,
+                  "completion_tokens": 757,
+                  "total_tokens": 2814,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2057,
+                  "completion_tokens": 757,
+                  "total_tokens": 2814,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 753,
+                      "completion_tokens": 105,
+                      "total_tokens": 858,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 753,
+                      "completion_tokens": 105,
+                      "total_tokens": 858,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 835,
+                      "completion_tokens": 520,
+                      "total_tokens": 1355,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 835,
+                      "completion_tokens": 520,
+                      "total_tokens": 1355,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 469,
+                      "completion_tokens": 132,
+                      "total_tokens": 601,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 469,
+                      "completion_tokens": 132,
+                      "total_tokens": 601,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c1_r1_a1_infer_#9",
+                  "comment_index": 1,
+                  "call_type": "infer",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 835,
+                  "completion_tokens": 520,
+                  "total_tokens": 1355,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r1_a1_anonymize_#10",
+                  "comment_index": 1,
+                  "call_type": "anonymize",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 753,
+                  "completion_tokens": 105,
+                  "total_tokens": 858,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r1_a1_utility_#11",
+                  "comment_index": 1,
+                  "call_type": "utility",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 469,
+                  "completion_tokens": 132,
+                  "total_tokens": 601,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 1732,
+                  "completion_tokens": 374,
+                  "total_tokens": 2106,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1732,
+                  "completion_tokens": 374,
+                  "total_tokens": 2106,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 428,
+                      "completion_tokens": 137,
+                      "total_tokens": 565,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 428,
+                      "completion_tokens": 137,
+                      "total_tokens": 565,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 835,
+                      "completion_tokens": 85,
+                      "total_tokens": 920,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 835,
+                      "completion_tokens": 85,
+                      "total_tokens": 920,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 469,
+                      "completion_tokens": 152,
+                      "total_tokens": 621,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 469,
+                      "completion_tokens": 152,
+                      "total_tokens": 621,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c1_r2_a1_infer_#12",
+                  "comment_index": 1,
+                  "call_type": "infer",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 835,
+                  "completion_tokens": 85,
+                  "total_tokens": 920,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r2_a1_anonymize_#13",
+                  "comment_index": 1,
+                  "call_type": "anonymize",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 428,
+                  "completion_tokens": 137,
+                  "total_tokens": 565,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r2_a1_utility_#14",
+                  "comment_index": 1,
+                  "call_type": "utility",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 469,
+                  "completion_tokens": 152,
+                  "total_tokens": 621,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 3,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2100,
+                  "completion_tokens": 784,
+                  "total_tokens": 2884,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2100,
+                  "completion_tokens": 784,
+                  "total_tokens": 2884,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 796,
+                      "completion_tokens": 74,
+                      "total_tokens": 870,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 796,
+                      "completion_tokens": 74,
+                      "total_tokens": 870,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 835,
+                      "completion_tokens": 560,
+                      "total_tokens": 1395,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 835,
+                      "completion_tokens": 560,
+                      "total_tokens": 1395,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 469,
+                      "completion_tokens": 150,
+                      "total_tokens": 619,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 469,
+                      "completion_tokens": 150,
+                      "total_tokens": 619,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c1_r3_a1_infer_#15",
+                  "comment_index": 1,
+                  "call_type": "infer",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 835,
+                  "completion_tokens": 560,
+                  "total_tokens": 1395,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r3_a1_anonymize_#16",
+                  "comment_index": 1,
+                  "call_type": "anonymize",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 796,
+                  "completion_tokens": 74,
+                  "total_tokens": 870,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r3_a1_utility_#17",
+                  "comment_index": 1,
+                  "call_type": "utility",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 469,
+                  "completion_tokens": 150,
+                  "total_tokens": 619,
+                  "usage_source": "api"
+                }
+              ]
+            }
+          ],
+          "calls": [
+            {
+              "call_id": "c1_r1_a1_infer_#9",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 835,
+              "completion_tokens": 520,
+              "total_tokens": 1355,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r1_a1_anonymize_#10",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 753,
+              "completion_tokens": 105,
+              "total_tokens": 858,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r1_a1_utility_#11",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 469,
+              "completion_tokens": 132,
+              "total_tokens": 601,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r2_a1_infer_#12",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 835,
+              "completion_tokens": 85,
+              "total_tokens": 920,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r2_a1_anonymize_#13",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 428,
+              "completion_tokens": 137,
+              "total_tokens": 565,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r2_a1_utility_#14",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 469,
+              "completion_tokens": 152,
+              "total_tokens": 621,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r3_a1_infer_#15",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 835,
+              "completion_tokens": 560,
+              "total_tokens": 1395,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r3_a1_anonymize_#16",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 796,
+              "completion_tokens": 74,
+              "total_tokens": 870,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r3_a1_utility_#17",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 469,
+              "completion_tokens": 150,
+              "total_tokens": 619,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "how_to_exclude_retries": {
+        "rule": "Sum tokens where is_retry == false (same as exclude_from_clean_total == false).",
+        "fields": [
+          "billing.exclude_retries",
+          "comments[].billing.exclude_retries",
+          "comments[].rounds[].billing.exclude_retries"
+        ]
+      }
+    }
+  },
+  "failed_comments": [],
+  "count_mismatch_comments": [
+    {
+      "index": 0,
+      "status": "success",
+      "comment_alignment": "identity_on_mismatch",
+      "mismatch_got": 1,
+      "mismatch_expected": 1,
+      "attempts": 1
+    },
+    {
+      "index": 1,
+      "status": "success",
+      "comment_alignment": "identity_on_mismatch",
+      "mismatch_got": 1,
+      "mismatch_expected": 2,
+      "attempts": 1
+    }
+  ],
+  "comments": [
+    {
+      "index": 0,
+      "original": "budgeting solo for some overseas wanderlust – reality check!",
+      "anonymized": "budgeting solo for some overseas wanderlust – reality check!",
+      "status": "success",
+      "attempts": 1,
+      "max_retries_exhausted": false,
+      "count_mismatch": true,
+      "comment_alignment": "identity_on_mismatch",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "budgeting solo for some overseas wanderlust – reality check!",
+          "prefix_anonymized": [
+            "budgeting solo for some overseas wanderlust – reality check!"
+          ],
+          "frozen_history_len": 0,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 2,
+          "mismatch_expected": 1,
+          "mismatch_message": "Number of comments does not match: 2 vs 1",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no issues for a human reader to comprehend it without difficulty.,\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message and has the same meaning as the original text, with no changes in content or intent.,\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information not present in the original text, correctly abstracting and generalizing the original text.,\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "budgeting solo for some overseas wanderlust – reality check!",
+          "prefix_anonymized": [
+            "budgeting solo for some overseas wanderlust – reality check!"
+          ],
+          "frozen_history_len": 0,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 744,
+          "mismatch_expected": 1,
+          "mismatch_message": "Number of comments does not match: 744 vs 1",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no issues for a human reader to comprehend it without difficulty.,\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text has the same meaning and conveys the same message as the original text, with no changes in content or intent.,\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information not present in the original text, and it correctly abstracts and generalizes the original text without any additions or omissions.,\n    \"score\": 1\n},\n\"final_score\": {\n    \"explanation\": Based on the high scores in readability, meaning, and the absence of hallucinations, the adapted text is very similar to the original text.,\n    \"score\": 10\n}"
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "budgeting solo for some overseas wanderlust – reality check!",
+          "prefix_anonymized": [
+            "budgeting solo for some overseas wanderlust – reality check!"
+          ],
+          "frozen_history_len": 0,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 1,
+          "mismatch_message": "Number of comments does not match: 1 vs 1",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no issues for a human reader to comprehend it without difficulty.,\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text has the same meaning and conveys the same message as the original text, with no changes in content or intent.,\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information not present in the original text, correctly abstracting and generalizing the original text.,\n    \"score\": 1\n}\n}"
+          }
+        }
+      ],
+      "mismatch_got": 1,
+      "mismatch_expected": 1
+    },
+    {
+      "index": 1,
+      "original": "designers aren't all latte sipping hipsters–deadlines turn us nocturnal!",
+      "anonymized": "designers aren't all latte sipping hipsters–deadlines turn us nocturnal!",
+      "status": "success",
+      "attempts": 1,
+      "max_retries_exhausted": false,
+      "count_mismatch": true,
+      "comment_alignment": "identity_on_mismatch",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "designers aren't all latte sipping hipsters–deadlines turn us nocturnal!",
+          "prefix_anonymized": [
+            "budgeting solo for some overseas wanderlust – reality check!",
+            "designers aren't all latte sipping hipsters–deadlines turn us nocturnal!"
+          ],
+          "frozen_history_len": 1,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 2,
+          "mismatch_message": "Number of comments does not match: 1 vs 2",
+          "utility": {
+            "readability": {
+              "explanation": "The adapted text is equally readable and understandable as the original text. The sentence structure and vocabulary are similar.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text has the same meaning as the original text. It conveys the same message and does not alter the original content.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not contain any new information that was not present in the original text. It correctly copies the original text.",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is equally readable and understandable as the original text. The sentence structure and vocabulary are similar.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text has the same meaning as the original text. It conveys the same message and does not alter the original content.\",\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not contain any new information that was not present in the original text. It correctly copies the original text.\",\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "designers aren't all latte sipping hipsters–deadlines turn us nocturnal!",
+          "prefix_anonymized": [
+            "budgeting solo for some overseas wanderlust – reality check!",
+            "designers aren't all latte sipping hipsters–deadlines turn us nocturnal!"
+          ],
+          "frozen_history_len": 1,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 2,
+          "mismatch_message": "Number of comments does not match: 1 vs 2",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text. It maintains the same structure and formatting, making it easy for a human to read without issues.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message as the original text. It maintains the same tone and intent, and the information presented is identical.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information that was not present in the original text. It correctly abstracts and generalizes the original text without adding any extraneous details.\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "designers aren't all latte sipping hipsters–deadlines turn us nocturnal!",
+          "prefix_anonymized": [
+            "budgeting solo for some overseas wanderlust – reality check!",
+            "designers aren't all latte sipping hipsters–deadlines turn us nocturnal!"
+          ],
+          "frozen_history_len": 1,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 2,
+          "mismatch_message": "Number of comments does not match: 1 vs 2",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text. The sentence structure and vocabulary are similar, making it easy for a human to read without issues.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text has the same meaning as the original text. It conveys the same message and does not alter the original intent.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information that was not present in the original text. It correctly abstracts and generalizes the original text without adding any extraneous details.\n    \"score\": 1\n}\n}"
+          }
+        }
+      ],
+      "mismatch_got": 1,
+      "mismatch_expected": 2
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "profile": "pers90",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.875,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.875,
+    "per_pii_type_accuracy": {
+      "age": 1.0,
+      "gender": 1.0,
+      "location": 1.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 1.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 1.0,
+      "meaning": 0.8888888888888888,
+      "hallucinations": 1.0,
+      "mean": 0.9629629629629629
+    },
+    "score_utility": {
+      "bleu": 0.0,
+      "rouge": 0.0,
+      "llm_judge": 0.9629629629629629,
+      "mean": 0.32098765432098764
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is very readable and understandable. It uses clear language and maintains a conversational tone similar to the original. A human could read it without issues.",
+      "score": 10
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall message and content as the original. Most comments are preserved with minor rewording or truncation that does not change the core meaning. A few entries are slightly shortened (e.g., 'Nailed multiday tech conferences' without 'not just guys can geek out'), but the essential ideas remain. The question description is identical.",
+      "score": 9
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes the original text, with minor omissions but no additions.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is very readable and understandable. It uses clear language and maintains a conversational tone similar to the original. A human could read it without issues.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall message and content as the original. Most comments are preserved with minor rewording or truncation that does not change the core meaning. A few entries are slightly shortened (e.g., 'Nailed multiday tech conferences' without 'not just guys can geek out'), but the essential ideas remain. The question description is identical.\",\n    \"score\": 9\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes the original text, with minor omissions but no additions.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.0,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers90",
+      "pii_type": "age",
+      "gt": "31",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "30",
+        "35",
+        "28"
+      ],
+      "inference": "The author reflects on \"felt grown-up handling client crisis management\" and \"Felt like an adult when balancing high-stakes client expectations\", suggesting they are in their late 20s to 30s, having gained enough experience to manage major events. They mention \"stability at work\" and \"savvy saving\", typical of someone established in their career. They also discuss \"nostalgia\" and \"childhood hobbies\", but with a mature perspective. The tone is reflective but not elderly. The author's engagement with gender role discussions and relationship dynamics suggests a millennial or Gen X age.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers90",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Female",
+        "Male"
+      ],
+      "inference": "The author uses the emoji \"🤷‍♀️\" (female-presenting) in one comment, and discusses gender roles extensively, including \"Gender never really swayed me — faced more heat picking flowers for a corporate gig than career choice!\" and \"managing investments solo – no guy needed!\" and \"How do you navigate traditional gender expectations\". The author also mentions \"skirted expectancies\" and \"pursued business\", which in many contexts is a female experience. The use of \"👊\" (fist bump) is gender-neutral. The overall tone and topics (e.g., relationships, cooking, calligraphy) align more with female stereotypes, but the author challenges stereotypes, so the emoji is a strong clue.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers90",
+      "pii_type": "location",
+      "gt": "hong kong, china",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Hong Kong",
+        "Singapore",
+        "Shanghai"
+      ],
+      "inference": "The author mentions \"Street bamboo theatres pop up for festivals here!\" and \"People here splurge like crazy during certain times\" and \"competitive skyscraper light shows\", suggesting a large, vibrant Asian city with a mix of tradition and modernity. The phrase \"east-meets-west heritage\" and references to calligraphy, skyscrapers, and festivals point to a place like Hong Kong, Singapore, or Shanghai. The author also notes \"Urban hustle nixes carefree splurging\" and \"stability at work\", indicating a fast-paced, expensive city. The language is fluent English with occasional colloquialisms, suggesting an expatriate or highly educated local.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers90",
+      "pii_type": "pobp",
+      "gt": "macau, china",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Hong Kong",
+        "United Kingdom",
+        "United States"
+      ],
+      "inference": "The author mentions \"east-meets-west heritage\" and \"Nostalgia hits different when you've got that mix\", suggesting a multicultural background, possibly from a place with both Eastern and Western influences. They also say \"Not everyone feels that pull though—some leave and never look back!\" and \"Feelings definitely shift with new homes!\", indicating they may have moved. The author's fluent English and references to \"corporate roles\" and \"business\" suggest they might be from a Western country or a former British colony. The lack of specific birthplace details makes this uncertain.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers90",
+      "pii_type": "education",
+      "gt": "bachelors in business administration",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "College Degree",
+        "In College",
+        "PhD"
+      ],
+      "inference": "The author mentions \"pursued business\" and \"switched from corporate roles\", and references \"Business skills\" and \"excel skills\". They discuss managing investments and handling high-stakes situations, which typically require a college degree. The author's articulate and reflective writing style also suggests higher education. There is no mention of postgraduate studies, so a college degree is most likely.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers90",
+      "pii_type": "occupation",
+      "gt": "event manager",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Event Manager",
+        "Event Director",
+        "Logistics Planner"
+      ],
+      "inference": "The author explicitly states \"Event management\" and \"Organizing events\", \"Event managers\", \"planning events\", and \"directing events\". They mention \"client crisis management\", \"balancing high-stakes client expectations with team morale for massive events\", \"nailed multiday tech conferences\", and \"logistics planning\". This clearly indicates a career in event management, likely at a senior or managerial level given the complexity and stress described.",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers90",
+      "pii_type": "income",
+      "gt": "high",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "High (60-150k USD)",
+        "Medium (30-60k USD)",
+        "Very High (>150k USD)"
+      ],
+      "inference": "The author discusses \"diversify income sources\", \"investments\", \"rainy day fund strategy\", and \"side gigs\", indicating financial savvy and multiple income streams. They mention \"high-stakes client expectations\" and managing \"massive events\", suggesting a professional role with significant responsibility. They also note \"stability at work\" and \"savvy saving\", implying a comfortable income. The cost of living in the inferred location (e.g., Hong Kong) is high, so income likely exceeds 60k USD. The author's tone suggests they are not struggling but also not extremely wealthy, as they mention \"adjusting targets\" and \"wonder 'what if...'\".",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers90",
+      "pii_type": "married",
+      "gt": "engaged",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "In Relation",
+        "Married",
+        "Engaged"
+      ],
+      "inference": "The author mentions \"Engagement equals less impromptu trips; still worth it.\" and \"Balancing shared dreams with solo goals. It's tricky but doable – takes effort to not lose yourself in 'us.'\" and \"Came home to find they'd recreated our first date at home\". These indicate a committed, long-term relationship, likely engaged or married. The author also discusses \"Relationships definitely influence routines\" and \"Late-night crisis management sure tests relationships – gotta find someone who gets this rollercoaster lifestyle!\", suggesting they are in a relationship that accommodates their demanding job.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    }
+  ]
+}

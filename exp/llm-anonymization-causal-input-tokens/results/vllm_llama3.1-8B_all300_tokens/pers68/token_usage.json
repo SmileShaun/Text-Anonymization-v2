@@ -1,0 +1,5396 @@
+{
+  "schema_version": 2,
+  "author": "pers68",
+  "username": "pers68",
+  "total": {
+    "prompt_tokens": 66433,
+    "completion_tokens": 26551,
+    "total_tokens": 92984,
+    "api_calls": 81
+  },
+  "billing": {
+    "all_calls": {
+      "prompt_tokens": 66433,
+      "completion_tokens": 26551,
+      "total_tokens": 92984,
+      "api_calls": 81
+    },
+    "exclude_retries": {
+      "prompt_tokens": 66433,
+      "completion_tokens": 26551,
+      "total_tokens": 92984,
+      "api_calls": 81
+    },
+    "retry_only": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "api_calls": 0
+    },
+    "by_call_type": {
+      "anonymize": {
+        "all_calls": {
+          "prompt_tokens": 25127,
+          "completion_tokens": 5144,
+          "total_tokens": 30271,
+          "api_calls": 27
+        },
+        "exclude_retries": {
+          "prompt_tokens": 25127,
+          "completion_tokens": 5144,
+          "total_tokens": 30271,
+          "api_calls": 27
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        }
+      },
+      "infer": {
+        "all_calls": {
+          "prompt_tokens": 24517,
+          "completion_tokens": 16668,
+          "total_tokens": 41185,
+          "api_calls": 27
+        },
+        "exclude_retries": {
+          "prompt_tokens": 24517,
+          "completion_tokens": 16668,
+          "total_tokens": 41185,
+          "api_calls": 27
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        }
+      },
+      "utility": {
+        "all_calls": {
+          "prompt_tokens": 16789,
+          "completion_tokens": 4739,
+          "total_tokens": 21528,
+          "api_calls": 27
+        },
+        "exclude_retries": {
+          "prompt_tokens": 16789,
+          "completion_tokens": 4739,
+          "total_tokens": 21528,
+          "api_calls": 27
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        }
+      }
+    },
+    "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+  },
+  "comments": [
+    {
+      "index": 0,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 6440,
+          "completion_tokens": 2948,
+          "total_tokens": 9388,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 6440,
+          "completion_tokens": 2948,
+          "total_tokens": 9388,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 2611,
+              "completion_tokens": 352,
+              "total_tokens": 2963,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2611,
+              "completion_tokens": 352,
+              "total_tokens": 2963,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 2477,
+              "completion_tokens": 1928,
+              "total_tokens": 4405,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2477,
+              "completion_tokens": 1928,
+              "total_tokens": 4405,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 1352,
+              "completion_tokens": 668,
+              "total_tokens": 2020,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 1352,
+              "completion_tokens": 668,
+              "total_tokens": 2020,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2169,
+              "completion_tokens": 1008,
+              "total_tokens": 3177,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2169,
+              "completion_tokens": 1008,
+              "total_tokens": 3177,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 890,
+                  "completion_tokens": 126,
+                  "total_tokens": 1016,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 890,
+                  "completion_tokens": 126,
+                  "total_tokens": 1016,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 827,
+                  "completion_tokens": 654,
+                  "total_tokens": 1481,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 827,
+                  "completion_tokens": 654,
+                  "total_tokens": 1481,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 452,
+                  "completion_tokens": 228,
+                  "total_tokens": 680,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 452,
+                  "completion_tokens": 228,
+                  "total_tokens": 680,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c0_r1_a1_infer_#0",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 827,
+              "completion_tokens": 654,
+              "total_tokens": 1481,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r1_a1_anonymize_#1",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 890,
+              "completion_tokens": 126,
+              "total_tokens": 1016,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r1_a1_utility_#2",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 452,
+              "completion_tokens": 228,
+              "total_tokens": 680,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2177,
+              "completion_tokens": 973,
+              "total_tokens": 3150,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2177,
+              "completion_tokens": 973,
+              "total_tokens": 3150,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 901,
+                  "completion_tokens": 129,
+                  "total_tokens": 1030,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 901,
+                  "completion_tokens": 129,
+                  "total_tokens": 1030,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 826,
+                  "completion_tokens": 677,
+                  "total_tokens": 1503,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 826,
+                  "completion_tokens": 677,
+                  "total_tokens": 1503,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 450,
+                  "completion_tokens": 167,
+                  "total_tokens": 617,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 450,
+                  "completion_tokens": 167,
+                  "total_tokens": 617,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c0_r2_a1_infer_#3",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 826,
+              "completion_tokens": 677,
+              "total_tokens": 1503,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r2_a1_anonymize_#4",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 901,
+              "completion_tokens": 129,
+              "total_tokens": 1030,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r2_a1_utility_#5",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 450,
+              "completion_tokens": 167,
+              "total_tokens": 617,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2094,
+              "completion_tokens": 967,
+              "total_tokens": 3061,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2094,
+              "completion_tokens": 967,
+              "total_tokens": 3061,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 820,
+                  "completion_tokens": 97,
+                  "total_tokens": 917,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 820,
+                  "completion_tokens": 97,
+                  "total_tokens": 917,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 824,
+                  "completion_tokens": 597,
+                  "total_tokens": 1421,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 824,
+                  "completion_tokens": 597,
+                  "total_tokens": 1421,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 450,
+                  "completion_tokens": 273,
+                  "total_tokens": 723,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 450,
+                  "completion_tokens": 273,
+                  "total_tokens": 723,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c0_r3_a1_infer_#6",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 824,
+              "completion_tokens": 597,
+              "total_tokens": 1421,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r3_a1_anonymize_#7",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 820,
+              "completion_tokens": 97,
+              "total_tokens": 917,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r3_a1_utility_#8",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 450,
+              "completion_tokens": 273,
+              "total_tokens": 723,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c0_r1_a1_infer_#0",
+          "comment_index": 0,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 827,
+          "completion_tokens": 654,
+          "total_tokens": 1481,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c0_r1_a1_anonymize_#1",
+          "comment_index": 0,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 890,
+          "completion_tokens": 126,
+          "total_tokens": 1016,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c0_r1_a1_utility_#2",
+          "comment_index": 0,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 452,
+          "completion_tokens": 228,
+          "total_tokens": 680,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c0_r2_a1_infer_#3",
+          "comment_index": 0,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 826,
+          "completion_tokens": 677,
+          "total_tokens": 1503,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c0_r2_a1_anonymize_#4",
+          "comment_index": 0,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 901,
+          "completion_tokens": 129,
+          "total_tokens": 1030,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c0_r2_a1_utility_#5",
+          "comment_index": 0,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 450,
+          "completion_tokens": 167,
+          "total_tokens": 617,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c0_r3_a1_infer_#6",
+          "comment_index": 0,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 824,
+          "completion_tokens": 597,
+          "total_tokens": 1421,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c0_r3_a1_anonymize_#7",
+          "comment_index": 0,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 820,
+          "completion_tokens": 97,
+          "total_tokens": 917,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c0_r3_a1_utility_#8",
+          "comment_index": 0,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 450,
+          "completion_tokens": 273,
+          "total_tokens": 723,
+          "usage_source": "api"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 6605,
+          "completion_tokens": 2816,
+          "total_tokens": 9421,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 6605,
+          "completion_tokens": 2816,
+          "total_tokens": 9421,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 2576,
+              "completion_tokens": 427,
+              "total_tokens": 3003,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2576,
+              "completion_tokens": 427,
+              "total_tokens": 3003,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 2541,
+              "completion_tokens": 1816,
+              "total_tokens": 4357,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2541,
+              "completion_tokens": 1816,
+              "total_tokens": 4357,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 1488,
+              "completion_tokens": 573,
+              "total_tokens": 2061,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 1488,
+              "completion_tokens": 573,
+              "total_tokens": 2061,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2305,
+              "completion_tokens": 1064,
+              "total_tokens": 3369,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2305,
+              "completion_tokens": 1064,
+              "total_tokens": 3369,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 962,
+                  "completion_tokens": 147,
+                  "total_tokens": 1109,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 962,
+                  "completion_tokens": 147,
+                  "total_tokens": 1109,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 847,
+                  "completion_tokens": 707,
+                  "total_tokens": 1554,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 847,
+                  "completion_tokens": 707,
+                  "total_tokens": 1554,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 496,
+                  "completion_tokens": 210,
+                  "total_tokens": 706,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 496,
+                  "completion_tokens": 210,
+                  "total_tokens": 706,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c1_r1_a1_infer_#9",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 847,
+              "completion_tokens": 707,
+              "total_tokens": 1554,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r1_a1_anonymize_#10",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 962,
+              "completion_tokens": 147,
+              "total_tokens": 1109,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r1_a1_utility_#11",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 496,
+              "completion_tokens": 210,
+              "total_tokens": 706,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2155,
+              "completion_tokens": 880,
+              "total_tokens": 3035,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2155,
+              "completion_tokens": 880,
+              "total_tokens": 3035,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 812,
+                  "completion_tokens": 131,
+                  "total_tokens": 943,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 812,
+                  "completion_tokens": 131,
+                  "total_tokens": 943,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 847,
+                  "completion_tokens": 555,
+                  "total_tokens": 1402,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 847,
+                  "completion_tokens": 555,
+                  "total_tokens": 1402,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 496,
+                  "completion_tokens": 194,
+                  "total_tokens": 690,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 496,
+                  "completion_tokens": 194,
+                  "total_tokens": 690,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c1_r2_a1_infer_#12",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 847,
+              "completion_tokens": 555,
+              "total_tokens": 1402,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r2_a1_anonymize_#13",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 812,
+              "completion_tokens": 131,
+              "total_tokens": 943,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r2_a1_utility_#14",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 496,
+              "completion_tokens": 194,
+              "total_tokens": 690,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2145,
+              "completion_tokens": 872,
+              "total_tokens": 3017,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2145,
+              "completion_tokens": 872,
+              "total_tokens": 3017,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 802,
+                  "completion_tokens": 149,
+                  "total_tokens": 951,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 802,
+                  "completion_tokens": 149,
+                  "total_tokens": 951,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 847,
+                  "completion_tokens": 554,
+                  "total_tokens": 1401,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 847,
+                  "completion_tokens": 554,
+                  "total_tokens": 1401,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 496,
+                  "completion_tokens": 169,
+                  "total_tokens": 665,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 496,
+                  "completion_tokens": 169,
+                  "total_tokens": 665,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c1_r3_a1_infer_#15",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 847,
+              "completion_tokens": 554,
+              "total_tokens": 1401,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r3_a1_anonymize_#16",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 802,
+              "completion_tokens": 149,
+              "total_tokens": 951,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r3_a1_utility_#17",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 496,
+              "completion_tokens": 169,
+              "total_tokens": 665,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c1_r1_a1_infer_#9",
+          "comment_index": 1,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 847,
+          "completion_tokens": 707,
+          "total_tokens": 1554,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c1_r1_a1_anonymize_#10",
+          "comment_index": 1,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 962,
+          "completion_tokens": 147,
+          "total_tokens": 1109,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c1_r1_a1_utility_#11",
+          "comment_index": 1,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 496,
+          "completion_tokens": 210,
+          "total_tokens": 706,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c1_r2_a1_infer_#12",
+          "comment_index": 1,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 847,
+          "completion_tokens": 555,
+          "total_tokens": 1402,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c1_r2_a1_anonymize_#13",
+          "comment_index": 1,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 812,
+          "completion_tokens": 131,
+          "total_tokens": 943,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c1_r2_a1_utility_#14",
+          "comment_index": 1,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 496,
+          "completion_tokens": 194,
+          "total_tokens": 690,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c1_r3_a1_infer_#15",
+          "comment_index": 1,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 847,
+          "completion_tokens": 554,
+          "total_tokens": 1401,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c1_r3_a1_anonymize_#16",
+          "comment_index": 1,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 802,
+          "completion_tokens": 149,
+          "total_tokens": 951,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c1_r3_a1_utility_#17",
+          "comment_index": 1,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 496,
+          "completion_tokens": 169,
+          "total_tokens": 665,
+          "usage_source": "api"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 6737,
+          "completion_tokens": 2659,
+          "total_tokens": 9396,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 6737,
+          "completion_tokens": 2659,
+          "total_tokens": 9396,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 2582,
+              "completion_tokens": 419,
+              "total_tokens": 3001,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2582,
+              "completion_tokens": 419,
+              "total_tokens": 3001,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 2583,
+              "completion_tokens": 1788,
+              "total_tokens": 4371,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2583,
+              "completion_tokens": 1788,
+              "total_tokens": 4371,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 1572,
+              "completion_tokens": 452,
+              "total_tokens": 2024,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 1572,
+              "completion_tokens": 452,
+              "total_tokens": 2024,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2260,
+              "completion_tokens": 878,
+              "total_tokens": 3138,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2260,
+              "completion_tokens": 878,
+              "total_tokens": 3138,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 875,
+                  "completion_tokens": 141,
+                  "total_tokens": 1016,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 875,
+                  "completion_tokens": 141,
+                  "total_tokens": 1016,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 861,
+                  "completion_tokens": 604,
+                  "total_tokens": 1465,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 861,
+                  "completion_tokens": 604,
+                  "total_tokens": 1465,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 524,
+                  "completion_tokens": 133,
+                  "total_tokens": 657,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 524,
+                  "completion_tokens": 133,
+                  "total_tokens": 657,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c2_r1_a1_infer_#18",
+              "comment_index": 2,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 861,
+              "completion_tokens": 604,
+              "total_tokens": 1465,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r1_a1_anonymize_#19",
+              "comment_index": 2,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 875,
+              "completion_tokens": 141,
+              "total_tokens": 1016,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r1_a1_utility_#20",
+              "comment_index": 2,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 524,
+              "completion_tokens": 133,
+              "total_tokens": 657,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2245,
+              "completion_tokens": 896,
+              "total_tokens": 3141,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2245,
+              "completion_tokens": 896,
+              "total_tokens": 3141,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 860,
+                  "completion_tokens": 137,
+                  "total_tokens": 997,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 860,
+                  "completion_tokens": 137,
+                  "total_tokens": 997,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 861,
+                  "completion_tokens": 598,
+                  "total_tokens": 1459,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 861,
+                  "completion_tokens": 598,
+                  "total_tokens": 1459,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 524,
+                  "completion_tokens": 161,
+                  "total_tokens": 685,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 524,
+                  "completion_tokens": 161,
+                  "total_tokens": 685,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c2_r2_a1_infer_#21",
+              "comment_index": 2,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 861,
+              "completion_tokens": 598,
+              "total_tokens": 1459,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r2_a1_anonymize_#22",
+              "comment_index": 2,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 860,
+              "completion_tokens": 137,
+              "total_tokens": 997,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r2_a1_utility_#23",
+              "comment_index": 2,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 524,
+              "completion_tokens": 161,
+              "total_tokens": 685,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2232,
+              "completion_tokens": 885,
+              "total_tokens": 3117,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2232,
+              "completion_tokens": 885,
+              "total_tokens": 3117,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 847,
+                  "completion_tokens": 141,
+                  "total_tokens": 988,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 847,
+                  "completion_tokens": 141,
+                  "total_tokens": 988,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 861,
+                  "completion_tokens": 586,
+                  "total_tokens": 1447,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 861,
+                  "completion_tokens": 586,
+                  "total_tokens": 1447,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 524,
+                  "completion_tokens": 158,
+                  "total_tokens": 682,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 524,
+                  "completion_tokens": 158,
+                  "total_tokens": 682,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c2_r3_a1_infer_#24",
+              "comment_index": 2,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 861,
+              "completion_tokens": 586,
+              "total_tokens": 1447,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r3_a1_anonymize_#25",
+              "comment_index": 2,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 847,
+              "completion_tokens": 141,
+              "total_tokens": 988,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r3_a1_utility_#26",
+              "comment_index": 2,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 524,
+              "completion_tokens": 158,
+              "total_tokens": 682,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c2_r1_a1_infer_#18",
+          "comment_index": 2,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 861,
+          "completion_tokens": 604,
+          "total_tokens": 1465,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c2_r1_a1_anonymize_#19",
+          "comment_index": 2,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 875,
+          "completion_tokens": 141,
+          "total_tokens": 1016,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c2_r1_a1_utility_#20",
+          "comment_index": 2,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 524,
+          "completion_tokens": 133,
+          "total_tokens": 657,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c2_r2_a1_infer_#21",
+          "comment_index": 2,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 861,
+          "completion_tokens": 598,
+          "total_tokens": 1459,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c2_r2_a1_anonymize_#22",
+          "comment_index": 2,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 860,
+          "completion_tokens": 137,
+          "total_tokens": 997,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c2_r2_a1_utility_#23",
+          "comment_index": 2,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 524,
+          "completion_tokens": 161,
+          "total_tokens": 685,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c2_r3_a1_infer_#24",
+          "comment_index": 2,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 861,
+          "completion_tokens": 586,
+          "total_tokens": 1447,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c2_r3_a1_anonymize_#25",
+          "comment_index": 2,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 847,
+          "completion_tokens": 141,
+          "total_tokens": 988,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c2_r3_a1_utility_#26",
+          "comment_index": 2,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 524,
+          "completion_tokens": 158,
+          "total_tokens": 682,
+          "usage_source": "api"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 6876,
+          "completion_tokens": 2756,
+          "total_tokens": 9632,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 6876,
+          "completion_tokens": 2756,
+          "total_tokens": 9632,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 2568,
+              "completion_tokens": 549,
+              "total_tokens": 3117,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2568,
+              "completion_tokens": 549,
+              "total_tokens": 3117,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 2634,
+              "completion_tokens": 1714,
+              "total_tokens": 4348,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2634,
+              "completion_tokens": 1714,
+              "total_tokens": 4348,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 1674,
+              "completion_tokens": 493,
+              "total_tokens": 2167,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 1674,
+              "completion_tokens": 493,
+              "total_tokens": 2167,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2237,
+              "completion_tokens": 861,
+              "total_tokens": 3098,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2237,
+              "completion_tokens": 861,
+              "total_tokens": 3098,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 801,
+                  "completion_tokens": 181,
+                  "total_tokens": 982,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 801,
+                  "completion_tokens": 181,
+                  "total_tokens": 982,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 878,
+                  "completion_tokens": 522,
+                  "total_tokens": 1400,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 878,
+                  "completion_tokens": 522,
+                  "total_tokens": 1400,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 558,
+                  "completion_tokens": 158,
+                  "total_tokens": 716,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 558,
+                  "completion_tokens": 158,
+                  "total_tokens": 716,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c3_r1_a1_infer_#27",
+              "comment_index": 3,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 878,
+              "completion_tokens": 522,
+              "total_tokens": 1400,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r1_a1_anonymize_#28",
+              "comment_index": 3,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 801,
+              "completion_tokens": 181,
+              "total_tokens": 982,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r1_a1_utility_#29",
+              "comment_index": 3,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 558,
+              "completion_tokens": 158,
+              "total_tokens": 716,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2317,
+              "completion_tokens": 921,
+              "total_tokens": 3238,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2317,
+              "completion_tokens": 921,
+              "total_tokens": 3238,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 881,
+                  "completion_tokens": 172,
+                  "total_tokens": 1053,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 881,
+                  "completion_tokens": 172,
+                  "total_tokens": 1053,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 878,
+                  "completion_tokens": 593,
+                  "total_tokens": 1471,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 878,
+                  "completion_tokens": 593,
+                  "total_tokens": 1471,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 558,
+                  "completion_tokens": 156,
+                  "total_tokens": 714,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 558,
+                  "completion_tokens": 156,
+                  "total_tokens": 714,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c3_r2_a1_infer_#30",
+              "comment_index": 3,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 878,
+              "completion_tokens": 593,
+              "total_tokens": 1471,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r2_a1_anonymize_#31",
+              "comment_index": 3,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 881,
+              "completion_tokens": 172,
+              "total_tokens": 1053,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r2_a1_utility_#32",
+              "comment_index": 3,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 558,
+              "completion_tokens": 156,
+              "total_tokens": 714,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2322,
+              "completion_tokens": 974,
+              "total_tokens": 3296,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2322,
+              "completion_tokens": 974,
+              "total_tokens": 3296,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 886,
+                  "completion_tokens": 196,
+                  "total_tokens": 1082,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 886,
+                  "completion_tokens": 196,
+                  "total_tokens": 1082,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 878,
+                  "completion_tokens": 599,
+                  "total_tokens": 1477,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 878,
+                  "completion_tokens": 599,
+                  "total_tokens": 1477,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 558,
+                  "completion_tokens": 179,
+                  "total_tokens": 737,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 558,
+                  "completion_tokens": 179,
+                  "total_tokens": 737,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c3_r3_a1_infer_#33",
+              "comment_index": 3,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 878,
+              "completion_tokens": 599,
+              "total_tokens": 1477,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r3_a1_anonymize_#34",
+              "comment_index": 3,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 886,
+              "completion_tokens": 196,
+              "total_tokens": 1082,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r3_a1_utility_#35",
+              "comment_index": 3,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 558,
+              "completion_tokens": 179,
+              "total_tokens": 737,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c3_r1_a1_infer_#27",
+          "comment_index": 3,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 878,
+          "completion_tokens": 522,
+          "total_tokens": 1400,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c3_r1_a1_anonymize_#28",
+          "comment_index": 3,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 801,
+          "completion_tokens": 181,
+          "total_tokens": 982,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c3_r1_a1_utility_#29",
+          "comment_index": 3,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 558,
+          "completion_tokens": 158,
+          "total_tokens": 716,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c3_r2_a1_infer_#30",
+          "comment_index": 3,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 878,
+          "completion_tokens": 593,
+          "total_tokens": 1471,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c3_r2_a1_anonymize_#31",
+          "comment_index": 3,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 881,
+          "completion_tokens": 172,
+          "total_tokens": 1053,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c3_r2_a1_utility_#32",
+          "comment_index": 3,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 558,
+          "completion_tokens": 156,
+          "total_tokens": 714,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c3_r3_a1_infer_#33",
+          "comment_index": 3,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 878,
+          "completion_tokens": 599,
+          "total_tokens": 1477,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c3_r3_a1_anonymize_#34",
+          "comment_index": 3,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 886,
+          "completion_tokens": 196,
+          "total_tokens": 1082,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c3_r3_a1_utility_#35",
+          "comment_index": 3,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 558,
+          "completion_tokens": 179,
+          "total_tokens": 737,
+          "usage_source": "api"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 7210,
+          "completion_tokens": 3053,
+          "total_tokens": 10263,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 7210,
+          "completion_tokens": 3053,
+          "total_tokens": 10263,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 2738,
+              "completion_tokens": 628,
+              "total_tokens": 3366,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2738,
+              "completion_tokens": 628,
+              "total_tokens": 3366,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 2689,
+              "completion_tokens": 1829,
+              "total_tokens": 4518,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2689,
+              "completion_tokens": 1829,
+              "total_tokens": 4518,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 1783,
+              "completion_tokens": 596,
+              "total_tokens": 2379,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 1783,
+              "completion_tokens": 596,
+              "total_tokens": 2379,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2416,
+              "completion_tokens": 1021,
+              "total_tokens": 3437,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2416,
+              "completion_tokens": 1021,
+              "total_tokens": 3437,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 926,
+                  "completion_tokens": 225,
+                  "total_tokens": 1151,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 926,
+                  "completion_tokens": 225,
+                  "total_tokens": 1151,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 896,
+                  "completion_tokens": 621,
+                  "total_tokens": 1517,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 896,
+                  "completion_tokens": 621,
+                  "total_tokens": 1517,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 594,
+                  "completion_tokens": 175,
+                  "total_tokens": 769,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 594,
+                  "completion_tokens": 175,
+                  "total_tokens": 769,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c4_r1_a1_infer_#36",
+              "comment_index": 4,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 896,
+              "completion_tokens": 621,
+              "total_tokens": 1517,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r1_a1_anonymize_#37",
+              "comment_index": 4,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 926,
+              "completion_tokens": 225,
+              "total_tokens": 1151,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r1_a1_utility_#38",
+              "comment_index": 4,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 594,
+              "completion_tokens": 175,
+              "total_tokens": 769,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2412,
+              "completion_tokens": 1088,
+              "total_tokens": 3500,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2412,
+              "completion_tokens": 1088,
+              "total_tokens": 3500,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 921,
+                  "completion_tokens": 202,
+                  "total_tokens": 1123,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 921,
+                  "completion_tokens": 202,
+                  "total_tokens": 1123,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 896,
+                  "completion_tokens": 615,
+                  "total_tokens": 1511,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 896,
+                  "completion_tokens": 615,
+                  "total_tokens": 1511,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 595,
+                  "completion_tokens": 271,
+                  "total_tokens": 866,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 595,
+                  "completion_tokens": 271,
+                  "total_tokens": 866,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c4_r2_a1_infer_#39",
+              "comment_index": 4,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 896,
+              "completion_tokens": 615,
+              "total_tokens": 1511,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r2_a1_anonymize_#40",
+              "comment_index": 4,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 921,
+              "completion_tokens": 202,
+              "total_tokens": 1123,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r2_a1_utility_#41",
+              "comment_index": 4,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 595,
+              "completion_tokens": 271,
+              "total_tokens": 866,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2382,
+              "completion_tokens": 944,
+              "total_tokens": 3326,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2382,
+              "completion_tokens": 944,
+              "total_tokens": 3326,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 891,
+                  "completion_tokens": 201,
+                  "total_tokens": 1092,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 891,
+                  "completion_tokens": 201,
+                  "total_tokens": 1092,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 897,
+                  "completion_tokens": 593,
+                  "total_tokens": 1490,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 897,
+                  "completion_tokens": 593,
+                  "total_tokens": 1490,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 594,
+                  "completion_tokens": 150,
+                  "total_tokens": 744,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 594,
+                  "completion_tokens": 150,
+                  "total_tokens": 744,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c4_r3_a1_infer_#42",
+              "comment_index": 4,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 897,
+              "completion_tokens": 593,
+              "total_tokens": 1490,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r3_a1_anonymize_#43",
+              "comment_index": 4,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 891,
+              "completion_tokens": 201,
+              "total_tokens": 1092,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r3_a1_utility_#44",
+              "comment_index": 4,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 594,
+              "completion_tokens": 150,
+              "total_tokens": 744,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c4_r1_a1_infer_#36",
+          "comment_index": 4,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 896,
+          "completion_tokens": 621,
+          "total_tokens": 1517,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c4_r1_a1_anonymize_#37",
+          "comment_index": 4,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 926,
+          "completion_tokens": 225,
+          "total_tokens": 1151,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c4_r1_a1_utility_#38",
+          "comment_index": 4,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 594,
+          "completion_tokens": 175,
+          "total_tokens": 769,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c4_r2_a1_infer_#39",
+          "comment_index": 4,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 896,
+          "completion_tokens": 615,
+          "total_tokens": 1511,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c4_r2_a1_anonymize_#40",
+          "comment_index": 4,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 921,
+          "completion_tokens": 202,
+          "total_tokens": 1123,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c4_r2_a1_utility_#41",
+          "comment_index": 4,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 595,
+          "completion_tokens": 271,
+          "total_tokens": 866,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c4_r3_a1_infer_#42",
+          "comment_index": 4,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 897,
+          "completion_tokens": 593,
+          "total_tokens": 1490,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c4_r3_a1_anonymize_#43",
+          "comment_index": 4,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 891,
+          "completion_tokens": 201,
+          "total_tokens": 1092,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c4_r3_a1_utility_#44",
+          "comment_index": 4,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 594,
+          "completion_tokens": 150,
+          "total_tokens": 744,
+          "usage_source": "api"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 7797,
+          "completion_tokens": 3186,
+          "total_tokens": 10983,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 7797,
+          "completion_tokens": 3186,
+          "total_tokens": 10983,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 2899,
+              "completion_tokens": 751,
+              "total_tokens": 3650,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2899,
+              "completion_tokens": 751,
+              "total_tokens": 3650,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 2835,
+              "completion_tokens": 1852,
+              "total_tokens": 4687,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2835,
+              "completion_tokens": 1852,
+              "total_tokens": 4687,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 2063,
+              "completion_tokens": 583,
+              "total_tokens": 2646,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2063,
+              "completion_tokens": 583,
+              "total_tokens": 2646,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2558,
+              "completion_tokens": 973,
+              "total_tokens": 3531,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2558,
+              "completion_tokens": 973,
+              "total_tokens": 3531,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 921,
+                  "completion_tokens": 240,
+                  "total_tokens": 1161,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 921,
+                  "completion_tokens": 240,
+                  "total_tokens": 1161,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 945,
+                  "completion_tokens": 566,
+                  "total_tokens": 1511,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 945,
+                  "completion_tokens": 566,
+                  "total_tokens": 1511,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 692,
+                  "completion_tokens": 167,
+                  "total_tokens": 859,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 692,
+                  "completion_tokens": 167,
+                  "total_tokens": 859,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c5_r1_a1_infer_#45",
+              "comment_index": 5,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 945,
+              "completion_tokens": 566,
+              "total_tokens": 1511,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c5_r1_a1_anonymize_#46",
+              "comment_index": 5,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 921,
+              "completion_tokens": 240,
+              "total_tokens": 1161,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c5_r1_a1_utility_#47",
+              "comment_index": 5,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 692,
+              "completion_tokens": 167,
+              "total_tokens": 859,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2664,
+              "completion_tokens": 1207,
+              "total_tokens": 3871,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2664,
+              "completion_tokens": 1207,
+              "total_tokens": 3871,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1027,
+                  "completion_tokens": 255,
+                  "total_tokens": 1282,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1027,
+                  "completion_tokens": 255,
+                  "total_tokens": 1282,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 945,
+                  "completion_tokens": 681,
+                  "total_tokens": 1626,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 945,
+                  "completion_tokens": 681,
+                  "total_tokens": 1626,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 692,
+                  "completion_tokens": 271,
+                  "total_tokens": 963,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 692,
+                  "completion_tokens": 271,
+                  "total_tokens": 963,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c5_r2_a1_infer_#48",
+              "comment_index": 5,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 945,
+              "completion_tokens": 681,
+              "total_tokens": 1626,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c5_r2_a1_anonymize_#49",
+              "comment_index": 5,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1027,
+              "completion_tokens": 255,
+              "total_tokens": 1282,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c5_r2_a1_utility_#50",
+              "comment_index": 5,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 692,
+              "completion_tokens": 271,
+              "total_tokens": 963,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2575,
+              "completion_tokens": 1006,
+              "total_tokens": 3581,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2575,
+              "completion_tokens": 1006,
+              "total_tokens": 3581,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 951,
+                  "completion_tokens": 256,
+                  "total_tokens": 1207,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 951,
+                  "completion_tokens": 256,
+                  "total_tokens": 1207,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 945,
+                  "completion_tokens": 605,
+                  "total_tokens": 1550,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 945,
+                  "completion_tokens": 605,
+                  "total_tokens": 1550,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 679,
+                  "completion_tokens": 145,
+                  "total_tokens": 824,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 679,
+                  "completion_tokens": 145,
+                  "total_tokens": 824,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c5_r3_a1_infer_#51",
+              "comment_index": 5,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 945,
+              "completion_tokens": 605,
+              "total_tokens": 1550,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c5_r3_a1_anonymize_#52",
+              "comment_index": 5,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 951,
+              "completion_tokens": 256,
+              "total_tokens": 1207,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c5_r3_a1_utility_#53",
+              "comment_index": 5,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 679,
+              "completion_tokens": 145,
+              "total_tokens": 824,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c5_r1_a1_infer_#45",
+          "comment_index": 5,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 945,
+          "completion_tokens": 566,
+          "total_tokens": 1511,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c5_r1_a1_anonymize_#46",
+          "comment_index": 5,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 921,
+          "completion_tokens": 240,
+          "total_tokens": 1161,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c5_r1_a1_utility_#47",
+          "comment_index": 5,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 692,
+          "completion_tokens": 167,
+          "total_tokens": 859,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c5_r2_a1_infer_#48",
+          "comment_index": 5,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 945,
+          "completion_tokens": 681,
+          "total_tokens": 1626,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c5_r2_a1_anonymize_#49",
+          "comment_index": 5,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 1027,
+          "completion_tokens": 255,
+          "total_tokens": 1282,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c5_r2_a1_utility_#50",
+          "comment_index": 5,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 692,
+          "completion_tokens": 271,
+          "total_tokens": 963,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c5_r3_a1_infer_#51",
+          "comment_index": 5,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 945,
+          "completion_tokens": 605,
+          "total_tokens": 1550,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c5_r3_a1_anonymize_#52",
+          "comment_index": 5,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 951,
+          "completion_tokens": 256,
+          "total_tokens": 1207,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c5_r3_a1_utility_#53",
+          "comment_index": 5,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 679,
+          "completion_tokens": 145,
+          "total_tokens": 824,
+          "usage_source": "api"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 7962,
+          "completion_tokens": 2970,
+          "total_tokens": 10932,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 7962,
+          "completion_tokens": 2970,
+          "total_tokens": 10932,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 2976,
+              "completion_tokens": 600,
+              "total_tokens": 3576,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2976,
+              "completion_tokens": 600,
+              "total_tokens": 3576,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 2847,
+              "completion_tokens": 1910,
+              "total_tokens": 4757,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2847,
+              "completion_tokens": 1910,
+              "total_tokens": 4757,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 2139,
+              "completion_tokens": 460,
+              "total_tokens": 2599,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2139,
+              "completion_tokens": 460,
+              "total_tokens": 2599,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2638,
+              "completion_tokens": 966,
+              "total_tokens": 3604,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2638,
+              "completion_tokens": 966,
+              "total_tokens": 3604,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 976,
+                  "completion_tokens": 199,
+                  "total_tokens": 1175,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 976,
+                  "completion_tokens": 199,
+                  "total_tokens": 1175,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 949,
+                  "completion_tokens": 617,
+                  "total_tokens": 1566,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 949,
+                  "completion_tokens": 617,
+                  "total_tokens": 1566,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 713,
+                  "completion_tokens": 150,
+                  "total_tokens": 863,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 713,
+                  "completion_tokens": 150,
+                  "total_tokens": 863,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c6_r1_a1_infer_#54",
+              "comment_index": 6,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 949,
+              "completion_tokens": 617,
+              "total_tokens": 1566,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c6_r1_a1_anonymize_#55",
+              "comment_index": 6,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 976,
+              "completion_tokens": 199,
+              "total_tokens": 1175,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c6_r1_a1_utility_#56",
+              "comment_index": 6,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 713,
+              "completion_tokens": 150,
+              "total_tokens": 863,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2679,
+              "completion_tokens": 1009,
+              "total_tokens": 3688,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2679,
+              "completion_tokens": 1009,
+              "total_tokens": 3688,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1017,
+                  "completion_tokens": 198,
+                  "total_tokens": 1215,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1017,
+                  "completion_tokens": 198,
+                  "total_tokens": 1215,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 949,
+                  "completion_tokens": 659,
+                  "total_tokens": 1608,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 949,
+                  "completion_tokens": 659,
+                  "total_tokens": 1608,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 713,
+                  "completion_tokens": 152,
+                  "total_tokens": 865,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 713,
+                  "completion_tokens": 152,
+                  "total_tokens": 865,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c6_r2_a1_infer_#57",
+              "comment_index": 6,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 949,
+              "completion_tokens": 659,
+              "total_tokens": 1608,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c6_r2_a1_anonymize_#58",
+              "comment_index": 6,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1017,
+              "completion_tokens": 198,
+              "total_tokens": 1215,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c6_r2_a1_utility_#59",
+              "comment_index": 6,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 713,
+              "completion_tokens": 152,
+              "total_tokens": 865,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2645,
+              "completion_tokens": 995,
+              "total_tokens": 3640,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2645,
+              "completion_tokens": 995,
+              "total_tokens": 3640,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 983,
+                  "completion_tokens": 203,
+                  "total_tokens": 1186,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 983,
+                  "completion_tokens": 203,
+                  "total_tokens": 1186,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 949,
+                  "completion_tokens": 634,
+                  "total_tokens": 1583,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 949,
+                  "completion_tokens": 634,
+                  "total_tokens": 1583,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 713,
+                  "completion_tokens": 158,
+                  "total_tokens": 871,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 713,
+                  "completion_tokens": 158,
+                  "total_tokens": 871,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c6_r3_a1_infer_#60",
+              "comment_index": 6,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 949,
+              "completion_tokens": 634,
+              "total_tokens": 1583,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c6_r3_a1_anonymize_#61",
+              "comment_index": 6,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 983,
+              "completion_tokens": 203,
+              "total_tokens": 1186,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c6_r3_a1_utility_#62",
+              "comment_index": 6,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 713,
+              "completion_tokens": 158,
+              "total_tokens": 871,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c6_r1_a1_infer_#54",
+          "comment_index": 6,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 949,
+          "completion_tokens": 617,
+          "total_tokens": 1566,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c6_r1_a1_anonymize_#55",
+          "comment_index": 6,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 976,
+          "completion_tokens": 199,
+          "total_tokens": 1175,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c6_r1_a1_utility_#56",
+          "comment_index": 6,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 713,
+          "completion_tokens": 150,
+          "total_tokens": 863,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c6_r2_a1_infer_#57",
+          "comment_index": 6,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 949,
+          "completion_tokens": 659,
+          "total_tokens": 1608,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c6_r2_a1_anonymize_#58",
+          "comment_index": 6,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 1017,
+          "completion_tokens": 198,
+          "total_tokens": 1215,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c6_r2_a1_utility_#59",
+          "comment_index": 6,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 713,
+          "completion_tokens": 152,
+          "total_tokens": 865,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c6_r3_a1_infer_#60",
+          "comment_index": 6,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 949,
+          "completion_tokens": 634,
+          "total_tokens": 1583,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c6_r3_a1_anonymize_#61",
+          "comment_index": 6,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 983,
+          "completion_tokens": 203,
+          "total_tokens": 1186,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c6_r3_a1_utility_#62",
+          "comment_index": 6,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 713,
+          "completion_tokens": 158,
+          "total_tokens": 871,
+          "usage_source": "api"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 8243,
+          "completion_tokens": 3097,
+          "total_tokens": 11340,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 8243,
+          "completion_tokens": 3097,
+          "total_tokens": 11340,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 3068,
+              "completion_tokens": 707,
+              "total_tokens": 3775,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 3068,
+              "completion_tokens": 707,
+              "total_tokens": 3775,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 2910,
+              "completion_tokens": 1944,
+              "total_tokens": 4854,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2910,
+              "completion_tokens": 1944,
+              "total_tokens": 4854,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 2265,
+              "completion_tokens": 446,
+              "total_tokens": 2711,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2265,
+              "completion_tokens": 446,
+              "total_tokens": 2711,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2820,
+              "completion_tokens": 1078,
+              "total_tokens": 3898,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2820,
+              "completion_tokens": 1078,
+              "total_tokens": 3898,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1095,
+                  "completion_tokens": 217,
+                  "total_tokens": 1312,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1095,
+                  "completion_tokens": 217,
+                  "total_tokens": 1312,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 970,
+                  "completion_tokens": 714,
+                  "total_tokens": 1684,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 970,
+                  "completion_tokens": 714,
+                  "total_tokens": 1684,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 755,
+                  "completion_tokens": 147,
+                  "total_tokens": 902,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 755,
+                  "completion_tokens": 147,
+                  "total_tokens": 902,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c7_r1_a1_infer_#63",
+              "comment_index": 7,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 970,
+              "completion_tokens": 714,
+              "total_tokens": 1684,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c7_r1_a1_anonymize_#64",
+              "comment_index": 7,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1095,
+              "completion_tokens": 217,
+              "total_tokens": 1312,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c7_r1_a1_utility_#65",
+              "comment_index": 7,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 755,
+              "completion_tokens": 147,
+              "total_tokens": 902,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2696,
+              "completion_tokens": 969,
+              "total_tokens": 3665,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2696,
+              "completion_tokens": 969,
+              "total_tokens": 3665,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 971,
+                  "completion_tokens": 219,
+                  "total_tokens": 1190,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 971,
+                  "completion_tokens": 219,
+                  "total_tokens": 1190,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 970,
+                  "completion_tokens": 600,
+                  "total_tokens": 1570,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 970,
+                  "completion_tokens": 600,
+                  "total_tokens": 1570,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 755,
+                  "completion_tokens": 150,
+                  "total_tokens": 905,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 755,
+                  "completion_tokens": 150,
+                  "total_tokens": 905,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c7_r2_a1_infer_#66",
+              "comment_index": 7,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 970,
+              "completion_tokens": 600,
+              "total_tokens": 1570,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c7_r2_a1_anonymize_#67",
+              "comment_index": 7,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 971,
+              "completion_tokens": 219,
+              "total_tokens": 1190,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c7_r2_a1_utility_#68",
+              "comment_index": 7,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 755,
+              "completion_tokens": 150,
+              "total_tokens": 905,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2727,
+              "completion_tokens": 1050,
+              "total_tokens": 3777,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2727,
+              "completion_tokens": 1050,
+              "total_tokens": 3777,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1002,
+                  "completion_tokens": 271,
+                  "total_tokens": 1273,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1002,
+                  "completion_tokens": 271,
+                  "total_tokens": 1273,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 970,
+                  "completion_tokens": 630,
+                  "total_tokens": 1600,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 970,
+                  "completion_tokens": 630,
+                  "total_tokens": 1600,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 755,
+                  "completion_tokens": 149,
+                  "total_tokens": 904,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 755,
+                  "completion_tokens": 149,
+                  "total_tokens": 904,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c7_r3_a1_infer_#69",
+              "comment_index": 7,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 970,
+              "completion_tokens": 630,
+              "total_tokens": 1600,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c7_r3_a1_anonymize_#70",
+              "comment_index": 7,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1002,
+              "completion_tokens": 271,
+              "total_tokens": 1273,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c7_r3_a1_utility_#71",
+              "comment_index": 7,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 755,
+              "completion_tokens": 149,
+              "total_tokens": 904,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c7_r1_a1_infer_#63",
+          "comment_index": 7,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 970,
+          "completion_tokens": 714,
+          "total_tokens": 1684,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c7_r1_a1_anonymize_#64",
+          "comment_index": 7,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 1095,
+          "completion_tokens": 217,
+          "total_tokens": 1312,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c7_r1_a1_utility_#65",
+          "comment_index": 7,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 755,
+          "completion_tokens": 147,
+          "total_tokens": 902,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c7_r2_a1_infer_#66",
+          "comment_index": 7,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 970,
+          "completion_tokens": 600,
+          "total_tokens": 1570,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c7_r2_a1_anonymize_#67",
+          "comment_index": 7,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 971,
+          "completion_tokens": 219,
+          "total_tokens": 1190,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c7_r2_a1_utility_#68",
+          "comment_index": 7,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 755,
+          "completion_tokens": 150,
+          "total_tokens": 905,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c7_r3_a1_infer_#69",
+          "comment_index": 7,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 970,
+          "completion_tokens": 630,
+          "total_tokens": 1600,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c7_r3_a1_anonymize_#70",
+          "comment_index": 7,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 1002,
+          "completion_tokens": 271,
+          "total_tokens": 1273,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c7_r3_a1_utility_#71",
+          "comment_index": 7,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 755,
+          "completion_tokens": 149,
+          "total_tokens": 904,
+          "usage_source": "api"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 8563,
+          "completion_tokens": 3066,
+          "total_tokens": 11629,
+          "api_calls": 9
+        },
+        "exclude_retries": {
+          "prompt_tokens": 8563,
+          "completion_tokens": 3066,
+          "total_tokens": 11629,
+          "api_calls": 9
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 3109,
+              "completion_tokens": 711,
+              "total_tokens": 3820,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 3109,
+              "completion_tokens": 711,
+              "total_tokens": 3820,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 3001,
+              "completion_tokens": 1887,
+              "total_tokens": 4888,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 3001,
+              "completion_tokens": 1887,
+              "total_tokens": 4888,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 2453,
+              "completion_tokens": 468,
+              "total_tokens": 2921,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2453,
+              "completion_tokens": 468,
+              "total_tokens": 2921,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2849,
+              "completion_tokens": 999,
+              "total_tokens": 3848,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2849,
+              "completion_tokens": 999,
+              "total_tokens": 3848,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1026,
+                  "completion_tokens": 235,
+                  "total_tokens": 1261,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1026,
+                  "completion_tokens": 235,
+                  "total_tokens": 1261,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 1005,
+                  "completion_tokens": 611,
+                  "total_tokens": 1616,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1005,
+                  "completion_tokens": 611,
+                  "total_tokens": 1616,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 818,
+                  "completion_tokens": 153,
+                  "total_tokens": 971,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 818,
+                  "completion_tokens": 153,
+                  "total_tokens": 971,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c8_r1_a1_infer_#72",
+              "comment_index": 8,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1005,
+              "completion_tokens": 611,
+              "total_tokens": 1616,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c8_r1_a1_anonymize_#73",
+              "comment_index": 8,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1026,
+              "completion_tokens": 235,
+              "total_tokens": 1261,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c8_r1_a1_utility_#74",
+              "comment_index": 8,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 818,
+              "completion_tokens": 153,
+              "total_tokens": 971,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2847,
+              "completion_tokens": 1023,
+              "total_tokens": 3870,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2847,
+              "completion_tokens": 1023,
+              "total_tokens": 3870,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1031,
+                  "completion_tokens": 239,
+                  "total_tokens": 1270,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1031,
+                  "completion_tokens": 239,
+                  "total_tokens": 1270,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 998,
+                  "completion_tokens": 622,
+                  "total_tokens": 1620,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 998,
+                  "completion_tokens": 622,
+                  "total_tokens": 1620,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 818,
+                  "completion_tokens": 162,
+                  "total_tokens": 980,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 818,
+                  "completion_tokens": 162,
+                  "total_tokens": 980,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c8_r2_a1_infer_#75",
+              "comment_index": 8,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 998,
+              "completion_tokens": 622,
+              "total_tokens": 1620,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c8_r2_a1_anonymize_#76",
+              "comment_index": 8,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1031,
+              "completion_tokens": 239,
+              "total_tokens": 1270,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c8_r2_a1_utility_#77",
+              "comment_index": 8,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 818,
+              "completion_tokens": 162,
+              "total_tokens": 980,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 2867,
+              "completion_tokens": 1044,
+              "total_tokens": 3911,
+              "api_calls": 3
+            },
+            "exclude_retries": {
+              "prompt_tokens": 2867,
+              "completion_tokens": 1044,
+              "total_tokens": 3911,
+              "api_calls": 3
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 1052,
+                  "completion_tokens": 237,
+                  "total_tokens": 1289,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1052,
+                  "completion_tokens": 237,
+                  "total_tokens": 1289,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 998,
+                  "completion_tokens": 654,
+                  "total_tokens": 1652,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 998,
+                  "completion_tokens": 654,
+                  "total_tokens": 1652,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 817,
+                  "completion_tokens": 153,
+                  "total_tokens": 970,
+                  "api_calls": 1
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 817,
+                  "completion_tokens": 153,
+                  "total_tokens": 970,
+                  "api_calls": 1
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "calls": [
+            {
+              "call_id": "c8_r3_a1_infer_#78",
+              "comment_index": 8,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 998,
+              "completion_tokens": 654,
+              "total_tokens": 1652,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c8_r3_a1_anonymize_#79",
+              "comment_index": 8,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1052,
+              "completion_tokens": 237,
+              "total_tokens": 1289,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c8_r3_a1_utility_#80",
+              "comment_index": 8,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 817,
+              "completion_tokens": 153,
+              "total_tokens": 970,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "c8_r1_a1_infer_#72",
+          "comment_index": 8,
+          "call_type": "infer",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 1005,
+          "completion_tokens": 611,
+          "total_tokens": 1616,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c8_r1_a1_anonymize_#73",
+          "comment_index": 8,
+          "call_type": "anonymize",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 1026,
+          "completion_tokens": 235,
+          "total_tokens": 1261,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c8_r1_a1_utility_#74",
+          "comment_index": 8,
+          "call_type": "utility",
+          "round": 1,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 818,
+          "completion_tokens": 153,
+          "total_tokens": 971,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c8_r2_a1_infer_#75",
+          "comment_index": 8,
+          "call_type": "infer",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 998,
+          "completion_tokens": 622,
+          "total_tokens": 1620,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c8_r2_a1_anonymize_#76",
+          "comment_index": 8,
+          "call_type": "anonymize",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 1031,
+          "completion_tokens": 239,
+          "total_tokens": 1270,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c8_r2_a1_utility_#77",
+          "comment_index": 8,
+          "call_type": "utility",
+          "round": 2,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 818,
+          "completion_tokens": 162,
+          "total_tokens": 980,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c8_r3_a1_infer_#78",
+          "comment_index": 8,
+          "call_type": "infer",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 998,
+          "completion_tokens": 654,
+          "total_tokens": 1652,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c8_r3_a1_anonymize_#79",
+          "comment_index": 8,
+          "call_type": "anonymize",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 1052,
+          "completion_tokens": 237,
+          "total_tokens": 1289,
+          "usage_source": "api"
+        },
+        {
+          "call_id": "c8_r3_a1_utility_#80",
+          "comment_index": 8,
+          "call_type": "utility",
+          "round": 3,
+          "attempt": 1,
+          "is_retry": false,
+          "exclude_from_clean_total": false,
+          "prompt_tokens": 817,
+          "completion_tokens": 153,
+          "total_tokens": 970,
+          "usage_source": "api"
+        }
+      ]
+    }
+  ],
+  "how_to_exclude_retries": {
+    "rule": "Sum tokens where is_retry == false (same as exclude_from_clean_total == false).",
+    "fields": [
+      "billing.exclude_retries",
+      "comments[].billing.exclude_retries",
+      "comments[].rounds[].billing.exclude_retries"
+    ]
+  }
+}

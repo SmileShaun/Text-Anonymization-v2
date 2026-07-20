@@ -1,0 +1,3670 @@
+{
+  "author": "pers64",
+  "model_name": "/home/xzhang5364/llm-ckpt/Llama/Llama-3.1-8B-Instruct",
+  "summary": {
+    "total_comments": 5,
+    "status_counts": {
+      "success": 5
+    },
+    "failed_after_max_retries": 0,
+    "count_mismatch_comments": 5,
+    "scheduler": "causal_frozen_history",
+    "retries_configured": 3,
+    "max_refinement_rounds": 3,
+    "anonymizer_type": "llm"
+  },
+  "token_usage": {
+    "prompt_tokens": 35289,
+    "completion_tokens": 13573,
+    "total_tokens": 48862,
+    "api_calls": 45,
+    "detail": {
+      "schema_version": 2,
+      "author": "pers64",
+      "username": "pers64",
+      "total": {
+        "prompt_tokens": 35289,
+        "completion_tokens": 13573,
+        "total_tokens": 48862,
+        "api_calls": 45
+      },
+      "billing": {
+        "all_calls": {
+          "prompt_tokens": 35289,
+          "completion_tokens": 13573,
+          "total_tokens": 48862,
+          "api_calls": 45
+        },
+        "exclude_retries": {
+          "prompt_tokens": 35289,
+          "completion_tokens": 13573,
+          "total_tokens": 48862,
+          "api_calls": 45
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        },
+        "by_call_type": {
+          "anonymize": {
+            "all_calls": {
+              "prompt_tokens": 13179,
+              "completion_tokens": 2526,
+              "total_tokens": 15705,
+              "api_calls": 15
+            },
+            "exclude_retries": {
+              "prompt_tokens": 13179,
+              "completion_tokens": 2526,
+              "total_tokens": 15705,
+              "api_calls": 15
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "infer": {
+            "all_calls": {
+              "prompt_tokens": 13375,
+              "completion_tokens": 8687,
+              "total_tokens": 22062,
+              "api_calls": 15
+            },
+            "exclude_retries": {
+              "prompt_tokens": 13375,
+              "completion_tokens": 8687,
+              "total_tokens": 22062,
+              "api_calls": 15
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          },
+          "utility": {
+            "all_calls": {
+              "prompt_tokens": 8735,
+              "completion_tokens": 2360,
+              "total_tokens": 11095,
+              "api_calls": 15
+            },
+            "exclude_retries": {
+              "prompt_tokens": 8735,
+              "completion_tokens": 2360,
+              "total_tokens": 11095,
+              "api_calls": 15
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            }
+          }
+        },
+        "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+      },
+      "comments": [
+        {
+          "index": 0,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 6116,
+              "completion_tokens": 2514,
+              "total_tokens": 8630,
+              "api_calls": 9
+            },
+            "exclude_retries": {
+              "prompt_tokens": 6116,
+              "completion_tokens": 2514,
+              "total_tokens": 8630,
+              "api_calls": 9
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 2438,
+                  "completion_tokens": 297,
+                  "total_tokens": 2735,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2438,
+                  "completion_tokens": 297,
+                  "total_tokens": 2735,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 2427,
+                  "completion_tokens": 1802,
+                  "total_tokens": 4229,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2427,
+                  "completion_tokens": 1802,
+                  "total_tokens": 4229,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 1251,
+                  "completion_tokens": 415,
+                  "total_tokens": 1666,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1251,
+                  "completion_tokens": 415,
+                  "total_tokens": 1666,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2046,
+                  "completion_tokens": 805,
+                  "total_tokens": 2851,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2046,
+                  "completion_tokens": 805,
+                  "total_tokens": 2851,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 820,
+                      "completion_tokens": 83,
+                      "total_tokens": 903,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 820,
+                      "completion_tokens": 83,
+                      "total_tokens": 903,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 809,
+                      "completion_tokens": 611,
+                      "total_tokens": 1420,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 809,
+                      "completion_tokens": 611,
+                      "total_tokens": 1420,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 417,
+                      "completion_tokens": 111,
+                      "total_tokens": 528,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 417,
+                      "completion_tokens": 111,
+                      "total_tokens": 528,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c0_r1_a1_infer_#0",
+                  "comment_index": 0,
+                  "call_type": "infer",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 809,
+                  "completion_tokens": 611,
+                  "total_tokens": 1420,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r1_a1_anonymize_#1",
+                  "comment_index": 0,
+                  "call_type": "anonymize",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 820,
+                  "completion_tokens": 83,
+                  "total_tokens": 903,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r1_a1_utility_#2",
+                  "comment_index": 0,
+                  "call_type": "utility",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 417,
+                  "completion_tokens": 111,
+                  "total_tokens": 528,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2000,
+                  "completion_tokens": 791,
+                  "total_tokens": 2791,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2000,
+                  "completion_tokens": 791,
+                  "total_tokens": 2791,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 774,
+                      "completion_tokens": 74,
+                      "total_tokens": 848,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 774,
+                      "completion_tokens": 74,
+                      "total_tokens": 848,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 809,
+                      "completion_tokens": 565,
+                      "total_tokens": 1374,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 809,
+                      "completion_tokens": 565,
+                      "total_tokens": 1374,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 417,
+                      "completion_tokens": 152,
+                      "total_tokens": 569,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 417,
+                      "completion_tokens": 152,
+                      "total_tokens": 569,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c0_r2_a1_infer_#3",
+                  "comment_index": 0,
+                  "call_type": "infer",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 809,
+                  "completion_tokens": 565,
+                  "total_tokens": 1374,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r2_a1_anonymize_#4",
+                  "comment_index": 0,
+                  "call_type": "anonymize",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 774,
+                  "completion_tokens": 74,
+                  "total_tokens": 848,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r2_a1_utility_#5",
+                  "comment_index": 0,
+                  "call_type": "utility",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 417,
+                  "completion_tokens": 152,
+                  "total_tokens": 569,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 3,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2070,
+                  "completion_tokens": 918,
+                  "total_tokens": 2988,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2070,
+                  "completion_tokens": 918,
+                  "total_tokens": 2988,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 844,
+                      "completion_tokens": 140,
+                      "total_tokens": 984,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 844,
+                      "completion_tokens": 140,
+                      "total_tokens": 984,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 809,
+                      "completion_tokens": 626,
+                      "total_tokens": 1435,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 809,
+                      "completion_tokens": 626,
+                      "total_tokens": 1435,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 417,
+                      "completion_tokens": 152,
+                      "total_tokens": 569,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 417,
+                      "completion_tokens": 152,
+                      "total_tokens": 569,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c0_r3_a1_infer_#6",
+                  "comment_index": 0,
+                  "call_type": "infer",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 809,
+                  "completion_tokens": 626,
+                  "total_tokens": 1435,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r3_a1_anonymize_#7",
+                  "comment_index": 0,
+                  "call_type": "anonymize",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 844,
+                  "completion_tokens": 140,
+                  "total_tokens": 984,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c0_r3_a1_utility_#8",
+                  "comment_index": 0,
+                  "call_type": "utility",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 417,
+                  "completion_tokens": 152,
+                  "total_tokens": 569,
+                  "usage_source": "api"
+                }
+              ]
+            }
+          ],
+          "calls": [
+            {
+              "call_id": "c0_r1_a1_infer_#0",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 809,
+              "completion_tokens": 611,
+              "total_tokens": 1420,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r1_a1_anonymize_#1",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 820,
+              "completion_tokens": 83,
+              "total_tokens": 903,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r1_a1_utility_#2",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 417,
+              "completion_tokens": 111,
+              "total_tokens": 528,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r2_a1_infer_#3",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 809,
+              "completion_tokens": 565,
+              "total_tokens": 1374,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r2_a1_anonymize_#4",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 774,
+              "completion_tokens": 74,
+              "total_tokens": 848,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r2_a1_utility_#5",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 417,
+              "completion_tokens": 152,
+              "total_tokens": 569,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r3_a1_infer_#6",
+              "comment_index": 0,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 809,
+              "completion_tokens": 626,
+              "total_tokens": 1435,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r3_a1_anonymize_#7",
+              "comment_index": 0,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 844,
+              "completion_tokens": 140,
+              "total_tokens": 984,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c0_r3_a1_utility_#8",
+              "comment_index": 0,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 417,
+              "completion_tokens": 152,
+              "total_tokens": 569,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 6712,
+              "completion_tokens": 2679,
+              "total_tokens": 9391,
+              "api_calls": 9
+            },
+            "exclude_retries": {
+              "prompt_tokens": 6712,
+              "completion_tokens": 2679,
+              "total_tokens": 9391,
+              "api_calls": 9
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 2548,
+                  "completion_tokens": 441,
+                  "total_tokens": 2989,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2548,
+                  "completion_tokens": 441,
+                  "total_tokens": 2989,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 2589,
+                  "completion_tokens": 1761,
+                  "total_tokens": 4350,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2589,
+                  "completion_tokens": 1761,
+                  "total_tokens": 4350,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 1575,
+                  "completion_tokens": 477,
+                  "total_tokens": 2052,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1575,
+                  "completion_tokens": 477,
+                  "total_tokens": 2052,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2285,
+                  "completion_tokens": 963,
+                  "total_tokens": 3248,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2285,
+                  "completion_tokens": 963,
+                  "total_tokens": 3248,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 897,
+                      "completion_tokens": 179,
+                      "total_tokens": 1076,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 897,
+                      "completion_tokens": 179,
+                      "total_tokens": 1076,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 863,
+                      "completion_tokens": 634,
+                      "total_tokens": 1497,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 863,
+                      "completion_tokens": 634,
+                      "total_tokens": 1497,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 525,
+                      "completion_tokens": 150,
+                      "total_tokens": 675,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 525,
+                      "completion_tokens": 150,
+                      "total_tokens": 675,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c1_r1_a1_infer_#9",
+                  "comment_index": 1,
+                  "call_type": "infer",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 863,
+                  "completion_tokens": 634,
+                  "total_tokens": 1497,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r1_a1_anonymize_#10",
+                  "comment_index": 1,
+                  "call_type": "anonymize",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 897,
+                  "completion_tokens": 179,
+                  "total_tokens": 1076,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r1_a1_utility_#11",
+                  "comment_index": 1,
+                  "call_type": "utility",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 525,
+                  "completion_tokens": 150,
+                  "total_tokens": 675,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2205,
+                  "completion_tokens": 844,
+                  "total_tokens": 3049,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2205,
+                  "completion_tokens": 844,
+                  "total_tokens": 3049,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 817,
+                      "completion_tokens": 143,
+                      "total_tokens": 960,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 817,
+                      "completion_tokens": 143,
+                      "total_tokens": 960,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 863,
+                      "completion_tokens": 556,
+                      "total_tokens": 1419,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 863,
+                      "completion_tokens": 556,
+                      "total_tokens": 1419,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 525,
+                      "completion_tokens": 145,
+                      "total_tokens": 670,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 525,
+                      "completion_tokens": 145,
+                      "total_tokens": 670,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c1_r2_a1_infer_#12",
+                  "comment_index": 1,
+                  "call_type": "infer",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 863,
+                  "completion_tokens": 556,
+                  "total_tokens": 1419,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r2_a1_anonymize_#13",
+                  "comment_index": 1,
+                  "call_type": "anonymize",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 817,
+                  "completion_tokens": 143,
+                  "total_tokens": 960,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r2_a1_utility_#14",
+                  "comment_index": 1,
+                  "call_type": "utility",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 525,
+                  "completion_tokens": 145,
+                  "total_tokens": 670,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 3,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2222,
+                  "completion_tokens": 872,
+                  "total_tokens": 3094,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2222,
+                  "completion_tokens": 872,
+                  "total_tokens": 3094,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 834,
+                      "completion_tokens": 119,
+                      "total_tokens": 953,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 834,
+                      "completion_tokens": 119,
+                      "total_tokens": 953,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 863,
+                      "completion_tokens": 571,
+                      "total_tokens": 1434,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 863,
+                      "completion_tokens": 571,
+                      "total_tokens": 1434,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 525,
+                      "completion_tokens": 182,
+                      "total_tokens": 707,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 525,
+                      "completion_tokens": 182,
+                      "total_tokens": 707,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c1_r3_a1_infer_#15",
+                  "comment_index": 1,
+                  "call_type": "infer",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 863,
+                  "completion_tokens": 571,
+                  "total_tokens": 1434,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r3_a1_anonymize_#16",
+                  "comment_index": 1,
+                  "call_type": "anonymize",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 834,
+                  "completion_tokens": 119,
+                  "total_tokens": 953,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c1_r3_a1_utility_#17",
+                  "comment_index": 1,
+                  "call_type": "utility",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 525,
+                  "completion_tokens": 182,
+                  "total_tokens": 707,
+                  "usage_source": "api"
+                }
+              ]
+            }
+          ],
+          "calls": [
+            {
+              "call_id": "c1_r1_a1_infer_#9",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 863,
+              "completion_tokens": 634,
+              "total_tokens": 1497,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r1_a1_anonymize_#10",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 897,
+              "completion_tokens": 179,
+              "total_tokens": 1076,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r1_a1_utility_#11",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 525,
+              "completion_tokens": 150,
+              "total_tokens": 675,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r2_a1_infer_#12",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 863,
+              "completion_tokens": 556,
+              "total_tokens": 1419,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r2_a1_anonymize_#13",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 817,
+              "completion_tokens": 143,
+              "total_tokens": 960,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r2_a1_utility_#14",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 525,
+              "completion_tokens": 145,
+              "total_tokens": 670,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r3_a1_infer_#15",
+              "comment_index": 1,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 863,
+              "completion_tokens": 571,
+              "total_tokens": 1434,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r3_a1_anonymize_#16",
+              "comment_index": 1,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 834,
+              "completion_tokens": 119,
+              "total_tokens": 953,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c1_r3_a1_utility_#17",
+              "comment_index": 1,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 525,
+              "completion_tokens": 182,
+              "total_tokens": 707,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 6701,
+              "completion_tokens": 2335,
+              "total_tokens": 9036,
+              "api_calls": 9
+            },
+            "exclude_retries": {
+              "prompt_tokens": 6701,
+              "completion_tokens": 2335,
+              "total_tokens": 9036,
+              "api_calls": 9
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 2330,
+                  "completion_tokens": 524,
+                  "total_tokens": 2854,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2330,
+                  "completion_tokens": 524,
+                  "total_tokens": 2854,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 2658,
+                  "completion_tokens": 1367,
+                  "total_tokens": 4025,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2658,
+                  "completion_tokens": 1367,
+                  "total_tokens": 4025,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 1713,
+                  "completion_tokens": 444,
+                  "total_tokens": 2157,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1713,
+                  "completion_tokens": 444,
+                  "total_tokens": 2157,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2352,
+                  "completion_tokens": 975,
+                  "total_tokens": 3327,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2352,
+                  "completion_tokens": 975,
+                  "total_tokens": 3327,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 895,
+                      "completion_tokens": 214,
+                      "total_tokens": 1109,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 895,
+                      "completion_tokens": 214,
+                      "total_tokens": 1109,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 886,
+                      "completion_tokens": 610,
+                      "total_tokens": 1496,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 886,
+                      "completion_tokens": 610,
+                      "total_tokens": 1496,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 571,
+                      "completion_tokens": 151,
+                      "total_tokens": 722,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 571,
+                      "completion_tokens": 151,
+                      "total_tokens": 722,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c2_r1_a1_infer_#18",
+                  "comment_index": 2,
+                  "call_type": "infer",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 886,
+                  "completion_tokens": 610,
+                  "total_tokens": 1496,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c2_r1_a1_anonymize_#19",
+                  "comment_index": 2,
+                  "call_type": "anonymize",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 895,
+                  "completion_tokens": 214,
+                  "total_tokens": 1109,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c2_r1_a1_utility_#20",
+                  "comment_index": 2,
+                  "call_type": "utility",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 571,
+                  "completion_tokens": 151,
+                  "total_tokens": 722,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 1986,
+                  "completion_tokens": 471,
+                  "total_tokens": 2457,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 1986,
+                  "completion_tokens": 471,
+                  "total_tokens": 2457,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 529,
+                      "completion_tokens": 175,
+                      "total_tokens": 704,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 529,
+                      "completion_tokens": 175,
+                      "total_tokens": 704,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 886,
+                      "completion_tokens": 135,
+                      "total_tokens": 1021,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 886,
+                      "completion_tokens": 135,
+                      "total_tokens": 1021,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 571,
+                      "completion_tokens": 161,
+                      "total_tokens": 732,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 571,
+                      "completion_tokens": 161,
+                      "total_tokens": 732,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c2_r2_a1_infer_#21",
+                  "comment_index": 2,
+                  "call_type": "infer",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 886,
+                  "completion_tokens": 135,
+                  "total_tokens": 1021,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c2_r2_a1_anonymize_#22",
+                  "comment_index": 2,
+                  "call_type": "anonymize",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 529,
+                  "completion_tokens": 175,
+                  "total_tokens": 704,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c2_r2_a1_utility_#23",
+                  "comment_index": 2,
+                  "call_type": "utility",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 571,
+                  "completion_tokens": 161,
+                  "total_tokens": 732,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 3,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2363,
+                  "completion_tokens": 889,
+                  "total_tokens": 3252,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2363,
+                  "completion_tokens": 889,
+                  "total_tokens": 3252,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 906,
+                      "completion_tokens": 135,
+                      "total_tokens": 1041,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 906,
+                      "completion_tokens": 135,
+                      "total_tokens": 1041,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 886,
+                      "completion_tokens": 622,
+                      "total_tokens": 1508,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 886,
+                      "completion_tokens": 622,
+                      "total_tokens": 1508,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 571,
+                      "completion_tokens": 132,
+                      "total_tokens": 703,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 571,
+                      "completion_tokens": 132,
+                      "total_tokens": 703,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c2_r3_a1_infer_#24",
+                  "comment_index": 2,
+                  "call_type": "infer",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 886,
+                  "completion_tokens": 622,
+                  "total_tokens": 1508,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c2_r3_a1_anonymize_#25",
+                  "comment_index": 2,
+                  "call_type": "anonymize",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 906,
+                  "completion_tokens": 135,
+                  "total_tokens": 1041,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c2_r3_a1_utility_#26",
+                  "comment_index": 2,
+                  "call_type": "utility",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 571,
+                  "completion_tokens": 132,
+                  "total_tokens": 703,
+                  "usage_source": "api"
+                }
+              ]
+            }
+          ],
+          "calls": [
+            {
+              "call_id": "c2_r1_a1_infer_#18",
+              "comment_index": 2,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 886,
+              "completion_tokens": 610,
+              "total_tokens": 1496,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r1_a1_anonymize_#19",
+              "comment_index": 2,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 895,
+              "completion_tokens": 214,
+              "total_tokens": 1109,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r1_a1_utility_#20",
+              "comment_index": 2,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 571,
+              "completion_tokens": 151,
+              "total_tokens": 722,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r2_a1_infer_#21",
+              "comment_index": 2,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 886,
+              "completion_tokens": 135,
+              "total_tokens": 1021,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r2_a1_anonymize_#22",
+              "comment_index": 2,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 529,
+              "completion_tokens": 175,
+              "total_tokens": 704,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r2_a1_utility_#23",
+              "comment_index": 2,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 571,
+              "completion_tokens": 161,
+              "total_tokens": 732,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r3_a1_infer_#24",
+              "comment_index": 2,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 886,
+              "completion_tokens": 622,
+              "total_tokens": 1508,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r3_a1_anonymize_#25",
+              "comment_index": 2,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 906,
+              "completion_tokens": 135,
+              "total_tokens": 1041,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c2_r3_a1_utility_#26",
+              "comment_index": 2,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 571,
+              "completion_tokens": 132,
+              "total_tokens": 703,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 7855,
+              "completion_tokens": 3109,
+              "total_tokens": 10964,
+              "api_calls": 9
+            },
+            "exclude_retries": {
+              "prompt_tokens": 7855,
+              "completion_tokens": 3109,
+              "total_tokens": 10964,
+              "api_calls": 9
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 2989,
+                  "completion_tokens": 611,
+                  "total_tokens": 3600,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2989,
+                  "completion_tokens": 611,
+                  "total_tokens": 3600,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 2823,
+                  "completion_tokens": 1960,
+                  "total_tokens": 4783,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2823,
+                  "completion_tokens": 1960,
+                  "total_tokens": 4783,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 2043,
+                  "completion_tokens": 538,
+                  "total_tokens": 2581,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2043,
+                  "completion_tokens": 538,
+                  "total_tokens": 2581,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2530,
+                  "completion_tokens": 933,
+                  "total_tokens": 3463,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2530,
+                  "completion_tokens": 933,
+                  "total_tokens": 3463,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 908,
+                      "completion_tokens": 203,
+                      "total_tokens": 1111,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 908,
+                      "completion_tokens": 203,
+                      "total_tokens": 1111,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 941,
+                      "completion_tokens": 568,
+                      "total_tokens": 1509,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 941,
+                      "completion_tokens": 568,
+                      "total_tokens": 1509,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 681,
+                      "completion_tokens": 162,
+                      "total_tokens": 843,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 681,
+                      "completion_tokens": 162,
+                      "total_tokens": 843,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c3_r1_a1_infer_#27",
+                  "comment_index": 3,
+                  "call_type": "infer",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 941,
+                  "completion_tokens": 568,
+                  "total_tokens": 1509,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c3_r1_a1_anonymize_#28",
+                  "comment_index": 3,
+                  "call_type": "anonymize",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 908,
+                  "completion_tokens": 203,
+                  "total_tokens": 1111,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c3_r1_a1_utility_#29",
+                  "comment_index": 3,
+                  "call_type": "utility",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 681,
+                  "completion_tokens": 162,
+                  "total_tokens": 843,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2653,
+                  "completion_tokens": 1101,
+                  "total_tokens": 3754,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2653,
+                  "completion_tokens": 1101,
+                  "total_tokens": 3754,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 1031,
+                      "completion_tokens": 194,
+                      "total_tokens": 1225,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 1031,
+                      "completion_tokens": 194,
+                      "total_tokens": 1225,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 941,
+                      "completion_tokens": 691,
+                      "total_tokens": 1632,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 941,
+                      "completion_tokens": 691,
+                      "total_tokens": 1632,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 681,
+                      "completion_tokens": 216,
+                      "total_tokens": 897,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 681,
+                      "completion_tokens": 216,
+                      "total_tokens": 897,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c3_r2_a1_infer_#30",
+                  "comment_index": 3,
+                  "call_type": "infer",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 941,
+                  "completion_tokens": 691,
+                  "total_tokens": 1632,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c3_r2_a1_anonymize_#31",
+                  "comment_index": 3,
+                  "call_type": "anonymize",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 1031,
+                  "completion_tokens": 194,
+                  "total_tokens": 1225,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c3_r2_a1_utility_#32",
+                  "comment_index": 3,
+                  "call_type": "utility",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 681,
+                  "completion_tokens": 216,
+                  "total_tokens": 897,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 3,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2672,
+                  "completion_tokens": 1075,
+                  "total_tokens": 3747,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2672,
+                  "completion_tokens": 1075,
+                  "total_tokens": 3747,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 1050,
+                      "completion_tokens": 214,
+                      "total_tokens": 1264,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 1050,
+                      "completion_tokens": 214,
+                      "total_tokens": 1264,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 941,
+                      "completion_tokens": 701,
+                      "total_tokens": 1642,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 941,
+                      "completion_tokens": 701,
+                      "total_tokens": 1642,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 681,
+                      "completion_tokens": 160,
+                      "total_tokens": 841,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 681,
+                      "completion_tokens": 160,
+                      "total_tokens": 841,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c3_r3_a1_infer_#33",
+                  "comment_index": 3,
+                  "call_type": "infer",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 941,
+                  "completion_tokens": 701,
+                  "total_tokens": 1642,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c3_r3_a1_anonymize_#34",
+                  "comment_index": 3,
+                  "call_type": "anonymize",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 1050,
+                  "completion_tokens": 214,
+                  "total_tokens": 1264,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c3_r3_a1_utility_#35",
+                  "comment_index": 3,
+                  "call_type": "utility",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 681,
+                  "completion_tokens": 160,
+                  "total_tokens": 841,
+                  "usage_source": "api"
+                }
+              ]
+            }
+          ],
+          "calls": [
+            {
+              "call_id": "c3_r1_a1_infer_#27",
+              "comment_index": 3,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 941,
+              "completion_tokens": 568,
+              "total_tokens": 1509,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r1_a1_anonymize_#28",
+              "comment_index": 3,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 908,
+              "completion_tokens": 203,
+              "total_tokens": 1111,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r1_a1_utility_#29",
+              "comment_index": 3,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 681,
+              "completion_tokens": 162,
+              "total_tokens": 843,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r2_a1_infer_#30",
+              "comment_index": 3,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 941,
+              "completion_tokens": 691,
+              "total_tokens": 1632,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r2_a1_anonymize_#31",
+              "comment_index": 3,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1031,
+              "completion_tokens": 194,
+              "total_tokens": 1225,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r2_a1_utility_#32",
+              "comment_index": 3,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 681,
+              "completion_tokens": 216,
+              "total_tokens": 897,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r3_a1_infer_#33",
+              "comment_index": 3,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 941,
+              "completion_tokens": 701,
+              "total_tokens": 1642,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r3_a1_anonymize_#34",
+              "comment_index": 3,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1050,
+              "completion_tokens": 214,
+              "total_tokens": 1264,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c3_r3_a1_utility_#35",
+              "comment_index": 3,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 681,
+              "completion_tokens": 160,
+              "total_tokens": 841,
+              "usage_source": "api"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "billing": {
+            "all_calls": {
+              "prompt_tokens": 7905,
+              "completion_tokens": 2936,
+              "total_tokens": 10841,
+              "api_calls": 9
+            },
+            "exclude_retries": {
+              "prompt_tokens": 7905,
+              "completion_tokens": 2936,
+              "total_tokens": 10841,
+              "api_calls": 9
+            },
+            "retry_only": {
+              "prompt_tokens": 0,
+              "completion_tokens": 0,
+              "total_tokens": 0,
+              "api_calls": 0
+            },
+            "by_call_type": {
+              "anonymize": {
+                "all_calls": {
+                  "prompt_tokens": 2874,
+                  "completion_tokens": 653,
+                  "total_tokens": 3527,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2874,
+                  "completion_tokens": 653,
+                  "total_tokens": 3527,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "infer": {
+                "all_calls": {
+                  "prompt_tokens": 2878,
+                  "completion_tokens": 1797,
+                  "total_tokens": 4675,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2878,
+                  "completion_tokens": 1797,
+                  "total_tokens": 4675,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              },
+              "utility": {
+                "all_calls": {
+                  "prompt_tokens": 2153,
+                  "completion_tokens": 486,
+                  "total_tokens": 2639,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2153,
+                  "completion_tokens": 486,
+                  "total_tokens": 2639,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                }
+              }
+            },
+            "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2637,
+                  "completion_tokens": 961,
+                  "total_tokens": 3598,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2637,
+                  "completion_tokens": 961,
+                  "total_tokens": 3598,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 955,
+                      "completion_tokens": 219,
+                      "total_tokens": 1174,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 955,
+                      "completion_tokens": 219,
+                      "total_tokens": 1174,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 961,
+                      "completion_tokens": 594,
+                      "total_tokens": 1555,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 961,
+                      "completion_tokens": 594,
+                      "total_tokens": 1555,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 721,
+                      "completion_tokens": 148,
+                      "total_tokens": 869,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 721,
+                      "completion_tokens": 148,
+                      "total_tokens": 869,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c4_r1_a1_infer_#36",
+                  "comment_index": 4,
+                  "call_type": "infer",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 961,
+                  "completion_tokens": 594,
+                  "total_tokens": 1555,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c4_r1_a1_anonymize_#37",
+                  "comment_index": 4,
+                  "call_type": "anonymize",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 955,
+                  "completion_tokens": 219,
+                  "total_tokens": 1174,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c4_r1_a1_utility_#38",
+                  "comment_index": 4,
+                  "call_type": "utility",
+                  "round": 1,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 721,
+                  "completion_tokens": 148,
+                  "total_tokens": 869,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2576,
+                  "completion_tokens": 902,
+                  "total_tokens": 3478,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2576,
+                  "completion_tokens": 902,
+                  "total_tokens": 3478,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 899,
+                      "completion_tokens": 215,
+                      "total_tokens": 1114,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 899,
+                      "completion_tokens": 215,
+                      "total_tokens": 1114,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 961,
+                      "completion_tokens": 539,
+                      "total_tokens": 1500,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 961,
+                      "completion_tokens": 539,
+                      "total_tokens": 1500,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 716,
+                      "completion_tokens": 148,
+                      "total_tokens": 864,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 716,
+                      "completion_tokens": 148,
+                      "total_tokens": 864,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c4_r2_a1_infer_#39",
+                  "comment_index": 4,
+                  "call_type": "infer",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 961,
+                  "completion_tokens": 539,
+                  "total_tokens": 1500,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c4_r2_a1_anonymize_#40",
+                  "comment_index": 4,
+                  "call_type": "anonymize",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 899,
+                  "completion_tokens": 215,
+                  "total_tokens": 1114,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c4_r2_a1_utility_#41",
+                  "comment_index": 4,
+                  "call_type": "utility",
+                  "round": 2,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 716,
+                  "completion_tokens": 148,
+                  "total_tokens": 864,
+                  "usage_source": "api"
+                }
+              ]
+            },
+            {
+              "round": 3,
+              "billing": {
+                "all_calls": {
+                  "prompt_tokens": 2692,
+                  "completion_tokens": 1073,
+                  "total_tokens": 3765,
+                  "api_calls": 3
+                },
+                "exclude_retries": {
+                  "prompt_tokens": 2692,
+                  "completion_tokens": 1073,
+                  "total_tokens": 3765,
+                  "api_calls": 3
+                },
+                "retry_only": {
+                  "prompt_tokens": 0,
+                  "completion_tokens": 0,
+                  "total_tokens": 0,
+                  "api_calls": 0
+                },
+                "by_call_type": {
+                  "anonymize": {
+                    "all_calls": {
+                      "prompt_tokens": 1020,
+                      "completion_tokens": 219,
+                      "total_tokens": 1239,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 1020,
+                      "completion_tokens": 219,
+                      "total_tokens": 1239,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "infer": {
+                    "all_calls": {
+                      "prompt_tokens": 956,
+                      "completion_tokens": 664,
+                      "total_tokens": 1620,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 956,
+                      "completion_tokens": 664,
+                      "total_tokens": 1620,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  },
+                  "utility": {
+                    "all_calls": {
+                      "prompt_tokens": 716,
+                      "completion_tokens": 190,
+                      "total_tokens": 906,
+                      "api_calls": 1
+                    },
+                    "exclude_retries": {
+                      "prompt_tokens": 716,
+                      "completion_tokens": 190,
+                      "total_tokens": 906,
+                      "api_calls": 1
+                    },
+                    "retry_only": {
+                      "prompt_tokens": 0,
+                      "completion_tokens": 0,
+                      "total_tokens": 0,
+                      "api_calls": 0
+                    }
+                  }
+                },
+                "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+              },
+              "calls": [
+                {
+                  "call_id": "c4_r3_a1_infer_#42",
+                  "comment_index": 4,
+                  "call_type": "infer",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 956,
+                  "completion_tokens": 664,
+                  "total_tokens": 1620,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c4_r3_a1_anonymize_#43",
+                  "comment_index": 4,
+                  "call_type": "anonymize",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 1020,
+                  "completion_tokens": 219,
+                  "total_tokens": 1239,
+                  "usage_source": "api"
+                },
+                {
+                  "call_id": "c4_r3_a1_utility_#44",
+                  "comment_index": 4,
+                  "call_type": "utility",
+                  "round": 3,
+                  "attempt": 1,
+                  "is_retry": false,
+                  "exclude_from_clean_total": false,
+                  "prompt_tokens": 716,
+                  "completion_tokens": 190,
+                  "total_tokens": 906,
+                  "usage_source": "api"
+                }
+              ]
+            }
+          ],
+          "calls": [
+            {
+              "call_id": "c4_r1_a1_infer_#36",
+              "comment_index": 4,
+              "call_type": "infer",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 961,
+              "completion_tokens": 594,
+              "total_tokens": 1555,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r1_a1_anonymize_#37",
+              "comment_index": 4,
+              "call_type": "anonymize",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 955,
+              "completion_tokens": 219,
+              "total_tokens": 1174,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r1_a1_utility_#38",
+              "comment_index": 4,
+              "call_type": "utility",
+              "round": 1,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 721,
+              "completion_tokens": 148,
+              "total_tokens": 869,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r2_a1_infer_#39",
+              "comment_index": 4,
+              "call_type": "infer",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 961,
+              "completion_tokens": 539,
+              "total_tokens": 1500,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r2_a1_anonymize_#40",
+              "comment_index": 4,
+              "call_type": "anonymize",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 899,
+              "completion_tokens": 215,
+              "total_tokens": 1114,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r2_a1_utility_#41",
+              "comment_index": 4,
+              "call_type": "utility",
+              "round": 2,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 716,
+              "completion_tokens": 148,
+              "total_tokens": 864,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r3_a1_infer_#42",
+              "comment_index": 4,
+              "call_type": "infer",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 956,
+              "completion_tokens": 664,
+              "total_tokens": 1620,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r3_a1_anonymize_#43",
+              "comment_index": 4,
+              "call_type": "anonymize",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 1020,
+              "completion_tokens": 219,
+              "total_tokens": 1239,
+              "usage_source": "api"
+            },
+            {
+              "call_id": "c4_r3_a1_utility_#44",
+              "comment_index": 4,
+              "call_type": "utility",
+              "round": 3,
+              "attempt": 1,
+              "is_retry": false,
+              "exclude_from_clean_total": false,
+              "prompt_tokens": 716,
+              "completion_tokens": 190,
+              "total_tokens": 906,
+              "usage_source": "api"
+            }
+          ]
+        }
+      ],
+      "how_to_exclude_retries": {
+        "rule": "Sum tokens where is_retry == false (same as exclude_from_clean_total == false).",
+        "fields": [
+          "billing.exclude_retries",
+          "comments[].billing.exclude_retries",
+          "comments[].rounds[].billing.exclude_retries"
+        ]
+      }
+    }
+  },
+  "failed_comments": [],
+  "count_mismatch_comments": [
+    {
+      "index": 0,
+      "status": "success",
+      "comment_alignment": "identity_on_mismatch",
+      "mismatch_got": 3,
+      "mismatch_expected": 1,
+      "attempts": 1
+    },
+    {
+      "index": 1,
+      "status": "success",
+      "comment_alignment": "identity_on_mismatch",
+      "mismatch_got": 1,
+      "mismatch_expected": 2,
+      "attempts": 1
+    },
+    {
+      "index": 2,
+      "status": "success",
+      "comment_alignment": "identity_on_mismatch",
+      "mismatch_got": 2,
+      "mismatch_expected": 3,
+      "attempts": 1
+    },
+    {
+      "index": 3,
+      "status": "success",
+      "comment_alignment": "identity_on_mismatch",
+      "mismatch_got": 5,
+      "mismatch_expected": 4,
+      "attempts": 1
+    },
+    {
+      "index": 4,
+      "status": "success",
+      "comment_alignment": "identity_on_mismatch",
+      "mismatch_got": 6,
+      "mismatch_expected": 5,
+      "attempts": 1
+    }
+  ],
+  "comments": [
+    {
+      "index": 0,
+      "original": "adulting’s an ever-changing game plan tbh",
+      "anonymized": "adulting’s an ever-changing game plan tbh",
+      "status": "success",
+      "attempts": 1,
+      "max_retries_exhausted": false,
+      "count_mismatch": true,
+      "comment_alignment": "identity_on_mismatch",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "adulting’s an ever-changing game plan tbh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh"
+          ],
+          "frozen_history_len": 0,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 1,
+          "mismatch_message": "Number of comments does not match: 1 vs 1",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is highly readable and understandable, with no issues for a human reader.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message as the original text, with no changes in meaning or content.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information not present in the original text.\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "adulting’s an ever-changing game plan tbh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh"
+          ],
+          "frozen_history_len": 0,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 1,
+          "mismatch_message": "Number of comments does not match: 1 vs 1",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is highly readable and understandable, with no issues for a human reader.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message as the original text, with no changes in meaning.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information not present in the original text.\n    \"score\": 1\n},\n\"final_score\": {\n    \"explanation\": Based on the high readability, identical meaning, and absence of hallucinations, the adapted text is very similar to the original text.\n    \"score\": 10\n}"
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "adulting’s an ever-changing game plan tbh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh"
+          ],
+          "frozen_history_len": 0,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 3,
+          "mismatch_expected": 1,
+          "mismatch_message": "Number of comments does not match: 3 vs 1",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is highly readable and understandable, with no issues for a human reader.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message as the original text, with no changes in meaning.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information not present in the original text.\n    \"score\": 1\n},\n\"final_score\": {\n    \"explanation\": Based on the high readability, identical meaning, and lack of hallucinations, the adapted text is nearly identical to the original text.\n    \"score\": 10\n}"
+          }
+        }
+      ],
+      "mismatch_got": 3,
+      "mismatch_expected": 1
+    },
+    {
+      "index": 1,
+      "original": "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+      "anonymized": "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+      "status": "success",
+      "attempts": 1,
+      "max_retries_exhausted": false,
+      "count_mismatch": true,
+      "comment_alignment": "identity_on_mismatch",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh"
+          ],
+          "frozen_history_len": 1,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 2,
+          "mismatch_message": "Number of comments does not match: 1 vs 2",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no issues for a human reader to comprehend it without any prior knowledge of the original text.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text has the same meaning and conveys the same message as the original text, with no changes in the content or message.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text contains no new information that was not present in the original text, and it correctly abstracts and generalizes the original text without any additions or omissions.\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh"
+          ],
+          "frozen_history_len": 1,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 2,
+          "mismatch_message": "Number of comments does not match: 1 vs 2",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no issues for a human reader to comprehend it without any prior knowledge of the original text.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text has the same meaning as the original text, conveying the same message and sentiment about the challenges of adulting and financial struggles.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information that was not present in the original text, correctly abstracting and generalizing the original text.\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh"
+          ],
+          "frozen_history_len": 1,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 2,
+          "mismatch_message": "Number of comments does not match: 1 vs 2",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no issues in comprehension or clarity. The language and structure are preserved, making it easy for a human to read without any difficulties.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message and meaning as the original text, with no changes in the tone, sentiment, or content. The adapted text is a direct copy of the original text, indicating that it has the same meaning and message.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information that was not present in the original text, and it correctly abstracts and generalizes the original text without any additions or omissions.\n    \"score\": 1\n}\n}"
+          }
+        }
+      ],
+      "mismatch_got": 1,
+      "mismatch_expected": 2
+    },
+    {
+      "index": 2,
+      "original": "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+      "anonymized": "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+      "status": "success",
+      "attempts": 1,
+      "max_retries_exhausted": false,
+      "count_mismatch": true,
+      "comment_alignment": "identity_on_mismatch",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd"
+          ],
+          "frozen_history_len": 2,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 3,
+          "mismatch_expected": 3,
+          "mismatch_message": "Number of comments does not match: 3 vs 3",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no issues in comprehension. The language and tone are consistent throughout both texts.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message and meaning as the original text, discussing the challenges of adulting, financial struggles, and the unexpected outcome of becoming a minimalist due to work.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information that was not present in the original text, correctly abstracting and generalizing the original content.\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd"
+          ],
+          "frozen_history_len": 2,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 3,
+          "mismatch_message": "Number of comments does not match: 1 vs 3",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no issues in comprehension or clarity. The language and tone are consistent throughout both texts.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message and meaning as the original text, discussing the challenges of adulting, financial struggles, and the unexpected outcome of becoming a minimalist due to work.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information that was not present in the original text, and it correctly abstracts and generalizes the original text without adding any extraneous details.\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd"
+          ],
+          "frozen_history_len": 2,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 2,
+          "mismatch_expected": 3,
+          "mismatch_message": "Number of comments does not match: 2 vs 3",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text. The language and tone used are similar, and a human can read it without issues.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text has the same meaning as the original text. It conveys the same message and emotions, and the content is identical.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text contains no new information and correctly abstracts and generalizes the original text.\n    \"score\": 1\n}\n}"
+          }
+        }
+      ],
+      "mismatch_got": 2,
+      "mismatch_expected": 3
+    },
+    {
+      "index": 3,
+      "original": "totally get that - since working part-time and dealing with algorithms all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 comp sci brain just doesn’t switch off lol",
+      "anonymized": "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol",
+      "status": "success",
+      "attempts": 1,
+      "max_retries_exhausted": false,
+      "count_mismatch": true,
+      "comment_alignment": "identity_on_mismatch",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+            "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol"
+          ],
+          "frozen_history_len": 3,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "json",
+          "count_mismatch": false,
+          "utility": {
+            "readability": {
+              "explanation": "The adapted text is equally readable and understandable as the original text. The language and tone are similar, and the use of emojis does not affect the clarity of the message.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text has the same meaning as the original text. The message and tone are preserved, and the changes made do not alter the intended meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not contain any new information that was not present in the original text. The changes made are minor and do not reflect any incorrect abstraction or generalization of the original text.",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is equally readable and understandable as the original text. The language and tone are similar, and the use of emojis does not affect the clarity of the message.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text has the same meaning as the original text. The message and tone are preserved, and the changes made do not alter the intended meaning.\",\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not contain any new information that was not present in the original text. The changes made are minor and do not reflect any incorrect abstraction or generalization of the original text.\",\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+            "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol"
+          ],
+          "frozen_history_len": 3,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 5,
+          "mismatch_expected": 4,
+          "mismatch_message": "Number of comments does not match: 5 vs 4",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text, with no significant changes in sentence structure or vocabulary that would make it difficult for a human to read and comprehend. The use of emojis and colloquial expressions is consistent in both texts, maintaining a similar tone and style.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message and meaning as the original text, discussing the challenges of adulting, financial struggles, and the influence of work on one's behavior and habits. The adapted text maintains the original's tone, humor, and sentiment, with no significant changes in the conveyed message.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information that was not present in the original text. It correctly abstracts and generalizes the original text, maintaining the same ideas and concepts without introducing any extraneous details.\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+            "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol"
+          ],
+          "frozen_history_len": 3,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 5,
+          "mismatch_expected": 4,
+          "mismatch_message": "Number of comments does not match: 5 vs 4",
+          "utility": {
+            "readability": {
+              "explanation": "The adapted text is equally readable and understandable as the original text. The language and tone are similar, and the use of emojis does not affect the clarity of the message.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text has the same meaning as the original text. The message and tone are preserved, and the changes made do not alter the intended meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text contains no new information that was not present in the original text. The changes made are minor and do not reflect any incorrect abstraction or generalization of the original text.",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is equally readable and understandable as the original text. The language and tone are similar, and the use of emojis does not affect the clarity of the message.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text has the same meaning as the original text. The message and tone are preserved, and the changes made do not alter the intended meaning.\",\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text contains no new information that was not present in the original text. The changes made are minor and do not reflect any incorrect abstraction or generalization of the original text.\",\n    \"score\": 1\n}\n}"
+          }
+        }
+      ],
+      "mismatch_got": 5,
+      "mismatch_expected": 4
+    },
+    {
+      "index": 4,
+      "original": "clients still say \"nice coding for a girl\" smh",
+      "anonymized": "clients still say something annoying smh",
+      "status": "success",
+      "attempts": 1,
+      "max_retries_exhausted": false,
+      "count_mismatch": true,
+      "comment_alignment": "identity_on_mismatch",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "clients still say \"nice coding for a girl\" smh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+            "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol",
+            "clients still say \"nice coding for a girl\" smh"
+          ],
+          "frozen_history_len": 4,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 1,
+          "mismatch_expected": 5,
+          "mismatch_message": "Number of comments does not match: 1 vs 5",
+          "utility": {
+            "readability": {
+              "explanation": "The adapted text is equally readable and understandable as the original text. The language and tone are similar, and a human can read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text has the same meaning as the original text. It conveys the same message and emotions, and the changes made do not alter the overall meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text contains no new information that was not present in the original text. It correctly abstracts and generalizes the original text.",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is equally readable and understandable as the original text. The language and tone are similar, and a human can read it without issues.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text has the same meaning as the original text. It conveys the same message and emotions, and the changes made do not alter the overall meaning.\",\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text contains no new information that was not present in the original text. It correctly abstracts and generalizes the original text.\",\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "clients still say something annoying smh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+            "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol",
+            "clients still say something annoying smh"
+          ],
+          "frozen_history_len": 4,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "json",
+          "count_mismatch": false,
+          "utility": {
+            "readability": {
+              "explanation": "The adapted text is equally readable and understandable as the original text. The language used is similar and the tone is preserved.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same message as the original text. The main points and ideas are preserved, although some minor details are changed.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text contains no new information that was not present in the original text. The changes made are minor and do not reflect any incorrect abstraction or generalization of the original text.",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is equally readable and understandable as the original text. The language used is similar and the tone is preserved.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same message as the original text. The main points and ideas are preserved, although some minor details are changed.\",\n    \"score\": 9\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text contains no new information that was not present in the original text. The changes made are minor and do not reflect any incorrect abstraction or generalization of the original text.\",\n    \"score\": 1\n}\n}"
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "clients still say something annoying smh",
+          "prefix_anonymized": [
+            "adulting’s an ever-changing game plan tbh",
+            "seriously though who decided you gotta have everything figured out by 30? rent’s no joke here and let's not even talk student loans 😑 real adulting seems more like making it through each month without a financial meltdown tbh",
+            "pretty sure i've become an unintentional clutter-free minimalist coz of work xd",
+            "totally get that - since working part-time and dealing with complex systems all day i catch myself optimizing literally everything at home too! like can we find the shortest path to clean those dishes? 😂 my brain just doesn't switch off lol",
+            "clients still say something annoying smh"
+          ],
+          "frozen_history_len": 4,
+          "attempts": 1,
+          "max_retries_exhausted": false,
+          "comment_alignment": "identity_on_mismatch",
+          "count_mismatch": true,
+          "mismatch_got": 6,
+          "mismatch_expected": 5,
+          "mismatch_message": "Number of comments does not match: 6 vs 5",
+          "utility": {
+            "readability": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "meaning": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "hallucinations": {
+              "explanation": "decoding_error",
+              "score": 1
+            },
+            "full_answer": "{\n\"readability\": {\n    \"explanation\": The adapted text is equally readable and understandable as the original text. The language used is similar and the tone is preserved. The only minor change is the replacement of \"algorithms\" with \"complex systems\", which does not affect the overall readability.\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": The adapted text conveys the same message and meaning as the original text. The core ideas and sentiments are preserved, including the frustration with adulting, the impact of work on personal life, and the annoyance with clients' comments.\n    \"score\": 10\n},\n\"hallucinations\": {\n    \"explanation\": The adapted text does not contain any new information that was not present in the original text. The changes made are minor and do not reflect any incorrect abstraction or generalization of the original text.\n    \"score\": 1\n}\n}"
+          }
+        }
+      ],
+      "mismatch_got": 6,
+      "mismatch_expected": 5
+    }
+  ]
+}

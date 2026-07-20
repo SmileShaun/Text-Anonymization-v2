@@ -1,0 +1,340 @@
+{
+  "author": "pers300",
+  "billing": {
+    "all_calls": {
+      "prompt_tokens": 11557,
+      "completion_tokens": 12032,
+      "total_tokens": 23589,
+      "api_calls": 18
+    },
+    "exclude_retries": {
+      "prompt_tokens": 11557,
+      "completion_tokens": 12032,
+      "total_tokens": 23589,
+      "api_calls": 18
+    },
+    "retry_only": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "api_calls": 0
+    },
+    "by_call_type": {
+      "anonymize": {
+        "all_calls": {
+          "prompt_tokens": 3958,
+          "completion_tokens": 8733,
+          "total_tokens": 12691,
+          "api_calls": 6
+        },
+        "exclude_retries": {
+          "prompt_tokens": 3958,
+          "completion_tokens": 8733,
+          "total_tokens": 12691,
+          "api_calls": 6
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        }
+      },
+      "infer": {
+        "all_calls": {
+          "prompt_tokens": 4935,
+          "completion_tokens": 2407,
+          "total_tokens": 7342,
+          "api_calls": 6
+        },
+        "exclude_retries": {
+          "prompt_tokens": 4935,
+          "completion_tokens": 2407,
+          "total_tokens": 7342,
+          "api_calls": 6
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        }
+      },
+      "utility": {
+        "all_calls": {
+          "prompt_tokens": 2664,
+          "completion_tokens": 892,
+          "total_tokens": 3556,
+          "api_calls": 6
+        },
+        "exclude_retries": {
+          "prompt_tokens": 2664,
+          "completion_tokens": 892,
+          "total_tokens": 3556,
+          "api_calls": 6
+        },
+        "retry_only": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0
+        }
+      }
+    },
+    "note": "exclude_retries = attempt is null/1 (first try of each request). retry_only = attempt >= 2. Use exclude_retries to remove retry inflation."
+  },
+  "calls": [
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 1,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "infer",
+      "prompt_tokens": 810,
+      "completion_tokens": 630,
+      "total_tokens": 1440,
+      "usage_source": "api",
+      "call_id": "c0_r1_a1_infer_#0"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 1,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "anonymize",
+      "prompt_tokens": 840,
+      "completion_tokens": 123,
+      "total_tokens": 963,
+      "usage_source": "api",
+      "call_id": "c0_r1_a1_anonymize_#1"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 1,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "utility",
+      "prompt_tokens": 419,
+      "completion_tokens": 135,
+      "total_tokens": 554,
+      "usage_source": "api",
+      "call_id": "c0_r1_a1_utility_#2"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 2,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "infer",
+      "prompt_tokens": 810,
+      "completion_tokens": 537,
+      "total_tokens": 1347,
+      "usage_source": "api",
+      "call_id": "c0_r2_a1_infer_#3"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 2,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "anonymize",
+      "prompt_tokens": 748,
+      "completion_tokens": 8192,
+      "total_tokens": 8940,
+      "usage_source": "api",
+      "call_id": "c0_r2_a1_anonymize_#4"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 2,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "utility",
+      "prompt_tokens": 419,
+      "completion_tokens": 188,
+      "total_tokens": 607,
+      "usage_source": "api",
+      "call_id": "c0_r2_a1_utility_#5"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 3,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "infer",
+      "prompt_tokens": 810,
+      "completion_tokens": 75,
+      "total_tokens": 885,
+      "usage_source": "api",
+      "call_id": "c0_r3_a1_infer_#6"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 3,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "anonymize",
+      "prompt_tokens": 393,
+      "completion_tokens": 102,
+      "total_tokens": 495,
+      "usage_source": "api",
+      "call_id": "c0_r3_a1_anonymize_#7"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 0,
+      "round": 3,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "utility",
+      "prompt_tokens": 419,
+      "completion_tokens": 135,
+      "total_tokens": 554,
+      "usage_source": "api",
+      "call_id": "c0_r3_a1_utility_#8"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 1,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "infer",
+      "prompt_tokens": 835,
+      "completion_tokens": 520,
+      "total_tokens": 1355,
+      "usage_source": "api",
+      "call_id": "c1_r1_a1_infer_#9"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 1,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "anonymize",
+      "prompt_tokens": 753,
+      "completion_tokens": 105,
+      "total_tokens": 858,
+      "usage_source": "api",
+      "call_id": "c1_r1_a1_anonymize_#10"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 1,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "utility",
+      "prompt_tokens": 469,
+      "completion_tokens": 132,
+      "total_tokens": 601,
+      "usage_source": "api",
+      "call_id": "c1_r1_a1_utility_#11"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 2,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "infer",
+      "prompt_tokens": 835,
+      "completion_tokens": 85,
+      "total_tokens": 920,
+      "usage_source": "api",
+      "call_id": "c1_r2_a1_infer_#12"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 2,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "anonymize",
+      "prompt_tokens": 428,
+      "completion_tokens": 137,
+      "total_tokens": 565,
+      "usage_source": "api",
+      "call_id": "c1_r2_a1_anonymize_#13"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 2,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "utility",
+      "prompt_tokens": 469,
+      "completion_tokens": 152,
+      "total_tokens": 621,
+      "usage_source": "api",
+      "call_id": "c1_r2_a1_utility_#14"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 3,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "infer",
+      "prompt_tokens": 835,
+      "completion_tokens": 560,
+      "total_tokens": 1395,
+      "usage_source": "api",
+      "call_id": "c1_r3_a1_infer_#15"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 3,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "anonymize",
+      "prompt_tokens": 796,
+      "completion_tokens": 74,
+      "total_tokens": 870,
+      "usage_source": "api",
+      "call_id": "c1_r3_a1_anonymize_#16"
+    },
+    {
+      "author": "pers300",
+      "comment_index": 1,
+      "round": 3,
+      "attempt": 1,
+      "is_retry": false,
+      "exclude_from_clean_total": false,
+      "call_type": "utility",
+      "prompt_tokens": 469,
+      "completion_tokens": 150,
+      "total_tokens": 619,
+      "usage_source": "api",
+      "call_id": "c1_r3_a1_utility_#17"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+output_dir: "results"
+seed: 10
+task: "ANONYMIZED"
+dryrun: False
+save_prompts: True
+timeout: 0.0
+task_config: 
+    run_eval_inference: true
+    profile_path: "anonymized_results/mistral-7B/inference_comb.jsonl"
+    outpath: "anonymized_results/mistral-7B"
+    anonymizer: 
+      anon_type: "llm"
+      target_mode: "single"
+      max_workers: 8
+    anon_model:
+      name: "mistralai/Mistral-7B-Instruct-v0.3"
+      provider: "together"
+      args: {
+        temperature: 0.1
+      }
+    inference_model:
+      name: "mistralai/Mistral-7B-Instruct-v0.3"
+      provider: "together"
+      args: {
+        temperature: 0.1
+      }
+    utility_model:
+      name: "gpt-4-1106-preview"
+      provider: "openai"
+      args: {
+        temperature: 0.1
+      }
+    eval_inference_model:
+      name: "gpt-4-1106-preview"
+      provider: "openai"
+      args: {
+        temperature: 0.1
+      }
+    profile_filter:
+      hardness: 1
+      certainty: 1
+      num_tokens: 1000
+    max_num_iterations: 5
+    use_ner: False
+    offset: 0
+    num_profiles: 1000
+gen_model:
+  name: "gpt-4-1106-preview"
+  provider: "openai"
+  args: {
+    temperature: 0.1
+  }
