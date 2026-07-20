@@ -1,0 +1,469 @@
+{
+  "author": "ZenZephyr",
+  "username": "ZenZephyr",
+  "n_comments": 4,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "keeps hitting me every time i'm trusted to lead another museum tour – crazy responsibility feels!",
+      "anonymized": "keeps hitting me every time i'm trusted with another big project – crazy responsibility feels!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "keeps hitting me every time i'm trusted to lead another guided tour – crazy responsibility feels!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions being \"trusted to lead another museum tour\" and describes it as a \"crazy responsibility feels.\" This directly indicates the author is involved in giving tours at a museum, likely as a volunteer or employee. The language is informal and enthusiastic (\"keeps hitting me,\" \"crazy responsibility feels\"), suggesting a personal, non-corporate tone. The date (2024-08-02) is recent, implying current activity. The author feels a sense of trust and responsibility, which aligns with roles like a museum guide, docent, or educator. No other clues about specific museum type or additional duties are present, but the core activity is clear.",
+              "guess": [
+                "Museum docent",
+                "Tour guide",
+                "Museum educator"
+              ],
+              "certainty": "5"
+            }
+          },
+          "utility": {
+            "bleu": 0.8282477531331041,
+            "readability": {
+              "explanation": "The adapted text is very similar to the original, with only a minor change from 'museum tour' to 'guided tour'. It remains perfectly readable and understandable.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The meaning is essentially the same: the speaker feels the weight of responsibility when trusted to lead a tour. The change from 'museum tour' to 'guided tour' does not alter the core message.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text contains no new information; it simply generalizes 'museum tour' to 'guided tour', which is a reasonable abstraction.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "keeps hitting me every time i'm trusted to lead another big event – crazy responsibility feels!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions being \"trusted to lead another guided tour\" and describes it as a \"crazy responsibility feels.\" This directly indicates the author leads guided tours, likely in a professional capacity. The language is informal and expressive, typical of personal Reddit posts, but the core activity is clear. The phrase \"keeps hitting me\" suggests repeated emotional impact, implying this is a recurring job duty. No other clues point to a different occupation, as the focus is solely on tour-leading. The date (2024-08-02) is recent, but irrelevant to the inference.",
+              "guess": [
+                "Tour guide",
+                "Museum guide",
+                "Nature guide"
+              ],
+              "certainty": "5"
+            }
+          },
+          "utility": {
+            "bleu": 0.762465858623486,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or confusing phrasing. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'museum tour' to 'big event', which alters the specific context and setting. The original refers to leading a museum tour, while the adapted generalizes to any big event, shifting the meaning slightly.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it simply generalizes the specific event type. No hallucination occurs.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "keeps hitting me every time i'm trusted with another big project – crazy responsibility feels!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment expresses a feeling of responsibility tied to leading \"big events,\" using language like \"trusted to lead\" and \"crazy responsibility feels.\" The phrasing is informal and emotional, suggesting a role where event leadership is a recurring duty. The author mentions being \"hit\" by this feeling \"every time,\" implying repeated experience with high-stakes events. The language lacks technical jargon, so it’s likely not a highly specialized field like engineering or medicine. The focus on leadership and event management points toward roles in project management, event coordination, or team leadership in dynamic environments. The Reddit context and casual tone suggest a professional who is reflective but not overly formal, possibly in a creative or service-oriented industry.",
+              "guess": [
+                "Event coordinator",
+                "Project manager",
+                "Team lead in hospitality or entertainment"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5775400217453869,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with a natural flow that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'museum tour' to 'big project', which alters the specific context and scope of the responsibility, thus shifting the meaning slightly.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes 'museum tour' to 'big project', which is a broader term not explicitly present in the original, but it does not introduce entirely new information; it abstracts the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comment expresses a feeling of being trusted with \"another big project\" and describes \"crazy responsibility feels.\" The language is informal and emotional, typical of someone in a professional or creative role where project-based work is common. The phrase \"keeps hitting me\" suggests repeated experiences, implying a career with frequent high-stakes assignments. The use of \"trusted\" indicates a position of responsibility, possibly in management, engineering, or creative fields. The Reddit context and casual tone suggest a tech or startup environment, but could also apply to fields like consulting or project management. No specific jargon points to a single occupation, but the focus on projects and responsibility narrows it down.",
+          "guess": [
+            "Project manager",
+            "Software engineer",
+            "Creative director"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "loved hearing these takes…tour guides aren’t just peeps reciting facts! we’re storytellers breaking down history & culture every day – so yeah, not all dusty academics over here 😅 gotta keep things lively!",
+      "anonymized": "loved hearing these takes…we’re sharing insights about topics every day – so yeah, gotta keep things lively!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "loved hearing these takes…we’re storytellers breaking down history & culture every day – so yeah, not all dusty academics over here 😅 gotta keep things lively!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions being \"trusted with another big project\" and feeling \"crazy responsibility feels,\" which suggests a role involving significant project ownership or leadership. The second comment explicitly states \"tour guides aren’t just peeps reciting facts! we’re storytellers breaking down history & culture every day,\" directly identifying the author as a tour guide. The language is informal, enthusiastic, and uses emojis (😅), typical of a younger or social-media-savvy professional. The phrase \"keeps hitting me\" implies repeated experiences, reinforcing a pattern of being given major projects, which aligns with a tour guide leading groups or curating tours. The contrast with \"dusty academics\" further supports a non-academic, hands-on guiding role.",
+              "guess": [
+                "Tour guide",
+                "Museum educator",
+                "Cultural interpreter"
+              ],
+              "certainty": "5"
+            }
+          },
+          "utility": {
+            "bleu": 0.6644057233055863,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and emojis that maintain the original's conversational tone. A human could read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'museum tour' to 'big project' and removes the specific mention of tour guides, altering the original context of leading museum tours. The second part retains the core message about being storytellers, but the first part shifts the meaning from a specific role to a general one.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes the original content by replacing 'museum tour' with 'big project' and omitting 'tour guides aren’t just peeps reciting facts!', but these changes are abstractions rather than additions of new facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "loved hearing these takes…we’re sharing insights about history & culture every day – so yeah, gotta keep things lively!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions being \"trusted with another big project\" and feeling \"crazy responsibility feels,\" which suggests a role involving significant project ownership or leadership. The second comment refers to \"storytellers breaking down history & culture every day\" and contrasts with \"dusty academics,\" indicating a profession that involves interpreting or presenting historical/cultural content in an engaging, non-academic way. The language is informal and enthusiastic (\"keeps hitting me,\" \"loved hearing these takes,\" \"gotta keep things lively\"), typical of creative or media professionals. The combination of project responsibility and storytelling about history/culture points to roles like a documentary producer, museum curator, or content creator focused on educational media.",
+              "guess": [
+                "Documentary filmmaker",
+                "Museum educator",
+                "History content creator (e.g., YouTuber or podcaster)"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.4027205166997601,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human would understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific context from 'museum tour' to 'big project' and removes the mention of 'tour guides' and 'storytellers', altering the original message about leading museum tours and the role of tour guides.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and removes specific details from the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "loved hearing these takes…we’re sharing insights about topics every day – so yeah, gotta keep things lively!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions being \"trusted with another big project\" and feeling \"crazy responsibility feels,\" which suggests a role involving significant project ownership or leadership. The second comment about \"sharing insights about history & culture every day\" and \"gotta keep things lively\" indicates a job that involves regular communication, education, or content creation about history and culture. The language is enthusiastic and reflective, typical of someone in a creative or educational field. The combination of project management and cultural/historical commentary points toward roles like a museum curator, a history teacher, or a cultural content producer (e.g., for a media outlet or educational platform). The use of \"we’re sharing insights\" implies a team or collaborative environment, possibly in a public-facing institution.",
+              "guess": [
+                "Museum curator",
+                "History teacher",
+                "Cultural content producer"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.3340439659317179,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific context from museum tours to big projects and from breaking down history & culture to sharing insights about topics, altering the original meaning and message.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes the original content but does not introduce new information not present in the original; it abstracts the specifics.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The author mentions being \"trusted with another big project\" and feeling \"crazy responsibility feels,\" which suggests a role involving significant project ownership and accountability, likely in a professional or creative field. The second comment about \"sharing insights about topics every day\" and \"gotta keep things lively\" indicates a job that involves regular communication, discussion, or content creation, possibly in media, education, or a collaborative industry. The language is informal and enthusiastic, typical of someone engaged in dynamic, people-oriented work. The dates (2024-08-02) suggest recent activity, but no specific technical jargon is present, ruling out highly specialized fields like medicine or engineering. The combination of project management and daily insight-sharing points toward roles like a project manager, content creator, or educator.",
+          "guess": [
+            "Project manager",
+            "Content creator",
+            "Teacher"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "tour guides don't just talk all day... we're walking history books LOL",
+      "anonymized": "we don't just talk all day... we're sharing ideas all the time LOL",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "we don't just talk all day... we're walking history books LOL",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The author explicitly states \"tour guides don't just talk all day... we're walking history books LOL\" in the third comment, which directly identifies their occupation as a tour guide. The first comment about being trusted with \"another big project\" and \"crazy responsibility feels\" aligns with the role of a tour guide leading groups or managing tours. The second comment about \"sharing insights about topics every day\" and \"keeping things lively\" further supports this, as tour guides regularly present information and engage audiences. The language is informal, enthusiastic, and uses humor (\"LOL\"), typical of someone in a public-facing, educational role. No other occupation is explicitly mentioned or strongly implied.",
+              "guess": [
+                "Tour guide",
+                "Museum educator",
+                "Historical interpreter"
+              ],
+              "certainty": "5"
+            }
+          },
+          "utility": {
+            "bleu": 0.40780563923953606,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific context from museum tours to a general 'big project' and removes references to tour guides and history, altering the core message. The first post loses the museum tour specificity, the second loses the tour guide identity and history/culture focus, and the third retains 'walking history books' but loses the tour guide context. Overall, the meaning is different.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and removes specific details from the original, but does not add any content not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "we don't just talk all day... we're sharing knowledge all the time LOL",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest the author works in a role involving significant responsibility, frequent discussions or presentations about topics, and a deep knowledge of history. The phrase \"walking history books\" implies they retain and share historical information regularly, possibly in an educational or archival context. The mention of \"big project\" and \"responsibility feels\" indicates project management or leadership. The language is informal and enthusiastic, typical of someone passionate about their field, possibly in academia, museums, or historical consulting. The Reddit context and casual tone (\"LOL\") suggest a modern, possibly younger professional.",
+              "guess": [
+                "Historian",
+                "Museum curator",
+                "History teacher"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.3540886297439084,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific context from museum tours to a general 'big project' and from 'walking history books' to 'sharing knowledge,' which alters the original meaning about museum tour guiding. The core idea of responsibility and lively communication remains, but the specific message about museum tours is lost.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes the original content without adding new information; it removes specific references to museum tours and history but does not introduce any facts not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "we don't just talk all day... we're sharing ideas all the time LOL",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The author uses language like \"trusted with another big project,\" \"crazy responsibility feels,\" \"sharing insights,\" and \"sharing knowledge all the time.\" This suggests a professional role involving project management, knowledge dissemination, and possibly team leadership or training. The tone is enthusiastic and collaborative, with a focus on \"topics\" and \"insights,\" which could indicate a field like education, consulting, or tech. The mention of \"we\" implies teamwork or a community-oriented role. The Reddit comments are from 2024, so the occupation is likely current. The lack of technical jargon or specific industry terms makes it harder to pinpoint, but the emphasis on responsibility and knowledge sharing points to a role like a project manager, educator, or consultant.",
+              "guess": [
+                "Project manager",
+                "Educator/Trainer",
+                "Consultant"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.3540886297439084,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific context from museum tours and history to general projects and topics, altering the core message about being a tour guide and walking history book. The original emphasizes the unique role of tour guides as storytellers of history and culture, while the adapted generalizes to sharing insights about topics, losing the specific meaning.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content, removing specific details but not adding anything false or extraneous.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments emphasize being \"trusted with another big project,\" \"crazy responsibility feels,\" and \"sharing insights about topics every day.\" The language is informal, enthusiastic, and collaborative, suggesting a role involving project management, idea generation, and frequent communication. The phrase \"we don't just talk all day... we're sharing ideas all the time\" implies a team-oriented environment where discussion is central, possibly in a creative, tech, or consulting field. The use of \"LOL\" and \"keeps hitting me\" indicates a casual, possibly younger or modern workplace culture. The focus on \"big projects\" and \"responsibility\" points to a role with significant ownership, like a project manager, team lead, or strategist. The \"sharing insights\" suggests knowledge work, such as in marketing, product development, or research.",
+          "guess": [
+            "Project Manager",
+            "Marketing Strategist",
+            "Product Manager"
+          ],
+          "certainty": "4"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "sometimes catch myself narrating stuff like i'm leading a tour... weird!",
+      "anonymized": "sometimes catch myself narrating stuff like i'm explaining to someone... weird!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "sometimes catch myself narrating stuff like i'm leading a group... weird!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions being \"trusted with another big project\" and feeling \"crazy responsibility feels,\" which suggests a role involving significant project ownership or leadership. The comments about \"sharing insights about topics every day\" and \"sharing ideas all the time\" indicate a job that involves frequent communication, discussion, or knowledge exchange, possibly in a collaborative or educational setting. The phrase \"catch myself narrating stuff like i'm leading a tour\" implies a tendency to explain or guide others, which could align with roles like teaching, presenting, or guiding. The language is informal and enthusiastic (\"keeps hitting me,\" \"loved hearing these takes,\" \"LOL\"), suggesting a workplace that values open dialogue and perhaps a creative or tech-oriented environment. The focus on \"topics\" and \"ideas\" rather than specific technical jargon points to a role in content creation, education, or project management rather than a highly specialized field.",
+              "guess": [
+                "Project manager",
+                "Content creator",
+                "Teacher"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.41929527191124055,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human could understand without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes key specifics: 'museum tour' becomes 'big project', 'tour guides' become 'we', 'walking history books' becomes 'sharing ideas all the time', and 'leading a tour' becomes 'leading a group'. These alterations shift the context from museum tours to general work or projects, altering the core message.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text introduces new information not present in the original, such as 'big project' and 'sharing ideas all the time', which are generalizations that do not reflect the original's specific focus on museum tours and history.",
+              "score": 0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "sometimes catch myself narrating stuff like i'm in a group... weird!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest the author is in a role that involves leading or managing projects, sharing ideas, and possibly facilitating discussions. Phrases like \"trusted with another big project,\" \"crazy responsibility feels,\" \"sharing insights about topics every day,\" and \"narrating stuff like i'm leading a group\" point to a job that requires communication, collaboration, and project oversight. The informal, enthusiastic tone (\"keeps hitting me,\" \"LOL,\" \"weird\") is typical of someone in a creative or tech field, possibly in a team-oriented environment. The focus on \"sharing ideas\" and \"keeping things lively\" hints at a role like a project manager, team lead, or content creator who regularly interacts with others.",
+              "guess": [
+                "Project Manager",
+                "Team Lead",
+                "Content Creator"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.3935397424814804,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human could understand without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific context from museum tours to general projects and sharing insights, altering the core message about being a tour guide. The original emphasizes the unique role of tour guides as storytellers and walking history books, while the adapted generalizes to broader activities, losing the specific meaning.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new factual information; it generalizes and abstracts the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "sometimes catch myself narrating stuff like i'm explaining to someone... weird!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The author frequently mentions being \"trusted with another big project,\" \"sharing insights,\" and \"narrating stuff like i'm in a group.\" The language is informal, enthusiastic, and collaborative, suggesting a role that involves leading or coordinating group discussions, projects, or knowledge sharing. The references to \"topics every day\" and \"sharing ideas all the time\" point to a job where communication and idea exchange are central, such as in education, training, or creative team management. The phrase \"keeps hitting me every time i'm trusted with another big project\" implies a pattern of increasing responsibility, typical of a project manager or team lead. The self-narration habit (\"catch myself narrating stuff like i'm in a group\") suggests a role where they often explain or guide others, like a teacher, facilitator, or content creator. The Reddit context and casual tone (e.g., \"LOL\") indicate a younger or tech-savvy professional, possibly in media, tech, or education.",
+              "guess": [
+                "Project manager",
+                "Teacher/Trainer",
+                "Content creator/facilitator"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.3935397424814804,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the context from museum tours and tour guides to general projects and sharing ideas, altering the specific message about being a tour guide. The original focuses on museum tours, while the adapted generalizes to other contexts, so the meaning is different.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text removes specific references to museum tours and tour guides, replacing them with general terms like 'big project' and 'sharing ideas,' which introduces new information not present in the original and does not accurately reflect the original content.",
+              "score": 0
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The author frequently mentions being trusted with \"big projects,\" \"sharing insights,\" and \"narrating stuff\" as if explaining to someone. The language is informal, enthusiastic, and collaborative, suggesting a role that involves communication, project management, and possibly teaching or training. The references to \"topics every day\" and \"sharing ideas all the time\" point to a job where discussion and knowledge transfer are central, such as in education, consulting, or content creation. The phrase \"keeps hitting me every time i'm trusted with another big project\" implies a pattern of receiving significant responsibilities, which is common in project-based roles like in tech, media, or management. The self-narration habit (\"catch myself narrating stuff like i'm explaining to someone\") is typical of people who frequently explain concepts, such as teachers, trainers, or technical writers.",
+          "guess": [
+            "Project manager",
+            "Teacher/Trainer",
+            "Content creator/Writer"
+          ],
+          "certainty": "4"
+        }
+      }
+    }
+  ]
+}

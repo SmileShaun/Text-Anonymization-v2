@@ -1,0 +1,169 @@
+{
+  "profiles_count": 30,
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.6291666666666667,
+      "precision": 0.6291666666666667,
+      "recall": 0.6291666666666667,
+      "f1": 0.6291666666666667,
+      "support": 240.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 0.5333333333333333,
+        "precision": 0.5333333333333333,
+        "recall": 0.5333333333333333,
+        "f1": 0.5333333333333333,
+        "support": 30.0
+      },
+      "gender": {
+        "acc": 0.9666666666666667,
+        "precision": 0.9666666666666667,
+        "recall": 0.9666666666666667,
+        "f1": 0.9666666666666667,
+        "support": 30.0
+      },
+      "location": {
+        "acc": 0.16666666666666666,
+        "precision": 0.16666666666666666,
+        "recall": 0.16666666666666666,
+        "f1": 0.16666666666666666,
+        "support": 30.0
+      },
+      "pobp": {
+        "acc": 0.1,
+        "precision": 0.1,
+        "recall": 0.1,
+        "f1": 0.10000000000000002,
+        "support": 30.0
+      },
+      "education": {
+        "acc": 0.9,
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1": 0.9,
+        "support": 30.0
+      },
+      "occupation": {
+        "acc": 0.9,
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1": 0.9,
+        "support": 30.0
+      },
+      "income": {
+        "acc": 0.7333333333333333,
+        "precision": 0.7333333333333333,
+        "recall": 0.7333333333333333,
+        "f1": 0.7333333333333333,
+        "support": 30.0
+      },
+      "married": {
+        "acc": 0.7333333333333333,
+        "precision": 0.7333333333333333,
+        "recall": 0.7333333333333333,
+        "f1": 0.7333333333333333,
+        "support": 30.0
+      }
+    },
+    "overall_accuracy": 0.6291666666666667,
+    "per_pii_type_accuracy": {
+      "age": 0.5333333333333333,
+      "gender": 0.9666666666666667,
+      "location": 0.16666666666666666,
+      "pobp": 0.1,
+      "education": 0.9,
+      "occupation": 0.9,
+      "income": 0.7333333333333333,
+      "married": 0.7333333333333333
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.9037037037037037,
+      "meaning": 0.8074074074074074,
+      "hallucinations": 0.9333333333333333,
+      "mean": 0.8814814814814814
+    },
+    "score_utility": {
+      "bleu": 0.8084398698884976,
+      "rouge": 0.0,
+      "llm_judge": 0.8814814814814814,
+      "mean": 0.5633071171233264
+    }
+  },
+  "evaluated_level": "final_anonymized",
+  "missing_gt_profiles": [],
+  "processed_profiles": [
+    "pers104",
+    "pers12",
+    "pers121",
+    "pers13",
+    "pers174",
+    "pers182",
+    "pers191",
+    "pers193",
+    "pers20",
+    "pers206",
+    "pers22",
+    "pers226",
+    "pers232",
+    "pers240",
+    "pers25",
+    "pers251",
+    "pers252",
+    "pers27",
+    "pers284",
+    "pers31",
+    "pers33",
+    "pers35",
+    "pers36",
+    "pers37",
+    "pers38",
+    "pers39",
+    "pers5",
+    "pers6",
+    "pers7",
+    "pers87"
+  ],
+  "final_rounds": {
+    "pers104": 3,
+    "pers12": 3,
+    "pers121": 3,
+    "pers13": 3,
+    "pers174": 3,
+    "pers182": 3,
+    "pers191": 3,
+    "pers193": 3,
+    "pers20": 3,
+    "pers206": 3,
+    "pers22": 3,
+    "pers226": 3,
+    "pers232": 3,
+    "pers240": 3,
+    "pers25": 3,
+    "pers251": 3,
+    "pers252": 3,
+    "pers27": 3,
+    "pers284": 3,
+    "pers31": 3,
+    "pers33": 3,
+    "pers35": 3,
+    "pers36": 3,
+    "pers37": 3,
+    "pers38": 3,
+    "pers39": 3,
+    "pers5": 3,
+    "pers6": 3,
+    "pers7": 3,
+    "pers87": 3
+  },
+  "eval_models": {
+    "inference_model": "deepseek-chat",
+    "judge_model": "deepseek-chat",
+    "utility_model": "deepseek-chat",
+    "decider": "model"
+  },
+  "input_root": "/home/zxz/text-anonymization/baseline/llm-anonymization-v2/results/a_deepseek-chat_i_deepseek-chat",
+  "baseline_repo": "/home/zxz/text-anonymization/baseline/llm-anonymization-v2"
+}

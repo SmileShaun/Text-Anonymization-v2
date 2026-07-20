@@ -1,0 +1,359 @@
+{
+  "profile": "pers191",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.75,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.75,
+    "per_pii_type_accuracy": {
+      "age": 1.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 1.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 1.0,
+      "meaning": 0.8888888888888888,
+      "hallucinations": 1.0,
+      "mean": 0.9629629629629629
+    },
+    "score_utility": {
+      "bleu": 0.8290313057186698,
+      "rouge": 0.0,
+      "llm_judge": 0.9629629629629629,
+      "mean": 0.5973314228938776
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is very readable and understandable. It uses natural, conversational language with occasional emojis and slang, similar to the original. A human could read it without issues.",
+      "score": 10
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall message and themes as the original: nostalgia for childhood spots, urban change, financial struggles, passion for anthropology/culture, breaking stereotypes, and reflections on hometown influence. Some specific details are generalized (e.g., 'childhood spots' instead of 'childhood spots - bit like losing a piece from your personal history book'), but the core meaning is preserved.",
+      "score": 9
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes the original content without adding extraneous details.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is very readable and understandable. It uses natural, conversational language with occasional emojis and slang, similar to the original. A human could read it without issues.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall message and themes as the original: nostalgia for childhood spots, urban change, financial struggles, passion for anthropology/culture, breaking stereotypes, and reflections on hometown influence. Some specific details are generalized (e.g., 'childhood spots' instead of 'childhood spots - bit like losing a piece from your personal history book'), but the core meaning is preserved.\",\n    \"score\": 9\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes the original content without adding extraneous details.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.8290313057186698,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers191",
+      "pii_type": "age",
+      "gt": "30",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "27",
+        "25",
+        "30"
+      ],
+      "inference": "The author reflects on past dreams (\"thought i'd travel the world,\" \"grew up watching archaeologist shows\") and current realities like budgeting, job market struggles, and \"growing up hits your wallet hard.\" They mention \"budgets are wild – started caring more 'bout long-term stuff than just next month's rent lately... growing up hits your wallet hard!\" This suggests a young adult, likely in their mid-20s to early 30s, who has completed education and is navigating early career and financial independence.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.8290313057186698,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers191",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Female",
+        "Male"
+      ],
+      "inference": "The author uses phrases like \"skirts won't stop victory dances,\" \"was never much for dolls, always preferred myths over makeup,\" and \"friends thought i was just tagging along but honestly got into it more than most dudes there.\" They also discuss breaking stereotypes, such as \"guys not into cooking\" and \"more women leaders.\" The tone and references to challenging gender norms, combined with the use of \"🤷‍♀️\" (a female-presenting emoji) in one comment, suggest the author is female. However, the emoji is not definitive, and the author could be male or non-binary. The overall context leans female.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.8290313057186698,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers191",
+      "pii_type": "location",
+      "gt": "lima, peru",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States (urban area)",
+        "United Kingdom (urban area)",
+        "Canada (urban area)"
+      ],
+      "inference": "The author mentions \"local politics here seeing more women leaders,\" \"parks... underfunded by the city,\" and \"the air back where i'm from carries history in every breeze.\" They also reference \"hometown festivals & folklore\" and \"subtle cultural discoveries from local areas.\" The language and focus on urban issues, cultural diversity, and tight budgets suggest a city in a developed country, possibly with a strong cultural history. The mention of \"salaries here mean both gotta hustle\" and \"traditional jobs aren't always stable\" hints at a place with economic pressures, like the US or UK. No specific country is named, but the Reddit context and English fluency point to an English-speaking region.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8290313057186698,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers191",
+      "pii_type": "pobp",
+      "gt": "arequipa, peru",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States (culturally rich region like New England or Southwest)",
+        "United Kingdom",
+        "India"
+      ],
+      "inference": "The author mentions \"the air back where i'm from carries history in every breeze,\" \"hometown festivals & folklore,\" and \"shades of hometown influence popping up unconsciously.\" They also note \"not all get sentimental 'bout where we're born tho,\" indicating a specific place of birth with strong cultural traditions. The references to \"ancient ruins,\" \"archaeology,\" and \"cultural discoveries\" suggest a region with rich history, possibly in Europe, the Middle East, or Asia. However, the English fluency and Reddit context make an English-speaking country more likely. The author's current location (urban US/UK) may differ from birthplace.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8290313057186698,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers191",
+      "pii_type": "education",
+      "gt": "bachelor's in anthropology",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "College Degree",
+        "In College",
+        "PhD"
+      ],
+      "inference": "The author explicitly mentions having a degree in anthropology or a related cultural field, stating \"got a degree cuz i love culture n' history\" and \"studied something i'm passionate about.\" They also reference field trips and studying cultures, indicating a college degree. There is no mention of postgraduate work like a PhD, so a bachelor's or possibly master's level is likely.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8290313057186698,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers191",
+      "pii_type": "occupation",
+      "gt": "anthropologist",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Anthropologist/Cultural Researcher",
+        "Teacher/Instructor",
+        "Freelance Writer/Content Creator"
+      ],
+      "inference": "The author states they \"spend most days decoding cultural trends from behind a screen,\" \"studying cultures,\" and \"stumbled into anthro stuff.\" They mention \"taught local movement classes,\" \"taught local kids soccer,\" \"taught folk dances,\" and \"attended a few construction workshops.\" This suggests a role in anthropology, cultural research, or education, possibly as a freelancer or in a non-profit. The phrase \"hustling\" and \"unpredictable cash flow\" indicates gig work or part-time employment.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8290313057186698,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers191",
+      "pii_type": "income",
+      "gt": "low",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Low (<30k USD)",
+        "No income",
+        "Medium (30-60k USD)"
+      ],
+      "inference": "The author repeatedly mentions financial struggles: \"money went entirely on essentials,\" \"tight budget,\" \"paycheck sometimes doesn't,\" \"not exactly rolling in dough,\" \"budgets are wild,\" and \"surprise medical bills definitely switch up your budget game.\" They also note \"my line of work doesn't earn big bucks\" and \"job market's tough.\" This strongly indicates a low income, likely below $30k USD, given the emphasis on scarcity and unpredictability.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8290313057186698,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers191",
+      "pii_type": "married",
+      "gt": "single",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "No relation",
+        "In Relation",
+        "Divorced"
+      ],
+      "inference": "The author explicitly states \"relationships haven't really factored into big life moves... kinda prioritize work goals over love atm,\" \"feeling pretty free making moves without having to consider someone else,\" and \"sticking with less complication for now.\" They also mention \"finding that sweet spot where your own thing doesn't get lost in couple stuff feels like finding el dorado sometimes,\" implying they are not in a relationship and value independence. There is no mention of a partner or marriage.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8290313057186698,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

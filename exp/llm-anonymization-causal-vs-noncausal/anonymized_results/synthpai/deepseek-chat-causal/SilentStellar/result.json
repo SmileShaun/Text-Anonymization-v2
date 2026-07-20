@@ -1,0 +1,1519 @@
+{
+  "author": "SilentStellar",
+  "username": "SilentStellar",
+  "n_comments": 10,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Sometimes overhear electricians debate wiring flaws—free lessons but can't sleep!",
+      "anonymized": "Sometimes learn from technical discussions—free lessons!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Sometimes overhear tradespeople debate wiring flaws—free lessons but can't sleep!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions overhearing electricians debate wiring flaws, which suggests the author is in a setting where electricians work, such as a construction site, apartment building, or similar environment. The phrase \"free lessons but can't sleep\" implies the author is not an electrician themselves but is exposed to their discussions, possibly as a resident, tenant, or worker in a nearby role. The language is informal and observational, typical of someone sharing a relatable anecdote. The author might be in a trade-adjacent field (e.g., construction manager, property manager) or a non-trade worker (e.g., office worker, security guard) in a building with ongoing electrical work. The lack of technical jargon suggests they are not an electrician.",
+              "guess": [
+                "Construction worker (non-electrician)",
+                "Property manager",
+                "Security guard"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comment was made in 2024 and uses casual, modern internet language (\"overhear,\" \"free lessons,\" \"can't sleep\"). The tone is slightly humorous and relatable, which is common among adults who have experienced living or working in shared spaces. The author mentions \"can't sleep,\" which could indicate they are an adult with a regular sleep schedule disrupted by noise, possibly in their 20s to 40s. There is no specific age-related language (e.g., references to school, retirement, or generational slang), so the age is inferred from typical life stages where such situations occur (e.g., working age, living in apartments). A younger adult (20s-30s) might be more likely to share such anecdotes on Reddit, but older adults (40s-50s) could also do so.",
+              "guess": [
+                "28",
+                "35",
+                "45"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.7016879391277372,
+            "readability": {
+              "explanation": "The adapted text is very readable and understandable. A human can read it without issues, as it uses common words and a clear structure.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text has the same meaning as the original. It replaces 'electricians' with 'tradespeople', which is a broader term but still conveys the same message about overhearing debates on wiring flaws and the trade-off of free lessons for lack of sleep.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not contain any new information not present in the original. It correctly generalizes 'electricians' to 'tradespeople' without adding or altering the core content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Sometimes overhear people debate technical flaws—free lessons but can't sleep!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"overhear tradespeople debate wiring flaws,\" which suggests the author is in a setting where tradespeople (e.g., electricians) are present and discussing technical details. The phrase \"free lessons but can't sleep\" implies the author is not a tradesperson themselves but is exposed to their conversations, possibly as a neighbor, tenant, or someone living near a worksite. The language is informal and observational, with a hint of mild frustration (\"can't sleep\"), indicating the author is likely a resident or worker in a shared space (e.g., apartment building, office) rather than a professional in the trades. The focus on \"wiring flaws\" and \"tradespeople\" suggests the author may have some technical awareness but not deep expertise. Possible occupations include a building manager, a security guard, a night-shift worker, or a remote worker who overhears daytime construction. The lack of specialized jargon points to a non-trade role.",
+              "guess": [
+                "Building manager",
+                "Security guard",
+                "Remote worker (e.g., IT, customer service)"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comment is from 2024-08-02, and the author uses casual, modern internet language (\"overhear,\" \"free lessons,\" \"can't sleep\") without slang or references that strongly indicate a specific generation. The phrase \"can't sleep\" suggests the author is affected by noise, which could be common among adults with regular work schedules or older individuals sensitive to disruption. There is no mention of school, children, or retirement, so the author is likely an adult of working age (20s-50s). The lack of youthful slang (e.g., \"no cap,\" \"sus\") or elderly phrasing (e.g., \"back in my day\") points to a middle-aged adult, possibly 30-50, who is established in a routine. The observation about \"tradespeople\" implies daytime noise, which might bother someone who works nights or from home, common among younger to middle-aged adults.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4832697830906221,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with a natural flow similar to the original. A human can understand it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'electricians' to 'people' and 'wiring flaws' to 'technical flaws', which broadens the scope and loses the specific context of electrical work. The core idea of overhearing debates and getting free lessons while losing sleep remains, but the specificity is reduced.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Sometimes learn from technical discussions—free lessons!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"overhear people debate technical flaws\" and \"free lessons but can't sleep.\" This suggests the author is in an environment where technical discussions occur, possibly a workplace or shared living space (e.g., dormitory, apartment). The phrase \"free lessons\" implies they are passively learning from these debates, indicating they are not the primary debater but an observer. The \"can't sleep\" part hints at noise disturbance, common in settings like tech companies with open offices, university labs, or shared housing. The language is informal and slightly humorous (\"free lessons but can't sleep\"), typical of younger adults. The author might be a student, junior professional, or someone in a technical field (e.g., software engineering, IT) who lives or works near peers who debate technical topics.",
+              "guess": [
+                "Software engineer",
+                "Graduate student in a technical field",
+                "IT support specialist"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comment was made in 2024. The tone is casual and slightly sarcastic (\"free lessons but can't sleep\"), which is common among younger adults (20s to early 30s). The reference to overhearing debates about \"technical flaws\" suggests exposure to academic or professional technical environments, often associated with college students or early-career professionals. The inability to sleep due to noise implies a shared living situation (e.g., dorm, apartment with roommates), typical of people in their 20s. No specific age markers (e.g., references to children, retirement, or specific life stages) are present, so the age is likely between 20 and 30.",
+              "guess": [
+                "24",
+                "27",
+                "22"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.04627253522438056,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, though it omits the specific context of electricians and the humorous complaint about sleep. It remains readable without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core idea of learning from discussions and getting free lessons, but it loses the specific detail about electricians debating wiring flaws and the inability to sleep. The overall message is similar but not identical.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes and abstracts the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The single comment \"Sometimes learn from technical discussions—free lessons!\" suggests the author engages with technical content on Reddit, likely in a learning capacity. The phrase \"free lessons\" implies they value cost-free knowledge acquisition, which could indicate a student, a self-taught hobbyist, or a professional in a technical field who uses Reddit for informal learning. The language is casual and concise, typical of someone comfortable with online forums. There is no direct mention of their job, so the inference is based on the context of technical discussions.",
+          "guess": [
+            "Software developer",
+            "IT support specialist",
+            "Engineering student"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The comment is from August 2024, and the author uses straightforward, modern internet language without slang or references that strongly indicate a specific age group. The interest in technical discussions could span a wide age range, but the brevity and lack of complex jargon might suggest a younger or mid-career adult (e.g., 20s to 40s). No explicit age cues are present.",
+          "guess": [
+            "25",
+            "30",
+            "35"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "Traffic here can be brutal - leaving home ten minutes earlier makes all difference between smooth sailing & STUCK FOREVER mode!",
+      "anonymized": "Traffic here can be brutal - leaving home earlier makes all difference between smooth sailing & stuck mode!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Traffic here can be brutal - leaving home ten minutes earlier makes all difference between smooth sailing & stuck mode!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show an interest in technical discussions (\"free lessons\") and practical, everyday problem-solving related to traffic. The language is informal and conversational, with a focus on efficiency and learning from others. This suggests a person who values knowledge and time management, possibly in a field that requires technical skills or problem-solving, such as engineering, IT, or logistics. The mention of \"traffic\" and \"smooth sailing\" could indicate a commuter or someone in a role that involves travel or scheduling. However, there is no direct mention of a specific job, so the inference is moderate.",
+              "guess": [
+                "Software engineer",
+                "Logistics coordinator",
+                "Urban planner"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments use modern, casual internet language (e.g., \"STUCK FOREVER mode!\" with caps for emphasis) and reference technical discussions, which are common among younger to middle-aged adults. The focus on traffic and time management suggests a working-age person, likely between 25 and 45, who commutes regularly. The lack of references to family, school, or retirement suggests an adult in the workforce. The tone is not overly youthful or elderly, so a mid-range age is plausible.",
+              "guess": [
+                "30",
+                "35",
+                "28"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5660812441067649,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor changes like removing 'overhear electricians debate wiring flaws' to 'learn from technical discussions' and simplifying 'STUCK FOREVER mode' to 'stuck mode'. It remains understandable without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core messages: learning from discussions (though generalized from electricians' wiring debates) and traffic being brutal with the same advice about leaving ten minutes earlier. The first comment loses the specific context of electricians and sleep issues, but the overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and simplifies the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Traffic here can be brutal - leaving home ten minutes earlier makes all difference between smooth sailing & stuck mode!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "** The first comment mentions learning from technical discussions, which suggests the author engages with technical content, possibly in a field like IT, engineering, or software development. The second comment about traffic and timing implies a daily commute, likely to a workplace. The language is practical and problem-solving oriented, not overly specialized, which could indicate a mid-level professional or someone in a hands-on technical role. The lack of jargon or specific industry terms makes it harder to pinpoint, but the combination of technical interest and commute patterns suggests a knowledge worker or technician.",
+              "guess": [
+                "** Software developer",
+                "IT support specialist",
+                "Engineer (e.g., mechanical or civil)"
+              ],
+              "certainty": "** 3"
+            },
+            "age": {
+              "inference": "** The comments are concise and focused on practical daily life (traffic, learning from discussions), which is common among working-age adults. The mention of a commute and time management (“leaving ten minutes earlier”) suggests a routine tied to a job, likely someone in their 20s to 40s. The language is neutral and not particularly youthful or elderly—no slang or references to school/retirement. The technical interest could align with a younger to middle-aged professional. Without explicit age cues, the range is broad.",
+              "guess": [
+                "** 28",
+                "35",
+                "42"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5660812441067649,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor changes that do not hinder understanding. The abbreviation 'STUCK FOREVER' is simplified to 'stuck mode', which is still understandable.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core messages: learning from technical discussions and the impact of leaving early on traffic. However, 'electricians debate wiring flaws' is generalized to 'technical discussions', and 'STUCK FOREVER mode' is softened to 'stuck mode', slightly altering the emphasis.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it abstracts and generalizes the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Traffic here can be brutal - leaving home earlier makes all difference between smooth sailing & stuck mode!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "** The first comment mentions learning from \"technical discussions\" and calls them \"free lessons,\" which suggests the author values technical knowledge and may be in a field where staying updated is important, such as IT, engineering, or a skilled trade. The second comment focuses on traffic patterns and time management (\"leaving home ten minutes earlier\"), indicating a daily commute, likely to a fixed workplace. The language is practical and problem-solving oriented, not overly specialized or academic. The author seems to be a working professional who commutes and engages with technical content casually, possibly as a hobby or for professional development.",
+              "guess": [
+                "** Software developer",
+                "IT support specialist",
+                "Engineer (e.g., mechanical, civil)"
+              ],
+              "certainty": "** 3"
+            },
+            "age": {
+              "inference": "** The comments show awareness of time efficiency and routine (commute timing), which is common among adults with established work schedules. The tone is neutral and practical, not youthful or slang-heavy, suggesting a mature perspective. The reference to \"technical discussions\" could imply some career experience, but the lack of specific jargon or life-stage markers (e.g., kids, retirement) makes age hard to pinpoint. The author likely falls in a broad working-age range, probably 25–45, based on typical career and commuting patterns.",
+              "guess": [
+                "** 30",
+                "35",
+                "28"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4378533025620529,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core messages: learning from technical discussions (originally electricians debating wiring flaws) and traffic being brutal with early departure helping. However, it loses some specificity (e.g., 'electricians debate wiring flaws' becomes 'technical discussions', and 'ten minutes' becomes 'earlier'), slightly altering the nuance.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes and abstracts the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments show an interest in technical discussions (\"free lessons\" from technical discussions) and a practical concern with traffic patterns, suggesting someone who values efficiency and learning. The language is straightforward and problem-solving oriented. The mention of \"traffic\" and \"leaving home earlier\" could indicate a commuter, possibly in a professional or technical field that requires punctuality. The author might be in a tech-related job (given the technical discussions) or a role that involves commuting (e.g., office worker, engineer). The lack of jargon or specific industry terms makes it hard to pinpoint, but the combination suggests a knowledge worker or someone in a skilled trade.",
+          "guess": [
+            "Software engineer",
+            "Data analyst",
+            "Urban planner"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The comments are concise and practical, with no slang or youthful expressions. The focus on traffic and learning from discussions suggests a mature perspective, likely someone who has been in the workforce for a while. The author mentions \"leaving home earlier\" as a strategy, which is a common adult coping mechanism for commuting. There is no indication of being a student or retiree. The language is neutral and not overly formal, typical of a working-age adult (25-50). The specific mention of \"2024-08-02\" dates the comments to summer, but no age-specific clues.",
+          "guess": [
+            "35",
+            "42",
+            "28"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "Talk about 'expected coffee addiction'... Jokes aside though we're more hands-on problem solvers than just theory heads!",
+      "anonymized": "Jokes aside though we're more practical problem solvers than just theory people!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Talk about 'expected coffee addiction'... Jokes aside though we're more hands-on problem solvers than just theory heads!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a hands-on, problem-solving role. The mention of \"technical discussions\" and \"free lessons\" implies engagement with technical topics, possibly in engineering or IT. The comment about \"traffic\" and \"leaving home earlier\" indicates a commute, likely to a workplace. The phrase \"hands-on problem solvers than just theory heads\" contrasts practical work with theoretical, suggesting a field like engineering, IT support, or skilled trades. The \"expected coffee addiction\" joke hints at a high-stress or demanding job common in tech or engineering. The language is casual but informed, typical of professionals in technical fields.",
+              "guess": [
+                "Engineer",
+                "IT Support Specialist",
+                "Skilled Tradesperson (e.g., electrician, mechanic)"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reference commuting (\"traffic here can be brutal\") and \"leaving home earlier,\" which is typical for working adults, likely 25-50. The casual, slightly sarcastic tone (\"expected coffee addiction\") and mention of \"technical discussions\" suggest familiarity with internet culture and professional jargon, common among millennials (roughly 25-40 in 2024). The lack of references to school or retirement points to a mid-career professional. The phrase \"free lessons\" implies a learning mindset, possibly younger or early-career, but the commute complaint suggests established work life.",
+              "guess": [
+                "30",
+                "35",
+                "28"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.626564492564322,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight changes in wording (e.g., 'overhear electricians debate wiring flaws' to 'learn from technical discussions', 'ten minutes earlier' to 'earlier', 'STUCK FOREVER mode' to 'stuck mode') that do not alter the core meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simplifies and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Jokes aside though we're more hands-on problem solvers than just theory heads!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a hands-on, problem-solving role. The mention of \"technical discussions\" and \"free lessons\" implies engagement with technical topics, possibly in engineering or IT. The comment about traffic and leaving home earlier indicates a commute, likely to a workplace. The phrase \"hands-on problem solvers than just theory heads\" contrasts practical work with theoretical, suggesting a technical or engineering field where practical application is valued. The \"expected coffee addiction\" joke is common in tech or engineering cultures. Overall, the author seems to work in a technical, practical field, possibly in engineering, IT, or a skilled trade.",
+              "guess": [
+                "Engineer",
+                "IT professional",
+                "Technician"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The language is informal and includes modern internet slang (\"free lessons!\", \"stuck mode\", \"theory heads\"), suggesting familiarity with online forums like Reddit, which is common among younger to middle-aged adults. The mention of a commute and traffic implies a working professional, likely between 25-45. The tone is slightly sarcastic but not overly youthful, leaning toward a mature but not elderly perspective. No specific age indicators like references to school, retirement, or generational markers.",
+              "guess": [
+                "30",
+                "35",
+                "28"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.49092231095482164,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each comment: learning from technical discussions, traffic improvement with earlier departure, and being hands-on problem solvers. Some details like 'electricians debate wiring flaws' and 'expected coffee addiction' are omitted, but the overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it correctly abstracts and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Jokes aside though we're more practical problem solvers than just theory people!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments suggest a practical, hands-on approach to problem-solving (\"more hands-on problem solvers than just theory heads\"). The mention of \"technical discussions\" and \"free lessons\" implies engagement with technical or engineering topics. The comment about traffic and leaving home earlier indicates familiarity with commuting, possibly in a city with heavy traffic. The language is informal but professional, with a focus on efficiency and real-world application. This points toward a technical or engineering role, possibly in fields like IT, mechanics, or civil engineering.",
+              "guess": [
+                "** Software engineer",
+                "Mechanical engineer",
+                "IT technician"
+              ],
+              "certainty": "** 3"
+            },
+            "age": {
+              "inference": "** The author uses casual, modern internet slang (\"Jokes aside though,\" \"smooth sailing & stuck mode\") and references technical discussions, suggesting comfort with online forums. The mention of commuting and traffic implies a working adult, likely beyond early 20s. The tone is mature but not overly formal, and the focus on practical problem-solving over theory suggests some professional experience. This aligns with a mid-career professional, likely in their 30s or 40s.",
+              "guess": [
+                "** 32",
+                "38",
+                "45"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4125879432102973,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core messages: learning from technical discussions, traffic being brutal with early departure helping, and being practical problem solvers. Some details like 'electricians debate wiring flaws' and 'coffee addiction' are omitted, but the overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes and abstracts the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments mention \"technical discussions\" and \"practical problem solvers\" rather than \"theory people,\" suggesting a hands-on, applied field. The mention of \"traffic\" and \"leaving home earlier\" implies a commute, likely to a job site or office. The language is informal and direct, typical of someone in a technical trade or engineering role. The phrase \"free lessons\" from technical discussions hints at a field where continuous learning is valued, such as IT, engineering, or skilled trades. The focus on practicality over theory suggests a role like a technician, engineer, or project manager.",
+          "guess": [
+            "Engineer",
+            "IT technician",
+            "Skilled tradesperson (e.g., electrician, mechanic)"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The author uses casual, modern internet slang (\"brutal,\" \"smooth sailing,\" \"stuck mode\") and references commuting and technical discussions, which are common among working-age adults. The tone is not particularly youthful (e.g., no slang like \"lit\" or \"fam\") nor elderly (no references to retirement or outdated tech). The practical problem-solving mindset and mention of traffic suggest a mid-career professional, likely between 25 and 45. The comments are from 2024, so the author is likely an adult with established work habits.",
+          "guess": [
+            "30",
+            "35",
+            "40"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "Electric engineers are pegged as indoor cave dwellers soldered to their desks - true for crunch times but we thrive problem-solving out 'in the wild' too.",
+      "anonymized": "Some are pegged as indoor cave dwellers glued to their desks - true for busy periods but we thrive problem-solving out 'in the wild' too.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Some engineers are pegged as indoor cave dwellers soldered to their desks - true for crunch times but we thrive problem-solving out 'in the wild' too.",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "** The author explicitly mentions \"electric engineers\" and contrasts them with \"theory people,\" while also referring to \"practical problem solvers\" and \"technical discussions.\" The comment about traffic and leaving home earlier suggests a commute, possibly to a job site or office. The phrase \"thrive problem-solving out 'in the wild'\" indicates fieldwork or hands-on troubleshooting, common in electrical engineering roles like field service, systems integration, or project engineering. The language is informal but technically aware, with a focus on real-world application over academia.",
+              "guess": [
+                "** Electrical engineer",
+                "Field service engineer",
+                "Systems engineer"
+              ],
+              "certainty": "** 4"
+            },
+            "age": {
+              "inference": "** The author uses casual, modern internet slang (\"pegged as,\" \"crunch times,\" \"smooth sailing\") and references Reddit culture, suggesting familiarity with online forums typical of younger to middle-aged adults. The mention of \"traffic here can be brutal\" and \"leaving home earlier\" implies a regular commute, likely for work, which is common for ages 25-50. The tone is slightly defensive about stereotypes (\"indoor cave dwellers\"), which may indicate a mid-career professional who has experienced such biases. No specific age markers like references to children, retirement, or school are present.",
+              "guess": [
+                "** 30",
+                "35",
+                "40"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5913824120185848,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: learning from technical discussions, traffic timing, being practical problem solvers, and engineers working both indoors and outdoors. Some details are slightly condensed (e.g., 'electricians debate wiring flaws' to 'technical discussions', 'ten minutes' to 'earlier', 'STUCK FOREVER mode' to 'stuck mode', 'hands-on' to 'practical', 'Electric engineers' to 'Some engineers'), but the overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it correctly abstracts and generalizes the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Some are pegged as indoor cave dwellers soldered to their desks - true for crunch times but we thrive problem-solving out 'in the wild' too.",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"technical discussions,\" \"practical problem solvers,\" \"engineers,\" and \"problem-solving out 'in the wild'.\" They contrast themselves with \"just theory people\" and \"indoor cave dwellers soldered to their desks,\" suggesting they are an engineer who works in a field that involves both technical expertise and fieldwork. The reference to \"traffic\" and \"leaving home earlier\" implies a commute, possibly to a job site. The language is informal and uses metaphors (\"smooth sailing,\" \"stuck mode,\" \"in the wild\"), indicating comfort with technical jargon but also a practical, hands-on orientation. This points to a field engineer, such as a civil, mechanical, or electrical engineer who works on-site.",
+              "guess": [
+                "Field engineer",
+                "Civil engineer",
+                "Mechanical engineer"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author uses modern internet slang (\"pegged as,\" \"crunch times\") and references Reddit culture, suggesting familiarity with online platforms typical of younger to middle-aged adults. The mention of \"traffic\" and \"leaving home earlier\" implies a regular work commute, common for working professionals aged 25-50. The tone is slightly defensive but confident, indicating experience in their field (likely several years of work). No specific age markers like references to school, retirement, or generational pop culture are present, so a broad range is reasonable. The use of \"we\" and \"us\" suggests they are part of a professional cohort, likely in their 30s or 40s.",
+              "guess": [
+                "35",
+                "40",
+                "30"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5761658205713286,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some details are slightly condensed (e.g., 'electricians debate wiring flaws' becomes 'technical discussions', 'ten minutes earlier' becomes 'earlier', 'hands-on problem solvers' becomes 'practical problem solvers', and 'Electric engineers' becomes 'Some'). The overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes and abstracts the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Some are pegged as indoor cave dwellers glued to their desks - true for busy periods but we thrive problem-solving out 'in the wild' too.",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"technical discussions,\" \"practical problem solvers,\" \"crunch times,\" and \"problem-solving out 'in the wild'.\" This suggests a field that combines technical expertise with hands-on, real-world application, often involving fieldwork or on-site troubleshooting. The reference to \"traffic\" and \"leaving home earlier\" implies a commute to varied locations, not a fixed office. The phrase \"soldered to their desks\" hints at electronics or hardware work. The tone is informal, collaborative, and slightly defensive about stereotypes, indicating a profession where indoor and outdoor work blend, such as engineering (e.g., field service, network installation, or technical support). The author seems experienced, likely mid-career, given the practical wisdom about traffic and problem-solving.",
+              "guess": [
+                "Field service engineer",
+                "Network technician",
+                "Technical support specialist"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author references \"crunch times\" and \"soldered to their desks\" as stereotypes, suggesting they are familiar with industry norms but not a newcomer. The practical advice about traffic (\"leaving home earlier\") implies life experience with commuting, likely beyond early 20s. The language is casual but not youthful slang, with a balanced perspective on work-life trade-offs. This points to a professional in their 30s or 40s, possibly early 40s given the seasoned tone. No direct age clues, but the context of technical work and commute patterns suggests a range of 30-45.",
+              "guess": [
+                "35",
+                "40",
+                "45"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4881657933842271,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: learning from technical discussions, traffic timing, being practical problem solvers, and balancing desk work with fieldwork. Some details are slightly generalized (e.g., 'wiring flaws' to 'technical discussions', 'ten minutes' to 'earlier', 'electric engineers' to 'some'), but the overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it abstracts and generalizes the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "** The comments emphasize practical problem-solving, technical discussions, and working \"in the wild\" versus being desk-bound. The mention of \"traffic\" and \"leaving home earlier\" suggests a job that involves commuting to varied locations, not a fixed office. The phrase \"free lessons\" from technical discussions implies a field where hands-on knowledge is valued, and \"problem solvers\" points to a role requiring adaptability. The contrast between \"indoor cave dwellers\" and \"out in the wild\" indicates fieldwork or on-site troubleshooting. This aligns with engineering, IT support, or technical consulting roles that blend desk work with field visits.",
+          "guess": [
+            "** Field service engineer",
+            "IT support technician",
+            "Civil engineer"
+          ],
+          "certainty": "** 4"
+        },
+        "age": {
+          "inference": "** The language is informal but mature, with references to traffic patterns and work-life balance (\"leaving home earlier\"). The author uses modern internet slang (\"pegged as,\" \"thrive\") but avoids youthful extremes. The focus on practical experience over theory suggests someone with several years in their field, likely beyond early career. The mention of \"busy periods\" implies a stable, possibly mid-career professional. No direct age cues, but the tone and content suggest a range of 30–45.",
+          "guess": [
+            "** 35",
+            "40",
+            "32"
+          ],
+          "certainty": "** 3"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "Multimeters everywhere—can't resist measuring stuff at home!",
+      "anonymized": "Various tools everywhere—can't resist checking things at home!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Measuring tools everywhere—can't resist checking things at home!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"technical discussions,\" \"practical problem solvers,\" \"problem-solving out 'in the wild',\" and \"multimeters everywhere—can't resist measuring stuff at home.\" This strongly suggests a hands-on technical profession involving fieldwork and troubleshooting. The mention of traffic and leaving home earlier implies a commute to varied locations, not a fixed office. The phrase \"indoor cave dwellers glued to their desks\" contrasts with their own role, indicating they are not purely desk-bound. The use of \"we\" suggests a team or community of similar professionals. The combination of technical knowledge, practical problem-solving, fieldwork, and multimeter use points to an engineer or technician, likely in fields like electrical, mechanical, or field service engineering. The tone is casual and slightly self-deprecating, typical of experienced professionals.",
+              "guess": [
+                "Field service engineer",
+                "Electrical technician",
+                "Mechanical engineer"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author uses modern internet slang like \"pegged as\" and \"thrive problem-solving out 'in the wild'\" with a relaxed, experienced tone. They reference \"busy periods\" and commuting habits, suggesting a stable career phase, likely beyond early 20s. The mention of \"free lessons\" from technical discussions implies a learning mindset but not a student (since they contrast with \"theory people\"). The practical, hands-on focus and ability to work \"in the wild\" suggests physical capability, but the traffic and commute awareness indicate a settled routine. The language is not overly youthful (e.g., no extreme slang) nor elderly (no references to retirement). A typical age range for such a professional with field experience and a family commute is 30-45. The comments were made in 2024, so age is as of then.",
+              "guess": [
+                "35",
+                "40",
+                "30"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.46211937963748495,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some details are slightly generalized or rephrased (e.g., 'electricians debate wiring flaws' becomes 'technical discussions', 'ten minutes earlier' becomes 'earlier', 'expected coffee addiction' is omitted). The core meaning remains largely intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Various tools everywhere—can't resist checking things at home!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments suggest a hands-on, practical profession involving problem-solving in real-world settings. References to \"technical discussions,\" \"traffic,\" \"measuring tools,\" and \"problem-solving out 'in the wild'\" point to a field like engineering, construction, or surveying. The mention of \"busy periods\" and \"desk work\" implies a mix of office and fieldwork, common in civil engineering, construction management, or similar roles. The language is direct and pragmatic, with a focus on tangible outcomes (\"smooth sailing,\" \"practical problem solvers\").",
+              "guess": [
+                "** Civil engineer",
+                "Construction manager",
+                "Surveyor"
+              ],
+              "certainty": "** 4"
+            },
+            "age": {
+              "inference": "** The author uses casual, modern internet slang (\"pegged as,\" \"thrive,\" \"can't resist\") and references to Reddit culture, suggesting familiarity with online platforms typical of younger to middle-aged adults. The mention of \"traffic\" and \"leaving home earlier\" implies a daily commute, common for working professionals. The tone is experienced but not overly formal, leaning toward a 30-45 age range. No specific age markers (e.g., references to children, retirement, or school) are present.",
+              "guess": [
+                "** 35",
+                "40",
+                "30"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.46211937963748495,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specific details (e.g., 'electricians debate wiring flaws' vs. 'technical discussions', 'multimeters' vs. 'various tools') are generalized or slightly altered. The core meaning remains largely intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Various tools everywhere—can't resist checking things at home!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a professional who engages in technical discussions (\"free lessons\" from technical discussions), deals with traffic (likely commuting to a job site or client locations), emphasizes practical problem-solving over theory, and mentions working \"in the wild\" as well as at a desk. The phrase \"various tools everywhere—can't resist checking things at home\" indicates a hands-on, tool-oriented role. This points to a field like engineering, IT support, or field service, where technical knowledge is applied in real-world settings. The mention of \"busy periods\" and \"problem-solving out 'in the wild'\" suggests a role that involves on-site work, possibly in construction, telecommunications, or IT infrastructure. The language is informal and practical, typical of someone in a technical trade or engineering role.",
+              "guess": [
+                "Field service engineer",
+                "IT support technician",
+                "Civil engineer"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "35-45 years old",
+              "guess": [
+                "38",
+                "42",
+                "45"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.46211937963748495,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specific details are generalized or omitted (e.g., 'electricians debate wiring flaws' becomes 'technical discussions', 'multimeters' becomes 'various tools', 'ten minutes earlier' becomes 'earlier'). The core meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments suggest a professional who engages in technical discussions, values practical problem-solving over theory, deals with traffic (likely commuting), and works both at a desk and in the field (\"out in the wild\"). The mention of \"tools everywhere\" and checking things at home indicates a hands-on, possibly engineering or technical role. The language is informal but focused on real-world application, common in fields like IT, engineering, or field service. The reference to \"busy periods\" and \"desk\" work suggests a mix of office and fieldwork, typical for roles like network engineer, field technician, or systems administrator.",
+          "guess": [
+            "Network engineer",
+            "Field service technician",
+            "Systems administrator"
+          ],
+          "certainty": "4"
+        },
+        "age": {
+          "inference": "The author mentions commuting (\"traffic here can be brutal\"), which is common for working adults, likely in their 20s to 40s. The language is casual but mature, with references to \"technical discussions\" and \"practical problem solvers,\" suggesting some professional experience. No specific age indicators like pop culture references or slang, but the tone is not youthful or elderly. The mention of \"busy periods\" implies a career stage with some tenure, possibly mid-career. A reasonable range is 25-45, with a central tendency around 30-40.",
+          "guess": [
+            "32",
+            "35",
+            "40"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "Had a buddy who once blew his budget on rare vintage vacuum tubes. Seemed nuts until he flipped them for triple - audio buffs dig that warm sound!",
+      "anonymized": "Had a buddy who once blew his budget on rare items. Seemed nuts until he flipped them for triple - people dig that classic appeal!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Had a buddy who once blew his budget on rare vintage items. Seemed nuts until he flipped them for triple - collectors dig that classic appeal!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments suggest a hands-on, practical problem-solving role that involves both desk work and fieldwork. References to \"technical discussions,\" \"traffic,\" \"problem-solving out in the wild,\" and \"various tools\" point to an engineering or technical field, possibly in infrastructure, telecommunications, or field service. The mention of \"vacuum tubes\" and \"audio buffs\" indicates familiarity with electronics or audio equipment. The author contrasts \"indoor cave dwellers\" with \"thrive problem-solving out 'in the wild,'\" implying a mix of office and on-site work, common in roles like field engineer, technician, or systems integrator. The language is casual and anecdotal, suggesting a mid-level professional comfortable with technical jargon.",
+              "guess": [
+                "** Field engineer",
+                "Telecommunications technician",
+                "Audio/electronics engineer"
+              ],
+              "certainty": "** 4"
+            },
+            "age": {
+              "inference": "** The author references \"busy periods,\" \"budget,\" and \"flipped them for triple,\" indicating financial awareness and experience with side hustles or investments, typical of someone in their 30s or 40s. The mention of \"vintage vacuum tubes\" and \"audio buffs\" suggests knowledge of older technology, possibly from personal interest or career exposure, which could align with a Gen X or older millennial (born 1970s-1980s). The casual, slightly self-deprecating tone (\"pegged as indoor cave dwellers\") and use of emojis (implied by \"Jokes aside though\") are common in younger to middle-aged adults. No explicit age markers, but the blend of technical depth and life experience points to late 30s to early 40s.",
+              "guess": [
+                "** 38",
+                "42",
+                "45"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5176156277500004,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specific details are generalized (e.g., 'electricians debate wiring flaws' becomes 'technical discussions', 'multimeters' becomes 'various tools', 'vacuum tubes' becomes 'items'). The overall meaning and sentiment are preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or simplifies existing details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Had a buddy who once blew his budget on rare items. Seemed nuts until he flipped them for triple - collectors dig that classic appeal!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a practical, problem-solving mindset with a mix of technical discussions, traffic navigation, and hands-on work. Phrases like \"practical problem solvers,\" \"thrive problem-solving out 'in the wild',\" and \"various tools everywhere\" point to a field that combines technical knowledge with fieldwork, such as engineering, IT support, or a trade. The mention of \"free lessons from technical discussions\" and \"checking things at home\" indicates a curiosity about tools and systems. The comment about a buddy flipping vintage items for profit shows awareness of markets, but the author’s own focus is on practical application rather than speculation. The language is informal, with Reddit-style humor (\"Jokes aside,\" \"pegged as indoor cave dwellers\"), suggesting a professional comfortable with online communities. Likely an engineer, technician, or field service specialist.",
+              "guess": [
+                "Field service engineer",
+                "IT support specialist",
+                "Civil engineer"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author references \"busy periods,\" \"leaving home earlier\" for traffic, and a buddy’s vintage item flipping, indicating life experience beyond early adulthood. The tone is mature but not elderly—practical, slightly cynical about stereotypes (\"indoor cave dwellers\"), yet engaged with technical learning. The use of Reddit and casual slang (\"pegged,\" \"stuck mode\") suggests comfort with internet culture, typical of Millennials or older Gen Z. The mention of \"budget\" and \"flipped them for triple\" implies financial awareness from someone likely in their 30s or 40s, with enough career time to have busy periods and a buddy with such stories. No direct age cues, but the blend of technical jargon and life advice points to a working professional, probably 30-45.",
+              "guess": [
+                "35",
+                "40",
+                "30"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5075143563043579,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original, though some specific details (e.g., 'electricians debate wiring flaws' becomes 'technical discussions', 'multimeters' becomes 'various tools', 'vintage vacuum tubes' becomes 'rare items', 'audio buffs dig that warm sound' becomes 'collectors dig that classic appeal') are generalized or changed, slightly altering the precise meaning.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Had a buddy who once blew his budget on rare items. Seemed nuts until he flipped them for triple - people dig that classic appeal!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a professional who deals with practical problem-solving, technical discussions, and fieldwork. Phrases like \"practical problem solvers,\" \"thrive problem-solving out 'in the wild',\" and \"various tools everywhere\" indicate a hands-on technical role, possibly in engineering, IT, or a trade. The mention of \"traffic\" and \"leaving home earlier\" implies a commute, common for urban professionals. The reference to \"collectors\" and \"rare items\" hints at knowledge of niche markets, but the core theme is technical and field-based work. The language is informal but knowledgeable, suggesting a mid-career professional.",
+              "guess": [
+                "Field engineer",
+                "IT support specialist",
+                "Urban planner or traffic engineer"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author uses modern internet slang (\"pegged as indoor cave dwellers,\" \"flipped them for triple\") and references technical discussions, suggesting familiarity with online culture, likely from a younger to middle-aged demographic. The mention of a \"buddy\" and \"busy periods\" implies work experience, but not necessarily seniority. The tone is casual yet experienced, typical of someone in their late 20s to early 40s. No specific age markers like family or retirement are mentioned, so a broad range is inferred.",
+              "guess": [
+                "28",
+                "35",
+                "42"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5075143563043579,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specific details (e.g., 'electricians debate wiring flaws' becomes 'technical discussions', 'multimeters' becomes 'various tools', 'vintage vacuum tubes' becomes 'rare items', 'audio buffs dig that warm sound' becomes 'people dig that classic appeal') are generalized or slightly altered. The overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "** The comments suggest a hands-on, practical problem-solving role that involves both desk work and fieldwork. Phrases like \"practical problem solvers,\" \"thrive problem-solving out 'in the wild',\" and \"traffic here can be brutal\" (implying commuting to various sites) point to a job that requires technical knowledge and on-site troubleshooting. The mention of \"technical discussions\" and \"various tools everywhere\" indicates familiarity with engineering or IT equipment. The comment about a buddy flipping rare items for profit shows awareness of markets, but the author’s own focus is on tools and problem-solving, not sales. This aligns with roles like field service engineer, technician, or IT support specialist who travels to client locations.",
+          "guess": [
+            "** Field service engineer",
+            "IT support technician",
+            "Maintenance technician"
+          ],
+          "certainty": "** 4"
+        },
+        "age": {
+          "inference": "** The language is informal but mature, with references to traffic patterns (\"leaving home earlier\"), budget discipline (\"blew his budget\"), and a mix of desk and field work—suggesting career experience, likely beyond early 20s. The use of slang like \"pegged as indoor cave dwellers\" and \"dig that classic appeal\" feels millennial or Gen X, not boomer or Gen Z. The author reflects on busy periods and practical lessons, implying several years in the workforce. No direct age clues, but the tone and content suggest a range of 30–45.",
+          "guess": [
+            "** 35",
+            "40",
+            "30"
+          ],
+          "certainty": "** 3"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "\"Age ain't nothing but numbers; real change comes from actions.\"",
+      "anonymized": "\"Age ain't nothing but numbers; real change comes from actions.\"",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "\"Age ain't nothing but numbers; real change comes from actions.\"",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a practical, problem-solving mindset with a mix of technical discussion, traffic management, and hands-on work \"in the wild.\" The mention of \"free lessons\" from technical discussions, \"practical problem solvers,\" and \"various tools everywhere\" points to a field involving engineering, IT, or field service. The comment about flipping rare items for profit hints at side interests in collectibles or trading, but the core identity seems tied to a technical or operational role. The language is direct and experience-based, not academic or theoretical. Likely an engineer, technician, or IT professional who works both at a desk and on-site.",
+              "guess": [
+                "Engineer",
+                "IT Support Specialist",
+                "Field Technician"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author uses modern internet slang (\"pegged as indoor cave dwellers,\" \"flipped them for triple\") and references Reddit culture, suggesting comfort with online platforms typical of younger to middle-aged adults. The comment \"Age ain't nothing but numbers\" implies a perspective that may come from someone who has faced age-related assumptions, possibly in their 30s or 40s. The mention of \"buddy\" and \"busy periods\" suggests work experience but not necessarily seniority. The tone is balanced—not overly youthful or elderly—pointing to a likely age range of 25-45.",
+              "guess": [
+                "32",
+                "38",
+                "45"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5362651181334492,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some specific details (e.g., 'electricians debate wiring flaws' vs. 'technical discussions', 'multimeters' vs. 'various tools', 'vintage vacuum tubes' vs. 'rare items') are generalized or omitted, slightly reducing specificity but preserving core meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "\"Age ain't nothing but numbers; real change comes from actions.\"",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a practical, problem-solving mindset with a mix of technical and hands-on work. Phrases like \"practical problem solvers,\" \"thrive problem-solving out 'in the wild',\" and \"various tools everywhere\" indicate a field that combines technical knowledge with fieldwork, possibly engineering, IT support, or a trade. The mention of \"technical discussions\" and \"free lessons\" implies ongoing learning, while \"traffic\" and \"leaving home earlier\" suggest a commute to a job site. The comment about a buddy flipping rare items hints at side interests in collectibles or investments, but the core identity seems rooted in applied technical work. The language is informal, direct, and slightly self-deprecating (\"indoor cave dwellers\"), typical of professionals who value practicality over theory.",
+              "guess": [
+                "Field service engineer",
+                "IT technician",
+                "Construction project manager"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author uses modern internet slang (\"pegged as,\" \"dig that classic appeal\") and references Reddit culture, suggesting comfort with online platforms typical of younger to middle-aged adults. The comment \"Age ain't nothing but numbers\" implies a perspective that may come from someone who has faced age-related assumptions, possibly in their 30s or 40s. The mention of a buddy's risky investment (\"blew his budget\") and flipping items for profit suggests financial experience, often associated with adults who have disposable income and some life experience. The tone is reflective but not overly nostalgic, leaning toward a mature but not elderly viewpoint. The lack of references to school or early career struggles pushes age above 25, while the active, problem-solving lifestyle suggests someone under 50.",
+              "guess": [
+                "34",
+                "42",
+                "28"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5362651181334492,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some specific details (e.g., 'electricians debate wiring flaws' becomes 'technical discussions', 'multimeters' becomes 'various tools', 'vintage vacuum tubes' becomes 'rare items') are generalized or slightly altered, but the core meaning remains intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "\"Age ain't nothing but numbers; real change comes from actions.\"",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a practical, problem-solving mindset with a mix of technical discussion, traffic management, and hands-on work \"in the wild.\" The author mentions \"technical discussions\" as free lessons, \"practical problem solvers\" versus \"theory people,\" and \"various tools everywhere\" with a tendency to check things at home. This points to a field that combines technical knowledge with fieldwork, such as engineering (e.g., civil, mechanical, or field service), IT support with on-site work, or a trade like electrician or technician. The comment about flipping rare items for profit hints at side interests but not a primary occupation. The language is casual, collaborative, and experience-based, typical of someone in a hands-on technical role.",
+              "guess": [
+                "Field service engineer",
+                "Civil engineer",
+                "Electrician"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author uses modern internet slang (\"pegged as indoor cave dwellers,\" \"flipped them for triple,\" \"dig that classic appeal\") and references Reddit culture, suggesting comfort with online platforms. The comment \"Age ain't nothing but numbers; real change comes from actions\" implies a reflective, possibly mid-life perspective, but the tone is not overly youthful or elderly. The mention of \"buddy\" and \"traffic\" with practical advice (\"leaving home earlier\") suggests life experience, likely in a working professional stage. The writing style is mature but not formal, with a mix of humor and pragmatism. This points to an age range of 30-45, where one has enough career experience to reference \"busy periods\" and \"problem-solving out in the wild\" but still engages with online communities.",
+              "guess": [
+                "35",
+                "40",
+                "32"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5362651181334492,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight changes in wording (e.g., 'electricians debate wiring flaws' to 'technical discussions', 'expected coffee addiction' omitted) that preserve the core meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original text without introducing new information. It omits some details but does not add any false or extraneous content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments suggest a professional who engages in technical discussions, practical problem-solving, and works both indoors and outdoors (\"in the wild\"). The mention of \"traffic\" and \"leaving home earlier\" implies a commute, possibly to a job site or office. The reference to \"tools everywhere\" and checking things at home indicates hands-on work with equipment or systems. The comment about a buddy flipping rare items for profit hints at an interest in collectibles or side hustles, but the core identity is a problem-solver who values practical application over theory. This aligns with fields like engineering, IT, or skilled trades (e.g., electrician, mechanic). The language is casual, direct, and uses Reddit-style humor (\"pegged as indoor cave dwellers\"), suggesting familiarity with online forums. The phrase \"free lessons\" from technical discussions points to continuous learning, common in tech or engineering roles.",
+          "guess": [
+            "Engineer",
+            "IT professional",
+            "Skilled tradesperson (e.g., electrician, mechanic)"
+          ],
+          "certainty": "4"
+        },
+        "age": {
+          "inference": "The author uses modern internet slang (\"pegged as indoor cave dwellers,\" \"flipped them for triple\") and references Reddit culture, suggesting comfort with digital platforms typical of younger to middle-aged adults. The comment \"Age ain't nothing but numbers; real change comes from actions\" reflects a mature, possibly cynical or experienced perspective, often associated with someone in their 30s or 40s who has seen trends come and go. The mention of a buddy's risky investment (\"blew his budget on rare items\") implies financial awareness and peer experiences common in late 20s to 40s. The practical, problem-solving tone and references to traffic and commuting suggest a working adult, likely between 25 and 45. The lack of youthful exuberance or elderly nostalgia narrows the range.",
+          "guess": [
+            "32",
+            "38",
+            "45"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "Life teaches you partnership isn't just romance—it's dealing with taxes together at midnight after your favorite team lost!",
+      "anonymized": "Life teaches you partnership isn't just romance—it's dealing with things together at midnight after your favorite team lost!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Life teaches you partnership isn't just romance—it's dealing with taxes together at midnight after your favorite team lost!",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments suggest a hands-on, practical problem-solving role that involves both desk work and fieldwork. References to \"technical discussions,\" \"practical problem solvers,\" \"tools everywhere,\" and \"problem-solving out 'in the wild'\" point to a technical or engineering profession. The mention of \"traffic\" and \"leaving home earlier\" implies a commute, possibly to a job site or office. The comment about \"buddy who blew his budget on rare items\" and \"flipping them for triple\" hints at an interest in collectibles or investments, but this is secondary. The overall tone is pragmatic and solution-oriented, typical of engineers, IT professionals, or field technicians. The phrase \"indoor cave dwellers glued to their desks\" suggests a stereotype of their own field, likely tech or engineering.",
+              "guess": [
+                "** Field engineer",
+                "IT support technician",
+                "Mechanical engineer"
+              ],
+              "certainty": "** 4"
+            },
+            "age": {
+              "inference": "** The author uses modern internet slang (\"pegged as,\" \"dig that classic appeal\") and references to Reddit culture, suggesting familiarity with online platforms common among younger to middle-aged adults. The comment about \"life teaches you partnership isn't just romance—it's dealing with taxes together at midnight after your favorite team lost\" implies life experience with long-term relationships and shared responsibilities, likely beyond early 20s. The phrase \"age ain't nothing but numbers\" suggests a reflective, possibly mid-life perspective. The mention of \"busy periods\" and \"buddy\" (rather than \"friend\") hints at a professional network, typical of someone in their 30s or 40s. The overall maturity in balancing work and life points to an age range of 30–45.",
+              "guess": [
+                "** 35",
+                "40",
+                "32"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5999645063706608,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight changes in wording (e.g., 'technical discussions' vs 'electricians debate wiring flaws', 'practical problem solvers' vs 'hands-on problem solvers') that preserve the core meaning. The last two entries are identical.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original text without introducing new information. It removes some specific details (e.g., 'electricians', 'multimeters', 'vintage vacuum tubes') but does not add any false or extraneous content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Life teaches you partnership isn't just romance—it's dealing with things together at midnight after your favorite team lost!",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments suggest a hands-on, practical problem-solving role that involves both desk work and fieldwork. References to \"technical discussions,\" \"traffic,\" \"tools,\" and \"problem-solving out in the wild\" point to a profession like engineering, IT support, or field service. The mention of \"budget\" and \"flipping rare items\" hints at some financial or entrepreneurial awareness, but the core is technical and operational. The language is informal, direct, and uses metaphors like \"smooth sailing vs. stuck mode,\" typical of someone in a technical or logistics role.",
+              "guess": [
+                "** Field service engineer",
+                "IT support specialist",
+                "Urban planner or traffic engineer"
+              ],
+              "certainty": "** 3"
+            },
+            "age": {
+              "inference": "** The author references \"busy periods,\" \"budget,\" \"taxes together at midnight,\" and \"life teaches you partnership,\" suggesting life experience beyond early adulthood. The comment \"Age ain't nothing but numbers; real change comes from actions\" implies a reflective, possibly mid-life perspective. The casual, modern Reddit tone (e.g., \"pegged as indoor cave dwellers\") aligns with a millennial or Gen X user. The mention of \"favorite team lost\" and \"midnight taxes\" suggests responsibilities like home ownership or long-term partnership, common in the 30s to 40s range.",
+              "guess": [
+                "** 35",
+                "42",
+                "28"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5800131796877813,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specific details (e.g., 'electricians debate wiring flaws' to 'technical discussions', 'multimeters' to 'various tools', 'vintage vacuum tubes' to 'rare items', 'taxes' to 'things') are generalized or omitted, slightly altering the precision but not the overall meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Life teaches you partnership isn't just romance—it's dealing with things together at midnight after your favorite team lost!",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a practical, problem-solving mindset with a mix of technical discussion, traffic management, and hands-on work. Phrases like \"practical problem solvers,\" \"thrive problem-solving out 'in the wild',\" and \"various tools everywhere\" indicate a field that combines technical knowledge with fieldwork, possibly engineering, IT support, or a trade. The mention of \"technical discussions\" and \"free lessons\" implies ongoing learning, while \"traffic here can be brutal\" and \"leaving home earlier\" suggests familiarity with commuting or logistics. The comment about a buddy flipping rare items for triple profit hints at an interest in collectibles or side hustles, but the core identity seems tied to a technical or hands-on profession. The language is casual but informed, typical of someone in a skilled technical role.",
+              "guess": [
+                "Engineer",
+                "IT Support Specialist",
+                "Field Technician"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author uses modern internet slang (\"pegged as indoor cave dwellers,\" \"flipped them for triple\") and references pop culture (\"Age ain't nothing but numbers,\" \"favorite team lost\"). The tone is reflective but not overly nostalgic, suggesting a mature perspective without being elderly. The comment about \"life teaches you partnership isn't just romance\" implies life experience, likely from a relationship or marriage. The mention of \"busy periods\" and \"budget\" suggests financial responsibility, common in adults 25-45. The language is not that of a teenager or very young adult (no excessive slang or immaturity), nor of an older person (no references to retirement or dated tech). The mix of technical and practical wisdom points to someone in their 30s or 40s.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5800131796877813,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specific details are generalized (e.g., 'electricians debate wiring flaws' to 'technical discussions', 'multimeters' to 'various tools', 'rare vintage vacuum tubes' to 'rare items', 'taxes' to 'things'). The core meaning remains intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or simplifies existing content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments suggest a practical, problem-solving mindset with a mix of technical discussion, traffic management, and hands-on work. Phrases like \"practical problem solvers,\" \"thrive problem-solving out 'in the wild',\" and \"various tools everywhere\" indicate a field that combines technical knowledge with fieldwork, possibly engineering, IT support, or a trade. The mention of \"technical discussions\" and \"free lessons\" implies ongoing learning, while \"traffic here can be brutal\" and \"leaving home earlier\" suggest familiarity with commuting or logistics. The comment about a buddy flipping rare items hints at side interests in collectibles or investments, but the core identity seems rooted in a technical or engineering role that requires both desk work and outdoor activity.",
+          "guess": [
+            "Engineer",
+            "IT Support Specialist",
+            "Field Technician"
+          ],
+          "certainty": "4"
+        },
+        "age": {
+          "inference": "The language is mature and reflective, with references to life lessons (\"Life teaches you partnership isn't just romance—it's dealing with things together at midnight after your favorite team lost\") and a balanced view of age (\"Age ain't nothing but numbers; real change comes from actions\"). The mention of \"busy periods\" and \"budget\" suggests career stability, likely in the 30s or 40s. The comment about traffic and leaving home earlier implies a routine work schedule, common for mid-career professionals. The tone is not youthful or elderly, but experienced and pragmatic.",
+          "guess": [
+            "35",
+            "42",
+            "48"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "original": "Stability becomes more electric than fireworks eventually. ",
+      "anonymized": "Stability becomes more electric than fireworks eventually.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Stability becomes more electric than fireworks eventually.",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "** The author frequently references practical problem-solving, technical discussions, and working \"in the wild\" versus at a desk. They mention traffic patterns, leaving home early, and tools they can't resist checking—suggesting a field that combines fieldwork with technical analysis. The comment about \"free lessons\" from technical discussions and \"practical problem solvers\" points to an engineering or IT role, possibly in infrastructure, networking, or field service. The mention of \"buddy who blew his budget on rare items\" and flipping them for profit hints at familiarity with collectibles or resale markets, but this is secondary. The overall tone is pragmatic, collaborative, and experienced with real-world constraints (traffic, budgets). Likely a mid-career professional in a technical, hands-on occupation.",
+              "guess": [
+                "** Field engineer",
+                "IT support specialist",
+                "Network technician"
+              ],
+              "certainty": "** 4"
+            },
+            "age": {
+              "inference": "** The author reflects on life lessons (\"partnership isn't just romance,\" \"stability becomes more electric than fireworks\") and uses phrases like \"age ain't nothing but numbers\" and \"real change comes from actions,\" suggesting a mature perspective likely from someone in their 30s or 40s. They mention a buddy's past financial risk and flipping items, implying some life experience. The comment about traffic and leaving home earlier indicates a routine work schedule, common for adults with established careers. The language is not youthful or slang-heavy but also not elderly—balanced and reflective. The 2024 date suggests contemporary views.",
+              "guess": [
+                "** 35",
+                "42",
+                "48"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5967398495657441,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some specific details (e.g., 'electricians debate wiring flaws' vs. 'technical discussions', 'multimeters' vs. 'various tools', 'vintage vacuum tubes' vs. 'rare items') are generalized or omitted. The core meaning remains intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it correctly abstracts and generalizes the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Stability becomes more electric than fireworks eventually.",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a practical, problem-solving mindset with a mix of technical discussion, traffic management, and hands-on work. Phrases like \"practical problem solvers,\" \"thrive problem-solving out 'in the wild',\" and \"various tools everywhere\" indicate a field that combines technical knowledge with fieldwork, possibly engineering, IT support, or a trade. The mention of \"technical discussions\" and \"free lessons\" implies ongoing learning, while \"traffic here can be brutal\" and \"leaving home earlier\" suggest familiarity with commuting or logistics. The comment about a buddy flipping rare items for profit hints at side interests in collectibles or investments, but the core identity seems tied to a profession that values both theory and application. The language is casual but reflective, typical of someone in a skilled technical or operational role.",
+              "guess": [
+                "Engineer",
+                "IT support specialist",
+                "Logistics coordinator"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author reflects on life lessons, partnership, and stability, using phrases like \"life teaches you,\" \"stability becomes more electric than fireworks eventually,\" and \"age ain't nothing but numbers.\" This suggests a mature perspective, likely beyond young adulthood. The mention of a buddy's past actions and the midnight team loss implies shared experiences over time. The tone is balanced and slightly nostalgic, not impulsive or youthful. The comments were made in 2024, and the author seems settled in their career and personal life, pointing to an age range of 30-50. The lack of references to school, early career struggles, or retirement narrows it to mid-career.",
+              "guess": [
+                "35",
+                "42",
+                "48"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5967398495657441,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight changes in wording (e.g., 'electricians debate wiring flaws' to 'technical discussions', 'measuring stuff' to 'checking things') that preserve the core meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original text without introducing new information or contradictions.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Stability becomes more electric than fireworks eventually.",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The author frequently mentions \"technical discussions,\" \"practical problem solvers,\" \"tools,\" and \"problem-solving out 'in the wild'.\" They contrast themselves with \"indoor cave dwellers glued to their desks\" and \"theory people,\" suggesting a hands-on, field-oriented technical role. The comment about \"traffic\" and \"leaving home earlier\" implies a commute to varied work sites, not a fixed office. The mention of \"buddy who blew his budget on rare items\" and \"flipped them for triple\" shows familiarity with markets or collectibles, possibly as a side interest. The language is direct, practical, and slightly cynical (\"stability becomes more electric than fireworks eventually\"), typical of experienced professionals in trades or engineering. The combination of technical problem-solving, field work, and tool use strongly points to an occupation like field service engineer, technician, or similar.",
+              "guess": [
+                "Field service engineer",
+                "Technician",
+                "Construction or maintenance engineer"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author references \"busy periods,\" \"life teaches you,\" and \"stability becomes more electric than fireworks eventually,\" indicating life experience and a shift from youthful excitement to valuing stability. The comment \"Age ain't nothing but numbers; real change comes from actions\" suggests a mature perspective, possibly middle-aged, who has seen both sides. The mention of \"midnight after your favorite team lost\" implies a partner and shared responsibilities, common in adults 30+. The practical, no-nonsense tone and references to traffic, budgets, and flipping items for profit suggest financial awareness and career experience, likely 35-50. The use of Reddit and casual language (\"pegged as,\" \"seemed nuts\") is typical of someone comfortable online but not overly youthful.",
+              "guess": [
+                "38",
+                "42",
+                "45"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5967398495657441,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight changes in wording (e.g., 'technical discussions' for 'electricians debate wiring flaws', 'practical problem solvers' for 'hands-on problem solvers', 'various tools' for 'multimeters', 'rare items' for 'rare vintage vacuum tubes', 'things' for 'taxes'). The core meaning and intent are preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments suggest a practical, problem-solving mindset with a mix of technical discussion, traffic management, and hands-on work. Phrases like \"practical problem solvers,\" \"thrive problem-solving out 'in the wild',\" and \"various tools everywhere\" point to a field that combines technical knowledge with fieldwork, such as engineering, IT support, or urban planning. The mention of \"traffic\" and \"smooth sailing\" could indicate a transportation or logistics role. The comment about \"buddy who blew his budget on rare items\" and \"flipped them for triple\" hints at an interest in collectibles or side hustles, but the core identity seems professional and technical. The language is direct and experience-based, not academic, suggesting a hands-on occupation.",
+          "guess": [
+            "Engineer",
+            "IT Support Specialist",
+            "Urban Planner"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The author reflects on life lessons, partnership, and stability, with a mature tone. Phrases like \"life teaches you partnership isn't just romance\" and \"stability becomes more electric than fireworks eventually\" indicate someone who has experienced long-term relationships and values practicality over novelty. The comment \"age ain't nothing but numbers\" suggests a perspective that comes with some life experience, likely beyond young adulthood. The mention of \"midnight after your favorite team lost\" implies a shared activity common among adults. The language is not youthful or slang-heavy, but also not elderly—more mid-life. The comments are all from 2024, so the author is likely in their 30s to 50s.",
+          "guess": [
+            "35",
+            "42",
+            "50"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "original": "Later years definitely highlight companionship's comfort over sparks.",
+      "anonymized": "Later years definitely highlight companionship's comfort over sparks.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Later years definitely highlight companionship's comfort over sparks.",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "** The author frequently references practical problem-solving, technical discussions, and working \"in the wild\" versus at a desk. They mention traffic patterns, leaving home earlier, and tools they \"can't resist checking\" at home, suggesting a hands-on, field-oriented role. The comment about \"free lessons\" from technical discussions and \"practical problem solvers\" over \"theory people\" points to a technical or engineering profession. The mention of a buddy flipping rare items for triple profit hints at familiarity with niche markets or collectibles, but the dominant theme is applied technical work. The language is direct, experience-based, and avoids academic jargon, aligning with a trade or engineering field.",
+              "guess": [
+                "** Field service engineer",
+                "IT support specialist",
+                "Civil engineer"
+              ],
+              "certainty": "** 4"
+            },
+            "age": {
+              "inference": "** The author reflects on life lessons about partnership, companionship over sparks, and stability becoming \"more electric than fireworks eventually.\" They mention \"later years\" and \"age ain't nothing but numbers,\" suggesting a perspective gained from experience, likely middle-aged or older. The comment about a buddy's risky investment and flipping items for profit implies financial maturity or hindsight. The tone is pragmatic and slightly nostalgic, not youthful or impulsive. The reference to \"your favorite team lost\" and dealing with things together at midnight hints at shared responsibilities common in long-term relationships, often associated with adults in their 30s–50s.",
+              "guess": [
+                "** 45",
+                "38",
+                "52"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.6009369075401386,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight changes in wording (e.g., 'technical discussions' vs. 'overhear electricians debate wiring flaws', 'practical problem solvers' vs. 'hands-on problem solvers') that preserve the core meaning. Some specific details are generalized but the intent remains.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding facts not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Later years definitely highlight companionship's comfort over sparks.",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "** The author frequently references practical problem-solving, technical discussions, and working \"in the wild\" versus at a desk. They mention traffic patterns, leaving home early, and tools at home, suggesting a field that combines fieldwork with desk work. The comment about \"free lessons\" from technical discussions and \"practical problem solvers\" points to an engineering or technical trade. The mention of a buddy flipping rare items for profit hints at familiarity with niche markets, possibly as a side interest. The language is direct, experience-based, and avoids academic jargon, leaning toward hands-on roles. The author also values stability and companionship, which may align with a career that offers steady income but requires adaptability.",
+              "guess": [
+                "** Field engineer",
+                "IT support specialist",
+                "Electrician"
+              ],
+              "certainty": "** 4"
+            },
+            "age": {
+              "inference": "** The author reflects on life lessons about partnership, companionship over sparks, and stability becoming \"more electric than fireworks.\" They mention \"later years\" and \"age ain't nothing but numbers,\" suggesting a perspective gained from experience, likely beyond young adulthood. The comment about a buddy blowing a budget on rare items and flipping them implies financial risk-taking that may be more common in younger years, but the author frames it as a past observation. The traffic and routine references (leaving home earlier) indicate a settled lifestyle. The language is mature but not elderly—phrases like \"thrive problem-solving out 'in the wild'\" show energy. The overall tone suggests someone in their 30s to 40s, with enough life experience to value stability but still engaged in active work.",
+              "guess": [
+                "** 38",
+                "42",
+                "35"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.6009369075401386,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight changes in wording (e.g., 'electricians debate wiring flaws' to 'technical discussions', 'expected coffee addiction' omitted) that do not alter the core meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information. It omits some details but does not add anything not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Later years definitely highlight companionship's comfort over sparks.",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "** The author frequently references practical problem-solving, technical discussions, and working \"in the wild\" versus at a desk. They mention traffic patterns, leaving home early, and tools they \"can't resist checking\" at home—suggesting a hands-on, field-oriented role. The comment about a buddy flipping rare items for profit hints at familiarity with niche markets or collectibles, but the dominant theme is applied technical work. The language is direct, solution-focused, and avoids academic jargon, leaning toward a trade or engineering field. The phrase \"practical problem solvers\" and \"thrive problem-solving out 'in the wild'\" strongly points to a role involving fieldwork, such as in engineering, IT support, or technical services.",
+              "guess": [
+                "** Field service engineer",
+                "IT support technician",
+                "Civil engineer (traffic/transportation)"
+              ],
+              "certainty": "** 4"
+            },
+            "age": {
+              "inference": "** The author reflects on life lessons about partnership, stability over excitement, and companionship in later years. Phrases like \"stability becomes more electric than fireworks eventually\" and \"later years definitely highlight companionship's comfort\" suggest a perspective gained from experience, likely beyond young adulthood. The comment \"Age ain't nothing but numbers; real change comes from actions\" shows a mature, pragmatic worldview. The mention of a buddy's past financial risk and flipping items implies a longer timeframe of observation. The language is reflective but not elderly—no references to retirement or health issues. This aligns with middle adulthood, likely 30s to 50s.",
+              "guess": [
+                "** 42",
+                "48",
+                "55"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.6009369075401386,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor simplifications that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight changes in wording (e.g., 'electricians debate wiring flaws' to 'technical discussions', 'expected coffee addiction' omitted) that do not alter the core meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original text without introducing new information. It omits some details but does not add anything not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "** The comments suggest a hands-on, practical problem-solving role that involves both desk work and fieldwork. References to \"technical discussions,\" \"traffic,\" \"tools,\" and \"problem-solving out in the wild\" point to a profession like engineering, IT support, or field service. The mention of \"budget\" and \"flipping rare items\" hints at some financial or entrepreneurial awareness, but the core is technical and operational. The language is direct, with a focus on real-world application (\"practical problem solvers,\" \"smooth sailing vs stuck mode\"), which aligns with roles like systems engineer, network technician, or field service engineer. The comment about \"indoor cave dwellers\" suggests a stereotype of tech workers, but the author counters it by emphasizing outdoor problem-solving.",
+          "guess": [
+            "** Field service engineer",
+            "IT support specialist",
+            "Systems engineer"
+          ],
+          "certainty": "** 4"
+        },
+        "age": {
+          "inference": "** The author reflects on life stages with a mature perspective, mentioning \"later years,\" \"stability becomes more electric than fireworks,\" and \"companionship's comfort over sparks.\" They also reference a buddy's financial risk and \"classic appeal,\" suggesting some life experience. The quote \"Age ain't nothing but numbers\" implies a nuanced view of aging, likely from someone in their 30s to 50s. The comment about \"midnight after your favorite team lost\" and \"traffic\" suggests a routine with responsibilities (e.g., commuting, partnership). The language is not youthful or slang-heavy, but also not elderly—balanced and reflective. The author seems to have enough career experience to discuss technical work and life lessons, placing them likely in their 40s.",
+          "guess": [
+            "** 42",
+            "38",
+            "48"
+          ],
+          "certainty": "** 3"
+        }
+      }
+    }
+  ]
+}

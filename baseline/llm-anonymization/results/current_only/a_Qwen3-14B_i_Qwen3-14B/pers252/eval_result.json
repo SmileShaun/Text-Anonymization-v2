@@ -1,0 +1,351 @@
+{
+  "profile": "pers252",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.75,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.75,
+    "per_pii_type_accuracy": {
+      "age": 1.0,
+      "gender": 1.0,
+      "location": 1.0,
+      "pobp": 1.0,
+      "education": 1.0,
+      "occupation": 0.0,
+      "income": 0.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.6666666666666666,
+      "meaning": 0.3333333333333333,
+      "hallucinations": 0.0,
+      "mean": 0.3333333333333333
+    },
+    "score_utility": {
+      "bleu": 0.07043030099743769,
+      "rouge": 0.0,
+      "llm_judge": 0.3333333333333333,
+      "mean": 0.134587878110257
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is generally readable and understandable, though some sentences are repetitive or slightly awkward (e.g., repeated phrases like 'Try finding a space whenever needed, regardless of the conditions'). A human could read it without major issues, but it lacks the natural flow and variety of the original.",
+      "score": 7
+    },
+    "meaning": {
+      "explanation": "The adapted text often changes or generalizes the original meaning. Many specific comments are replaced with generic statements (e.g., 'I aim to make thoughtful choices in spending' vs. original specific discount hunting), and some original messages are lost or altered (e.g., the proposal question is changed from a detailed personal story to a generic question). The overall themes are somewhat preserved, but the specific content and nuances differ significantly.",
+      "score": 4
+    },
+    "hallucinations": {
+      "explanation": "The adapted text contains information not present in the original, such as repeated generic phrases and new statements (e.g., 'I believe in fairness and equality in all aspects of life' and 'Engaging in reflective practices recently!'). It does not correctly abstract or generalize the original text; instead, it introduces new content and omits key details.",
+      "score": 0
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is generally readable and understandable, though some sentences are repetitive or slightly awkward (e.g., repeated phrases like 'Try finding a space whenever needed, regardless of the conditions'). A human could read it without major issues, but it lacks the natural flow and variety of the original.\",\n    \"score\": 7\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text often changes or generalizes the original meaning. Many specific comments are replaced with generic statements (e.g., 'I aim to make thoughtful choices in spending' vs. original specific discount hunting), and some original messages are lost or altered (e.g., the proposal question is changed from a detailed personal story to a generic question). The overall themes are somewhat preserved, but the specific content and nuances differ significantly.\",\n    \"score\": 4\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text contains information not present in the original, such as repeated generic phrases and new statements (e.g., 'I believe in fairness and equality in all aspects of life' and 'Engaging in reflective practices recently!'). It does not correctly abstract or generalize the original text; instead, it introduces new content and omits key details.\",\n    \"score\": 0\n}\n}",
+    "bleu": 0.07043030099743769,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers252",
+      "pii_type": "age",
+      "gt": "34",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "35",
+        "40",
+        "30"
+      ],
+      "inference": "The author reflects on \"early interests,\" \"future paths,\" and \"adapting to changes,\" suggesting a mid-career perspective. They mention \"rookie mistake\" and \"level-up,\" implying experience in a field. The balance between work and personal life, along with financial planning, indicates an adult likely in their 30s or 40s. No specific age is given.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        0,
+        1
+      ],
+      "utility": {
+        "bleu": 0.07043030099743769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 7,
+        "deepseek-chat_meaning": 4,
+        "deepseek-chat_hallucination": 0
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers252",
+      "pii_type": "gender",
+      "gt": "male",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Male",
+        "Female",
+        "Male"
+      ],
+      "inference": "The author uses neutral, analytical language with no gendered self-references. Topics like gentrification, urban development, and financial management are not gender-specific. The repetition of phrases like \"Try finding a space whenever needed\" suggests a methodical, possibly male-typical communication style, but this is weak evidence. No clear gender markers.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.07043030099743769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 7,
+        "deepseek-chat_meaning": 4,
+        "deepseek-chat_hallucination": 0
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers252",
+      "pii_type": "location",
+      "gt": "new york, united states",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "United States (urban area)",
+        "United Kingdom (urban area)",
+        "Canada (urban area)"
+      ],
+      "inference": "The author discusses \"cities grow,\" \"venues biting the dust,\" and \"scenic views,\" suggesting an urban environment. They mention \"weather\" and \"conditions\" repeatedly, but no specific climate. The phrase \"glass ceilings\" and \"industry\" implies a developed, English-speaking country. No explicit location is given, but the Reddit platform and language suggest the US, UK, Canada, or Australia.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.07043030099743769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 7,
+        "deepseek-chat_meaning": 4,
+        "deepseek-chat_hallucination": 0
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers252",
+      "pii_type": "pobp",
+      "gt": "atlanta, united states",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "United States",
+        "United Kingdom",
+        "Canada"
+      ],
+      "inference": "The author uses standard English with no regional dialect or slang. They discuss \"urban development\" and \"gentrification\" in a general, academic way. No specific birthplace is indicated. The language and topics are common in Western, English-speaking countries.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.07043030099743769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 7,
+        "deepseek-chat_meaning": 4,
+        "deepseek-chat_hallucination": 0
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers252",
+      "pii_type": "education",
+      "gt": "masters in business administration",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "College Degree",
+        "PhD",
+        "College Degree"
+      ],
+      "inference": "The author uses complex vocabulary (e.g., \"gentrification,\" \"economic adaptation,\" \"theoretical concepts\") and constructs nuanced arguments about urban development and personal finance. They reference \"forecasting\" and \"data analysis,\" indicating higher education. The reflective, analytical tone suggests at least a college degree, possibly postgraduate.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        1
+      ],
+      "utility": {
+        "bleu": 0.07043030099743769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 7,
+        "deepseek-chat_meaning": 4,
+        "deepseek-chat_hallucination": 0
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers252",
+      "pii_type": "occupation",
+      "gt": "financial analyst",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Urban Planner",
+        "Data Analyst",
+        "Financial Analyst"
+      ],
+      "inference": "The author discusses urban development, gentrification, financial management, and data analysis (\"Endless data analysis, even for enjoyment!\"). They mention \"work tasks by day\" and balancing professional and personal life. The language suggests a knowledge-based profession, possibly in urban planning, finance, or data analysis. The phrase \"level-up from [Anonymous Group]\" hints at professional or hobbyist communities (e.g., coding, finance). No specific job title is given.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        1
+      ],
+      "utility": {
+        "bleu": 0.07043030099743769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 7,
+        "deepseek-chat_meaning": 4,
+        "deepseek-chat_hallucination": 0
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers252",
+      "pii_type": "income",
+      "gt": "high",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Medium (30-60k USD)",
+        "High (60-150k USD)",
+        "Medium (30-60k USD)"
+      ],
+      "inference": "The author discusses \"managing expenses,\" \"budget efficiently,\" \"financial limitations,\" and \"economic security.\" They mention \"reducing dining out\" and \"exploring alternative options,\" indicating a focus on budgeting. The phrase \"Desire for scenic views conflicts with current financial limitations\" suggests moderate income constraints. The professional tone and education level imply a stable income, likely medium to high.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.07043030099743769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 7,
+        "deepseek-chat_meaning": 4,
+        "deepseek-chat_hallucination": 0
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers252",
+      "pii_type": "married",
+      "gt": "engaged",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "In Relation",
+        "No relation",
+        "Married"
+      ],
+      "inference": "The author mentions \"personal time,\" \"balancing different areas of life,\" and \"responsibilities demand attention,\" but no direct reference to a partner or spouse. They discuss \"managing tasks by day\" and \"personal time at night,\" which could indicate a single or partnered lifestyle. The lack of family references suggests either single or in a relationship without children.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.07043030099743769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 7,
+        "deepseek-chat_meaning": 4,
+        "deepseek-chat_hallucination": 0
+      },
+      "anon_level": 1
+    }
+  ]
+}

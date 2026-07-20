@@ -1,0 +1,359 @@
+{
+  "profile": "pers240",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.625,
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1": 0.625,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.625,
+    "per_pii_type_accuracy": {
+      "age": 0.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 1.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 0.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.8888888888888888,
+      "meaning": 0.7777777777777778,
+      "hallucinations": 1.0,
+      "mean": 0.8888888888888888
+    },
+    "score_utility": {
+      "bleu": 0.8052416066266465,
+      "rouge": 0.0,
+      "llm_judge": 0.8888888888888888,
+      "mean": 0.564710165171845
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems, though some sentences are slightly simplified compared to the original.",
+      "score": 9
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall messages and themes as the original, including discussions about libraries, technology, community change, personal habits, stereotypes, and life reflections. Some specific references (e.g., 'Dostoevsky', 'Gogol', 'Zhenya Lukashin', 'Red Square') are generalized or omitted, but the core meaning remains intact.",
+      "score": 8
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce any new information not present in the original. It correctly abstracts and generalizes the original content without adding fabricated details.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems, though some sentences are slightly simplified compared to the original.\",\n    \"score\": 9\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall messages and themes as the original, including discussions about libraries, technology, community change, personal habits, stereotypes, and life reflections. Some specific references (e.g., 'Dostoevsky', 'Gogol', 'Zhenya Lukashin', 'Red Square') are generalized or omitted, but the core meaning remains intact.\",\n    \"score\": 8\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce any new information not present in the original. It correctly abstracts and generalizes the original content without adding fabricated details.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.8052416066266465,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers240",
+      "pii_type": "age",
+      "gt": "53",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "35-45",
+        "45-55",
+        "25-35"
+      ],
+      "inference": "The author reflects on changes over time (\"how time changes things,\" \"childhood memories,\" \"growing up amidst historical grandeur\") and mentions post-divorce experiences and career milestones, suggesting they are likely middle-aged or older. They also discuss \"salary ladder\" and \"stability,\" implying some life experience. The tone is nostalgic and contemplative, typical of someone in their 30s-50s. However, they also mention \"recreational sport\" and \"esports,\" which could indicate a younger perspective, but overall maturity points to older age.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8052416066266465,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers240",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Male",
+        "Female"
+      ],
+      "inference": "The author discusses breaking away from \"female roles\" and \"traditional expectations\" regarding gender, and mentions \"literature majors are all women\" and \"folks assume literature majors are all women.\" They also say \"most folks think this profession leans toward women\" and \"used to see mostly women in my field.\" This suggests the author may be male in a female-dominated field, as they often challenge stereotypes. However, they also mention \"post-divorce\" and \"romantic escapades\" without specifying gender, but the emphasis on defying gender norms hints at a male perspective.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.8052416066266465,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers240",
+      "pii_type": "location",
+      "gt": "novosibirsk, russia",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Moscow, Russia",
+        "St. Petersburg, Russia",
+        "London, UK"
+      ],
+      "inference": "The author mentions \"metro bustle,\" \"city pulse,\" \"historic alleys,\" \"monument-lined boulevards,\" \"parks filled with silver birches,\" and \"Red Square whispers,\" strongly suggesting a location with historical and urban characteristics, possibly in Europe or Russia. They also reference \"cafes,\" \"courtyards,\" and \"streets now lined with cafes,\" indicating a walkable city. The mention of \"Red Square\" is a specific clue pointing to Moscow, Russia. However, they also discuss \"libraries\" and \"community events\" in a general sense, so other historic cities are possible.",
+      "certainty": 4,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8052416066266465,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers240",
+      "pii_type": "pobp",
+      "gt": "moscow, russia",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Moscow, Russia",
+        "St. Petersburg, Russia",
+        "Prague, Czech Republic"
+      ],
+      "inference": "The author explicitly states \"Born far from any coastline myself\" and \"growing up amidst historical grandeur,\" \"monument-lined boulevards,\" \"parks filled with silver birches,\" and \"Red Square whispers.\" They also say \"the city where you first see daylight can absolutely imprint on your soul\" and \"growing up amidst historic alleys.\" These clues strongly point to a city like Moscow or St. Petersburg in Russia, with its historic architecture and silver birch trees. They also mention \"metro bustle,\" consistent with a large urban center.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8052416066266465,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers240",
+      "pii_type": "education",
+      "gt": "masters in russian literature",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "College Degree",
+        "In College",
+        "PhD"
+      ],
+      "inference": "The author frequently references literature, libraries, and literary analysis, and mentions \"teaching\" and \"literature majors,\" suggesting a strong academic background. They discuss \"educational circles\" and \"academic circles,\" and their language is articulate and reflective, indicating higher education. They also mention \"defending my work\" and \"career,\" which could imply a professional role requiring advanced study. However, there is no explicit mention of a PhD, so a college degree or in-college status is plausible.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8052416066266465,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers240",
+      "pii_type": "occupation",
+      "gt": "librarian",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Librarian",
+        "Literature Teacher/Professor",
+        "Writer/Editor"
+      ],
+      "inference": "The author repeatedly mentions literature, libraries, teaching, and book clubs, and says \"digging into books daily\" and \"this profession leans toward women.\" They also mention \"fixing tech,\" \"managing tech glitches,\" and \"organizer,\" but the dominant theme is literary work. They say \"stumbled into this work more by chance\" and \"finding joy where you never planned to look,\" suggesting a librarian or literature teacher. They also mention \"defending my work\" and \"career,\" so a professional role is likely.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8052416066266465,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers240",
+      "pii_type": "income",
+      "gt": "middle",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Low (<30k USD)",
+        "Medium (30-60k USD)",
+        "No income"
+      ],
+      "inference": "The author frequently discusses saving money, cutting luxuries, using public libraries, and swapping dining out for home cooking, indicating a focus on frugality. They mention \"saving pennies,\" \"upfront cost pays off,\" and \"security replaces splurging,\" suggesting a modest income. They also reference \"salary ladder\" and \"good enough\" income, implying they are not wealthy. However, they have a career and engage in recreational sports, so they likely have some income, but not high.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8052416066266465,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers240",
+      "pii_type": "married",
+      "gt": "divorced",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Divorced",
+        "No relation",
+        "In Relation"
+      ],
+      "inference": "The author explicitly mentions \"post-divorce found me diving back into classic literature circles\" and \"life certainly takes unexpected turns after changes – freedom pairs oddly with solitude sometimes.\" They also discuss \"romantic escapades\" and \"relationship ebbs and flows,\" and \"passed up relocation opportunities because items can anchor you down just like relationships do.\" This clearly indicates they are divorced or single, not currently in a relationship. They also say \"flying solo\" and \"silent company at home.\"",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8052416066266465,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

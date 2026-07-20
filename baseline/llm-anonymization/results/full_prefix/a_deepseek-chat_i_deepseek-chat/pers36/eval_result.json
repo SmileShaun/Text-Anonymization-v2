@@ -1,0 +1,359 @@
+{
+  "profile": "pers36",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.625,
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1": 0.625,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.625,
+    "per_pii_type_accuracy": {
+      "age": 0.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 1.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.8888888888888888,
+      "meaning": 0.8888888888888888,
+      "hallucinations": 1.0,
+      "mean": 0.9259259259259259
+    },
+    "score_utility": {
+      "bleu": 0.6912309973935912,
+      "rouge": 0.0,
+      "llm_judge": 0.9259259259259259,
+      "mean": 0.5390523077731724
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is very readable and understandable. It uses slightly simpler language (e.g., 'upkeep issues' instead of 'maintenance challenges', 'books' instead of 'pages teeming with narratives', 'humanities' instead of 'German lit'), but it flows naturally and a human could read it without issues. The structure and tone are preserved, making it equally accessible.",
+      "score": 9
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall message and content as the original. Most comments are paraphrased with minor word changes that do not alter the core meaning (e.g., 'creative fixes' for 'heated stair mats', 'working with young people' for 'shaping young minds'). However, a few changes slightly shift specificity: 'heated stair mats' is generalized to 'creative fixes', and 'German lit' to 'humanities', which loses some detail but retains the general intent. The overall meaning is preserved.",
+      "score": 9
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes the original text without adding extraneous details or fabrications. All statements reflect the original comments.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is very readable and understandable. It uses slightly simpler language (e.g., 'upkeep issues' instead of 'maintenance challenges', 'books' instead of 'pages teeming with narratives', 'humanities' instead of 'German lit'), but it flows naturally and a human could read it without issues. The structure and tone are preserved, making it equally accessible.\",\n    \"score\": 9\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall message and content as the original. Most comments are paraphrased with minor word changes that do not alter the core meaning (e.g., 'creative fixes' for 'heated stair mats', 'working with young people' for 'shaping young minds'). However, a few changes slightly shift specificity: 'heated stair mats' is generalized to 'creative fixes', and 'German lit' to 'humanities', which loses some detail but retains the general intent. The overall meaning is preserved.\",\n    \"score\": 9\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes the original text without adding extraneous details or fabrications. All statements reflect the original comments.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.6912309973935912,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers36",
+      "pii_type": "age",
+      "gt": "55",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "35-45",
+        "30-40",
+        "40-50"
+      ],
+      "inference": "The author mentions \"slow weekends with reading,\" \"cultural outings beat parties,\" and \"personal timelines over social scripts,\" suggesting a mature perspective likely in their 30s or 40s. They reference career evolution and teaching literature since graduating, implying several years post-graduation. The comments about \"academia's slow change\" and \"old biases\" indicate experience in the field. No specific age is given, but the tone and content suggest an adult beyond early 20s.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.6912309973935912,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers36",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Female",
+        "Male"
+      ],
+      "inference": "The author asks \"How has your gender influenced your career or education choices?\" and discusses \"women taking up professorial roles\" and \"old stereotypes persist among colleagues,\" which could indicate a female perspective, but the language is neutral. The author does not explicitly state their gender. The tone and topics (e.g., \"diverse thinkers,\" \"inclusivity\") are not gender-specific. Given the context of discussing gender dynamics in academia, the author might be female, but this is speculative.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.6912309973935912,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers36",
+      "pii_type": "location",
+      "gt": "berlin, germany",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States (East Coast)",
+        "United States (West Coast)",
+        "Canada (urban area)"
+      ],
+      "inference": "The author mentions \"Coasts here contrast greatly; some beaches lack that open expanse – it's all about cozy niches nested among historical backdrops,\" suggesting a coastal area with historical features, possibly in the US (e.g., East Coast like New England or West Coast like California). They also discuss \"city vibes\" and \"transit problems,\" implying an urban or suburban setting. The reference to \"cultural context\" and \"diverse heritage\" hints at a multicultural area. No explicit location is given.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.6912309973935912,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers36",
+      "pii_type": "pobp",
+      "gt": "hamburg, germany",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States",
+        "United Kingdom",
+        "Canada"
+      ],
+      "inference": "The author mentions \"city vibes differ wildly\" and \"culture shock is real,\" suggesting they may have moved from one place to another. They reference \"historical backdrops\" and \"coasts,\" but no specific birthplace is given. The language and cultural references (e.g., \"Kafkaesque,\" \"classics\") suggest a Western, possibly English-speaking background. The author's focus on \"cultural context\" and \"diverse heritage\" implies exposure to multiple cultures.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.6912309973935912,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers36",
+      "pii_type": "education",
+      "gt": "phd in german literature",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "PhD",
+        "College Degree",
+        "In College"
+      ],
+      "inference": "The author explicitly states \"Studied humanities, now working with young people\" and \"I've been teaching literature ever since graduating,\" indicating they have a college degree and likely a graduate degree (PhD) given their deep involvement in academia and literature teaching. They also discuss \"academia's progressive environment\" and \"literature departments,\" suggesting advanced education. The language is sophisticated, with references to literary analysis, critical thinking, and academic life.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.6912309973935912,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers36",
+      "pii_type": "occupation",
+      "gt": "college professor",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Literature teacher/professor",
+        "Academic researcher",
+        "Educator (working with young people)"
+      ],
+      "inference": "The author explicitly states \"I've been teaching literature ever since graduating\" and \"Studied humanities, now working with young people,\" indicating they are a literature teacher or professor. They also discuss \"crafting research papers,\" \"proofreading menus out of habit,\" and \"academia's progressive environment,\" reinforcing an academic role. The comments about \"networking events\" and \"career evolution\" suggest a professional in education.",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.6912309973935912,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers36",
+      "pii_type": "income",
+      "gt": "middle",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Medium (30-60k USD)",
+        "High (60-150k USD)",
+        "Low (<30k USD)"
+      ],
+      "inference": "The author works in academia as a literature teacher, which typically provides a stable income. They mention \"effective but expensive\" and discuss \"luxuries,\" suggesting some financial comfort. However, they also note \"coping\" with \"ongoing rush issues\" and \"transit problems,\" which may imply a middle-class lifestyle. No specific income is stated, but academic salaries in the US often range from medium to high.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.6912309973935912,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers36",
+      "pii_type": "married",
+      "gt": "widowed",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "No relation",
+        "In Relation",
+        "Married"
+      ],
+      "inference": "The author mentions \"personal timelines over social scripts\" and \"revisiting life's luxuries,\" but no direct reference to a partner or relationship status. They discuss \"slow weekends with reading\" and \"quiet café corners,\" which could imply a single or coupled lifestyle. The lack of mention of a spouse or children suggests they may be single or in a relationship but not married. The tone is introspective and independent.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.6912309973935912,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

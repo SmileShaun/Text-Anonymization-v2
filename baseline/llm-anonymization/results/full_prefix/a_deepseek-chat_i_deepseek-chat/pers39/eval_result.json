@@ -1,0 +1,359 @@
+{
+  "profile": "pers39",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.75,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.75,
+    "per_pii_type_accuracy": {
+      "age": 1.0,
+      "gender": 1.0,
+      "location": 1.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 0.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 1.0,
+      "meaning": 0.8888888888888888,
+      "hallucinations": 1.0,
+      "mean": 0.9629629629629629
+    },
+    "score_utility": {
+      "bleu": 0.7929455140805395,
+      "rouge": 0.0,
+      "llm_judge": 0.9629629629629629,
+      "mean": 0.5853028256811674
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is equally readable and understandable as the original. It uses similar language, sentence structures, and informal tone, making it easy for a human to read without issues.",
+      "score": 10
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same messages and content as the original. While some specific terms are generalized (e.g., 'vertical gardens' to 'modern green spaces', 'taco stands' to 'food spots', 'La Llorona' to 'a ghostly figure'), the overall meaning and intent of each comment remain intact.",
+      "score": 9
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes the original text without adding or altering the core content.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is equally readable and understandable as the original. It uses similar language, sentence structures, and informal tone, making it easy for a human to read without issues.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same messages and content as the original. While some specific terms are generalized (e.g., 'vertical gardens' to 'modern green spaces', 'taco stands' to 'food spots', 'La Llorona' to 'a ghostly figure'), the overall meaning and intent of each comment remain intact.\",\n    \"score\": 9\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes the original text without adding or altering the core content.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.7929455140805395,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers39",
+      "pii_type": "age",
+      "gt": "39",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "35",
+        "40",
+        "30"
+      ],
+      "inference": "The author reflects on career changes, milestones, and nostalgia for past urban changes (e.g., \"old bookstore turned into a new venue,\" \"local cinema turned into mini mall\"). They mention \"Hit some milestones late; no regrets here!\" and \"Career change here - best unplanned move ever!\" This suggests they are likely in their 30s or 40s, having experienced enough urban evolution and career shifts. They also mention \"Early mornings are pure gold\" and \"adulting means budget for surprises,\" indicating a mature perspective.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7929455140805395,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers39",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Male",
+        "Female"
+      ],
+      "inference": "The author uses phrases like \"Dude!\" and \"papá\" (father) and \"abuelos\" (grandfathers), but also mentions \"uncles finally stopped joking 'bout me not cooking\" and \"Not just work - family gatherings too.\" They discuss \"mom's kitchen rumba\" and \"dad's sports craze.\" The language is neutral but slightly leans male due to \"Dude!\" and references to \"biz strategy games\" and \"PC building.\" However, they also note \"more women taking lead roles\" and \"teamwork defies old norms,\" which could be from any gender. No clear gender-specific pronouns are used.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.7929455140805395,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers39",
+      "pii_type": "location",
+      "gt": "mexico city, mexico",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Mexico City",
+        "Madrid",
+        "Barcelona"
+      ],
+      "inference": "The author frequently references urban life, city buzz, and specific cultural elements like \"tinto de verano\" (a Spanish drink), \"chapulines\" (Mexican grasshoppers), \"tacos,\" \"sushi,\" and \"abuelos\" (grandparents). They mention \"Inland roots - still crave urban energy & historical vibes though!\" and \"Culture-rich origins totally translate into biz savvy instincts!\" This suggests a Spanish-speaking or Latin American background, possibly in a city with historical and modern mix, like Mexico City or Madrid. They also note \"Business world still leans conventional but seeing more folks defying those odds every day!\" and \"Even abuelos are rocking aprons now!\" indicating a culturally rich, possibly urban environment.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7929455140805395,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers39",
+      "pii_type": "pobp",
+      "gt": "guadalajara, mexico",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Mexico",
+        "Spain",
+        "Colombia"
+      ],
+      "inference": "The author mentions \"tinto de verano\" (Spanish drink), \"chapulines\" (Mexican), \"tacos,\" \"sushi,\" and \"abuelos.\" They say \"Birthplace vibes linger subtly in your vibe\" and \"Culture-rich origins totally translate into biz savvy instincts!\" They also reference \"local folklore rumors\" and \"weeping woman\" (La Llorona legend, common in Mexico and Latin America). This strongly suggests a Latin American or Spanish birthplace, likely Mexico or Spain.",
+      "certainty": 4,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7929455140805395,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers39",
+      "pii_type": "education",
+      "gt": "masters in business administration",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "College Degree",
+        "PhD",
+        "In College"
+      ],
+      "inference": "The author mentions \"advanced degree pays off daily\" and \"formal training paid off; strategic plays landed me here.\" They also discuss \"Academia maybe; business world adapts quicker\" and \"Feeling like an advanced degree might not cut it when practical skills are more useful.\" This suggests they have at least a college degree, likely a master's or higher, but they also value practical skills. The language is sophisticated and reflective, indicating higher education.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7929455140805395,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers39",
+      "pii_type": "occupation",
+      "gt": "business development manager",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Business Development Manager",
+        "Corporate Strategist",
+        "Consultant"
+      ],
+      "inference": "The author explicitly mentions \"corporate strategy,\" \"biz dev,\" \"business development,\" \"negotiating deals,\" and \"presenting a pitch.\" They say \"Landed in corporate strategy – surprisingly fulfilling\" and \"Fell sideways into biz dev after getting formal education.\" They also discuss \"budget forecasts at work\" and \"market trends.\" This strongly suggests a role in business development, corporate strategy, or consulting.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7929455140805395,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers39",
+      "pii_type": "income",
+      "gt": "middle",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "High (60-150k USD)",
+        "Medium (30-60k USD)",
+        "Very High (>150k USD)"
+      ],
+      "inference": "The author discusses \"stretching weekly budgets into an art form,\" \"auto-deduct savings each paycheck,\" \"year-end bonuses fill gaps - also side gigs,\" and \"property? Maybe when food costs a fraction again.\" They mention \"clever budgets can't always fix flat salaries\" and \"strategic splurging keeps me sane amidst budget bites.\" This suggests a medium to high income, but with careful budgeting. They also reference \"corporate strategy\" and \"biz dev,\" which typically pay well.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7929455140805395,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers39",
+      "pii_type": "married",
+      "gt": "married",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Married",
+        "In Relation",
+        "Divorced"
+      ],
+      "inference": "The author mentions \"Marriage takes ongoing effort - no set timeline fixes issues,\" \"Career moves sometimes align better when you're part of a team,\" \"Joint planning helps – we do it together and it works well,\" and \"Partnership steered career & personal growth balance here.\" They also say \"Shows merge? Nah, we navigate our Netflix queues solo\" and \"Someone always nails dessert – never forgets 'dessert' love!\" This indicates they are in a committed relationship, likely married or in a long-term partnership.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7929455140805395,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

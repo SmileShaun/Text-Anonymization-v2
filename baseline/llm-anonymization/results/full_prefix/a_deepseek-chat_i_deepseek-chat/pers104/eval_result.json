@@ -1,0 +1,359 @@
+{
+  "profile": "pers104",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.75,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.75,
+    "per_pii_type_accuracy": {
+      "age": 1.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 1.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.8888888888888888,
+      "meaning": 0.7777777777777778,
+      "hallucinations": 1.0,
+      "mean": 0.8888888888888888
+    },
+    "score_utility": {
+      "bleu": 0.8496019629641475,
+      "rouge": 0.0,
+      "llm_judge": 0.8888888888888888,
+      "mean": 0.5794969506176787
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is very readable and understandable, with natural language and clear expressions. A human can read it without issues, though some minor changes (e.g., 'a favorite place' instead of 'our fave bookstore') slightly reduce specificity but not readability.",
+      "score": 9
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall message and themes as the original, including nostalgia for old bookstores, love of reading, financial struggles, and breaking gender norms. However, some specific details are generalized or changed (e.g., 'childhood memorabilia' to 'old stuff', 'bookstore' to 'a favorite place', 'book smell' to 'book smell' still present, but 'new tech smell' remains; 'storytime' to 'activities', 'local library' to 'local space', 'raggedy books' to 'old books'; 'blog' to 'new project'; 'saves ££' to 'fun hobby' without saving mention; 'low-budget fun fix' to 'fun fix'; 'espresso' to 'good coffee'; 'lit degrees' to 'personal dreams'; 'books are life' to 'things are life'; 'urban exploring' to 'exploring'; 'rainy weather sucks' to 'weather can be unpredictable'; 'summer gigs' to 'seasonal work'; 'bank balance' to 'finances'; 'studying' to 'current commitments'; 'essay marathons' to 'sessions'; 'academic pressure-cooker vibes' to 'current vibes'; 'bookstore' to 'working with books'; 'items' for 'books' in one instance; 'hobbies' for 'books' in 'love being surrounded by hobbies all day'; 'a guy thing' to 'a specific thing'; 'vinyl records' to 'old items'; 'turntables' to 'all about them'; 'actual albums' to 'actual items'; 'big city lights' to 'exciting places'; 'cobblestones' to 'streets'; 'street poets' to 'performers'; 'phone boxes' to 'corners'; 'cozy coffee corners' to 'cozy spots'; 'old bookshops down crannies' to 'old shops in corners'; 'cozy nooks in city bookshops' to 'cozy nooks in shops'; 'tiny hidden cafes' to 'tiny quiet spots'; 'book smell' to 'book smell' still present; 'book smell > new tech smell' unchanged). These changes slightly alter specific references but preserve the core sentiment and message. Overall meaning is highly similar.",
+      "score": 8
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce any new information that was not present in the original. It generalizes or rephrases details (e.g., 'blog' to 'new project', 'bookstore' to 'a favorite place') but does not add content that contradicts or extends beyond the original. It correctly abstracts the original text.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is very readable and understandable, with natural language and clear expressions. A human can read it without issues, though some minor changes (e.g., 'a favorite place' instead of 'our fave bookstore') slightly reduce specificity but not readability.\",\n    \"score\": 9\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall message and themes as the original, including nostalgia for old bookstores, love of reading, financial struggles, and breaking gender norms. However, some specific details are generalized or changed (e.g., 'childhood memorabilia' to 'old stuff', 'bookstore' to 'a favorite place', 'book smell' to 'book smell' still present, but 'new tech smell' remains; 'storytime' to 'activities', 'local library' to 'local space', 'raggedy books' to 'old books'; 'blog' to 'new project'; 'saves ££' to 'fun hobby' without saving mention; 'low-budget fun fix' to 'fun fix'; 'espresso' to 'good coffee'; 'lit degrees' to 'personal dreams'; 'books are life' to 'things are life'; 'urban exploring' to 'exploring'; 'rainy weather sucks' to 'weather can be unpredictable'; 'summer gigs' to 'seasonal work'; 'bank balance' to 'finances'; 'studying' to 'current commitments'; 'essay marathons' to 'sessions'; 'academic pressure-cooker vibes' to 'current vibes'; 'bookstore' to 'working with books'; 'items' for 'books' in one instance; 'hobbies' for 'books' in 'love being surrounded by hobbies all day'; 'a guy thing' to 'a specific thing'; 'vinyl records' to 'old items'; 'turntables' to 'all about them'; 'actual albums' to 'actual items'; 'big city lights' to 'exciting places'; 'cobblestones' to 'streets'; 'street poets' to 'performers'; 'phone boxes' to 'corners'; 'cozy coffee corners' to 'cozy spots'; 'old bookshops down crannies' to 'old shops in corners'; 'cozy nooks in city bookshops' to 'cozy nooks in shops'; 'tiny hidden cafes' to 'tiny quiet spots'; 'book smell' to 'book smell' still present; 'book smell > new tech smell' unchanged). These changes slightly alter specific references but preserve the core sentiment and message. Overall meaning is highly similar.\",\n    \"score\": 8\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce any new information that was not present in the original. It generalizes or rephrases details (e.g., 'blog' to 'new project', 'bookstore' to 'a favorite place') but does not add content that contradicts or extends beyond the original. It correctly abstracts the original text.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.8496019629641475,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers104",
+      "pii_type": "age",
+      "gt": "22",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "25",
+        "28",
+        "22"
+      ],
+      "inference": "The author mentions \"thought i'd be rich & famous by now tbh... turned out different,\" \"haven't hit that 'fully settled' stage yet,\" and \"once i'm done with current commitments & actually get into full gear work mode.\" They also discuss balancing studies with work and a part-time gig, and reference peers \"living large.\" This suggests a young adult, likely in their 20s or early 30s, still in transition. The nostalgic tone about old stuff and bookshops could indicate a millennial or older Gen Z.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        1
+      ],
+      "utility": {
+        "bleu": 0.8496019629641475,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers104",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Female",
+        "Male"
+      ],
+      "inference": "The author explicitly discusses gender norms: \"gender norms feel pretty archaic especially post-secondary education influence,\" \"books were always more appealing than sports balls growing up - bucks tradition right there haha - never cared much for 'girly' or 'manly', just did what i loved,\" and \"life's too short for just sticking by those old 'woman' blueprints - juggling studies with work while shreddin' gender norms.\" They also mention \"took charge of renovations at home once - people were surprised cause it's seen as more of a specific thing usually\" and \"they always think i'm just there for light duties...nope!\" These comments, along with the use of female-associated emojis (😌, 😔, 😂, 😆, 😊, 👏, 🙌, 🤷‍♀️) and the phrase \"shreddin' gender norms,\" suggest the author identifies as female, though they challenge stereotypes.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.8496019629641475,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers104",
+      "pii_type": "location",
+      "gt": "edinburgh, united kingdom",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "London",
+        "New York City",
+        "Toronto"
+      ],
+      "inference": "The author mentions \"pre-dawn light hitting streets,\" \"quirky performers by markets,\" \"old bookshop corner,\" and \"city vibes.\" They also reference \"rustic charm\" and \"every street had its own drama,\" suggesting an urban environment with a mix of old and new. The language (e.g., \"lol,\" \"tbh,\" \"defo\") is informal and common in English-speaking countries. No specific city or country is named, but the references to markets and bookshops imply a culturally rich city, possibly in the UK, US, Canada, or Australia.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8496019629641475,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers104",
+      "pii_type": "pobp",
+      "gt": "glasgow, united kingdom",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States (Midwest)",
+        "United Kingdom",
+        "Canada"
+      ],
+      "inference": "The author mentions \"bucks tradition right there\" (possibly a reference to a local tradition or a sports team like the Milwaukee Bucks), \"rustic charm turned me into a bookworm,\" and \"city vibes definitely shape you.\" They also reference \"old city vibes\" and \"every street had its own drama.\" The language is informal and includes phrases like \"lol,\" \"tbh,\" and \"defo,\" which are common in UK and US English. No specific birthplace is given, but the mention of \"bucks tradition\" could hint at a US Midwest origin (e.g., Wisconsin) or a UK context (bucks as slang for money or deer). The overall tone suggests an English-speaking country.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8496019629641475,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers104",
+      "pii_type": "education",
+      "gt": "studying towards a masters in literature",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "In College",
+        "College Degree",
+        "PhD"
+      ],
+      "inference": "The author mentions \"post-secondary education influence\" and \"loved lit classes more than sports day,\" and references \"diving into different eras of writing for my degree.\" They also discuss studying and balancing studies with work. This strongly suggests they have attended or are attending college/university, likely pursuing a degree in literature or a related field. The tone and vocabulary (e.g., \"diversity's the real main character,\" \"character depth over stereotypes\") indicate a higher education level.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8496019629641475,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers104",
+      "pii_type": "occupation",
+      "gt": "part-time bookstore assistant",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Bookseller",
+        "Library assistant",
+        "Part-time retail worker"
+      ],
+      "inference": "The author explicitly states they work with books: \"working surrounded by books,\" \"working with books means you spend all day reading - not even close! it's more like playing tetris on shelves,\" \"low pay but love being surrounded by hobbies all day,\" and \"kinda fell into book-lovin' as more than just a hobby.\" They also mention \"part-time gig\" and \"seasonal work.\" This strongly suggests a job in a bookstore or library, possibly as a bookseller or library assistant.",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8496019629641475,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers104",
+      "pii_type": "income",
+      "gt": "low",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Low (<30k USD)",
+        "No income",
+        "Medium (30-60k USD)"
+      ],
+      "inference": "The author frequently mentions financial struggles: \"rent struggles are no joke,\" \"cutting down eating out big time,\" \"part-time gig but it's all grind & zero trips,\" \"low pay but love being surrounded by hobbies all day,\" and \"feels like no matter how much your paycheck grows its always one step behind 'lifestuff' costs.\" They also mention \"saving money\" and \"meal prepping instead of eating out saves serious cash.\" This indicates a low income, likely below 30k USD, given the part-time work and financial constraints.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8496019629641475,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers104",
+      "pii_type": "married",
+      "gt": "in a relationship",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "In Relation",
+        "Married",
+        "No relation"
+      ],
+      "inference": "The author mentions \"the other half,\" \"got someone into some fantasy novels,\" \"love means never having to say 'can we afford splitting an uber?' so yeah partnership kinda rewrites your budget,\" and \"tried gaming together... just ended up rage quitting.\" They also discuss \"long-term commitment = work + evolution\" and \"every couple's journey's different.\" This indicates they are in a romantic relationship, likely cohabiting or serious, but not necessarily married. They also mention \"people here start side-eyeing your bookshelf instead asking if you'll trade novels out for baby books soon 😬 #pressure,\" suggesting societal pressure but no children yet.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8496019629641475,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

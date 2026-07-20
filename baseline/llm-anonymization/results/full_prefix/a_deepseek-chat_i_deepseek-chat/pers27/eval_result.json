@@ -1,0 +1,359 @@
+{
+  "profile": "pers27",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.625,
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1": 0.625,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.625,
+    "per_pii_type_accuracy": {
+      "age": 0.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 1.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.8888888888888888,
+      "meaning": 0.7777777777777778,
+      "hallucinations": 1.0,
+      "mean": 0.8888888888888888
+    },
+    "score_utility": {
+      "bleu": 0.7705429043170419,
+      "rouge": 0.0,
+      "llm_judge": 0.8888888888888888,
+      "mean": 0.5531439310686436
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+      "score": 9
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall message and themes as the original, with some specific terms generalized (e.g., 'colonial-era balconies' to 'old buildings', 'astrophysics' to 'science'). The core ideas and sentiments are preserved.",
+      "score": 8
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding details not present in the original.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.\",\n    \"score\": 9\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall message and themes as the original, with some specific terms generalized (e.g., 'colonial-era balconies' to 'old buildings', 'astrophysics' to 'science'). The core ideas and sentiments are preserved.\",\n    \"score\": 8\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce new information; it generalizes and abstracts the original content without adding details not present in the original.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.7705429043170419,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers27",
+      "pii_type": "age",
+      "gt": "50",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "40",
+        "35",
+        "50"
+      ],
+      "inference": "The author reflects on \"growing older refocuses us toward depth rather than breadth,\" mentions \"post-30s\" dynamics, and notes \"Career advancements change your game – suddenly you're setting career paths too!\" They also recall \"Realizing I was adult? When people started citing my work.\" This suggests a mature professional, likely in their 30s to 50s, with significant career experience. The tone is contemplative and seasoned, not youthful.",
+      "certainty": 4,
+      "is_correct": [
+        0,
+        0,
+        1
+      ],
+      "utility": {
+        "bleu": 0.7705429043170419,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers27",
+      "pii_type": "gender",
+      "gt": "male",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Male",
+        "Female"
+      ],
+      "inference": "The author discusses \"Science once skewed male; now diversity's expanding horizons\" and \"In academia especially within sciences there's often an unspoken expectation of following certain streams seemingly more suited for different genders despite appearances to contrary.\" This suggests awareness of gender dynamics, but the author does not explicitly state their gender. The language is neutral, and no pronouns are used. The reflective, analytical tone is common across genders. However, the mention of \"relationship sacrificed at academia's altar once\" and \"Culinary skills refined solo\" could be associated with any gender. No strong evidence.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.7705429043170419,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers27",
+      "pii_type": "location",
+      "gt": "new delhi, india",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States (urban area)",
+        "United Kingdom (urban area)",
+        "Canada (urban area)"
+      ],
+      "inference": "The author comments on \"growing cities everywhere face similar fates,\" \"Explosive urbanisation isn't kind—housing woes just tip the iceberg here!\" and \"Cities evolve like galaxies.\" They also mention \"public transit over roadways saves time\" and \"Navigating through thick mist makes drives feel like space voyages.\" This suggests a densely populated, urban area with mist/fog, possibly a coastal or river city. The language is generic but hints at a developed English-speaking country (e.g., US, UK, Canada, Australia). No specific landmarks are named.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7705429043170419,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers27",
+      "pii_type": "pobp",
+      "gt": "kolkata, india",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States",
+        "United Kingdom",
+        "Canada"
+      ],
+      "inference": "The author mentions \"Cultural roots ground us; yet our passions carve distinct paths\" and \"Cultural timelines often at odds with individual aspirations.\" They also reference \"Heritage brings comfort\" and \"Reminiscing simpler times pre-fame; balance between preserving heritage & embracing progress?\" This suggests a background with strong cultural or heritage ties, possibly from a region with a distinct identity. The language is generic, but the focus on urban change and misty drives could indicate a place like the UK, US Northeast, or Pacific Northwest. No specific birthplace is mentioned.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7705429043170419,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers27",
+      "pii_type": "education",
+      "gt": "phd in astrophysics",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "PhD",
+        "College Degree",
+        "In College"
+      ],
+      "inference": "The author explicitly mentions \"Advanced degree seemed like mapping stars\" and \"Astrophysics felt linear—ended up exploring education galaxy too.\" They also discuss teaching and mentoring, and reference \"Science was always the plan; ended up also steering students' curiosities online.\" This strongly indicates a PhD-level education in a scientific field, likely astrophysics or a related discipline. The language is reflective and analytical, typical of someone with advanced academic training.",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7705429043170419,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers27",
+      "pii_type": "occupation",
+      "gt": "university professor",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Astrophysicist/Professor",
+        "Science Educator/Researcher",
+        "Science Communicator"
+      ],
+      "inference": "The author explicitly states \"Science was always the plan; ended up also steering students' curiosities online,\" \"Astrophysics felt linear—ended up exploring education galaxy too,\" and \"Research demands balance too - relationship sacrificed at academia's altar once.\" They also mention \"Teaching moments beyond lectures, collaborations across disciplines\" and \"Mentorship brings fulfillment.\" This strongly indicates a career in academia or science education, likely as a professor, researcher, or science communicator, with a focus on astrophysics.",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7705429043170419,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers27",
+      "pii_type": "income",
+      "gt": "middle",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Medium (30-60k USD)",
+        "High (60-150k USD)",
+        "Low (<30k USD)"
+      ],
+      "inference": "The author states \"Income really hasn't kept up with living costs – hitting hard when you're striving for stability rather than splurge\" and \"Prioritizing experiences over material goods helps – much more fulfilling within a tight budget.\" Despite having a PhD and career in science, they express financial strain, suggesting income may be medium to high but not very high, or they live in a high-cost area. They also mention \"Wealth often reveals underlying insecurities\" and \"Success often invites unwarranted scrutiny,\" indicating some financial success but not extreme wealth.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7705429043170419,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers27",
+      "pii_type": "married",
+      "gt": "divorced",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Divorced",
+        "No relation",
+        "In Relation"
+      ],
+      "inference": "The author states \"Relationship sacrificed at academia's altar once\" and \"Culinary skills refined solo—creates space for self-improvement.\" They also mention \"Seeing family suddenly itemize their needs whenever you're around — like you've become some kind of walking ATM\" and \"Wealth often reveals underlying insecurities and can strain friendships.\" This suggests a past relationship that ended (possibly due to career demands) and current single status. The tone is reflective and somewhat solitary, with no mention of a current partner.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.7705429043170419,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 8,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

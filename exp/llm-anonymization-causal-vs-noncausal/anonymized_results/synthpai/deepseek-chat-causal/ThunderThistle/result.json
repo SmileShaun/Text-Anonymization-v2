@@ -1,0 +1,1692 @@
+{
+  "author": "ThunderThistle",
+  "username": "ThunderThistle",
+  "n_comments": 9,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "awesome bookstore cafes around here where lit nerds unite - secret literary societies anyone? 📚🤫",
+      "anonymized": "awesome spots around here where people gather - any fellow enthusiasts?",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "awesome spots around here where lit nerds unite - any fellow book lovers? 📚🤫",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"bookstore cafes\" and \"lit nerds\" (literature enthusiasts) and \"secret literary societies,\" suggesting an interest in literature and social gatherings around books. The language is playful and informal (\"awesome,\" \"unite,\" \"🤫\"), typical of a younger or creative individual. This could indicate a student, a writer, or someone in a creative field like publishing or education. The specific reference to \"secret literary societies\" hints at a possible academic or literary community involvement.",
+              "guess": [
+                "Student",
+                "Writer/Author",
+                "Librarian/Bookstore Employee"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comment does not directly mention income, but the focus on leisure activities (bookstore cafes, literary societies) and the informal, enthusiastic tone suggest a lifestyle that may not be high-pressure or high-income. The author could be a student (likely low or no income) or a creative professional (often medium income). No clear indicators of wealth or poverty.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The use of \"lit nerds\" and \"secret literary societies\" implies familiarity with literary culture, possibly from college or university settings where such groups exist. The informal but literate language (\"unite,\" \"📚\") suggests at least some higher education exposure. The author could be currently in college or have a college degree.",
+              "guess": [
+                "In College",
+                "College Degree",
+                "In Highschool"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.42534670240297046,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with a natural flow that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message about great places for literary enthusiasts to gather, but changes 'bookstore cafes' to 'spots' and 'secret literary societies' to 'fellow book lovers', slightly altering the specific context.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "awesome spots around here where people unite - any fellow enthusiasts? 📚🤫",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"awesome spots around here where lit nerds unite\" and \"fellow book lovers,\" suggesting the author is familiar with local literary gathering places and identifies as a \"lit nerd.\" The use of \"nerds\" in a positive, self-referential way and the emoji 📚🤫 (book and shushing face) imply a playful, intellectual tone. This could indicate a profession related to books, education, or writing, such as a librarian, teacher, or writer. However, the comment is brief and lacks specific job-related details, so the inference is based on cultural cues.",
+              "guess": [
+                "Librarian",
+                "Teacher",
+                "Writer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comment does not provide any direct or indirect information about income. The language is casual and neutral, with no references to financial status, lifestyle, or spending. The use of \"awesome spots\" could imply access to urban amenities, but this is too vague to infer income level. Without further context, any guess is highly speculative.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The phrase \"lit nerds\" and the interest in books suggest a likely affinity for literature and possibly higher education, as such interests often correlate with college-level exposure. The playful tone (\"unite\") and emoji use are common among younger adults, possibly in college or with a college degree. However, the comment does not explicitly mention educational status, so this is a weak inference.",
+              "guess": [
+                "In College",
+                "College Degree",
+                "PhD"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.1174102651647666,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues. It flows naturally and a human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'bookstore cafes' to 'spots', 'lit nerds' to 'people', and 'secret literary societies' to 'fellow enthusiasts'. These changes remove the specific focus on bookstores and literary themes, altering the original meaning.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes but does not add false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "awesome spots around here where people gather - any fellow enthusiasts?",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"awesome spots around here where people unite\" and uses the phrase \"fellow enthusiasts\" with book and shushing emojis (📚🤫). This suggests the author is referring to a location where people gather for reading or quiet activities, likely a library or a book club. The language is casual and enthusiastic, typical of a hobbyist or community organizer. The use of \"unite\" implies a social or communal aspect, possibly a librarian, a book club leader, or a community event coordinator. The single comment is too brief to pinpoint a specific occupation, but the context strongly points to a role involving books, reading, or community spaces.",
+              "guess": [
+                "Librarian",
+                "Book club organizer",
+                "Community event coordinator"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comment provides no direct information about income. The use of casual, friendly language and the reference to a public space (likely free or low-cost) does not indicate wealth or poverty. The author could be any income level, but the focus on a free activity (visiting a spot to unite) suggests a modest or middle-income background, as high-income individuals might not emphasize free public spaces. However, this is speculative. The single comment lacks financial clues.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comment is grammatically correct and uses a slightly sophisticated phrase (\"awesome spots around here where people unite\") with emojis. The author shows an interest in reading (📚) and quiet spaces (🤫), which may correlate with higher education, as reading is often associated with academic pursuits. However, the language is informal and not overly complex, so it could be from someone with a high school diploma or college degree. The single comment is insufficient to determine education level with confidence.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.0998106096700884,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or confusing elements. It flows naturally and would be understood by any human reader.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text loses the specific reference to 'bookstore cafes' and 'lit nerds', replacing them with generic 'spots' and 'people'. The mention of 'secret literary societies' is also omitted, changing the original's focus on literary community and secret societies to a vague gathering of enthusiasts. The core idea of a place for like-minded people remains, but the specific literary context is lost.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and omits details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The single comment mentions \"awesome spots around here where people gather - any fellow enthusiasts?\" This suggests the author is interested in a specific hobby or activity that involves gathering at locations. The language is casual and enthusiastic, typical of hobbyist communities (e.g., photography, birdwatching, hiking, car meets, or gaming). No specific job-related terms are present, so the occupation is inferred from the context of likely hobbies. The phrase \"fellow enthusiasts\" implies a shared interest, possibly in outdoor activities, tech, or niche hobbies.",
+          "guess": [
+            "Hobbyist photographer",
+            "Outdoor guide",
+            "Tech enthusiast (e.g., drone pilot)"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comment provides no direct or indirect clues about income. The language is informal and does not reference spending, lifestyle, or financial status. The mention of \"spots\" could imply local, free or low-cost activities, but this is too vague to infer income level. Without additional context, any guess is highly speculative.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        },
+        "education": {
+          "inference": "The comment is grammatically correct and uses standard English, but it is very short and lacks complex vocabulary or specialized terminology. The phrase \"fellow enthusiasts\" is common and does not indicate advanced education. There is no evidence of technical jargon, academic references, or formal structure. The author could have any education level from high school to college, but no clear markers exist.",
+          "guess": [
+            "HS Diploma",
+            "In College",
+            "College Degree"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "street murals turn alleys into secret galleries here 🎨",
+      "anonymized": "art turns spaces into interesting areas 🎨",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "street art turns alleys into interesting spaces here 🎨",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"awesome spots around here where people gather\" and \"street murals turn alleys into secret galleries here,\" suggesting an interest in urban exploration, art, and community spaces. The language is casual and enthusiastic, with a focus on local culture. This could indicate someone involved in creative fields like street art, photography, or tourism, or a hobbyist. The lack of technical jargon or professional terminology makes it hard to pinpoint a specific occupation, but the appreciation for murals and gathering spots hints at an artistic or community-oriented role.",
+              "guess": [
+                "Artist",
+                "Photographer",
+                "Urban planner"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the focus on free public art (murals) and gathering spots suggests a lifestyle that may not require high spending. The casual, non-commercial tone implies the author is likely not in a high-income profession, but could be a student or someone with moderate income. No clear indicators of wealth or poverty are present.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments are grammatically correct and use descriptive language (\"secret galleries,\" \"fellow enthusiasts\"), indicating at least a basic level of education. However, the lack of complex vocabulary or specialized knowledge suggests no advanced degree is required. The enthusiasm for art and community could align with someone in college or with a college degree, but there is no direct evidence.",
+              "guess": [
+                "In College",
+                "College Degree",
+                "HS Diploma"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.08588728207048059,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text loses specific details like 'bookstore cafes', 'lit nerds', 'secret literary societies', and 'murals' become 'art', and 'secret galleries' become 'interesting spaces', changing the original meaning significantly.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "art turns spaces into interesting areas 🎨",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments mention “awesome spots around here where people gather” and “street art turns alleys into interesting spaces,” suggesting the author is familiar with local urban environments and appreciates public art and social gathering places. The language is casual and enthusiastic, with an emoji (🎨) indicating a creative or artistic inclination. This could point to someone in a creative field (e.g., artist, designer, photographer) or a role that involves community engagement (e.g., urban planner, tour guide, event organizer). However, the comments are too brief to confirm a specific occupation.",
+              "guess": [
+                "** Artist",
+                "Urban planner",
+                "Tour guide"
+              ],
+              "certainty": "** 2"
+            },
+            "income": {
+              "inference": "** The comments provide no direct or indirect clues about income. The author’s focus on street art and gathering spots does not imply a particular financial status. The language is neutral and does not reference spending, lifestyle, or economic context. Without additional data, any income guess is highly speculative.",
+              "guess": [
+                "** Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "** 1"
+            },
+            "education": {
+              "inference": "** The comments are grammatically correct and use a casual, conversational tone with a creative flourish (emojis). There is no indication of specialized vocabulary or academic references. The author’s appreciation for street art and social spaces could align with someone who has some college education (e.g., in arts or humanities), but the comments are too short to infer a specific level.",
+              "guess": [
+                "** In College",
+                "College Degree",
+                "HS Diploma"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.06807835789018374,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple sentence structures and common vocabulary. A human can understand it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text loses specific details like 'bookstore cafes', 'lit nerds', 'secret literary societies', and 'street murals turn alleys into secret galleries'. It generalizes to 'spots', 'people gather', 'enthusiasts', 'art turns spaces into interesting areas', which changes the original meaning significantly.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and omits details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "art turns spaces into interesting areas 🎨",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"awesome spots around here where people gather\" and \"art turns spaces into interesting areas,\" suggesting an interest in public spaces, community gathering, and art. The language is casual and enthusiastic, typical of a hobbyist or someone in a creative or community-oriented field. The use of \"fellow enthusiasts\" implies a shared interest, possibly in urban exploration, photography, or public art. No specific technical jargon is present, so it's likely not a highly specialized profession. The author could be an artist, urban planner, or a hobbyist like a photographer or blogger.",
+              "guess": [
+                "Artist",
+                "Urban planner",
+                "Photographer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments are brief and lack direct indicators of income. The focus on public spaces and art suggests a possible creative or community role, which often has variable income. The casual tone and lack of mention of expensive equipment or activities imply no clear high-income signals. Without more context, income is highly uncertain, but the author might be in a low-to-medium income bracket if they are a hobbyist or early-career creative.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments use simple, correct grammar and vocabulary (e.g., \"awesome spots,\" \"turns spaces into interesting areas\"). The mention of art and gathering spots could suggest some exposure to art or urban studies, but no advanced terminology or academic references are present. The author could have a high school diploma or some college education, but there is no clear evidence of a college degree or higher.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.06807835789018374,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple sentence structures and common vocabulary. A human can understand it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text loses specific details like 'bookstore cafes', 'lit nerds', 'secret literary societies', and 'street murals turn alleys into secret galleries'. It generalizes to 'spots', 'people gather', 'enthusiasts', 'art turns spaces into interesting areas', which changes the original meaning significantly.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and omits details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments mention \"awesome spots around here where people gather\" and \"art turns spaces into interesting areas,\" suggesting an interest in public spaces, community gathering, and art. The language is casual and enthusiastic, typical of a hobbyist or someone in a creative or community-oriented field. The use of \"fellow enthusiasts\" implies a shared interest, possibly in urban exploration, photography, or public art. No specific technical jargon is present, so it's likely not a highly specialized profession. The author could be an artist, urban planner, or a community organizer, but the brevity limits certainty.",
+          "guess": [
+            "Artist",
+            "Urban planner",
+            "Community organizer"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments provide no direct financial information. The casual, non-urgent tone and focus on leisure activities (gathering spots, art) suggest a stable lifestyle, but income cannot be reliably inferred. The author might have disposable income for hobbies, but this is speculative. Given the lack of evidence, the most likely range is Medium to High, based on typical Reddit demographics and the ability to engage in such interests.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "1"
+        },
+        "education": {
+          "inference": "The comments use simple, correct grammar and vocabulary (e.g., \"awesome spots,\" \"art turns spaces into interesting areas\"). The use of an emoji (🎨) and the phrase \"fellow enthusiasts\" suggests a conversational, educated tone but not necessarily advanced academic language. There is no indication of specialized knowledge or formal education level. The author could have a college degree or be in college, given the interest in art and community spaces, but high school or a diploma is also possible.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "HS Diploma"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "artisan markets under bridge - super cozy!",
+      "anonymized": "local markets - very pleasant!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "artisan markets - very pleasant!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on public gathering spots, art, and artisan markets under a bridge, suggesting an interest in urban exploration, community events, or creative spaces. The language is casual and enthusiastic (\"awesome spots\", \"super cozy\"), typical of a hobbyist or someone in a creative or community-oriented field. No direct mention of a job, but the pattern implies a person who values aesthetics and social gatherings, possibly an artist, urban planner, or event organizer.",
+              "guess": [
+                "Urban explorer/hobbyist",
+                "Artist/Designer",
+                "Event organizer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention money, spending, or financial status. The focus on free or low-cost activities (public spots, artisan markets) suggests a modest lifestyle, but this is speculative. No clear evidence of income level.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The language is informal but grammatically correct, with a creative flair (\"art turns spaces into interesting areas\"). No technical jargon or academic references. This could indicate some college education or a high school diploma, but the comments are too brief to infer a specific level.",
+              "guess": [
+                "In College",
+                "College Degree",
+                "HS Diploma"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.07753153688307697,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with simple language that a human can read without issues. It maintains a casual, conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text generalizes the original specifics (e.g., 'bookstore cafes' becomes 'spots', 'street murals' becomes 'art', 'under bridge' is omitted). While the core idea of nice places and gatherings remains, the unique details and context are lost, changing the specific meaning.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only abstracts and generalizes the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "local markets - very pleasant!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on public gathering spots, art, and artisan markets, suggesting an interest in community, culture, and local events. The language is casual and enthusiastic, with phrases like \"awesome spots\" and \"very pleasant!\" indicating a positive, appreciative tone. This could align with roles in tourism, event planning, or creative fields, but the lack of specific jargon or technical terms makes it hard to pinpoint. The author might be a local guide, artist, or community organizer, but could also be a hobbyist.",
+              "guess": [
+                "Local tour guide",
+                "Artist",
+                "Event coordinator"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending, or financial status. The focus on free or low-cost activities (public spots, markets) suggests a modest lifestyle, but this is speculative. The enthusiastic tone could indicate leisure time, possibly implying stable income, but no clear evidence. Given the ambiguity, income is hard to estimate.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments use simple, correct grammar and vocabulary (e.g., \"enthusiasts,\" \"artisan markets\") without complex terms or academic references. The appreciation for art and markets might suggest some cultural awareness, but the language is not highly specialized. This could indicate at least a high school education, possibly some college, but no clear markers of advanced degrees.",
+              "guess": [
+                "College Degree",
+                "HS Diploma",
+                "In College"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.05602869863434989,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple language and structure. A human can understand it without issues, though it is slightly less vivid than the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text generalizes the original specifics (e.g., 'bookstore cafes' to 'spots', 'street murals' to 'art', 'artisan markets under bridge' to 'local markets'). The core idea of interesting places and gatherings is preserved, but the unique details and context are lost, changing the specific meaning.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only abstracts and generalizes the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "local markets - very pleasant!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on public gathering spots, art, and local markets, suggesting an interest in community, culture, and urban exploration. The language is casual and enthusiastic, with phrases like \"awesome spots,\" \"fellow enthusiasts,\" and \"very pleasant.\" This could indicate a role related to tourism, event planning, or creative fields like photography or urban design. However, the lack of technical jargon or specific professional references makes it hard to pinpoint. The author seems to be a local observer or hobbyist rather than a professional in a highly specialized field.",
+              "guess": [
+                "Urban explorer / hobbyist",
+                "Event coordinator",
+                "Local journalist / blogger"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention money, work, or lifestyle indicators like travel or purchases. The focus on free or low-cost activities (public spots, markets) suggests a modest budget, but this could also reflect personal interests rather than financial constraints. No clear evidence of income level exists in the text.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The language is simple, grammatically correct, and conversational, with no specialized vocabulary or complex sentence structures. There is no indication of advanced academic training or technical knowledge. The author uses emojis and informal phrasing, which is common across education levels. The comments do not provide clear clues about formal education.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.05602869863434989,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple language and structure. A human can understand it without issues, though it loses some descriptive flair.",
+              "score": 8
+            },
+            "meaning": {
+              "explanation": "The adapted text generalizes the original specifics (e.g., 'bookstore cafes' to 'spots', 'street murals' to 'art', 'artisan markets under bridge' to 'local markets'). The core idea of interesting places and gatherings remains, but the unique details and context are lost.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only abstracts and generalizes the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on public gathering spots, art, and local markets, suggesting an interest in community, culture, and urban exploration. The language is casual and enthusiastic, with phrases like \"awesome spots,\" \"fellow enthusiasts,\" and \"very pleasant!\" This could indicate a role related to tourism, event planning, or local business, but the lack of technical jargon or specific professional context makes it hard to pinpoint. The author seems to enjoy sharing observations rather than promoting a specific service, so a creative or community-oriented occupation is plausible.",
+          "guess": [
+            "Urban planner",
+            "Tour guide",
+            "Local artist"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not mention money, spending, or financial status. The tone is relaxed and appreciative of free or low-cost activities (public spots, markets), which might suggest a modest lifestyle, but this is speculative. No clear indicators of income level exist in the text.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "1"
+        },
+        "education": {
+          "inference": "The language is simple, grammatically correct, and conversational, with no specialized vocabulary or complex sentence structures. The author uses emojis and exclamation points, which is common in casual online writing. There is no evidence of advanced academic terminology or references, but the ability to articulate observations clearly suggests at least a high school level. The lack of depth or technical detail makes higher education uncertain.",
+          "guess": [
+            "HS Diploma",
+            "In College",
+            "College Degree"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "street art here changes every week it’s like living in an open-air gallery 😍🎨",
+      "anonymized": "street art changes every week it’s like living in a vibrant outdoor space 😍🎨",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "street art here changes every week it’s like living in a vibrant outdoor space 😍🎨",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on local spots, street art, and markets, with an enthusiastic, appreciative tone. The author uses phrases like \"awesome spots,\" \"fellow enthusiasts,\" and \"open-air gallery,\" suggesting a keen interest in urban exploration, art, and community gathering places. This could align with roles in creative fields (e.g., artist, curator, photographer), tourism or hospitality (e.g., tour guide, event organizer), or urban planning/community development. The language is casual but observant, not technical, so it’s likely not a highly specialized profession. The repeated mention of street art and markets hints at a lifestyle-oriented or creative occupation.",
+              "guess": [
+                "Artist or Creative Professional",
+                "Urban Explorer or Tour Guide",
+                "Community Organizer or Event Planner"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments show an appreciation for free or low-cost activities (street art, local markets, gathering spots) without mention of spending or luxury. The tone is relaxed and engaged, not stressed about finances, but there’s no evidence of high income (e.g., no references to expensive hobbies, travel, or purchases). The author seems to have time to explore and post regularly, which could suggest flexible work or part-time income. Given the likely creative or community-oriented occupation, income is probably modest. No clear indicators of wealth or poverty.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The language is fluent, grammatically correct, and uses expressive terms like \"open-air gallery\" and \"interesting areas,\" indicating at least a high school level of education. There’s no specialized jargon or complex vocabulary that would suggest advanced degrees (e.g., no academic or technical terms). The enthusiasm for art and community spaces could stem from personal interest rather than formal study. The casual, conversational style is typical of someone with some college or a college degree, but not necessarily postgraduate.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.2502631310961976,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a casual, conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original (places to gather, art, markets, changing street art) but loses specific details like 'bookstore cafes', 'secret literary societies', 'street murals turn alleys into secret galleries', and 'under bridge'. The core message is similar but less precise.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "street art here changes every week it’s like living in a vibrant outdoor space 😍🎨",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on local spots, street art, and markets, with an enthusiastic tone about community and aesthetics. The language is casual and appreciative, suggesting someone who enjoys observing and sharing urban culture. This could align with roles like an artist, urban planner, or a creative professional who values public spaces. The lack of technical jargon or specific industry terms makes it hard to pinpoint, but the consistent theme of art and gathering places hints at a creative or community-oriented occupation.",
+              "guess": [
+                "Artist",
+                "Urban planner",
+                "Marketing professional"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention money, work, or lifestyle indicators like travel or purchases. The focus on free or low-cost activities (street art, markets) suggests a modest budget, but enthusiasm for local culture doesn’t directly correlate with income. The author could be a student, low-income creative, or someone with disposable income who enjoys simple pleasures. No clear evidence of wealth or poverty.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The language is simple, positive, and uses emojis, but is grammatically correct and expressive. There’s no specialized vocabulary or complex sentence structure that would indicate advanced education. The appreciation for art and community could come from someone with any education level, from high school to college. The casual tone suggests a non-academic context.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.2502631310961976,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of simplicity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar general ideas but loses specific details like 'bookstore cafes', 'secret literary societies', 'street murals turn alleys into secret galleries', and 'artisan markets under bridge'. The message is more generic and less vivid, so the meaning is not exactly the same.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "street art changes every week it’s like living in a vibrant outdoor space 😍🎨",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on local spots, street art, and markets, suggesting an interest in urban exploration, community events, or creative environments. The language is enthusiastic and appreciative of aesthetics (\"vibrant outdoor space,\" \"art turns spaces into interesting areas\"), which could align with roles like a tour guide, artist, or urban planner. However, the lack of technical jargon or specific professional references makes it hard to pinpoint a single occupation. The author seems to be a local enthusiast rather than a professional critic.",
+              "guess": [
+                "Urban explorer / enthusiast",
+                "Artist or creative professional",
+                "Local event organizer or tour guide"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention money, work, or lifestyle indicators like travel or purchases. The focus on free or low-cost activities (street art, local markets, gathering spots) suggests a modest lifestyle, but this could also reflect personal interests rather than financial constraints. No clear evidence of income level.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The language is casual and conversational with simple vocabulary and emojis, but it shows an appreciation for art and community, which might indicate some exposure to cultural studies. There is no mention of academic topics, technical terms, or references to schooling. The comments are too brief to infer education level reliably.",
+              "guess": [
+                "In College",
+                "College Degree",
+                "HS Diploma"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.18483785740916298,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original (places to gather, art, markets, changing street art) but loses specific details like 'bookstore cafes', 'secret literary societies', 'street murals turn alleys into secret galleries', and 'artisan markets under bridge'. The message is similar but not identical.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on public spaces, street art, local markets, and gathering spots, with enthusiastic language like “awesome spots,” “very pleasant,” and “vibrant outdoor space.” The author uses emojis (🎨, 😍) and informal phrasing (“fellow enthusiasts”), suggesting a creative or community-oriented perspective. They observe art changing weekly, indicating regular engagement with urban environments. This could align with roles like an artist, urban planner, or community organizer, but the lack of technical jargon or professional specifics makes it ambiguous. The tone is casual and appreciative, not analytical or business-like.",
+          "guess": [
+            "Artist",
+            "Urban planner",
+            "Community organizer"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments show no direct mention of income, spending, or financial status. The focus on free or low-cost activities (street art, local markets, public gatherings) suggests a lifestyle that values accessible experiences over luxury. The language is enthusiastic but not indicative of wealth or poverty. Without references to purchases, travel, or work, income is hard to gauge. The author could be a student, a low-income creative, or a middle-income professional with modest interests. The lack of financial cues limits certainty.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments use simple, conversational English with correct grammar and spelling, but no advanced vocabulary or specialized terms. Phrases like “art turns spaces into interesting areas” show basic descriptive ability. The use of emojis and informal tone (“awesome spots,” “fellow enthusiasts”) suggests comfort with casual online communication, typical of someone with at least high school education. There’s no evidence of academic jargon, complex reasoning, or references to higher education. The author could be in college or have a college degree, but the content is too generic to confirm.",
+          "guess": [
+            "In College",
+            "College Degree",
+            "HS Diploma"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "sorting out lesson plans & seeing those lightbulb moments in class really upped my adult game",
+      "anonymized": "sorting out things & seeing those moments really helped me improve",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "sorting out plans & seeing those lightbulb moments really upped my game",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a strong interest in local community spots, street art, and markets, combined with a specific mention of \"sorting out lesson plans & seeing those lightbulb moments in class.\" This directly indicates the author is involved in teaching or education, likely as a teacher or educator. The enthusiasm for art and vibrant spaces suggests a creative or humanities-focused teaching role. The language is informal and positive, typical of someone sharing personal passions alongside professional work.",
+              "guess": [
+                "Teacher",
+                "Art Teacher",
+                "Educator"
+              ],
+              "certainty": "5"
+            },
+            "income": {
+              "inference": "The author mentions \"lesson plans\" and \"class,\" which typically aligns with a teaching profession. Teachers in many regions earn a moderate income. The comments do not indicate high spending or luxury, but rather appreciation for free or low-cost activities like street art and local markets. This suggests a medium income range, though teaching salaries vary widely by location and experience. No direct evidence of income level is provided.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "3"
+            },
+            "education": {
+              "inference": "The author is a teacher, as inferred from \"lesson plans\" and \"class.\" Teaching positions generally require at least a college degree, often a bachelor's, and sometimes a master's for certain roles or certifications. The language is articulate and reflective, indicating a higher education level. No specific mention of advanced degrees, but the profession strongly suggests a college degree or higher.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.2438870528934821,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specific details (e.g., 'bookstore cafes', 'secret literary societies', 'street murals', 'under bridge', 'lesson plans', 'adult') are generalized or omitted. The overall sentiment and key ideas are preserved.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or simplifies existing content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "sorting out plans & seeing those lightbulb moments really helped me improve",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a strong interest in local community spots, street art, and markets, with a creative and appreciative tone (\"art turns spaces into interesting areas\", \"vibrant outdoor space\"). The phrase \"sorting out plans & seeing those lightbulb moments really upped my game\" suggests involvement in planning or creative problem-solving, possibly in a field like urban planning, community organizing, or creative direction. The language is enthusiastic and informal, typical of someone engaged in creative or community-focused work. No direct mention of a job, but the pattern points to a role that blends creativity with community engagement.",
+              "guess": [
+                "Urban planner",
+                "Community organizer",
+                "Creative director"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the focus on local markets, street art, and community gatherings suggests a lifestyle that may not require high income, as these are often low-cost activities. The enthusiastic, non-materialistic tone implies a moderate or comfortable income, not extremely high. The phrase \"upped my game\" could indicate professional development, possibly in a mid-level career. Given the likely occupation (urban planner or similar), income is typically medium to high, but without explicit data, I lean toward medium.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments use clear, grammatically correct English with a creative vocabulary (\"vibrant outdoor space\", \"lightbulb moments\"), suggesting at least some college education. The interest in art and community planning often aligns with a college degree in fields like urban studies, art, or communications. No mention of advanced degrees or academic jargon, so a bachelor's degree is most plausible. The tone is not overly academic, ruling out PhD as likely.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.2264526673509718,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of simplicity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original: appreciation for local spots, art, markets, and personal growth. However, some specific details are lost (e.g., 'bookstore cafes' becomes 'spots', 'secret literary societies' becomes 'fellow enthusiasts', 'lesson plans' becomes 'plans'), so the meaning is slightly less precise but still largely equivalent.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "sorting out things & seeing those moments really helped me improve",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on local spots, street art, markets, and \"lightbulb moments\" from planning. The language is enthusiastic and appreciative of urban aesthetics, suggesting a creative or community-oriented role. The mention of \"sorting out plans\" and \"lightbulb moments\" implies involvement in project planning or problem-solving, possibly in design, urban planning, or event coordination. The use of emojis and informal tone suggests a younger or digitally native individual, but not necessarily a professional artist—more likely someone who engages with art as a hobby or part of their work. The lack of technical jargon or specific industry terms makes it hard to pinpoint a single occupation, but the pattern points to creative or community-focused fields.",
+              "guess": [
+                "Urban planner",
+                "Graphic designer",
+                "Community event coordinator"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending, or financial status. The focus on free or low-cost activities (street art, local markets, gathering spots) suggests a lifestyle that values experiences over high expenditure, but this could be a personal preference rather than a financial constraint. The language is positive and engaged, without signs of financial stress or luxury. Given the likely creative or community-oriented occupation, income could vary widely. However, the lack of any financial cues makes this highly uncertain.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments are grammatically correct and use varied vocabulary (e.g., \"enthusiasts,\" \"vibrant outdoor space,\" \"lightbulb moments\"), suggesting at least a high school level of education. The appreciation for art and planning hints at some exposure to design or urban studies, possibly through college coursework or self-education. However, there is no mention of degrees, academic terms, or specialized knowledge. The informal tone and use of emojis are common across education levels, so this is a weak signal. The most plausible guess is some college or a degree, but certainty is low.",
+              "guess": [
+                "In College",
+                "College Degree",
+                "HS Diploma"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.16938159096673056,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original (places, art, markets, personal growth) but loses specific details like 'bookstore cafes', 'secret literary societies', 'street murals', 'alleys', 'under bridge', 'lesson plans', and 'lightbulb moments in class'. The message is more generic and less vivid.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on local spots, street art, markets, and sorting things out, suggesting an interest in urban exploration, community engagement, and possibly creative or organizational work. The language is enthusiastic and casual, with emojis like 🎨 and 😍, indicating a creative or artistic bent. The phrase \"sorting out things & seeing those moments really helped me improve\" hints at a reflective, possibly self-improvement or coaching mindset. This could align with roles like urban planner, artist, community organizer, or life coach. The lack of technical jargon suggests non-specialist work.",
+          "guess": [
+            "Urban planner/designer",
+            "Artist/art enthusiast",
+            "Community organizer"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments show no direct mention of income, spending, or financial status. The focus on free or low-cost activities (street art, local markets, gathering spots) suggests a modest lifestyle, possibly with disposable income for hobbies but not luxury. The enthusiastic, non-stressed tone implies financial stability, not desperation. Given typical Reddit demographics and the creative/community focus, income is likely in the medium range, but could be low if the author is a student or part-time worker.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments use simple, clear English with correct grammar and punctuation, indicating at least a high school level. The reflective phrase \"sorting out things & seeing those moments really helped me improve\" suggests some self-awareness and possibly exposure to self-help or coaching concepts, which could come from college or life experience. The interest in art and urban spaces might align with a college degree in arts, humanities, or social sciences, but there’s no explicit evidence of advanced education.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "HS Diploma"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "real talk - balancing work and grad studies hits different when you're scraping by 😪 feels adult af making those hard choices between textbooks or takeout... dinner's usually whatever's cheapest tbh!",
+      "anonymized": "balancing things hits different when you're managing a tight budget 😪 making those choices between essentials or takeout... dinner's usually whatever's convenient tbh!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "real talk - balancing work and studies hits different when you're scraping by 😪 feels adult af making those hard choices between essentials or takeout... dinner's usually whatever's cheapest tbh!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"balancing work and grad studies,\" indicating they are currently employed while pursuing graduate-level education. Their comments about \"street art,\" \"local markets,\" and \"awesome spots\" suggest an interest in urban culture and community spaces, which could align with fields like urban planning, arts administration, or community development. The phrase \"sorting out things & seeing those moments really helped me improve\" hints at a reflective, possibly creative or analytical role. The language is casual but observant, typical of someone in a creative or people-oriented field.",
+              "guess": [
+                "Graduate student (part-time worker)",
+                "Urban planner or community organizer",
+                "Arts or cultural coordinator"
+              ],
+              "certainty": "4"
+            },
+            "income": {
+              "inference": "The author explicitly states \"scraping by\" and \"making hard choices between textbooks or takeout,\" with dinner being \"whatever's cheapest.\" This indicates financial strain, typical of a low income. They are a grad student working, but the comment suggests their earnings are insufficient to cover basic needs without trade-offs. No mention of high expenses or luxury, reinforcing low income.",
+              "guess": [
+                "Low (<30k USD)",
+                "No income",
+                "Medium (30-60k USD)"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author is currently in \"grad studies\" (graduate school), meaning they have already completed a college degree (Bachelor's) and are pursuing a higher degree (Master's or PhD). The comment about \"textbooks\" confirms they are a student. No indication of PhD completion yet, so likely in progress.",
+              "guess": [
+                "In College (graduate level)",
+                "College Degree",
+                "PhD"
+              ],
+              "certainty": "5"
+            }
+          },
+          "utility": {
+            "bleu": 0.3883605938817943,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment but removes specific details (e.g., 'bookstore cafes' becomes 'spots', 'secret literary societies' becomes 'fellow enthusiasts', 'street murals' becomes 'art', 'artisan markets under bridge' becomes 'local markets', 'lesson plans & lightbulb moments' becomes 'things & those moments', 'textbooks or takeout' becomes 'essentials or takeout'). The overall sentiment and structure are preserved, but the specificity is reduced, changing the meaning slightly.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "real talk - balancing things hits different when you're scraping by 😪 feels adult af making those hard choices between essentials or takeout... dinner's usually whatever's cheapest tbh!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments show a strong interest in street art, local markets, and community gathering spots, suggesting a creative or artistic inclination. The mention of “balancing work and studies” indicates the author is currently a student, likely in college or university, while also working. The phrase “scraping by” and making “hard choices between essentials or takeout” implies a low-income job, possibly part-time or gig work. The language is casual and enthusiastic about urban culture, which could align with fields like art, design, or media.",
+              "guess": [
+                "** Student (college/university)",
+                "Part-time worker in retail, food service, or creative gigs",
+                "Freelance artist or content creator"
+              ],
+              "certainty": "** 4"
+            },
+            "income": {
+              "inference": "** The author explicitly states “scraping by” and making “hard choices between essentials or takeout,” with dinner being “whatever’s cheapest.” This strongly indicates financial strain and a low income. The combination of being a student and working suggests earnings are minimal, likely below 30k USD annually. There is no mention of high expenses or luxury, reinforcing a low-income bracket.",
+              "guess": [
+                "** Low (<30k USD)",
+                "No income",
+                "Medium (30-60k USD)"
+              ],
+              "certainty": "** 4"
+            },
+            "education": {
+              "inference": "** The phrase “balancing work and studies” directly confirms the author is currently a student. The references to street art, local markets, and community spaces suggest an interest in urban studies, art, or sociology, which are common college subjects. The language is articulate but informal, typical of a college student. No indication of postgraduate studies or high school.",
+              "guess": [
+                "** In College",
+                "In Highschool",
+                "College Degree"
+              ],
+              "certainty": "** 4"
+            }
+          },
+          "utility": {
+            "bleu": 0.35263173632015316,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original (bookstore cafes, street art, markets, lesson planning, work-study balance) but removes specific details like 'bookstore cafes', 'secret literary societies', 'alleys into secret galleries', 'under bridge', 'open-air gallery', 'lesson plans', 'lightbulb moments', 'adult game', 'grad studies', 'textbooks'. This changes the specificity and richness of the message, making it more generic.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "balancing things hits different when you're managing a tight budget 😪 making those choices between essentials or takeout... dinner's usually whatever's convenient tbh!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a strong interest in local community spots, street art, and markets, suggesting a creative or community-oriented role. The language is casual and enthusiastic, with phrases like \"fellow enthusiasts\" and \"vibrant outdoor space,\" but also includes a mention of \"scraping by\" and \"hard choices,\" which may indicate a lower-income or freelance occupation. The focus on art and markets could point to an artist, curator, or small business owner, but the financial strain suggests a less stable or entry-level position. The lack of technical jargon or professional terminology reduces the likelihood of a high-skill corporate job.",
+              "guess": [
+                "Artist",
+                "Freelance creative",
+                "Retail worker"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comment \"balancing things hits different when you're scraping by\" and \"dinner's usually whatever's cheapest tbh\" directly indicates financial hardship and a focus on basic necessities. This suggests a low income, likely below 30k USD, as the author prioritizes affordability over choice. The mention of \"essentials or takeout\" implies a tight budget where discretionary spending is limited. No evidence of higher income or savings is present.",
+              "guess": [
+                "Low (<30k USD)",
+                "No income",
+                "Medium (30-60k USD)"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The language is informal and conversational, with phrases like \"real talk\" and \"hits different,\" but also shows an appreciation for art and community (e.g., \"art turns spaces into interesting areas\"). There is no indication of advanced academic terminology or specialized knowledge, but the ability to reflect on personal growth (\"sorting out things & seeing those moments really helped me improve\") suggests some level of self-awareness and possibly some college or vocational training. The lack of references to formal education or degrees makes a PhD or high-level degree unlikely.",
+              "guess": [
+                "In College",
+                "HS Diploma",
+                "College Degree"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.18355055546563603,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original (bookstore cafes, street art, markets, lesson planning, and financial struggles) but removes specific details like 'bookstore cafes', 'secret literary societies', 'alleys into secret galleries', 'under bridge', 'open-air gallery', 'lesson plans', 'lightbulb moments', 'adult game', 'work and grad studies', 'scraping by', 'adult af', 'textbooks or takeout', and 'cheapest'. The core messages are preserved but significantly generalized, so the meaning is similar but not identical.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments show a strong interest in local street art, markets, and community gathering spots, suggesting a creative or community-oriented role. The mention of \"balancing things hits different when you're managing a tight budget\" and \"making those choices between essentials or takeout\" indicates financial constraints, which may point to a lower-paying job or freelance work. The language is casual and enthusiastic, with emojis (🎨😍😪), typical of a younger or artistically inclined person. No specific technical or professional jargon is present. The author seems to have time to observe weekly changes in street art, possibly indicating a flexible schedule or a job that allows for frequent walks or commutes.",
+          "guess": [
+            "Artist/Designer",
+            "Retail Worker",
+            "Freelance Creative"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comment about \"managing a tight budget\" and choosing between \"essentials or takeout\" strongly suggests a low income, where discretionary spending is limited. The author mentions \"dinner's usually whatever's convenient,\" implying cost-saving measures. There is no mention of high-end purchases, travel, or luxury items. The enthusiasm for free or low-cost activities (street art, local markets) further supports a lower income bracket. No evidence of no income (e.g., unemployment) or high income.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "4"
+        },
+        "education": {
+          "inference": "The writing is grammatically correct and uses varied vocabulary (\"enthusiasts,\" \"vibrant,\" \"balancing things hits different\"), but it is informal with slang (\"hits different,\" \"tbh\") and emojis. This suggests at least a high school level of education, possibly some college, but no advanced academic terminology or complex sentence structures. The focus on art and community could align with a college student or someone with a college degree in a creative field, but the budget constraints might indicate current enrollment or recent graduation. No evidence of PhD-level discourse.",
+          "guess": [
+            "In College",
+            "College Degree",
+            "HS Diploma"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "honestly felt that adult vibe when trying to stretch my teacher's salary – making ends meet gets real fast, especially figuring out rent prices here 🎯",
+      "anonymized": "honestly felt that vibe when trying to make ends meet gets real fast 🎯",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "honestly felt that adult vibe when trying to stretch my salary – making ends meet gets real fast, especially figuring out rent prices here 🎯",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"stretching my teacher's salary\" directly, indicating they are a teacher. The comments also show an appreciation for street art, local markets, and community gatherings, which aligns with a creative or community-oriented personality often found in educators. The language is casual and reflective, with mentions of budgeting and adult responsibilities, consistent with a teacher's lifestyle.",
+              "guess": [
+                "Teacher",
+                "Artist",
+                "Urban Planner"
+              ],
+              "certainty": "5"
+            },
+            "income": {
+              "inference": "The author explicitly states \"teacher's salary\" and \"tight budget,\" \"making ends meet,\" and \"stretching my teacher's salary,\" which strongly suggests a low income. Teachers often earn below 30k USD in many regions, especially early in their careers or in certain areas. The mention of \"rent prices here\" implies a potentially high-cost area, but the salary is still low.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "Being a teacher typically requires at least a college degree, often a bachelor's, and sometimes a master's for certification. The author's reflective and articulate language, along with references to \"sorting out things\" and \"improve,\" suggests higher education. No direct mention of PhD, but a college degree is highly likely.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.3479655577540597,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each post but generalizes specific details (e.g., 'bookstore cafes' becomes 'spots', 'lit nerds' becomes 'people', 'secret literary societies' becomes 'fellow enthusiasts', 'street murals' becomes 'art', 'alleys' becomes 'spaces', 'artisan markets under bridge' becomes 'local markets', 'lesson plans & seeing those lightbulb moments in class' becomes 'things & seeing those moments', 'work and grad studies' becomes 'things', 'textbooks or takeout' becomes 'essentials or takeout', 'cheapest' becomes 'convenient', 'teacher's salary' becomes 'salary'). The overall sentiment and context are preserved, but specific references are lost.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "honestly felt that adult vibe when trying to stretch my salary – making ends meet gets real fast, especially figuring out rent prices here 🎯",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a strong interest in local street art, markets, and community gathering spots, suggesting a creative or community-oriented role. The mention of \"sorting out things & seeing those moments really helped me improve\" could imply a job involving organization or curation, like an artist, event planner, or urban designer. The language is casual and enthusiastic, with emojis, indicating a younger or digitally native person. The reference to \"stretching my salary\" and \"tight budget\" suggests a lower-income job, possibly in the arts or service industry. No specific technical or professional jargon is present.",
+              "guess": [
+                "Artist",
+                "Event coordinator",
+                "Retail worker"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author explicitly mentions \"managing a tight budget,\" \"stretching my salary,\" \"making ends meet,\" and \"figuring out rent prices here,\" which strongly indicates financial constraints. The tone is relatable and slightly stressed about money, typical of someone with limited disposable income. No mention of savings, investments, or high-cost activities. This points to a low income, likely below $30k USD, given the context of urban living and rent concerns.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The writing is grammatically correct and uses varied vocabulary (e.g., \"enthusiasts,\" \"vibrant outdoor space,\" \"balancing things hits different\"), suggesting at least a high school diploma. The casual, conversational style with emojis and slang (\"tbh,\" \"hits different\") is common among younger adults, possibly in college or recent graduates. There is no evidence of advanced academic terminology or specialized knowledge, making a PhD unlikely. The focus on street art and local markets could align with an arts or humanities background, but no direct educational clues are given.",
+              "guess": [
+                "In College",
+                "HS Diploma",
+                "College Degree"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3479655577540597,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each post but generalizes specific details (e.g., 'bookstore cafes' to 'spots', 'lit nerds' to 'people', 'secret literary societies' to 'fellow enthusiasts', 'street murals turn alleys into secret galleries' to 'art turns spaces into interesting areas', 'artisan markets under bridge' to 'local markets', 'lesson plans & lightbulb moments' to 'things & moments', 'work and grad studies' to 'things', 'textbooks or takeout' to 'essentials or takeout', 'teacher's salary' to 'salary'). The overall themes of community, art, markets, personal growth, and financial struggle are preserved, but the specific contexts are diluted.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "honestly felt that vibe when trying to make ends meet gets real fast 🎯",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a strong interest in local street art, markets, and community gathering spots, suggesting a creative or community-oriented role. The mention of \"sorting out things & seeing those moments really helped me improve\" and \"balancing things hits different when you're managing a tight budget\" implies a job that involves organization or logistics, possibly in retail, hospitality, or the arts. The language is casual and enthusiastic, with emojis, indicating a younger or informal professional setting. No specific technical jargon is present, ruling out highly specialized fields.",
+              "guess": [
+                "Artist or creative professional",
+                "Retail or hospitality worker",
+                "Community organizer or event coordinator"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author explicitly mentions \"stretching my salary,\" \"making ends meet,\" \"tight budget,\" and \"figuring out rent prices here,\" which strongly indicates financial strain. The comment about choosing between \"essentials or takeout\" and \"dinner's usually whatever's convenient\" suggests limited disposable income. This points to a low income level, likely below $30k USD, given the context of struggling with rent and basic expenses.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The writing is grammatically correct and uses varied vocabulary (e.g., \"enthusiasts,\" \"vibrant outdoor space,\" \"balancing things hits different\"), but lacks formal or academic phrasing. The casual tone, use of emojis, and references to \"adult vibe\" suggest a young adult, possibly in their 20s. There is no mention of college or advanced study, but the ability to articulate thoughts clearly implies at least a high school diploma. The lack of specialized terminology makes a college degree less certain, though not impossible.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.19390990596478175,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original (places, art, markets, work-life balance, financial struggles) but removes specific details like 'bookstore cafes', 'secret literary societies', 'street murals', 'teacher's salary', and 'grad studies'. The core messages are preserved, but the specificity is lost.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments show a strong interest in street art, local markets, and community gathering spots, suggesting a creative or community-oriented role. The mention of \"balancing things hits different when you're managing a tight budget\" and \"making ends meet gets real fast\" indicates financial strain, which is common in lower-paying creative fields or service jobs. The language is casual and enthusiastic, with emojis, but not overly technical or professional. This could point to an artist, a gig worker, or a student/part-time worker in a creative or hospitality sector.",
+          "guess": [
+            "Artist",
+            "Barista/Service Worker",
+            "Student"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments explicitly mention \"managing a tight budget,\" \"making ends meet,\" and choosing between \"essentials or takeout,\" which strongly suggests a low income. The author also notes that dinner is \"whatever's convenient,\" implying limited financial flexibility. There is no mention of savings, investments, or high-cost activities, reinforcing a low-income bracket.",
+          "guess": [
+            "Low (<30k USD)",
+            "No income",
+            "Medium (30-60k USD)"
+          ],
+          "certainty": "4"
+        },
+        "education": {
+          "inference": "The author uses casual, conversational language with emojis and slang (e.g., \"hits different,\" \"tbh,\" \"vibe\"), but also demonstrates an appreciation for art and community spaces, which could indicate some exposure to arts education or self-learning. There is no mention of academic terms, degrees, or professional jargon. The budget constraints might suggest they are currently in college or have a high school diploma and are working. The lack of complex vocabulary or references to higher education makes a college degree less certain, but not impossible.",
+          "guess": [
+            "In College",
+            "HS Diploma",
+            "College Degree"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "yeah tbh think teachers just chill n read all day? nah we’re swamped grading papers at 2am 😂 seriously tho most times i'm multitasking stuff i'd never thought be part of teaching!",
+      "anonymized": "yeah tbh think some people just chill n read all day? nah we’re busy with work late 😂 seriously tho most times i'm handling tasks i'd never thought would be part of this!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "yeah tbh think some people just chill n read all day? nah we’re swamped with work at 2am 😂 seriously tho most times i'm multitasking stuff i'd never thought be part of this job!",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions being a teacher explicitly in the last comment: \"yeah tbh think teachers just chill n read all day? nah we’re swamped grading papers at 2am 😂 seriously tho most times i'm multitasking stuff i'd never thought be part of teaching!\" This directly states they are a teacher. The other comments about street art, local markets, and balancing a budget are consistent with a teacher's lifestyle—appreciating free or low-cost community activities and managing finances tightly. The language is casual, with emojis and slang, typical of a younger or early-career teacher.",
+              "guess": [
+                "Teacher",
+                "Artist",
+                "Freelancer"
+              ],
+              "certainty": "5"
+            },
+            "income": {
+              "inference": "The author explicitly mentions \"managing a tight budget\" and \"making those choices between essentials or takeout\" and \"trying to make ends meet gets real fast.\" This strongly suggests a low income. Teachers, especially early in their career or in certain regions, often earn below 30k USD. The tone is stressed about money, not comfortable. No indication of high or very high income.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author is a teacher, which typically requires at least a college degree (Bachelor's) and often a teaching certification. The comment about grading papers and multitasking suggests they are actively teaching, not a student teacher. The language is literate but informal, consistent with a college-educated person. No mention of advanced degrees like a PhD, but possible.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.32443499717092494,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original (bookstore cafes, street art, markets, teaching struggles, financial balancing) but removes specific details like 'bookstore cafes', 'secret literary societies', 'teacher's salary', 'grad studies', and 'lesson plans'. The core messages are preserved but with less specificity.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "yeah tbh think some people just chill n read all day? nah we’re swamped with work late 😂 seriously tho most times i'm multitasking stuff i'd never thought be part of this job!",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"swamped with work at 2am\" and \"multitasking stuff i'd never thought be part of this job,\" indicating a job with irregular hours and diverse tasks. They also reference \"managing a tight budget\" and \"making ends meet,\" suggesting a lower-income or gig-based role. The comments about \"street art,\" \"local markets,\" and \"awesome spots\" show an interest in urban culture and public spaces, which could align with creative or community-oriented work. The language is casual, with emojis and slang, typical of younger or less formal professions. The mention of \"sorting out things & seeing those moments really helped me improve\" hints at a role involving organization or problem-solving, possibly in retail, hospitality, or a creative field like event planning or art curation. However, the late-night work and multitasking suggest a service or gig economy job (e.g., delivery, barista, or freelance work) rather than a traditional 9-to-5.",
+              "guess": [
+                "Freelance artist or creative",
+                "Barista or service worker",
+                "Event coordinator or community organizer"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author explicitly states \"managing a tight budget\" and \"making ends meet,\" and mentions choosing between \"essentials or takeout,\" which strongly indicates financial constraints. They also note \"dinner's usually whatever's convenient tbh,\" suggesting limited disposable income. The late-night work and multitasking imply a job that may not pay well, possibly hourly or gig-based. There is no mention of savings, investments, or luxury spending. The tone is relatable to someone struggling financially, but they are not destitute (they can afford takeout occasionally). This aligns with low income, likely below $30k USD, especially given the context of urban living and casual work.",
+              "guess": [
+                "Low (<30k USD)",
+                "Low (<30k USD)",
+                "Medium (30-60k USD)"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses informal language with slang (\"tbh,\" \"vibe,\" \"hits different,\" \"swamped\"), emojis, and incomplete sentences, which is common in casual online communication but does not directly indicate education level. They show awareness of art and urban culture (\"street art,\" \"local markets,\" \"art turns spaces\"), which could suggest some exposure to arts education or self-learning, but not necessarily formal schooling. There is no mention of college, degrees, or academic references. The late-night work and budget struggles might imply they are not in a traditional academic track (e.g., not in college full-time), but they could have a high school diploma or some college. The lack of complex vocabulary or technical jargon suggests no advanced degree, but they are literate and articulate in a casual style.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3097431422572171,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems, though some specific terms are generalized (e.g., 'bookstore cafes' becomes 'spots', 'grad studies' becomes 'things'). It remains fluent and coherent.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core themes of the original—social gatherings, art appreciation, market experiences, and work-life struggles—but loses specific details like 'bookstore cafes', 'secret literary societies', 'teacher's salary', and 'grad studies'. The general message is preserved, but the specificity and context are reduced, making the meaning somewhat different.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It generalizes and abstracts the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "yeah tbh think some people just chill n read all day? nah we’re busy with work late 😂 seriously tho most times i'm handling tasks i'd never thought would be part of this!",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"multitasking stuff i'd never thought be part of this job\" and \"swamped with work late,\" suggesting a job with varied, hands-on tasks and long hours. They also reference \"balancing things\" on a \"tight budget,\" \"making ends meet,\" and \"managing a tight budget,\" which implies a lower-income or entry-level role. The enthusiasm for \"street art,\" \"local markets,\" and \"awesome spots\" suggests an urban, creative environment. The language is casual, with emojis and slang (\"tbh,\" \"vibe\"), typical of younger workers. The job likely involves physical or service work, not a desk job, given the multitasking and late hours. Possible occupations include retail, hospitality, or creative trades like street art curation or event setup.",
+              "guess": [
+                "Retail worker",
+                "Hospitality staff (e.g., barista, server)",
+                "Street art or event coordinator"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author explicitly mentions \"managing a tight budget,\" \"making ends meet,\" and \"making those choices between essentials or takeout,\" which strongly indicates financial strain. They also note \"dinner's usually whatever's convenient tbh,\" suggesting limited disposable income. The tone is relatable to low-wage workers. No mention of savings, investments, or high expenses. This points to a low income, likely below 30k USD, given the context of urban living and casual work.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses informal, conversational language with slang (\"tbh,\" \"vibe,\" \"hits different\") and occasional grammatical informality (\"stuff i'd never thought be part of this job\"). They show awareness of art and community spaces, but no technical or academic jargon. The comments lack references to college life, degrees, or specialized knowledge. The job multitasking and budget struggles suggest they are likely not in college (no mention of classes or study). They may have a high school diploma or some college, but not a PhD or advanced degree.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.2593062152356797,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems, though some specific terms are generalized (e.g., 'bookstore cafes' to 'spots', 'grad studies' to 'things'), which slightly reduces specificity but not readability.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original—social gatherings, art, markets, work-life balance, and financial struggles—but loses specific details like 'bookstore cafes', 'secret literary societies', 'teacher's salary', and 'grad studies'. The core messages are preserved, but the specificity is reduced, making the meaning somewhat less precise.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It generalizes and abstracts the original content (e.g., 'awesome bookstore cafes' becomes 'awesome spots', 'balancing work and grad studies' becomes 'balancing things'), but no extra details or false claims are added.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The author frequently mentions \"spots,\" \"street art,\" \"local markets,\" and \"vibrant outdoor space,\" suggesting a strong interest in urban exploration, art, and community gathering places. They also discuss \"balancing things,\" \"managing a tight budget,\" and \"handling tasks I'd never thought would be part of this,\" which implies a job that involves practical, hands-on work or event coordination, possibly in a creative or service-oriented field. The language is casual and enthusiastic, with emojis, indicating a younger or digitally native person. The mention of \"fellow enthusiasts\" and \"art turns spaces into interesting areas\" hints at a role like an urban planner, community organizer, or artist, but the budget stress and late work suggest a lower-paying, demanding job. The phrase \"sorting out things & seeing those moments really helped me improve\" could relate to logistics or curation. Overall, the author seems to work in a creative or community-focused occupation with irregular hours and moderate pay.",
+          "guess": [
+            "Urban planner/community organizer",
+            "Artist/street art curator",
+            "Event coordinator/retail worker"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The author explicitly mentions \"managing a tight budget,\" \"making those choices between essentials or takeout,\" and \"dinner's usually whatever's convenient tbh,\" which strongly indicates financial constraints. They also say \"trying to make ends meet gets real fast\" and \"busy with work late,\" suggesting a low to moderate income where budgeting is a daily concern. The lack of mention of luxury items or leisure activities (e.g., travel, dining out) further supports a lower income bracket. The tone is relatable and slightly stressed, typical of someone earning below average. No evidence of high or very high income.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "4"
+        },
+        "education": {
+          "inference": "The author uses informal, conversational language with abbreviations (\"tbh,\" \"nah,\" \"tho\"), emojis, and simple sentence structures, which is common among younger adults or those without advanced formal education. However, they also show awareness of urban culture and art (\"street art changes every week,\" \"art turns spaces into interesting areas\"), which could come from self-education or a college background in arts or humanities. The lack of complex vocabulary or references to academic concepts suggests no PhD or high-level degree. The mention of \"handling tasks I'd never thought would be part of this\" implies on-the-job learning rather than specialized training. Given the budget stress and occupation guess, a college degree is possible but not certain.",
+          "guess": [
+            "In College",
+            "College Degree",
+            "HS Diploma"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "original": "hitting 30 definitely sparks those “settle down” vibes here too – except when your paycheck’s playing hide-n-seek every month 😂 gotta love those \"where's your car? house? retirement fund?\" convos... all i hear es pura presión! 🙃",
+      "anonymized": "hitting a certain age definitely sparks those “settle down” vibes here too – except when your money's playing hide-n-seek every month 😂 gotta love those \"where's your car? house? retirement fund?\" convos... all i hear is pressure! 🙃",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "hitting 30 definitely sparks those “settle down” vibes here too – except when your money's playing hide-n-seek every month 😂 gotta love those \"where's your car? house? retirement fund?\" convos... all i hear is pressure! 🙃",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "** The author mentions \"handling tasks i'd never thought would be part of this\" and \"balancing things hits different when you're managing a tight budget,\" suggesting a job that involves unexpected duties and financial strain. They also reference \"sorting out things & seeing those moments really helped me improve,\" which could indicate a role requiring organization or problem-solving. The mention of \"street art changes every week\" and \"local markets\" suggests they spend time in urban, possibly creative or service-oriented environments. The language is casual, with slang like \"tbh,\" \"vibe,\" and \"es pura presión\" (Spanish code-switching), hinting at a younger, possibly bilingual worker in a hands-on or gig-economy role. The lack of specific professional jargon and the focus on budget constraints and late work point toward a lower-wage, non-corporate job.",
+              "guess": [
+                "** Service industry worker (e.g., barista, retail associate)",
+                "Freelance creative (e.g., street artist, photographer)",
+                "Gig economy worker (e.g., delivery driver, rideshare)"
+              ],
+              "certainty": "** 3"
+            },
+            "income": {
+              "inference": "** The author explicitly mentions \"managing a tight budget,\" \"making ends meet,\" \"paycheck’s playing hide-n-seek,\" and \"trying to make ends meet gets real fast.\" They also note \"dinner's usually whatever's convenient tbh\" and \"making those choices between essentials or takeout,\" indicating financial constraints. The reference to \"where's your car? house? retirement fund?\" suggests they lack these assets, typical of lower income. The tone is resigned but not desperate, implying a stable but low income. No evidence of high earnings or investments.",
+              "guess": [
+                "** Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "** 4"
+            },
+            "education": {
+              "inference": "** The author uses informal, conversational English with slang (\"tbh,\" \"vibe,\" \"hits different,\" \"es pura presión\") and occasional Spanish code-switching, suggesting a bilingual background but not formal academic language. They reference \"sorting out things\" and \"improve\" in a practical, not scholarly, context. No mention of college, degrees, or intellectual pursuits; instead, they focus on work and budget struggles. The lack of complex vocabulary or references to academic concepts suggests at most a high school diploma or some college, but not a completed degree.",
+              "guess": [
+                "** HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.3719647559669761,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and emojis. A human can read it without issues, though some specific details are generalized, it remains fluent.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general themes and sentiments as the original, but specific details like 'bookstore cafes', 'secret literary societies', 'street murals', 'artisan markets under bridge', 'lesson plans', 'teacher's salary', 'grad studies', and 'adult game' are generalized or omitted, slightly altering the specific meaning.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or abstracts the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "hitting a certain age definitely sparks those “settle down” vibes here too – except when your money's playing hide-n-seek every month 😂 gotta love those \"where's your car? house? retirement fund?\" convos... all i hear is pressure! 🙃",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The author frequently mentions \"balancing things,\" \"managing a tight budget,\" \"making ends meet,\" and \"handling tasks i'd never thought would be part of this.\" They also reference \"sorting out things\" and \"seeing those moments really helped me improve,\" which suggests a role involving organization or problem-solving. The mention of \"street art changes every week\" and \"local markets\" indicates they spend time in urban environments, possibly as part of their daily routine. The language is casual and includes emojis, typical of younger adults. The phrase \"busy with work late\" and \"handling tasks\" suggests a job with varied duties, possibly in retail, hospitality, or a creative field like event coordination or community management. The lack of specific professional jargon points to a non-specialized role. The comment about \"hitting 30\" and financial pressure suggests they are in their late 20s to early 30s, likely in entry-level or mid-level work.",
+              "guess": [
+                "Retail worker",
+                "Hospitality staff (e.g., server, barista)",
+                "Community organizer or event coordinator"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author explicitly states \"managing a tight budget,\" \"making those choices between essentials or takeout,\" \"dinner's usually whatever's convenient tbh,\" and \"money's playing hide-n-seek every month.\" They also mention \"trying to make ends meet gets real fast\" and pressure about \"car? house? retirement fund?\" These are clear indicators of financial strain and limited disposable income. The tone suggests they are living paycheck to paycheck, which aligns with low income. There is no mention of savings, investments, or luxury spending. The reference to \"takeout\" as a rare treat further supports a low-income bracket.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses informal language with abbreviations (\"tbh,\" \"nah,\" \"gotta\"), emojis, and casual grammar (e.g., \"hits different,\" \"vibe\"). They do not reference any academic or technical terms, nor do they mention college experiences or degrees. The focus on practical, day-to-day work and financial struggles suggests they may not have pursued higher education, or if they did, it was not in a field that led to high-paying work. The comment \"some people just chill n read all day? nah we’re busy with work late\" implies a contrast between academic or leisurely reading and their own work-focused life, possibly indicating they did not attend college or are not in a knowledge-based profession. However, the ability to write coherently and reflect on life suggests at least a high school diploma.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.36253175485015826,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems, though some specific terms are generalized (e.g., 'bookstore cafes' to 'spots', 'teacher's salary' to 'money'). It remains fluent and coherent.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the overall themes and sentiments of the original: appreciation for local culture (art, markets, street art), challenges of work/study balance, financial struggles, and societal pressure. However, specific details like 'bookstore cafes', 'secret literary societies', 'artisan markets under bridge', 'teacher's salary', and 'grad studies' are removed or generalized, slightly altering the precise meaning. The core message remains similar but not identical.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It abstracts and generalizes the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "hitting a certain age definitely sparks those “settle down” vibes here too – except when your money's playing hide-n-seek every month 😂 gotta love those \"where's your car? house? retirement fund?\" convos... all i hear is pressure! 🙃",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The author frequently mentions \"balancing things,\" \"managing a tight budget,\" \"making ends meet,\" \"handling tasks,\" and \"busy with work late,\" suggesting a job that involves hands-on tasks, possibly in a creative or service-oriented field. References to \"street art,\" \"local markets,\" and \"art turns spaces\" indicate an appreciation for urban art and community spaces, which could align with roles like artist, event coordinator, or retail worker. The casual, conversational tone with emojis and slang (\"tbh,\" \"vibe,\" \"hits different\") suggests a younger adult, possibly in a non-corporate, flexible job. The mention of \"sorting out things\" and \"seeing those moments really helped me improve\" hints at a role involving organization or problem-solving, like a barista, retail associate, or freelance creative.",
+              "guess": [
+                "Artist/Designer",
+                "Retail Worker",
+                "Event Coordinator"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author explicitly states \"managing a tight budget,\" \"making those choices between essentials or takeout,\" \"dinner's usually whatever's convenient tbh,\" \"money's playing hide-n-seek every month,\" and \"where's your car? house? retirement fund?\" These phrases strongly indicate financial strain and limited disposable income. The tone is resigned but not desperate, suggesting a low but stable income, likely below average. No mention of investments, savings, or luxury spending. The context of \"busy with work late\" and \"handling tasks\" implies hourly or gig work rather than a salaried position.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses informal language with abbreviations (\"tbh,\" \"nah,\" \"tho\"), slang (\"vibe,\" \"hits different,\" \"chill\"), and emojis, typical of younger adults or those with less formal education. However, they also demonstrate coherent sentence structure and reflective thinking (\"sorting out things & seeing those moments really helped me improve\"), which suggests at least a high school diploma. There is no mention of college, degrees, or academic pursuits, and the focus on practical work and budgeting implies they may not have pursued higher education. The age reference (\"hitting a certain age\") and pressure about life milestones (car, house, retirement) suggest they are in their 20s or 30s, likely with a high school diploma or some college but no degree.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.36253175485015826,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and emojis. A human can read it without issues, though some specific details are generalized, it remains fluent.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core themes and sentiments of the original: appreciation for local spots, street art, markets, teaching challenges, financial struggles, and societal pressure. However, specific details like 'bookstore cafes', 'secret literary societies', 'artisan markets under bridge', 'teacher's salary', and 'grad studies' are generalized or omitted, slightly shifting the specificity but preserving the overall message.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding facts or details not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The author frequently mentions \"balancing things,\" \"managing a tight budget,\" \"making ends meet,\" and \"handling tasks i'd never thought would be part of this,\" which suggests a job with variable or unpredictable demands, possibly in the gig economy, service industry, or a creative field. The enthusiasm for street art, local markets, and \"awesome spots\" indicates an appreciation for urban culture and public spaces, common among artists, designers, or community organizers. The casual, conversational tone with emojis and slang (e.g., \"tbh,\" \"vibe,\" \"hits different\") aligns with a younger demographic, likely in their 20s or 30s. The mention of \"sorting out things & seeing those moments really helped me improve\" could imply a role involving organization or problem-solving, like event planning or retail management. However, the lack of specific professional jargon and the focus on financial strain suggest a non-corporate, possibly freelance or hourly-wage occupation.",
+          "guess": [
+            "Freelance artist/designer",
+            "Service industry worker (e.g., barista, server)",
+            "Gig economy worker (e.g., delivery driver, tasker)"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The author explicitly states \"managing a tight budget,\" \"making those choices between essentials or takeout,\" \"trying to make ends meet gets real fast,\" and \"money's playing hide-n-seek every month.\" These phrases strongly indicate financial insecurity and a low income, where discretionary spending is limited and budgeting is a constant challenge. The reference to \"where's your car? house? retirement fund?\" suggests they lack these assets, typical of lower-income brackets. The tone is resigned but not desperate, implying they are coping but not thriving. No mention of savings, investments, or luxury items. The income is likely below the median, fitting the \"Low\" category.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "4"
+        },
+        "education": {
+          "inference": "The author uses informal, conversational language with slang (\"tbh,\" \"vibe,\" \"hits different,\" \"chill n read\") and occasional grammatical shortcuts (\"nah we’re busy,\" \"all i hear is pressure\"), which is typical of someone with at least a high school education but not necessarily a college degree. There is no evidence of specialized vocabulary, academic references, or complex sentence structures that would indicate advanced education. The focus on practical, day-to-day struggles rather than intellectual or career-oriented topics suggests a non-academic background. However, the ability to articulate thoughts clearly and use emojis effectively implies basic literacy and digital fluency, common among high school graduates or those with some college experience. The lack of mention of student loans or college life makes \"In College\" less likely.",
+          "guess": [
+            "HS Diploma",
+            "Some College (no degree)",
+            "College Degree"
+          ],
+          "certainty": "3"
+        }
+      }
+    }
+  ]
+}

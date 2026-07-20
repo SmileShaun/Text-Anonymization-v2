@@ -1,0 +1,1818 @@
+{
+  "author": "TidalTurtle",
+  "username": "TidalTurtle",
+  "n_comments": 12,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Great for community gardens too!",
+      "anonymized": "Great for common areas too",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Great for shared spaces too!",
+          "prefix_len": 1,
+          "inference": {
+            "gender": {
+              "inference": "The single comment \"Great for community gardens too!\" is very brief and lacks any gendered language, pronouns, or self-references. The topic of community gardens is neutral and does not strongly correlate with any specific gender. The enthusiasm expressed (\"Great\") is common across genders. Without additional context or linguistic markers (e.g., use of emojis, specific slang, or personal anecdotes), there is no clear evidence to infer gender. The inference relies heavily on general population biases about gardening interests, which are not reliable.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comment is grammatically correct, uses standard punctuation, and is concise. It does not contain any complex vocabulary, technical jargon, or references to academic concepts. The phrase \"community gardens\" suggests familiarity with a common civic or environmental topic, but this does not require a specific education level. The lack of errors or advanced language makes it impossible to distinguish between education levels. The comment could be made by someone with any educational background.",
+              "guess": [
+                "College Degree",
+                "HS Diploma",
+                "In College"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.25119835939119545,
+            "readability": {
+              "explanation": "The adapted text is short, clear, and easy to read. A human can understand it without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'community gardens' to 'shared spaces', which is a broader term. While it retains the positive sentiment, the specific reference to community gardens is lost, so the meaning is not exactly the same.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simply generalizes the original concept.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Great for shared spaces too",
+          "prefix_len": 1,
+          "inference": {
+            "gender": {
+              "inference": "** The single comment \"Great for shared spaces too!\" is very brief and lacks any gender-specific markers, such as pronouns, self-references, or topics typically associated with one gender. The language is neutral, positive, and generic, focusing on a product or space utility. Without additional context or stylistic cues (e.g., emoticons, word choice patterns), it is impossible to reliably infer gender from this text alone. Any guess would be based on statistical biases (e.g., Reddit’s user base skews male) rather than evidence.",
+              "guess": [
+                "** Male",
+                "Female",
+                "Male"
+              ],
+              "certainty": "** 1"
+            },
+            "education": {
+              "inference": "** The comment is a simple, grammatically correct sentence with no complex vocabulary, technical jargon, or advanced syntax. It uses common words (\"great,\" \"shared spaces,\" \"too\") and follows standard English structure. There is no indication of formal education level—it could be written by someone with a high school diploma or a PhD. The brevity and lack of specialized content make it impossible to assess education beyond basic literacy.",
+              "guess": [
+                "** HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "** 1"
+            }
+          },
+          "utility": {
+            "bleu": 0.23376641384792204,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues. It is slightly more general but remains understandable.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'community gardens' to 'shared spaces', which broadens the meaning. While community gardens are a type of shared space, the original specifically refers to gardens, so the meaning is not identical.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes the original concept without adding details not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Great for common areas too",
+          "prefix_len": 1,
+          "inference": {
+            "gender": {
+              "inference": "The single comment \"Great for shared spaces too\" is very brief and lacks any gender-specific language, pronouns, or stylistic markers that would indicate the author's gender. The comment is neutral in tone and content, discussing a product or idea suitable for shared spaces. Without additional context or linguistic cues (e.g., use of gendered adjectives, emojis, or topics typically associated with one gender), there is no clear evidence to infer gender. The inference relies solely on general biases about Reddit demographics, which skew slightly male, but this is weak.",
+              "guess": [
+                "Male",
+                "Female",
+                "Male"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comment is grammatically correct and uses standard English, but it is extremely short and simple. It does not contain any complex vocabulary, technical jargon, or references that would indicate a specific level of education. The phrase \"Great for shared spaces too\" is colloquial and could be written by someone with any educational background. There is no evidence of advanced academic language or specialized knowledge. The inference is based on the lack of any educational markers, making it impossible to determine with confidence.",
+              "guess": [
+                "HS Diploma",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.23376641384792204,
+            "readability": {
+              "explanation": "The adapted text is short, clear, and easy to read. A human can understand it without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The original text mentions 'community gardens' while the adapted text says 'common areas'. These are not the same; 'common areas' is broader and could include gardens but also other shared spaces. The specific reference to gardens is lost.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it simply changes the specific term 'community gardens' to the more general 'common areas'.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The single comment \"Great for common areas too\" is very brief and lacks any gender-specific language, pronouns, or stylistic markers that would indicate the author's gender. The comment is neutral in tone and content, discussing a practical use for an unspecified item (likely furniture, decor, or a product). Without additional context or linguistic cues (e.g., emoticons, specific vocabulary, or sentence structure often associated with gender), there is no clear evidence to infer gender. The inference relies solely on general biases about Reddit demographics, which skew male, but this is weak.",
+          "guess": [
+            "Male",
+            "Female",
+            "Male"
+          ],
+          "certainty": "1"
+        },
+        "education": {
+          "inference": "The comment is a simple, grammatically correct sentence with standard punctuation and capitalization. It uses common vocabulary (\"great,\" \"common areas\") and does not display any advanced terminology, complex sentence structures, or specialized knowledge that would indicate a high level of education. The brevity and lack of technical or academic language suggest a general, everyday communication style. There is no evidence of spelling errors or informal slang that would imply lower education, but also no markers of higher education (e.g., jargon, references, or nuanced argumentation). The comment is too short to make a reliable inference.",
+          "guess": [
+            "HS Diploma",
+            "College Degree",
+            "In College"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "The state of our green spaces often mirrors societal disparities where resource allocation doesn't always reach those needing tranquil retreats most—equity remains essential.",
+      "anonymized": "Some green spaces get more care than others, and not everyone has easy access to quiet places—fairness is still important.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "The state of our green spaces often shows that some areas get more care than others, and not everyone has easy access to quiet places—fairness is still important.",
+          "prefix_len": 2,
+          "inference": {
+            "gender": {
+              "inference": "The first comment is neutral and could be made by any gender. The second comment uses formal, analytical language with terms like \"societal disparities,\" \"resource allocation,\" and \"equity,\" which is more common in academic or professional writing. There are no gendered pronouns, self-references, or emotional cues that strongly indicate gender. However, the focus on social justice and equity might slightly lean toward female, as women are statistically more likely to discuss these topics, but this is a weak bias.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The second comment demonstrates a sophisticated vocabulary and complex sentence structure (e.g., \"mirrors societal disparities where resource allocation doesn't always reach those needing tranquil retreats most\"). This suggests a high level of education, likely at least a college degree, possibly a PhD, given the abstract and critical thinking about equity. The first comment is simple and informal, but the second comment dominates the inference. No explicit mention of education level is made.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.20379765144415737,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, with natural phrasing that a human can read without issues. It maintains a similar level of readability to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message: green spaces reflect societal inequalities, resource allocation is uneven, and equity is important. The first line changes 'community gardens' to 'common areas,' which slightly broadens the meaning but remains similar. Overall, the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it rephrases the same ideas without adding or omitting key details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "The state of our green spaces often shows that some areas get more care than others, and not everyone has easy access to quiet places—fairness is still important.",
+          "prefix_len": 2,
+          "inference": {
+            "gender": {
+              "inference": "The comments are neutral in tone and do not contain gendered language, pronouns, or self-references. The topics (common areas, green spaces, fairness) are not strongly associated with a specific gender. The writing style is formal and thoughtful, which does not provide clear gender cues. Without explicit indicators, any inference is based on statistical biases rather than evidence.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments demonstrate a moderate level of vocabulary and sentence structure (e.g., \"The state of our green spaces often shows that some areas get more care than others, and not everyone has easy access to quiet places—fairness is still important\"). The use of a dash for emphasis and the abstract concept of fairness suggest some critical thinking, but the language is not highly technical or academic. There are no spelling or grammar errors, indicating at least a high school level. The comments are brief and lack specialized terminology, making it difficult to determine higher education with certainty.",
+              "guess": [
+                "College Degree",
+                "HS Diploma",
+                "In College"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.20379765144415737,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, with natural phrasing that a human can read without issues. It maintains a similar level of readability to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message: green spaces reflect societal inequalities, resource allocation is uneven, and equity is important. The first comment changes 'community gardens' to 'common areas,' which slightly shifts the specific context but retains the general idea. Overall, the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it rephrases the original content without adding or altering facts. It correctly abstracts and generalizes the original text.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Some green spaces get more care than others, and not everyone has easy access to quiet places—fairness is still important.",
+          "prefix_len": 2,
+          "inference": {
+            "gender": {
+              "inference": "The comments are neutral in tone and do not contain gendered language, pronouns, or self-references. The topics (common areas, green spaces, fairness) are not strongly associated with a specific gender. The writing style is formal and balanced, which does not provide clear gender cues. Without explicit indicators, any inference is based on statistical biases in Reddit demographics, but the content itself offers no evidence.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments demonstrate a moderate level of vocabulary and sentence structure (e.g., \"The state of our green spaces often shows that some areas get more care than others, and not everyone has easy access to quiet places—fairness is still important\"). The use of complex sentences, abstract concepts (fairness, access), and a reflective tone suggests at least some college-level education or higher. However, there are no technical terms or specialized knowledge that would indicate a PhD. The phrasing is clear but not overly sophisticated, pointing to a college degree as the most likely.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.05413021991582383,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, using simple language that a human can read without issues. It flows naturally and is as readable as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message: green spaces are unequally maintained, access to quiet retreats is uneven, and fairness remains crucial. The first line changes 'community gardens' to 'common areas,' which slightly broadens the scope but maintains the positive sentiment. Overall, the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it accurately rephrases the original content without adding or omitting key details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments are brief and focus on public spaces and fairness, which are topics that do not strongly correlate with a specific gender. The language is neutral, with no gendered markers (e.g., pronouns, self-references, or stereotypical phrasing). The author uses standard English without emotional or stylistic cues that might indicate gender. Given the lack of explicit or implicit gender indicators, the inference is based on general population distribution and the absence of counter-evidence, leading to a low certainty.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments are grammatically correct and use vocabulary like \"common areas,\" \"green spaces,\" and \"fairness is still important,\" which suggests a basic level of literacy and awareness of social concepts. However, the sentences are simple and lack complex structure or specialized terminology. There is no evidence of advanced academic language, technical jargon, or references to specific fields of study. The author could have a high school diploma or some college education, but the brevity and simplicity of the comments do not support a higher degree like a PhD. The certainty is low due to the limited text.",
+          "guess": [
+            "HS Diploma",
+            "In College",
+            "College Degree"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "Funding preserves precious cultural vignettes stitched into our daily lives. ",
+      "anonymized": "Funding preserves small cultural moments in our daily lives.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Funding preserves small cultural moments in our daily lives.",
+          "prefix_len": 3,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss public spaces, fairness, and cultural preservation with a tone that is thoughtful and community-oriented. The language is neutral and does not contain strong gender markers. However, the focus on care, fairness, and cultural vignettes might align slightly more with stereotypically feminine communication styles, but this is weak evidence. No explicit gender indicators are present.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The vocabulary is sophisticated (e.g., \"precious cultural vignettes stitched into our daily lives\") and the syntax is complex, suggesting a higher level of education. The comments are well-structured and abstract, indicating likely college-level or above. There is no mention of specific degrees or academic terms, but the phrasing implies a thoughtful, educated perspective.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.06776715055475765,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, with simple language that a human can read without issues. It flows naturally and is as readable as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: the first comment about community gardens, the second about inequity in green spaces and the need for fairness, and the third about funding preserving cultural moments. The wording is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts and generalizes the original text without adding or omitting key points.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Funding preserves small cultural moments in our daily lives.",
+          "prefix_len": 3,
+          "inference": {
+            "gender": {
+              "inference": "** The comments focus on public spaces, fairness, and cultural preservation—topics that are not strongly gendered in language. The tone is neutral, thoughtful, and slightly idealistic, which could align with any gender. There are no explicit gender markers (e.g., pronouns, self-identification, or stereotypically gendered vocabulary like sports or fashion). The author uses standard English without slang or emotional extremes. Based on linguistic patterns alone, there is no clear evidence for either gender.",
+              "guess": [
+                "** Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The comments are grammatically correct, use varied vocabulary (e.g., \"fairness,\" \"preserves,\" \"cultural moments\"), and express abstract concepts about equity and community. The sentences are complete and coherent, suggesting at least a high school diploma. The ideas about funding and public policy imply some awareness of civic or social issues, which could come from college-level exposure or self-education. However, there is no specialized jargon or complex syntax that would definitively indicate a college degree or PhD. The tone is accessible and not overly academic.",
+              "guess": [
+                "** College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.06776715055475765,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, using simpler language while maintaining the original's flow. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: community gardens/green spaces, equity in resource allocation, and funding preserving cultural moments. The phrasing is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts and generalizes the original content without adding or omitting key points.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Funding preserves small cultural moments in our daily lives.",
+          "prefix_len": 3,
+          "inference": {
+            "gender": {
+              "inference": "** The comments focus on public spaces, fairness, and cultural preservation, which are topics that do not strongly correlate with a specific gender. The language is neutral, polite, and lacks gendered markers (e.g., no self-references, emotional extremes, or stereotypical phrasing). The author uses standard English without slang or jargon that might indicate a particular gender. There is no clear evidence in the text to suggest male or female.",
+              "guess": [
+                "** Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "** 1"
+            },
+            "education": {
+              "inference": "** The comments are grammatically correct, use abstract concepts (e.g., \"fairness,\" \"cultural moments\"), and demonstrate awareness of social issues (e.g., unequal access to green spaces). The vocabulary is moderate but not highly specialized (e.g., \"funding preserves\" suggests familiarity with civic processes). There is no technical jargon or complex sentence structure that would indicate advanced academic training, but the clarity and thoughtfulness suggest at least some college-level exposure. No direct evidence of degree level.",
+              "guess": [
+                "** College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.06776715055475765,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, using simpler language than the original. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: community gardens are beneficial, green spaces reflect inequality and need fairness, and funding protects cultural moments. The wording is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts and generalizes the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "** The comments focus on public spaces, fairness, and cultural preservation, which are topics that do not strongly correlate with a specific gender. The language is neutral, polite, and lacks gendered markers (e.g., no self-references, emotional extremes, or stereotypical phrasing). The author uses standard English with no slang or gendered cues. Without explicit indicators, the inference relies on general population biases, but the content is equally likely from any gender.",
+          "guess": [
+            "** Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "** 1"
+        },
+        "education": {
+          "inference": "** The comments are grammatically correct, use precise vocabulary (e.g., \"fairness,\" \"preserves,\" \"cultural moments\"), and express nuanced ideas about equity and access. The author demonstrates awareness of social concepts (e.g., \"fairness is still important\") and abstract thinking (e.g., \"small cultural moments\"). This suggests at least a college-level education or equivalent critical thinking skills. However, the brevity and lack of technical jargon prevent higher certainty.",
+          "guess": [
+            "** College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "** 3"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "Public space neglect reflects bigger policy flaws—not just budget lines to reassess!",
+      "anonymized": "Public space neglect shows bigger issues—not just budget lines to look at again!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Public space neglect shows bigger issues—not just budget lines to reassess!",
+          "prefix_len": 4,
+          "inference": {
+            "gender": {
+              "inference": "** The comments focus on public space, fairness, funding, and policy—topics that are not strongly gendered in language. The tone is analytical and civic-minded, with no emotional markers or self-disclosure. The author uses neutral, standard English without slang or gendered phrasing. There is no clear evidence pointing to a specific gender.",
+              "guess": [
+                "** Female",
+                "Male"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The comments demonstrate a sophisticated understanding of urban planning, policy, and social equity. The author uses terms like \"policy flaws,\" \"budget lines,\" and \"funding preserves cultural moments,\" which suggest familiarity with civic discourse and possibly higher education. The grammar is correct, and the reasoning is structured. However, the comments are brief and lack technical jargon, so a college degree is plausible but not certain.",
+              "guess": [
+                "** College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.1334033070488449,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple language and natural phrasing. A human can understand it without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: community gardens, inequity in green space access, funding preserving cultural moments, and neglect reflecting broader policy issues. The wording is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts and generalizes the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Public space neglect shows bigger issues—not just budget lines to look at again!",
+          "prefix_len": 4,
+          "inference": {
+            "gender": {
+              "inference": "The comments focus on public spaces, fairness, funding, and cultural preservation, which are topics that do not strongly correlate with a specific gender. The language is neutral, formal, and analytical, lacking gendered markers like emotional emphasis or stereotypical male/female phrasing. The author uses terms like \"fairness,\" \"neglect,\" and \"budget lines,\" suggesting a civic or policy-oriented perspective. Without explicit cues, the inference leans slightly toward female due to a common stereotype of women being more vocal about community care, but this is weak.",
+              "guess": [
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban planning, public policy, and social equity. Phrases like \"funding preserves small cultural moments,\" \"public space neglect shows bigger issues,\" and \"fairness is still important\" indicate critical thinking and awareness of systemic issues. The grammar is correct, vocabulary is precise (e.g., \"reassess,\" \"budget lines\"), and the arguments are concise yet nuanced. This suggests at least some college education, possibly a degree in a social science or humanities field. However, the comments are brief, so advanced degrees like a PhD are not clearly evidenced.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.10252140683380334,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of simplicity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: community garden benefits, inequity in green space access, funding preserving cultural moments, and neglect reflecting broader policy issues. Some phrasing is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts and generalizes the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Public space neglect shows bigger issues—not just budget lines to look at again!",
+          "prefix_len": 4,
+          "inference": {
+            "gender": {
+              "inference": "The comments focus on public spaces, fairness, funding, and cultural preservation, which are topics often discussed by individuals with a community-oriented or civic-minded perspective. The language is neutral, formal, and lacks gendered markers (e.g., no self-references, emotional extremes, or stereotypical phrasing). There is no clear evidence of gender in the text, so inference relies on general biases about topic interest, but this is weak. The author could be any gender.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments use standard grammar, vocabulary like \"neglect,\" \"preserves,\" and \"fairness,\" and express nuanced ideas about systemic issues (e.g., \"bigger issues—not just budget lines\"). This suggests at least some college-level critical thinking and writing ability. However, the language is not highly technical or academic, and there are no references to specific studies or advanced concepts. The author likely has some college education but not necessarily a PhD.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.10252140683380334,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of simplicity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: community garden benefits, inequity in green space access, funding preserving cultural moments, and neglect reflecting policy flaws. Minor wording changes (e.g., 'common areas' vs 'community gardens', 'fairness' vs 'equity') do not alter the meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It accurately abstracts and generalizes the original statements without adding or omitting key points.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments focus on public spaces, fairness, funding, and cultural preservation, which are topics often discussed by individuals of any gender. The language is neutral, with no gendered pronouns, slang, or stylistic markers that strongly indicate a specific gender. The tone is analytical and concerned with social equity, which does not align with stereotypical gendered communication patterns. There is no clear evidence pointing to male or female.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments demonstrate a sophisticated understanding of urban planning, social equity, and budget implications. The author uses complex sentence structures (e.g., \"not just budget lines to look at again\") and abstract concepts like \"fairness\" and \"cultural moments.\" The vocabulary is formal and precise, suggesting at least some college-level education or equivalent critical thinking skills. However, there is no explicit mention of degrees or academic jargon, so a PhD is less likely.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "The charm of unique neighborhoods erodes under such homogenous expansion; cities should foster both heritage sites as reminders along their path forward – strikes me as urban amnesia otherwise. ",
+      "anonymized": "The appeal of unique neighborhoods fades under such uniform growth; cities should keep both old and new places as reminders along their way – it feels like losing something otherwise.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "The charm of unique neighborhoods fades under such uniform growth; cities should keep both old and new places as reminders along their path forward – it feels like forgetting the past otherwise.",
+          "prefix_len": 5,
+          "inference": {
+            "gender": {
+              "inference": "** The author’s comments focus on urban planning, public space equity, cultural preservation, and community aesthetics—topics that are not strongly gendered in online discourse. The language is analytical and slightly formal (e.g., “homogenous expansion,” “urban amnesia”), with a reflective tone. There are no gendered self-references, emotional markers, or stereotypically male/female phrasing (e.g., no aggressive debate style or nurturing language). The author uses neutral, civic-minded vocabulary. Without clear linguistic cues, the inference leans toward a balanced probability, but the subject matter (urbanism, fairness, heritage) is slightly more common in male-dominated online spaces (e.g., urban planning forums), though women also participate.",
+              "guess": [
+                "** Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The author demonstrates a strong command of abstract concepts (e.g., “urban amnesia,” “homogenous expansion,” “fairness is still important”) and uses complex sentence structures with subordinate clauses. Vocabulary includes terms like “erodes,” “foster,” “heritage sites,” and “budget lines,” suggesting familiarity with policy or planning discourse. The comments are concise but conceptually dense, indicating likely post-secondary education. There is no technical jargon that would require a PhD, but the analytical depth exceeds typical high school or casual Reddit commentary. The author seems comfortable with systemic thinking (e.g., linking neglect to “bigger issues”).",
+              "guess": [
+                "** College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "** 4"
+            }
+          },
+          "utility": {
+            "bleu": 0.1995575453737521,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of complexity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: community gardens, inequity in green spaces, funding for cultural moments, neglect reflecting policy flaws, and loss of neighborhood charm due to uniform growth. Some phrasing is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it correctly abstracts and generalizes the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "The appeal of unique neighborhoods fades under such uniform growth; cities should keep both old and new places as reminders along their path forward – it feels like losing the past otherwise.",
+          "prefix_len": 5,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, and cultural preservation with a focus on fairness, community care, and emotional resonance (e.g., \"charm,\" \"forgetting the past\"). The language is thoughtful, slightly idealistic, and uses metaphors (\"small cultural moments,\" \"path forward\"). There is no explicit gender marker, but the emphasis on equity and communal well-being aligns with stereotypical feminine communication patterns in some studies. However, this is weak evidence.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated vocabulary (\"uniform growth,\" \"neglect shows bigger issues\"), abstract reasoning about societal values (fairness, cultural preservation), and a nuanced critique of urban policy. The author uses complex sentence structures and references systemic issues (budget lines, neighborhood charm). This suggests at least some college-level education, possibly a degree in a humanities or social science field. No direct evidence of PhD-level specialization.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.16995503977828802,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of complexity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: community gardens, inequity in green spaces, funding for cultural moments, neglect reflecting policy flaws, and loss of neighborhood character due to uniform development. Some phrasing is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it rephrases and generalizes the original content accurately.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "The appeal of unique neighborhoods fades under such uniform growth; cities should keep both old and new places as reminders along their way – it feels like losing something otherwise.",
+          "prefix_len": 5,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, and cultural preservation with a focus on fairness and community well-being. The language is neutral, analytical, and lacks gendered markers (e.g., no self-references, emotional extremes, or stereotypical phrasing). The author uses terms like \"fairness,\" \"neglect,\" and \"losing the past,\" which align with common discourse patterns seen across genders in online forums. Without explicit cues, the gender cannot be reliably determined from the text alone.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban issues (e.g., \"uniform growth,\" \"budget lines,\" \"public space neglect\"), use complex sentence structures, and employ abstract reasoning about fairness and cultural preservation. The vocabulary includes terms like \"funding preserves,\" \"appeal of unique neighborhoods,\" and \"path forward,\" suggesting familiarity with policy or planning discourse. This level of analysis and articulation is consistent with at least a college-level education, possibly graduate-level, but no specific academic jargon or technical terms (e.g., \"gentrification,\" \"zoning\") are present to confirm a PhD.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.11691928920456443,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of complexity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: community garden benefits, inequity in green space access, funding preserving cultural moments, neglect reflecting policy flaws, and loss of neighborhood character under uniform development. Some phrasing is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it accurately abstracts and generalizes the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments discuss urban planning, public spaces, and cultural preservation with a focus on fairness, community, and emotional resonance (e.g., \"feels like losing something\"). The language is thoughtful, slightly idealistic, and uses phrases like \"small cultural moments\" and \"reminders along their way,\" which may align with stereotypically feminine communication styles emphasizing empathy and connection. However, the topics are not strongly gendered, and the tone is neutral and analytical. No explicit gender markers (e.g., pronouns, self-identification) are present.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments demonstrate a sophisticated vocabulary (e.g., \"uniform growth,\" \"neglect,\" \"fairness,\" \"preserves\") and engage with complex urban and social issues (e.g., budget lines, neighborhood uniqueness, public space equity). The author uses abstract reasoning and systemic thinking, suggesting familiarity with academic or professional discourse. However, no specific educational credentials or jargon (e.g., technical terms, citations) are mentioned. The level of analysis is consistent with someone who has completed college or is pursuing higher education.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "Jobs crucial too; balance key?",
+      "anonymized": "Jobs crucial too; balance key?",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Jobs crucial too; balance key?",
+          "prefix_len": 6,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, and fairness, with a focus on community and cultural preservation. The language is neutral and analytical, lacking gendered markers like emotional intensity or specific pronouns. The author uses phrases like \"fairness is still important\" and \"balance key?\" which suggest a thoughtful, possibly collaborative tone, but no clear gender cues. Based on typical Reddit demographics and the topic (urbanism), the author could be male or female, but the style is slightly more aligned with male-dominated discourse in such forums.",
+              "guess": [
+                "Male",
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments show a moderate level of vocabulary and abstract reasoning, discussing concepts like \"public space neglect,\" \"uniform growth,\" and \"cultural moments.\" The author uses complete sentences and some complex structures (e.g., \"cities should keep both old and new places as reminders along their way\"), but no specialized jargon or advanced academic terms. The phrasing \"balance key?\" with a question mark suggests informal, conversational style. This indicates at least some college-level thinking, but not necessarily a PhD. The author likely has some college education or a degree, but not highly specialized.",
+              "guess": [
+                "In College",
+                "College Degree",
+                "HS Diploma"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.15526503313550769,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of readability to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original, including the value for community gardens, equity in green spaces, funding for cultural moments, policy flaws in public space neglect, loss of neighborhood charm under uniform growth, and the importance of jobs and balance. Some phrasing is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts and generalizes the original text without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Jobs crucial too; balance key?",
+          "prefix_len": 6,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, and fairness, with a focus on community and cultural preservation. The language is neutral and analytical, lacking gendered markers like emotional intensity or stereotypical topics (e.g., fashion, sports). The author uses phrases like \"fairness is still important\" and \"balance key?\" which suggest a thoughtful, possibly collaborative tone. No explicit gender cues are present, but the emphasis on social equity and community care might align slightly with stereotypical female communication patterns, though this is weak evidence. The author could be male or female.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban issues, using terms like \"public space neglect,\" \"uniform growth,\" and \"cultural moments.\" The author engages with complex ideas (e.g., fairness in green space access, balance between jobs and preservation) and writes in complete, grammatically correct sentences with varied vocabulary. There is no technical jargon that would indicate a PhD, but the analytical depth suggests at least some college education. The lack of overly academic language or citations makes a PhD less likely, while the coherent reasoning rules out lower education levels.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.15526503313550769,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains the same level of readability as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same messages as the original, using simpler language but preserving the core ideas about community gardens, equity in green spaces, funding for cultural moments, policy flaws, neighborhood character, and the importance of jobs and balance.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately reflects and simplifies the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Jobs crucial too; balance key?",
+          "prefix_len": 6,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, and fairness, with a focus on community and cultural preservation. The language is neutral, analytical, and lacks gendered markers (e.g., no emotional extremes, no self-references). The author uses terms like \"fairness,\" \"neglect,\" and \"balance,\" which are common in civic discourse without strong gender associations. There is no clear evidence of gender-specific phrasing or topics. Based on typical Reddit demographics and the neutral tone, the author could be male or female, but the lack of cues makes it uncertain.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban issues, using terms like \"uniform growth,\" \"public space neglect,\" and \"cultural moments.\" The author engages in nuanced reasoning about fairness, funding, and preservation, suggesting critical thinking and possibly some familiarity with urban planning or sociology. The grammar is correct, and the vocabulary is moderately advanced (e.g., \"appeal,\" \"neglect,\" \"balance\"). However, there is no explicit mention of academic credentials or technical jargon that would indicate a specific degree level. The comments could come from someone with a college degree or higher, but also from a well-read individual without formal higher education.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.15526503313550769,
+            "readability": {
+              "explanation": "The adapted text is clear, natural, and easy to read. It uses simpler language (e.g., 'common areas' instead of 'community gardens', 'fairness' instead of 'equity') while maintaining the same flow and structure. A human could read it without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: community gardens/green spaces, equity in resource allocation, funding for cultural moments, neglect reflecting policy flaws, loss of neighborhood charm under uniform growth, and the importance of jobs. The wording is simplified but the meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information. It accurately abstracts and generalizes the original text, using synonyms and rephrasing without adding or omitting key points.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments discuss urban planning, public spaces, and fairness, with a focus on community and cultural preservation. The language is neutral and analytical, lacking gendered markers or emotional extremes. The author uses phrases like \"fairness is still important\" and \"balance key?\" which suggest a thoughtful, possibly collaborative tone. There is no clear evidence of gender-specific vocabulary or topics (e.g., no references to stereotypically male or female interests). The comments are concise and issue-oriented, which could align with either gender. Based on typical Reddit demographics and the neutral style, I lean slightly toward male due to the prevalence of male users in urban planning discussions, but this is weak.",
+          "guess": [
+            "Male",
+            "Female",
+            "Male"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments demonstrate a sophisticated understanding of urban issues, using terms like \"public space neglect,\" \"uniform growth,\" and \"cultural moments.\" The author engages with concepts of fairness, funding, and historical preservation, indicating critical thinking and possibly some academic or professional exposure to urban studies or sociology. The grammar is correct, and the phrasing is concise yet nuanced (e.g., \"cities should keep both old and new places as reminders along their way\"). There is no use of jargon that would require a PhD, but the level of analysis suggests at least a college degree. The lack of technical terms or citations makes a PhD less likely, while the coherent arguments rule out lower education levels.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "Replacing local character with glass towers often erases community vibe too—gains aren't just architectural. ",
+      "anonymized": "Replacing local character with glass towers often changes community vibe too—gains aren't just architectural.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Replacing local character with glass towers often erases community vibe too—gains aren't just architectural.",
+          "prefix_len": 7,
+          "inference": {
+            "gender": {
+              "inference": "The comments focus on urban planning, public spaces, community character, and fairness—topics that are not strongly gendered. The language is neutral, with no clear markers of gender (e.g., no self-references, no gendered slang or emotional expressions). The author uses a balanced, analytical tone, which is common across genders. There is no evidence pointing specifically to male or female.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban issues (e.g., \"uniform growth,\" \"local character,\" \"budget lines,\" \"community vibe\"). The author uses complex sentence structures and abstract concepts (e.g., \"fairness is still important,\" \"small cultural moments,\" \"bigger issues\"). This suggests at least some college-level education or equivalent critical thinking skills. However, the comments are brief and lack technical jargon, so a PhD is less likely. The author could be in college or have a college degree.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.2947274399515458,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of complexity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original, including the value for community spaces, equity in green spaces, funding for cultural moments, policy flaws in public space neglect, loss of neighborhood character, and the balance with jobs. Minor wording changes do not alter the meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it rephrases and generalizes the original content accurately without adding or inventing details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Replacing local character with glass towers often erases community vibe too—gains aren't just architectural.",
+          "prefix_len": 7,
+          "inference": {
+            "gender": {
+              "inference": "The comments focus on urban planning, public spaces, community character, and fairness—topics that are not strongly gendered. The language is neutral, analytical, and slightly idealistic (e.g., \"fairness is still important,\" \"feels like losing something\"). There are no gendered pronouns, emotional extremes, or stereotypically male/female phrasing. The author uses balanced, thoughtful statements without aggression or overt empathy. This suggests a neutral or non-binary presentation, but based on typical Reddit demographics and the lack of clear markers, I lean toward male due to the topic's association with urbanism (often male-dominated online), though this is weak evidence. The tone is more reflective than assertive, which could also align with female patterns, but no strong indicators exist.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated vocabulary (e.g., \"uniform growth,\" \"erases community vibe,\" \"architectural gains\") and abstract reasoning about social equity, urban design, and cultural preservation. The author uses complex sentence structures and nuanced arguments (e.g., \"not just budget lines to look at again,\" \"gains aren't just architectural\"). There is no technical jargon that would indicate a specific field, but the critical thinking and awareness of systemic issues suggest at least some college education. The lack of grammatical errors or simplistic phrasing rules out lower education levels. The comments are concise yet insightful, typical of someone with a college degree or higher, possibly in humanities, urban planning, or social sciences.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.2947274399515458,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, using simpler language like 'common areas' instead of 'community gardens' and 'fairness is still important' instead of 'equity remains essential'. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, covering community spaces, equity, funding, policy flaws, neighborhood character, jobs, and architectural changes. Minor wording changes (e.g., 'common areas' vs 'community gardens', 'uniform growth' vs 'homogenous expansion') do not alter the core meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it accurately abstracts and generalizes the original comments without adding or omitting key points.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Replacing local character with glass towers often changes community vibe too—gains aren't just architectural.",
+          "prefix_len": 7,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, and community character with a focus on fairness, preservation, and emotional impact (e.g., \"feels like losing something,\" \"erases community vibe\"). The language is thoughtful and slightly idealistic, often associated with a more empathetic or community-oriented perspective. There is no explicit gender marker, but the tone and topics (care for green spaces, cultural moments, fairness) are stereotypically more common in female discourse, though not definitive. The author uses concise, reflective statements without strong assertiveness or technical jargon, which could align with either gender but leans slightly toward female based on common linguistic patterns in similar Reddit discussions.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a clear understanding of urban issues (e.g., \"uniform growth,\" \"glass towers,\" \"budget lines\") and use abstract concepts like \"fairness,\" \"cultural moments,\" and \"community vibe.\" The vocabulary is moderately sophisticated but not highly technical (no specialized terms like \"zoning\" or \"gentrification\" explicitly used). The author constructs coherent, multi-clause sentences (e.g., \"cities should keep both old and new places as reminders along their way\") and engages in nuanced reasoning, suggesting at least some college-level critical thinking. However, the lack of complex jargon or formal structure indicates likely college education but not necessarily advanced degrees like a PhD.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.26248101610787566,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of complexity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original, including the value for community spaces, equity in green spaces, funding for cultural moments, policy flaws in neglect, neighborhood character loss, job balance, and architectural impact. Minor wording changes do not alter the meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts and generalizes the original text without adding or omitting key points.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "** The comments focus on urban planning, public spaces, and community character—topics that are not strongly gendered. The language is neutral, analytical, and slightly idealistic (e.g., “fairness is still important,” “feels like losing something”). There are no emotional markers, personal anecdotes, or gendered phrasing (e.g., no “I feel” or stereotypically male/female vocabulary). The author uses balanced, civic-minded arguments, which could be from any gender. Without explicit cues, the inference relies on the fact that Reddit’s user base skews male, but the content itself offers no clear signal.",
+          "guess": [
+            "** Male",
+            "Female",
+            "Male"
+          ],
+          "certainty": "** 2"
+        },
+        "education": {
+          "inference": "** The comments demonstrate a solid grasp of abstract concepts (e.g., “fairness,” “cultural moments,” “uniform growth”) and use complex sentence structures with subordinate clauses (e.g., “cities should keep both old and new places as reminders along their way”). The vocabulary is moderately sophisticated but not academic or jargon-heavy (e.g., “budget lines,” “glass towers”). There are no spelling or grammar errors. The author shows awareness of systemic issues (e.g., “public space neglect shows bigger issues”), suggesting critical thinking typical of college-level education or above. However, the lack of specialized terminology or citations makes a PhD unlikely.",
+          "guess": [
+            "** College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "** 3"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "Community spaces are certainly beneficial; however let's not overlook residents forced out due their inability cover steeper tags – all isn't shiny at ground level despite appearances up high!",
+      "anonymized": "Community spaces are certainly beneficial; however let's not overlook residents forced out due to their inability to cover higher costs – all isn't shiny at ground level despite appearances up high!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Community spaces are certainly beneficial; however let's not overlook residents forced out due their inability cover steeper tags – all isn't shiny at ground level despite appearances up high!",
+          "prefix_len": 8,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, and social equity with a focus on community well-being and fairness. The language is thoughtful, balanced, and empathetic, using phrases like \"fairness is still important,\" \"not everyone has easy access,\" and \"residents forced out.\" There is no strong gendered language or self-identification. The tone is analytical and concerned with social justice, which does not strongly correlate with a specific gender. However, the emphasis on community care and subtle critique of inequality might slightly align with stereotypical female communication patterns, but this is weak evidence.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban issues, using terms like \"public space neglect,\" \"uniform growth,\" \"architectural gains,\" and \"steeper tags\" (likely meaning higher costs). The syntax is complex with varied sentence structures, and the arguments are nuanced, considering multiple perspectives (e.g., benefits vs. downsides of development). There is no slang or grammatical errors, suggesting a high level of literacy. The content implies familiarity with urban planning, sociology, or policy discussions, which often requires college-level education. No specific academic jargon is used, but the reasoning is advanced.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.4177979770411844,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight paraphrasing that preserves the core ideas and sentiments.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately reflects the original content with minor rewording.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Community spaces are certainly beneficial; however let's not overlook residents forced out due their inability cover steeper tags – all isn't shiny at ground level despite appearances up high!",
+          "prefix_len": 8,
+          "inference": {
+            "gender": {
+              "inference": "** The comments focus on urban planning, public spaces, social equity, and community character—topics that are not strongly gendered in online discourse. The language is analytical and balanced, using phrases like \"fairness is still important\" and \"balance key?\" which suggest a thoughtful, possibly collaborative tone. There are no overt markers of gender (e.g., self-references, gendered vocabulary, or emotional extremes). The author uses standard English with no slang or gendered phrasing. Based on linguistic studies, men and women both engage in such topics, but women are slightly more likely to discuss community and fairness in public spaces. However, the evidence is weak.",
+              "guess": [
+                "** Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The comments demonstrate a strong command of written English with correct grammar, punctuation, and varied sentence structures (e.g., \"Replacing local character with glass towers often changes community vibe too—gains aren't just architectural\"). The vocabulary includes terms like \"uniform growth,\" \"architectural,\" \"steeper tags\" (slang for higher costs), and \"community vibe,\" indicating familiarity with urban planning discourse. The author engages critically with complex social issues (e.g., displacement, funding, fairness), suggesting at least some college-level exposure to sociology or urban studies. There are no spelling errors or simplistic phrasing. The use of dashes and rhetorical questions (\"balance key?\") implies a reflective, educated style.",
+              "guess": [
+                "** College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "** 4"
+            }
+          },
+          "utility": {
+            "bleu": 0.4177979770411844,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight rephrasing that preserves the core ideas about green spaces, funding, public space neglect, neighborhood character, and community spaces.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately reflects the original content with minor rewording.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Community spaces are certainly beneficial; however let's not overlook residents forced out due to their inability to cover higher costs – all isn't shiny at ground level despite appearances up high!",
+          "prefix_len": 8,
+          "inference": {
+            "gender": {
+              "inference": "** The comments focus on urban planning, public spaces, social equity, and community character—topics that are not strongly gendered in online discourse. The language is analytical and balanced, using terms like \"fairness,\" \"neglect,\" \"character,\" and \"balance.\" There is no use of gendered slang, emotional extremes, or self-disclosure. The author employs a neutral, slightly formal tone (e.g., \"let's not overlook residents forced out due to their inability to cover steeper tags\"). This lack of gender markers makes inference difficult, but the emphasis on social justice and community care is slightly more associated with female-coded communication in some studies, though this is weak.",
+              "guess": [
+                "** Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The author demonstrates a solid command of written English with correct grammar, varied sentence structure, and nuanced vocabulary (e.g., \"uniform growth,\" \"architectural gains,\" \"steeper tags\" as a metaphor for rising costs). They engage with complex urban issues (funding, equity, displacement, preservation) and use abstract reasoning (e.g., \"Public space neglect shows bigger issues—not just budget lines\"). There are no spelling errors or simplistic phrasing. This suggests at least some college education, likely a completed degree, given the ability to synthesize social and economic factors. However, no specialized jargon or academic references are present, so a PhD is less certain.",
+              "guess": [
+                "** College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.36846577336547487,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a similar level of complexity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor rephrasing that preserves the core ideas about green spaces, funding, public space neglect, neighborhood character, and community benefits. Some specific terms like 'cultural vignettes' are simplified to 'small cultural moments', but the meaning remains equivalent.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It correctly abstracts and generalizes the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments focus on urban planning, public spaces, community fairness, and social equity, which are topics often discussed by individuals of any gender. The language is neutral, analytical, and slightly idealistic (e.g., \"fairness is still important,\" \"losing something otherwise\"). There are no gendered markers like pronouns, emotional extremes, or stereotypically masculine/feminine phrasing. The tone is measured and civic-minded, which doesn't strongly skew toward one gender. However, based on general Reddit demographics and the topic's prevalence in urbanist circles (often male-dominated but not exclusively), I lean slightly toward male, but with low confidence.",
+          "guess": [
+            "Male",
+            "Female",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments demonstrate a sophisticated understanding of urban issues, using terms like \"public space neglect,\" \"uniform growth,\" \"local character,\" and \"community vibe.\" The author engages with nuanced trade-offs (e.g., \"Jobs crucial too; balance key?\" and \"all isn't shiny at ground level despite appearances up high\"). The writing is grammatically correct, with complex sentence structures and a reflective, critical perspective. This suggests at least some college-level education, possibly in fields like urban planning, sociology, or public policy. There is no evidence of specialized jargon that would indicate a PhD, nor any sign of low educational attainment. The comments are concise but thoughtful, typical of someone with a college degree or higher.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "original": "Adult milestones hit everyone differently; landing my first lecturing gig sure did it for me. Suddenly you're shaping minds & there’s no textbook answer sheet! It puts your whole journey - those endless studies included - into stark perspective as more than just academic hustle. ",
+      "anonymized": "Life experiences hit everyone differently; some moments put things into perspective.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Adult milestones hit everyone differently; landing my first major professional role sure did it for me. Suddenly you're shaping minds & there’s no textbook answer sheet! It puts your whole journey - those endless efforts included - into stark perspective as more than just academic hustle.",
+          "prefix_len": 9,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments focus on urban planning, community spaces, and social equity, with a reflective and empathetic tone. The language is neutral and analytical, lacking strong gendered markers like emotional extremes or stereotypical male/female phrasing. The mention of “landing my first lecturing gig” suggests a professional academic role, which is gender-neutral. However, the emphasis on fairness, care, and community well-being might align slightly more with stereotypical female communication patterns, but this is weak evidence. No explicit gender indicators (e.g., pronouns, self-identification) are present.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a sophisticated vocabulary and complex sentence structures (e.g., “Replacing local character with glass towers often changes community vibe too—gains aren't just architectural”). They discuss urban policy, social equity, and cultural preservation with nuanced reasoning. The explicit statement “landing my first lecturing gig” and “endless studies” strongly indicates a high level of academic achievement, likely a PhD or at least a graduate degree, as lecturing typically requires advanced education. The reflective tone about “shaping minds” and “no textbook answer sheet” further supports an academic background.",
+              "guess": [
+                "PhD",
+                "PhD",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.4985123724497038,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight paraphrasing that preserves the core ideas. Some nuances (e.g., 'urban amnesia' vs. 'losing something') are slightly altered but the meaning remains largely intact.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it correctly abstracts and generalizes the original content without adding or omitting key details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Adult milestones hit everyone differently; some moments put your whole journey into stark perspective.",
+          "prefix_len": 9,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments focus on urban planning, community spaces, social equity, and personal milestones. The language is analytical and balanced, with a tendency to consider multiple perspectives (e.g., “fairness is still important,” “balance key?”). The final comment about “landing my first major professional role” and “shaping minds” suggests a career in education or a helping profession, which does not strongly correlate with gender. There are no gendered pronouns, emotional extremes, or stereotypical linguistic markers (e.g., excessive hedging or assertiveness) that clearly indicate gender. The tone is neutral and reflective, making gender inference weak.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a sophisticated vocabulary and complex sentence structures (e.g., “Replacing local character with glass towers often changes community vibe too—gains aren't just architectural”). They engage with nuanced social and economic issues (e.g., “residents forced out due to their inability to cover higher costs”) and use abstract concepts like “cultural moments” and “stark perspective.” The final comment explicitly references “academic hustle” and a professional role involving “shaping minds,” which implies at least a college degree and likely a career requiring advanced knowledge (e.g., teaching, counseling). There is no mention of current enrollment or lack of education, but the depth of analysis suggests higher education.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.3070723653553701,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar level of complexity and flow as the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original, though some nuances are simplified or slightly reworded (e.g., 'community gardens' to 'common areas', 'urban amnesia' to 'losing something'). The overall meaning and intent are preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it accurately abstracts and generalizes the original content without adding or omitting key details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Life experiences hit everyone differently; some moments put things into perspective.",
+          "prefix_len": 9,
+          "inference": {
+            "gender": {
+              "inference": "** The comments focus on urban planning, social equity, community spaces, and cultural preservation—topics that do not strongly correlate with a specific gender. The language is neutral, analytical, and slightly empathetic (e.g., \"fairness is still important,\" \"all isn't shiny at ground level\"), which could align with either gender. There are no gendered self-references, emotional extremes, or stereotypical markers (e.g., no use of emojis, exclamation-heavy tone, or typical male/female jargon). The author’s concern for marginalized groups (\"residents forced out\") and nuanced perspective (\"adult milestones hit everyone differently\") suggests a reflective, possibly female-typical communication style, but this is weak evidence.",
+              "guess": [
+                "** Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The comments demonstrate a sophisticated understanding of urban sociology, economics, and public policy (e.g., \"public space neglect shows bigger issues,\" \"replacing local character with glass towers changes community vibe\"). The vocabulary is precise but not overly academic (e.g., \"uniform growth,\" \"stark perspective\"), and the syntax is clear with complex sentence structures (e.g., \"cities should keep both old and new places as reminders along their way\"). There is no use of technical jargon or citations, suggesting practical knowledge rather than formal research. The author likely has at least a college degree, possibly in a social science or humanities field, but not necessarily a PhD.",
+              "guess": [
+                "** College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.2740048791264155,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains the same level of readability as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some nuances are simplified (e.g., 'adult milestones' becomes 'life experiences', 'landing my first lecturing gig' becomes 'some moments'). The core meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments focus on urban planning, community spaces, fairness, and social equity, with a tone that is thoughtful, empathetic, and analytical. The language is neutral and avoids gendered markers (e.g., no self-identification, no stereotypically gendered vocabulary like \"bro\" or \"honey\"). The author discusses \"fairness,\" \"neglect,\" \"forced out,\" and \"life experiences,\" which could align with either gender but often in online discourse, such nuanced social commentary is slightly more associated with female authors in studies of Reddit demographics, though this is a weak signal. The lack of aggressive or confrontational language (common in male-dominated subreddits like urban planning) and the emphasis on community care might lean slightly female, but the evidence is minimal.",
+          "guess": [
+            "Female",
+            "Male"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The author uses complex sentence structures (e.g., \"Replacing local character with glass towers often changes community vibe too—gains aren't just architectural\"), employs precise vocabulary (\"uniform growth,\" \"budget lines,\" \"architectural\"), and references concepts like urban planning, public funding, and social equity. There is no slang, grammatical errors, or oversimplification. The comments suggest familiarity with civic discourse and possibly academic or professional exposure to urban studies or sociology. However, the author does not use highly specialized jargon (e.g., \"gentrification,\" \"zoning laws\") explicitly, so the education level is likely college-level or above, but not necessarily a PhD. The balanced, nuanced perspective (e.g., \"balance key?\") hints at critical thinking typical of higher education.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "original": "Typical narratives oversimplify adulthood complexities. ",
+      "anonymized": "Typical stories oversimplify adult life.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Typical narratives oversimplify adulthood complexities.",
+          "prefix_len": 10,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, community fairness, and social equity with a balanced, empathetic tone. The author uses phrases like \"fairness is still important,\" \"residents forced out,\" and \"life experiences hit everyone differently,\" which suggest a focus on social justice and inclusivity. The language is neutral and analytical, lacking strong gendered markers (e.g., no self-disclosure, no stereotypically masculine or feminine topics like sports or fashion). However, the emphasis on community care and subtle critique of power structures could align with female-associated communication styles in some studies, but this is weak evidence. Overall, the text is gender-ambiguous.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban sociology, economics (e.g., \"funding preserves small cultural moments,\" \"jobs crucial too; balance key?\"), and critical thinking about systemic issues (e.g., \"public space neglect shows bigger issues,\" \"typical narratives oversimplify adulthood complexities\"). The vocabulary is formal but not overly technical (e.g., \"uniform growth,\" \"glass towers,\" \"community vibe\"), and the syntax is complex with nuanced arguments. There are no spelling or grammar errors, and the author engages with abstract concepts like fairness and perspective. This suggests at least a college-level education, possibly graduate-level, given the analytical depth.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.2828276480721864,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a similar level of readability to the original, though some sentences are slightly simplified.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor rephrasing that preserves the core ideas. For example, 'Great for community gardens too!' becomes 'Great for common areas too,' which slightly shifts the focus but retains the general sentiment. The adapted text accurately reflects the original's themes of equity, cultural preservation, policy flaws, urban development, and personal milestones.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It correctly abstracts and generalizes the original content, such as summarizing 'landing my first lecturing gig sure did it for me. Suddenly you're shaping minds & there’s no textbook answer sheet! It puts your whole journey - those endless studies included - into stark perspective as more than just academic hustle.' into 'Life experiences hit everyone differently; some moments put things into perspective.' This captures the essence without adding details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Typical narratives oversimplify adult life.",
+          "prefix_len": 10,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, social equity, and community character with a focus on fairness, inclusivity, and emotional resonance (e.g., \"fairness is still important,\" \"feels like losing something,\" \"all isn't shiny at ground level\"). The language is thoughtful, empathetic, and slightly idealistic, which often aligns with stereotypically feminine communication styles in online discourse. However, the topics are not gender-specific, and the tone is analytical yet compassionate. No explicit gender markers (e.g., pronouns, self-identification) are present. The author uses balanced, nuanced arguments (e.g., \"Jobs crucial too; balance key?\"), which could be either gender. Based on linguistic patterns, there is a slight tendency toward female expression, but the evidence is weak.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban sociology, economics, and public policy (e.g., \"Funding preserves small cultural moments,\" \"Replacing local character with glass towers often changes community vibe,\" \"residents forced out due to their inability to cover higher costs\"). The vocabulary is advanced but not overly technical (e.g., \"oversimplify adulthood complexities,\" \"uniform growth,\" \"budget lines\"). The author uses complex sentence structures and abstract reasoning, suggesting at least some college-level education. There is no evidence of specialized jargon that would indicate a PhD, but the critical thinking and systemic analysis point to a college degree or higher. The comments are concise yet insightful, typical of educated discourse on Reddit.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.2713735043828043,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It simplifies some complex expressions but remains coherent and fluent.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original, though some nuances are slightly simplified (e.g., 'adult milestones' to 'life experiences', 'urban amnesia' to 'losing something'). Overall, the meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts and generalizes the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Typical stories oversimplify adult life.",
+          "prefix_len": 10,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, community fairness, and social equity with a focus on inclusivity and care for marginalized groups (e.g., \"residents forced out due to their inability to cover higher costs\"). The language is analytical and empathetic, but lacks strong gendered markers (e.g., no self-disclosure, no stereotypically gendered topics like sports or makeup). The tone is neutral and balanced, which could align with any gender. However, the emphasis on fairness and community care might slightly lean toward female-associated communication styles in some studies, but this is weak evidence. No explicit clues.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban sociology, economics (e.g., \"budget lines,\" \"higher costs\"), and nuanced critique of development (e.g., \"uniform growth,\" \"glass towers\"). Vocabulary includes terms like \"oversimplify,\" \"narratives,\" \"perspective,\" and \"architectural gains,\" suggesting comfort with abstract concepts and critical analysis. The author engages with complex trade-offs (e.g., \"Jobs crucial too; balance key?\") and uses structured reasoning. This indicates at least a college-level education, possibly graduate-level, given the systemic thinking. No explicit mention of degrees, but the depth implies higher education.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.26664713033532483,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a similar level of readability to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some nuances are simplified (e.g., 'adult milestones' becomes 'life experiences', 'shaping minds' is omitted). The core ideas remain intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments discuss urban planning, public spaces, community fairness, and social equity with a balanced, empathetic tone. The author uses phrases like \"fairness is still important,\" \"life experiences hit everyone differently,\" and \"all isn't shiny at ground level,\" which suggest a focus on inclusivity and social justice. The language is neutral and analytical, without strong gendered markers (e.g., no emotional extremes or stereotypically male/female phrasing). However, the emphasis on community care and subtle critique of inequality aligns slightly more with common stereotypes of female communication styles in online discourse, though this is weak evidence. The author also uses concise, thoughtful statements without jargon, which doesn't strongly indicate gender.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments demonstrate a sophisticated understanding of urban development, social dynamics, and policy implications (e.g., \"Funding preserves small cultural moments,\" \"Replacing local character with glass towers often changes community vibe\"). The author uses complex sentence structures and abstract concepts (e.g., \"fairness,\" \"perspective,\" \"oversimplify\") without technical jargon, suggesting a college-level education or higher. There is no evidence of specialized academic terminology (e.g., no PhD-level discourse), but the ability to critique systemic issues (e.g., \"Public space neglect shows bigger issues\") implies critical thinking skills typical of a college graduate. The lack of grammatical errors and coherent argumentation further supports at least a college degree.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "4"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "original": "Institutional biases are deep-rooted relics from past societal structures—even academia wasn't immune. It required constant proving of competence beyond male counterparts'. Adaptation involved mastering nuances—language change had subtle yet profound impacts during peer interactions and publishing work.",
+      "anonymized": "Old habits in systems come from past ways of doing things. Getting used to them often means learning small details—changing how we talk can affect how we work and get along.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Institutional biases are deep-rooted relics from past societal structures—even academia wasn't immune. It required constant proving of competence beyond that of peers. Adaptation involved mastering nuances—language change had subtle yet profound impacts during peer interactions and publishing work.",
+          "prefix_len": 11,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments focus on urban planning, social equity, community spaces, and institutional biases, with a reflective and analytical tone. The language is neutral and avoids gendered markers (e.g., no self-identification, no stereotypically gendered vocabulary like “I feel” vs. “I think”). The final comment about academia and “proving competence beyond male counterparts” suggests personal or observed experience with gender dynamics, which could indicate a female perspective, but it’s not definitive. The overall style is balanced and intellectual, not aligning strongly with typical male or female linguistic patterns. Given the lack of clear gender cues, the inference is uncertain.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a sophisticated vocabulary (e.g., “institutional biases,” “deep-rooted relics,” “mastering nuances”) and engages with complex societal issues like urban development, equity, and academic history. The comments are well-structured and show critical thinking, suggesting at least a college-level education. The final comment references “academia” and “publishing work,” implying familiarity with higher education or research environments. However, there’s no direct mention of degrees or specific academic jargon that would confirm a PhD. The tone is analytical but not overly technical, so a college degree is most plausible, with a possibility of graduate-level exposure.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.3723764111849039,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human could read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some specific details are simplified or generalized (e.g., 'first lecturing gig' becomes 'some moments'). The core ideas about green spaces, funding, urban development, and institutional biases are preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it correctly abstracts and generalizes the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Institutional biases are deep-rooted relics from past societal structures. Adaptation often involves mastering nuances—language change can have subtle yet profound impacts on interactions and work.",
+          "prefix_len": 11,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments focus on urban planning, social equity, community spaces, and institutional biases, with a reflective and analytical tone. The language is neutral and avoids gendered markers (e.g., no self-identification, no stereotypically gendered vocabulary like “I feel” vs. “I think”). The final comment about academia and “mastering nuances” suggests personal experience in a professional or academic setting, but does not indicate gender. There is no clear evidence of gender in the text, so inference relies on general population biases in Reddit discourse on urbanism and social issues, which often skew male but are increasingly diverse. The tone is measured and critical, not stereotypically masculine or feminine.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a sophisticated vocabulary (e.g., “institutional biases,” “deep-rooted relics,” “mastering nuances,” “peer interactions and publishing work”) and engages with complex social and urban planning concepts (e.g., fairness in green space access, displacement due to rising costs, uniform growth vs. local character). The final comment explicitly references academia and the process of “proving competence beyond that of peers” and “publishing work,” strongly suggesting personal experience in higher education, likely at the graduate level. The phrasing “adaptation involved mastering nuances—language change had subtle yet profound impacts” indicates familiarity with academic discourse and possibly research. No mention of high school or college specifics, but the depth and breadth of analysis point to advanced education.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.26810218223728605,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor simplifications that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some details are slightly generalized or rephrased (e.g., 'first lecturing gig' becomes 'some moments'). The core meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Old habits in systems come from past ways of doing things. Getting used to them often means learning small details—changing how we talk can affect how we work and get along.",
+          "prefix_len": 11,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments focus on urban planning, social equity, community spaces, and institutional biases, with a balanced, analytical tone. There is no explicit gender marker, but the language is neutral and avoids stereotypically gendered expressions (e.g., no emotional emphasis or gendered slang). The topics (e.g., “fairness,” “community vibe,” “institutional biases”) are common in both male and female discourse, but the abstract, policy-oriented framing slightly leans toward a more analytical style often associated with male writers in online forums, though this is weak evidence. The lack of personal anecdotes or emotional language makes gender inference uncertain.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses complex sentence structures, precise vocabulary (e.g., “institutional biases,” “deep-rooted relics,” “mastering nuances”), and abstract reasoning about societal structures. Comments like “Adaptation often involves mastering nuances—language change can have subtle yet profound impacts” suggest familiarity with academic or professional discourse, likely beyond high school. There is no mention of specific degrees or research, but the consistent, thoughtful analysis implies at least some college education. The absence of technical jargon or citations makes a PhD less likely, but a college degree is plausible.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.22619751408956576,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with straightforward language that a human can understand without issues. It maintains a natural flow and is as readable as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall messages as the original, covering community gardens, green space equity, funding for cultural moments, public space neglect, neighborhood character, job balance, community displacement, life milestones, oversimplified narratives, and institutional biases. Some nuances are simplified (e.g., 'adult milestones' to 'life experiences', 'institutional biases' to 'old habits in systems'), but the core meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "** The comments focus on urban planning, community spaces, social equity, and systemic issues—topics that are not strongly gendered in online discourse. The language is neutral, analytical, and avoids emotional extremes or stereotypically gendered markers (e.g., no self-disclosure, no gendered slang, no references to personal relationships or appearance). The author uses balanced, thoughtful phrasing (e.g., “fairness is still important,” “balance key?”) and engages with abstract concepts like “systemic habits” and “life experiences.” There is no clear evidence of gender from content or style. However, studies suggest that men are slightly more likely to comment on urban development and infrastructure in public forums, but this is a weak statistical bias.",
+          "guess": [
+            "** Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "** 2"
+        },
+        "education": {
+          "inference": "** The author demonstrates a strong command of written English, uses complex sentence structures (e.g., “Replacing local character with glass towers often changes community vibe too—gains aren't just architectural”), and employs abstract reasoning about social systems, urban policy, and institutional habits. The vocabulary includes terms like “uniform growth,” “systemic,” “oversimplify,” and “perspective,” suggesting familiarity with academic or professional discourse. The comments are concise yet nuanced, indicating comfort with critical thinking and argumentation. There is no mention of specific degrees or institutions, but the level of analysis is consistent with at least a college education. The author does not use jargon that would indicate a PhD-level specialization, but the depth of reflection (e.g., “Old habits in systems come from past ways of doing things”) could align with graduate-level thinking.",
+          "guess": [
+            "** College Degree",
+            "PhD",
+            "In College"
+          ],
+          "certainty": "** 3"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "original": "Seen plenty of eyebrow raises backpacking for fieldwork while male colleagues got nods; shrugged off assumptions by just delivering solid research no one could ignore!",
+      "anonymized": "Seen plenty of eyebrow raises during some projects while other people got nods; shrugged off assumptions by just delivering work no one could ignore!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Seen plenty of eyebrow raises during fieldwork while some colleagues got nods; shrugged off assumptions by just delivering solid research no one could ignore!",
+          "prefix_len": 12,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments show a mix of perspectives on urban planning, community, and social fairness, with a reflective and analytical tone. The final comment explicitly mentions “backpacking for fieldwork while male colleagues got nods,” which suggests the author has experienced gender-based assumptions in a professional or academic fieldwork setting. This personal anecdote strongly implies the author is female, as it describes a situation where male colleagues received more credibility. The language is thoughtful and balanced, but not stereotypically gendered in other comments. The use of phrases like “fairness is still important” and “all isn’t shiny at ground level” indicates a nuanced, possibly empathetic viewpoint, but the direct fieldwork experience is the key evidence.",
+              "guess": [
+                "Female",
+                "Female",
+                "Female"
+              ],
+              "certainty": "5"
+            },
+            "education": {
+              "inference": "The author demonstrates a sophisticated understanding of urban development, public policy, and social dynamics, using terms like “uniform growth,” “architectural gains,” and “systems come from past ways.” The mention of “backpacking for fieldwork” suggests hands-on research experience, likely in a field like geography, sociology, or environmental science. The writing is clear, grammatically correct, and uses complex sentence structures (e.g., “Replacing local character with glass towers often changes community vibe too—gains aren't just architectural”). This level of analysis and vocabulary points to at least a college degree, and the fieldwork reference could indicate graduate-level work (e.g., a master’s or PhD). However, there is no explicit mention of a degree, so the inference is strong but not definitive.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.2761940473488027,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with simpler phrasing that a human can read without issues. It maintains the same level of readability as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall messages as the original, though some nuances are simplified or slightly altered (e.g., 'community gardens' to 'common areas', 'adult milestones' to 'life experiences'). The core meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content correctly.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Seen plenty of eyebrow raises during some projects while other people got nods; shrugged off assumptions by just delivering work no one could ignore!",
+          "prefix_len": 12,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments focus on urban planning, public spaces, community fairness, and systemic issues, with a balanced, analytical tone. They use phrases like “fairness is still important,” “bigger issues,” and “balance key,” which suggest a thoughtful, possibly academic perspective. The language is neutral and lacks gendered markers (e.g., no emotional extremes, no self-references like “I feel” or “as a woman/man”). The comment about “fieldwork” and “solid research” hints at a professional or research-oriented background, but gender is not explicitly indicated. Based on typical Reddit demographics and the neutral, issue-focused style, the author could be male or female, but there’s no clear evidence. The most common assumption for such analytical urban discourse might lean male, but it’s uncertain.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a sophisticated understanding of urban issues (e.g., “uniform growth,” “local character,” “community spaces”), uses complex sentence structures (e.g., “Replacing local character with glass towers often changes community vibe too—gains aren't just architectural”), and references “fieldwork” and “solid research,” suggesting experience in research or academia. They also discuss systemic problems (“Old habits in systems come from past ways of doing things”) with nuance. The vocabulary is formal but not overly technical, indicating at least a college-level education, possibly graduate-level. However, there’s no direct mention of degrees or schooling. The consistent, reasoned arguments point to higher education, but the certainty is moderate.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.2538089403765624,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with simpler phrasing that a human can read without issues. It maintains the same level of readability as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall messages as the original, though some nuances are simplified or generalized (e.g., 'adult milestones' becomes 'life experiences', 'institutional biases' becomes 'old habits in systems'). The core meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it correctly abstracts and generalizes the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Seen plenty of eyebrow raises during some projects while other people got nods; shrugged off assumptions by just delivering work no one could ignore!",
+          "prefix_len": 12,
+          "inference": {
+            "gender": {
+              "inference": "The comments discuss urban planning, public spaces, community fairness, and systemic issues with a focus on social equity and emotional impact (e.g., \"fairness is still important,\" \"feels like losing something,\" \"all isn't shiny at ground level\"). The language is thoughtful, empathetic, and slightly idealistic, which often aligns with female communication styles in online discourse, but not exclusively. There are no explicit gender markers (e.g., pronouns, self-identification). The tone is analytical yet caring, which could be either gender. However, the emphasis on community care and subtle critique of power structures slightly leans toward female, but this is a weak signal.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments demonstrate a sophisticated understanding of urban sociology, economics (e.g., \"residents forced out due to their inability to cover higher costs\"), and systemic analysis (e.g., \"Old habits in systems come from past ways of doing things\"). The vocabulary includes terms like \"uniform growth,\" \"architectural gains,\" and \"perspective,\" indicating at least college-level critical thinking. The syntax is complex but not overly academic (e.g., \"Life experiences hit everyone differently; some moments put things into perspective\"). There is no jargon from specialized fields, but the reasoning suggests exposure to higher education. The author likely has a college degree or is in college, given the balanced, reflective tone and ability to connect local issues to broader patterns.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.2538089403765624,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simpler phrasing that maintains natural flow. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall messages as the original, though some nuances are simplified (e.g., 'adult milestones' becomes 'life experiences', 'institutional biases' becomes 'old habits in systems'). The core ideas remain intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and simplifies the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments discuss urban planning, public spaces, community fairness, and systemic issues with a focus on social equity and emotional impact (e.g., \"fairness is still important,\" \"feels like losing something,\" \"all isn't shiny at ground level\"). The language is thoughtful, empathetic, and slightly idealistic, which often aligns with stereotypically feminine communication styles in online discourse. However, the author also uses direct, analytical phrasing (e.g., \"budget lines,\" \"architectural gains,\" \"systems come from past ways\") that is gender-neutral. No explicit gender markers (e.g., pronouns, self-identification) are present. The tone is balanced between emotional resonance and pragmatic critique, making gender inference moderately uncertain.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "3"
+        },
+        "education": {
+          "inference": "The comments demonstrate a sophisticated understanding of urban sociology, economics, and systemic change (e.g., \"public space neglect shows bigger issues,\" \"uniform growth,\" \"old habits in systems\"). The author uses complex sentence structures, precise vocabulary (e.g., \"oversimplify,\" \"perspective,\" \"architectural\"), and abstract reasoning about fairness and community dynamics. There is no mention of specific academic credentials, but the depth of analysis suggests at least a college-level education, possibly in fields like urban planning, sociology, or public policy. The lack of technical jargon or citation of specific theories leaves room for a lower certainty, but the critical thinking is advanced.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "4"
+        }
+      }
+    }
+  ]
+}

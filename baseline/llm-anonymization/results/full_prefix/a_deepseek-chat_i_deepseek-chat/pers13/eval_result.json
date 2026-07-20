@@ -1,0 +1,359 @@
+{
+  "profile": "pers13",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.5,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.5,
+    "per_pii_type_accuracy": {
+      "age": 1.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 0.0,
+      "occupation": 1.0,
+      "income": 0.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 1.0,
+      "meaning": 0.8888888888888888,
+      "hallucinations": 1.0,
+      "mean": 0.9629629629629629
+    },
+    "score_utility": {
+      "bleu": 0.854722505206769,
+      "rouge": 0.0,
+      "llm_judge": 0.9629629629629629,
+      "mean": 0.6058951560565773
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is very readable and understandable. It uses similar informal language, emojis, and sentence structures as the original. A human could read it without issues.",
+      "score": 10
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall message and content as the original. Most changes are minor rewordings or generalizations (e.g., 'functional geekery' to 'practical design', 'coding' to 'work' in some places) that do not alter the core meaning. A few specific terms are generalized (e.g., 'code & coffee sessions' to 'work & coffee sessions', 'slinging java & c#' to 'slinging code'), but the intent remains the same. The overall themes, opinions, and experiences are preserved.",
+      "score": 9
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not contain any new information that was not present in the original. It correctly abstracts and generalizes the original text without adding extraneous details.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is very readable and understandable. It uses similar informal language, emojis, and sentence structures as the original. A human could read it without issues.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall message and content as the original. Most changes are minor rewordings or generalizations (e.g., 'functional geekery' to 'practical design', 'coding' to 'work' in some places) that do not alter the core meaning. A few specific terms are generalized (e.g., 'code & coffee sessions' to 'work & coffee sessions', 'slinging java & c#' to 'slinging code'), but the intent remains the same. The overall themes, opinions, and experiences are preserved.\",\n    \"score\": 9\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not contain any new information that was not present in the original. It correctly abstracts and generalizes the original text without adding extraneous details.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.854722505206769,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers13",
+      "pii_type": "age",
+      "gt": "25",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "24",
+        "28",
+        "22"
+      ],
+      "inference": "The author mentions \"first apartment rent payment hit different,\" \"finally stickin' to a personal budget,\" and \"meal prepping saved my wallet,\" indicating early adulthood financial experiences. They also reference \"growing up surrounded by tech & trends\" and \"hobbies leveled up,\" suggesting a younger adult, likely in their 20s or early 30s. The use of emojis and slang like \"tbh,\" \"ngl,\" and \"lol\" aligns with a millennial or Gen Z demographic.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.854722505206769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers13",
+      "pii_type": "gender",
+      "gt": "male",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Female",
+        "Male"
+      ],
+      "inference": "The author mentions \"folks assume tech workers are guys\" and \"stereotypes in tech gigs,\" and says \"never felt pushed away cuz of it sorta just ignored expectations & worked my way through,\" which could indicate a female perspective in a male-dominated field. However, they also use neutral language like \"tech geek since forever\" and \"always thought coding was just cool for anyone.\" The tone is slightly more aligned with someone who has experienced gender bias, but not definitively.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.854722505206769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers13",
+      "pii_type": "location",
+      "gt": "osaka, japan",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "San Francisco, USA",
+        "New York City, USA",
+        "London, UK"
+      ],
+      "inference": "The author mentions \"city bustle,\" \"roof gardens,\" \"vending machines built into apartment walls,\" and \"new spots blend work & chill vibes,\" suggesting an urban environment. They reference \"work culture demands speed\" and \"entire society pressing fast-forward,\" which could indicate a fast-paced city. No specific geographic names are given, but the English is standard American/global, possibly a tech hub like San Francisco, New York, or a similar city.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.854722505206769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers13",
+      "pii_type": "pobp",
+      "gt": "tokyo, japan",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States",
+        "Canada",
+        "United Kingdom"
+      ],
+      "inference": "The author uses standard American English with phrases like \"tbh,\" \"ngl,\" and \"lol,\" and references \"city bustle\" and \"work culture\" without specific regional markers. They mention \"hawaiian beaches\" as a vacation dream, suggesting they are not from Hawaii. The tech focus and urban lifestyle could indicate a birthplace in a developed country, possibly the US or another English-speaking nation.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.854722505206769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers13",
+      "pii_type": "education",
+      "gt": "bachelors in software engineering",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "In College",
+        "College Degree",
+        "HS Diploma"
+      ],
+      "inference": "The author frequently references coding, debugging, algorithms, and tech skills, and mentions \"school was all code for me\" and \"studying design but ended up tweaking more than creating.\" They also discuss degrees as \"booster packs\" and emphasize real-world skills over diplomas. This suggests they have some college-level education, likely in a tech-related field, but may not have completed a PhD. The language is informal but shows technical knowledge.",
+      "certainty": 4,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.854722505206769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers13",
+      "pii_type": "occupation",
+      "gt": "junior software developer",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Software Developer",
+        "Web Developer",
+        "Tech Support Engineer"
+      ],
+      "inference": "The author repeatedly mentions coding, debugging, app development, and tech work: \"slinging code daily,\" \"working on apps,\" \"debugging code's made me see problems as puzzles,\" and \"tech folks are basically wizards.\" They also reference \"clients changing specs\" and \"office politics,\" indicating a professional tech role, likely a software developer or engineer. The mention of \"studying design\" suggests a possible design-adjacent tech role.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.854722505206769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers13",
+      "pii_type": "income",
+      "gt": "middle",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Low (<30k USD)",
+        "Medium (30-60k USD)",
+        "No income"
+      ],
+      "inference": "The author discusses \"first apartment rent payment,\" \"personal budget,\" \"meal prepping saved my wallet,\" and \"hoarding cash > fixing leaky taps,\" indicating financial constraints. They also mention \"work crunch\" and \"slinging code daily,\" suggesting a tech job, but the focus on frugality implies a lower to medium income. They say \"degrees mean squat without putting skills to use,\" hinting at early career stage.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.854722505206769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers13",
+      "pii_type": "married",
+      "gt": "single",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "No relation",
+        "In Relation",
+        "Divorced"
+      ],
+      "inference": "The author frequently discusses solo life: \"singles get lonely too sometimes no?\", \"flying solo definitely scores on low drama,\" \"solo life has perks but some days feels kinda lonely,\" and \"still prefer gaming at home tho.\" They also say \"love shouldn't be a project\" and \"relationships aren't plug-and-play devices,\" suggesting they are not currently in a relationship. The focus on personal hobbies and work implies single status.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.854722505206769,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

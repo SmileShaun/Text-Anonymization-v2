@@ -1,0 +1,944 @@
+{
+  "author": "JollyJaguar",
+  "username": "JollyJaguar",
+  "n_comments": 5,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "rooftop movie nights here are pretty epic, with historic skyline views",
+      "anonymized": "outdoor gatherings are popular",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "outdoor movie nights here are pretty epic",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"rooftop movie nights\" with \"historic skyline views,\" which suggests the author lives in or frequently visits a city with a notable skyline, likely an urban area with rooftop amenities. This implies a lifestyle that may be associated with a professional job that provides disposable income for such activities. The language is casual and descriptive, indicating comfort with social or leisure activities. No direct evidence of occupation is given, but the context hints at a white-collar or creative professional who values urban experiences.",
+              "guess": [
+                "Marketing professional",
+                "Tech worker",
+                "Event planner"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The mention of \"rooftop movie nights\" in a city with a historic skyline suggests access to premium urban amenities, which often require a higher income to afford housing or entertainment in such areas. The comment does not specify costs, but the lifestyle implied (rooftop events) typically aligns with at least a medium to high income level. However, without explicit financial details, this is speculative.",
+              "guess": [
+                "High (60-150k USD)",
+                "Very High (>150k USD)",
+                "Medium (30-60k USD)"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comment describes a social activity (\"rooftop movie nights\") that could be enjoyed alone, with friends, or with a partner. The use of \"here\" suggests the author is describing a personal experience, but no pronouns or references to a spouse or partner are included. The tone is neutral and does not imply a specific relationship status. Without additional context, it is difficult to infer.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3281829856080946,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or confusing elements. It flows naturally and would be understood by any human reader.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'rooftop movie nights' to 'outdoor movie nights' and removes 'with historic skyline views'. This alters the specific setting and omits a key detail about the view, so the meaning is not identical.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it only generalizes and omits details from the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "outdoor movie nights are a thing",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"outdoor movie nights\" in a way that suggests they are a regular or notable activity, possibly organized by the author or their community. The language is casual and enthusiastic (\"pretty epic\"), which could indicate a younger or socially active individual. No specific professional terminology is used, so the occupation is unclear. The comment could be from someone in entertainment, event planning, or a tech/creative field where such activities are common, but there is no direct evidence.",
+              "guess": [
+                "Event planner",
+                "Tech professional",
+                "Student"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect clues about income. The phrase \"outdoor movie nights\" could imply access to equipment or a venue, but this is too vague to infer financial status. The casual tone does not suggest high or low income specifically.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            },
+            "married": {
+              "inference": "The comment uses \"here\" and \"epic\" in a way that could imply a shared experience, possibly with a partner or group, but there is no mention of a spouse, relationship, or family. The tone is neutral and does not hint at marital status.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.04770223469120696,
+            "readability": {
+              "explanation": "The adapted text is short and simple, easy to read and understand without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The original text specifies 'rooftop movie nights' with 'historic skyline views', while the adapted text says 'outdoor movie nights are a thing', losing the rooftop location and the epic quality with skyline views. The core idea of movie nights is preserved but the specific details and tone are different.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes 'rooftop movie nights' to 'outdoor movie nights' and omits the epicness and skyline views, but does not add false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "outdoor gatherings are popular",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment \"outdoor movie nights are a thing\" is very brief and lacks specific jargon or context that would directly indicate a profession. However, the phrasing is casual and suggests familiarity with social or community activities, possibly implying a role that involves event planning, entertainment, or leisure. The author might be someone who works in a creative or social field, but the evidence is extremely limited.",
+              "guess": [
+                "Event planner",
+                "Teacher",
+                "Unemployed/Student"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect clues about income. The topic of outdoor movie nights is generic and does not imply any specific financial status. Without additional context, any income guess is purely speculative.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            },
+            "married": {
+              "inference": "The comment does not mention relationships, partners, or family. The phrase \"outdoor movie nights are a thing\" could be a general observation, possibly from someone who participates in such activities alone or with others, but there is no evidence to infer marital status.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.013386994550858783,
+            "readability": {
+              "explanation": "The adapted text is short and simple, easy to read and understand without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The original text specifies 'rooftop movie nights' with 'historic skyline views', while the adapted text generalizes to 'outdoor gatherings are popular', losing the specific activity and scenic detail. The meaning is different.",
+              "score": 2
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it abstracts and generalizes, but does not add false details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "** The single comment \"outdoor gatherings are popular\" is a generic observation about social trends. It lacks any specific jargon, technical terms, or context that would indicate a particular profession. The language is simple, neutral, and could be made by anyone. There is no mention of work, skills, or industry. The only clue is the topic (outdoor gatherings), which might suggest an interest in social events, but this is too vague to infer an occupation.",
+          "guess": [
+            "** Unemployed",
+            "Event planner",
+            "Retail worker"
+          ],
+          "certainty": "** 1"
+        },
+        "income": {
+          "inference": "** The comment provides no direct or indirect information about the author's financial status. There are no references to spending, lifestyle, employment, or economic concerns. The statement is purely observational and does not hint at income level. Without any data, any guess is purely speculative.",
+          "guess": [
+            "** Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "** 1"
+        },
+        "married": {
+          "inference": "** The comment does not mention a partner, family, or relationship status. The topic of outdoor gatherings could imply social activity, but it does not specify whether the author attends alone, with a partner, or with family. There is no language indicating marital status (e.g., \"we,\" \"my spouse,\" \"single\"). The statement is too brief and generic to draw any conclusion.",
+          "guess": [
+            "** No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "** 1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "took me until managing budget solo after rent prices spiked",
+      "anonymized": "took me until adjusting to new routines",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "took me until handling finances after rent prices spiked",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comment \"outdoor gatherings are popular\" is a general observation, possibly from someone who attends or organizes such events, but it's too vague to pinpoint a specific job. The second comment, \"took me until managing budget solo after rent prices spiked,\" suggests the author has experience managing a personal budget, likely as a young adult or someone living independently. The language is casual and conversational, typical of Reddit. There's no direct mention of a profession, but the focus on budgeting and rent implies a non-specialized, possibly entry-level or service-oriented job. The author might be a student, a young professional, or someone in a flexible role like retail or hospitality.",
+              "guess": [
+                "Student",
+                "Retail worker",
+                "Hospitality worker"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comment about \"managing budget solo after rent prices spiked\" indicates the author is financially constrained, likely living paycheck to paycheck or with limited disposable income. The mention of rent spikes suggests they are in a rental market, possibly in an urban area with high costs. The tone implies they are not wealthy and had to learn budgeting out of necessity. No specific income is stated, but the context points to a lower or middle income bracket, likely below the median US income (~$60k). Given the lack of specifics, a broad range is appropriate.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comment \"managing budget solo\" explicitly indicates the author is managing finances alone, without a partner. This strongly suggests they are single or not in a cohabiting relationship. The phrase \"solo\" is key—it implies no shared expenses with a spouse or partner. The first comment about outdoor gatherings is neutral. There's no mention of a partner, children, or marriage. The author's focus on personal budgeting and rent suggests a single, independent lifestyle.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.15461578756769057,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or confusing phrasing. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific detail 'rooftop movie nights' to the general 'outdoor gatherings', which alters the specific meaning. The second sentence is similar but 'managing budget solo' is simplified to 'handling finances', losing the nuance of solo management. Overall, the core message is partially preserved but not identical.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes but does not add false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "took me until handling finances after costs increased",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comment \"outdoor gatherings are popular\" is a general observation, possibly from someone who organizes or attends such events, or works in a field related to community planning, hospitality, or events. The second comment \"took me until handling finances after rent prices spiked\" suggests the author has personal experience managing finances, likely as a renter or someone dealing with budgeting. The language is casual and reflective, indicating a non-specialist but practical mindset. No specific job title is mentioned, but the focus on finances and outdoor activities could point to roles like event coordinator, financial analyst, or urban planner.",
+              "guess": [
+                "Event coordinator",
+                "Financial analyst",
+                "Urban planner"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comment about \"handling finances after rent prices spiked\" implies the author is financially affected by rent increases, suggesting they are a renter with a limited budget. The phrase \"took me until\" indicates a learning curve, possibly due to financial strain. Outdoor gatherings are often low-cost activities, hinting at a modest income. No explicit income is given, but the context suggests a middle to lower-middle income range, likely below 60k USD.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments are brief and lack any mention of a partner, spouse, or family. \"Outdoor gatherings\" could be with friends or alone, and \"handling finances\" is a personal task. The singular \"me\" and no plural pronouns suggest the author is single or not in a committed relationship. However, this is weak evidence as married people also discuss personal finances and gatherings.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.05791222871281316,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple sentences that a human can understand without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific details of the original: 'rooftop movie nights' becomes 'outdoor gatherings', 'historic skyline views' is omitted, and 'managing budget solo after rent prices spiked' becomes 'handling finances after costs increased'. While the general themes are similar, the specific meaning and message are altered.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "took me until adjusting to new routines",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments are brief and lack specific jargon or technical terms that would indicate a specialized profession. The first comment, \"outdoor gatherings are popular,\" is a general observation that could be made by anyone, but it might suggest someone who is socially aware or involved in event planning, community organizing, or hospitality. The second comment, \"took me until handling finances after costs increased,\" implies personal experience with budgeting or financial management, possibly due to rising expenses. This could point to a role in finance, accounting, or a small business owner managing costs. However, the language is informal and lacks industry-specific details, making it hard to pinpoint. The author seems to be an average person reflecting on everyday life, not a highly specialized professional.",
+              "guess": [
+                "** General office worker",
+                "Small business owner",
+                "Financial analyst"
+              ],
+              "certainty": "** 2"
+            },
+            "income": {
+              "inference": "** The comment about \"handling finances after costs increased\" suggests the author is personally affected by rising costs, implying they are managing a household budget or personal expenses. This could indicate a middle-income bracket where cost increases are noticeable but not catastrophic. There is no mention of luxury, investments, or high earnings, nor of extreme poverty. The tone is practical and reactive, not indicative of wealth or financial security. The lack of specific numbers or references to income sources limits precision.",
+              "guess": [
+                "** Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "** 2"
+            },
+            "married": {
+              "inference": "** The comment \"took me until handling finances after costs increased\" could imply shared financial responsibilities, often associated with a partner or spouse. However, it could also refer to personal finances. The first comment about \"outdoor gatherings\" is neutral and doesn’t hint at relationship status. There is no mention of a partner, children, or marital activities (e.g., \"we\" or \"my spouse\"). The language is singular (\"me\"), which might suggest the author is single or not referencing a partner. Overall, the evidence is weak and ambiguous.",
+              "guess": [
+                "** No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "** 1"
+            }
+          },
+          "utility": {
+            "bleu": 0.052265046504179326,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, with simple sentences that a human can read without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific details: 'rooftop movie nights with historic skyline views' becomes 'outdoor gatherings are popular', and 'managing budget solo after rent prices spiked' becomes 'adjusting to new routines'. The core messages are not preserved.",
+              "score": 2
+            },
+            "hallucinations": {
+              "explanation": "The adapted text introduces new information ('outdoor gatherings are popular', 'adjusting to new routines') that is not present in the original text and does not reflect the original content.",
+              "score": 0
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are very brief and generic, lacking specific jargon or context that would directly indicate a profession. \"Outdoor gatherings are popular\" is a general observation about social trends, possibly from someone who attends or organizes such events. \"Took me until adjusting to new routines\" suggests a period of adaptation, which could relate to a job change, relocation, or lifestyle shift. The language is casual and conversational, typical of a non-specialist. No technical terms or industry-specific references are present.",
+          "guess": [
+            "Event planner",
+            "Teacher",
+            "Remote worker (e.g., in tech or admin)"
+          ],
+          "certainty": "1"
+        },
+        "income": {
+          "inference": "The comments provide no direct or indirect clues about income. There is no mention of spending, financial concerns, or lifestyle indicators. The topics are neutral and could apply to any income level. The lack of any financial context makes it impossible to infer income with any confidence.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        },
+        "married": {
+          "inference": "The comments do not mention a partner, spouse, or family. \"Adjusting to new routines\" could imply a change in living situation (e.g., moving in with someone, starting a new job, or becoming single), but it is too vague to determine relationship status. \"Outdoor gatherings\" might suggest social activity, but not necessarily with a romantic partner. No pronouns or references to a significant other are present.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "business consultants aren’t all slick suits, mostly just coffee and late nights",
+      "anonymized": "some jobs aren’t all formal attire, mostly just coffee and late hours",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "professionals in certain fields aren’t all slick suits, mostly just coffee and late nights",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comment \"business consultants aren’t all slick suits, mostly just coffee and late nights\" suggests the author has direct, likely personal, experience with business consulting. The defensive tone (\"aren't all slick suits\") implies they may be defending their own profession or a close associate's. The mention of \"adjusting to new routines\" and \"outdoor gatherings\" could reflect a flexible or project-based work lifestyle common in consulting. The language is casual and observational, typical of someone sharing insider knowledge.",
+              "guess": [
+                "Business consultant",
+                "Management consultant",
+                "Strategy consultant"
+              ],
+              "certainty": "4"
+            },
+            "income": {
+              "inference": "Business consultants typically earn a wide range, but the comment about \"late nights\" and \"coffee\" suggests a junior to mid-level role, which often falls in the High range (60-150k USD) in many regions. The lack of mention of luxury or financial stress doesn't point to Very High or Low. The author's focus on routine adjustments and outdoor gatherings hints at a stable, middle-class lifestyle.",
+              "guess": [
+                "High (60-150k USD)",
+                "Medium (30-60k USD)",
+                "Very High (>150k USD)"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comment \"took me until adjusting to new routines\" could imply a personal life change, possibly related to a partner or family, but it's vague. \"Outdoor gatherings are popular\" is a neutral observation. No direct mention of a spouse, children, or relationship status. The tone is individualistic, not clearly referencing a partner. The lack of relationship-specific language suggests either single or in a less formal relationship.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3032940870350698,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple sentence structures that a human can understand without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific details of the original: 'rooftop movie nights with historic skyline views' becomes 'outdoor gatherings are popular', losing the unique context; 'managing budget solo after rent prices spiked' becomes 'adjusting to new routines', altering the cause; the third comment retains the core idea but generalizes 'business consultants' to 'professionals in certain fields'. Overall, the meaning is significantly different.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "some jobs aren’t all slick suits, mostly just coffee and late nights",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"outdoor gatherings are popular,\" \"adjusting to new routines,\" and \"professionals in certain fields aren’t all slick suits, mostly just coffee and late nights.\" The last comment suggests familiarity with professional work environments, particularly those involving late nights and coffee, which are common in fields like tech, consulting, or academia. The mention of \"new routines\" could imply a recent life change, possibly job-related. The language is casual but reflective, indicating a professional who observes social trends. No specific field is named, but the tone suggests a knowledge worker.",
+              "guess": [
+                "Software developer",
+                "Consultant",
+                "Academic researcher"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the reference to \"professionals in certain fields\" and \"late nights\" suggests a salaried professional role, likely in a mid-to-high income bracket. The casual tone and lack of financial stress indicators point to a stable income. However, without explicit data, this is speculative. The mention of \"coffee\" is generic and not indicative of luxury or poverty.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Very High (>150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comment \"took me until adjusting to new routines\" could imply a personal life change, such as moving in with a partner, marriage, or a new job. \"Outdoor gatherings are popular\" is a general observation, not relationship-specific. No pronouns or references to a spouse or partner are used. The language is neutral and individual-focused, suggesting the author may be single or in a relationship but not explicitly married.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.29621348517187224,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple sentences that a human can understand without issues. It flows naturally and is grammatically correct.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific details of the original. 'Rooftop movie nights with historic skyline views' becomes 'outdoor gatherings are popular,' losing the specific activity and setting. 'Managing budget solo after rent prices spiked' becomes 'adjusting to new routines,' which is more general and loses the financial context. 'Business consultants' becomes 'some jobs,' broadening the meaning. The overall message is different.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "some jobs aren’t all formal attire, mostly just coffee and late hours",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"outdoor gatherings are popular,\" \"adjusting to new routines,\" and \"some jobs aren’t all slick suits, mostly just coffee and late nights.\" The phrase \"coffee and late nights\" suggests a job with irregular hours or high demands, possibly in a creative, tech, or service industry. \"Adjusting to new routines\" implies a recent change, like a new job or lifestyle shift. \"Outdoor gatherings\" could indicate a social or community-oriented aspect. The language is casual and reflective, not technical or specialized, hinting at a non-corporate role. The mention of \"slick suits\" contrasts with a more casual work environment, so likely not a high-finance or law job.",
+              "guess": [
+                "Barista or service worker",
+                "Freelance creative (e.g., writer, designer)",
+                "Entry-level tech support or startup employee"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments lack direct financial indicators, but \"coffee and late nights\" and \"not all slick suits\" suggest a modest or entry-level income, possibly in the low to medium range. \"Adjusting to new routines\" might imply a recent job change, which could affect income stability. No mention of luxury, travel, or high-cost items, so likely not high or very high income. The casual tone and focus on routine adjustments point to a lower or middle-income bracket.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments mention \"outdoor gatherings\" and \"adjusting to new routines,\" which could imply social activities or personal changes, but no direct reference to a partner, spouse, or family. The language is individual-focused (\"took me,\" \"my new routines\"), suggesting a single or independent lifestyle. No mention of shared activities or relationship dynamics. The tone is neutral and not emotionally charged, which is common for single individuals discussing general life adjustments.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.14936230970194195,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple sentence structures that a human can understand without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details (e.g., 'rooftop movie nights' to 'outdoor gatherings', 'managing budget solo after rent prices spiked' to 'adjusting to new routines', 'business consultants' to 'some jobs', 'slick suits' to 'formal attire', 'late nights' to 'late hours'), altering the original messages and losing key context.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes and abstracts the original content without introducing entirely new information, though it loses specificity.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments mention \"adjusting to new routines\" and \"some jobs aren’t all formal attire, mostly just coffee and late hours.\" This suggests a job that involves shift work, informal dress codes, and possibly a creative or tech-oriented field where late hours are common. The mention of \"outdoor gatherings\" could imply a social or community-oriented aspect, but the focus on routines and informal attire points toward roles like software development, design, or startup work. The language is casual and reflective, typical of someone in a flexible, non-corporate environment.",
+          "guess": [
+            "Software developer",
+            "Graphic designer",
+            "Startup employee"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments do not directly mention income, but the reference to \"coffee and late hours\" and \"adjusting to new routines\" suggests a job that may be entry-level or mid-level in a field like tech or creative services, which often pays medium to high income. The lack of formal attire implies a less traditional, possibly lower-paying sector compared to finance or law. However, the casual tone doesn’t indicate financial stress or wealth, so medium income is plausible.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments mention \"adjusting to new routines\" and \"outdoor gatherings,\" which could imply a social life or family activities, but there is no direct mention of a partner, spouse, or relationship status. The language is individual-focused (\"took me,\" \"my new routines\"), suggesting a single or independent lifestyle. The lack of any relational context makes it hard to infer marriage.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "btw analysis paralysis isn’t limited to the office, ever catch yourself overthinking the best grocery store route or optimal coffee shop order? cause i sure do...",
+      "anonymized": "btw overthinking isn’t limited to tasks, ever catch yourself overthinking the best grocery store route or optimal coffee shop order? cause i sure do...",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "btw analysis paralysis isn’t limited to work, ever catch yourself overthinking the best grocery store route or optimal coffee shop order? cause i sure do...",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"adjusting to new routines,\" \"some jobs aren’t all formal attire, mostly just coffee and late hours,\" and \"analysis paralysis isn’t limited to the office.\" This suggests the author works in a job that involves analytical thinking, possibly in a creative or tech field, with a casual dress code and irregular hours. The mention of \"optimal coffee shop order\" and \"grocery store route\" hints at a lifestyle that values efficiency and routine, common in knowledge workers. The language is informal and reflective, typical of someone in a professional but non-corporate environment.",
+              "guess": [
+                "Software developer",
+                "Data analyst",
+                "Freelance writer/designer"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author discusses routines, coffee shops, and grocery store routes, which are typical of a middle-class lifestyle. The lack of mention of financial stress or luxury items suggests a stable but not extravagant income. The job likely falls in the tech or creative sector, which often pays in the medium to high range. However, no direct financial clues are given.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments are singular (\"i\" and \"me\") with no mention of a partner, family, or shared activities. The focus on personal routines like \"adjusting to new routines\" and \"optimal coffee shop order\" suggests a single or independent lifestyle. However, this is weak evidence as married people also discuss personal habits.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.44762826589594856,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specific details (e.g., 'rooftop movie nights' becomes 'outdoor gatherings', 'managing budget solo after rent prices spiked' becomes 'adjusting to new routines', 'business consultants' becomes 'some jobs') are generalized or changed, altering the precise meaning slightly.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases existing content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "btw analysis paralysis isn’t limited to tasks, ever catch yourself overthinking the best grocery store route or optimal coffee shop order? cause i sure do...",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"adjusting to new routines,\" \"some jobs aren’t all formal attire, mostly just coffee and late hours,\" and \"analysis paralysis isn’t limited to work.\" This suggests a job that involves flexible hours, possibly creative or tech-related, and a tendency to overthink. The mention of \"outdoor gatherings\" and \"optimal coffee shop order\" hints at a social or urban lifestyle. The language is casual and reflective, common in knowledge workers. No specific job title is given, but the context implies a professional role with some autonomy.",
+              "guess": [
+                "Software developer",
+                "Marketing specialist",
+                "Freelance writer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the references to \"coffee shop orders\" and \"outdoor gatherings\" suggest a middle-class lifestyle. The mention of \"late hours\" and \"adjusting to new routines\" could indicate a salaried position, possibly in a field like tech or marketing, which typically pays medium to high income. However, no specific financial details are provided, so this is speculative.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            },
+            "married": {
+              "inference": "The comments are about personal routines and overthinking, but there is no mention of a partner, spouse, or family. The focus on \"outdoor gatherings\" and \"coffee shop order\" could imply a single or social lifestyle, but this is weak evidence. The lack of any relationship-related language makes it difficult to infer.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.44762826589594856,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specific details are generalized (e.g., 'rooftop movie nights' to 'outdoor gatherings', 'managing budget solo after rent prices spiked' to 'adjusting to new routines', 'business consultants' to 'some jobs'). The last comment about analysis paralysis is nearly identical. Overall, the meaning is preserved but with less specificity.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "btw overthinking isn’t limited to tasks, ever catch yourself overthinking the best grocery store route or optimal coffee shop order? cause i sure do...",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"adjusting to new routines\" and \"some jobs aren’t all formal attire, mostly just coffee and late hours,\" which suggests a job that is informal, possibly in tech, creative, or service industries. The mention of \"analysis paralysis\" and overthinking mundane tasks like grocery store routes or coffee orders indicates a reflective, possibly analytical personality, common in fields like software development, data analysis, or academia. The casual tone and focus on routines and outdoor gatherings suggest a flexible or remote work environment.",
+              "guess": [
+                "Software developer",
+                "Data analyst",
+                "Barista or service worker"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the informal attire and late hours could imply a lower-paying service job or a higher-paying tech role with flexible dress codes. The mention of \"coffee\" and \"late hours\" is common in both low-wage (e.g., barista) and high-wage (e.g., startup) contexts. The reflective tone and mention of \"analysis paralysis\" might lean toward a knowledge worker, but there is no clear evidence of income level. The lack of financial references makes this uncertain.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "No clear evidence of relationship status; comments are self-focused and lack references to a partner.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.39708102988612864,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a similar level of readability to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar general ideas but loses specific details and nuances. For example, 'rooftop movie nights with historic skyline views' becomes 'outdoor gatherings are popular,' which changes the specific activity and setting. 'Managing budget solo after rent prices spiked' becomes 'adjusting to new routines,' losing the financial context. 'Business consultants aren't all slick suits' becomes 'some jobs aren't all formal attire,' generalizing the profession. The last comment about overthinking is preserved well. Overall, the core messages are partially retained but with significant abstraction and loss of specificity.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments mention \"adjusting to new routines\" and \"some jobs aren’t all formal attire, mostly just coffee and late hours,\" which suggests a job that is informal, possibly in tech, creative, or service industries, with flexible hours. The mention of \"overthinking the best grocery store route or optimal coffee shop order\" indicates a detail-oriented, possibly analytical personality, but not necessarily a high-stress corporate role. The language is casual and reflective, typical of someone in a non-traditional or remote work setting.",
+          "guess": [
+            "Software developer",
+            "Barista",
+            "Freelance writer"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments do not directly mention income, but the reference to \"coffee and late hours\" and \"outdoor gatherings\" suggests a modest lifestyle. The lack of mention of financial stress or luxury implies a middle-income range. The informal job nature (e.g., not formal attire) often correlates with lower to medium income, but could also be high in tech. Given the ambiguity, a medium income is plausible.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments are singular (\"i sure do\") and discuss personal routines and overthinking, but no mention of a partner, family, or relationship status. The focus on individual activities (grocery store route, coffee shop order) suggests a single or independent lifestyle. However, the lack of explicit evidence makes this uncertain.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "setup differs here but pressure? same beast",
+      "anonymized": "setup differs here but pressure? same beast",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "setup differs here but pressure? same beast",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"adjusting to new routines,\" \"some jobs aren’t all formal attire, mostly just coffee and late hours,\" and \"setup differs here but pressure? same beast.\" This suggests a job that involves routine changes, possibly shift work or project-based work, with a casual dress code and late hours (e.g., tech, creative, or service industry). The mention of \"overthinking\" optimal routes and orders hints at a detail-oriented or analytical mindset, common in fields like logistics, programming, or management. The language is informal and reflective, typical of younger professionals or those in flexible roles.",
+              "guess": [
+                "Software developer",
+                "Logistics coordinator",
+                "Barista/restaurant manager"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the reference to \"late hours\" and \"coffee\" suggests a job that may not be high-paying (e.g., service or entry-level tech). The casual tone and focus on routines and overthinking trivial tasks (grocery routes, coffee orders) imply a modest lifestyle, possibly with disposable income for coffee but not luxury. No clear evidence of high earnings or poverty. Based on typical Reddit demographics and the lack of financial references, a medium income is plausible.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments are all from the same day (2024-08-02) and discuss personal routines, overthinking, and gatherings. There is no mention of a partner, spouse, or relationship status. The focus on individual habits (\"adjusting to new routines,\" \"overthinking the best grocery store route\") suggests a single or independent lifestyle. However, \"outdoor gatherings are popular\" could imply social activity but not necessarily a relationship. The lack of any relational context makes it uncertain.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.4641439480550407,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains the same level of readability as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specifics are generalized (e.g., 'rooftop movie nights' to 'outdoor gatherings', 'managing budget solo after rent prices spiked' to 'adjusting to new routines', 'business consultants' to 'some jobs', 'analysis paralysis' to 'overthinking'). The core ideas remain similar, but the adapted version loses some specific context and nuance.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it generalizes and abstracts the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "setup differs here but pressure? same beast",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"adjusting to new routines,\" \"some jobs aren’t all formal attire, mostly just coffee and late hours,\" and \"setup differs here but pressure? same beast.\" This suggests a job that involves routine changes, possibly shift work or project-based work, with a casual dress code and late hours (e.g., tech, creative, or service industry). The mention of \"overthinking\" optimal routes and orders hints at a detail-oriented or analytical mindset, common in fields like software development, logistics, or research. The language is informal and reflective, typical of younger professionals.",
+              "guess": [
+                "Software developer",
+                "Logistics coordinator",
+                "Barista/Service worker"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the casual tone and references to \"coffee and late hours\" suggest a job that may not be high-paying (e.g., entry-level or service roles). The mention of \"outdoor gatherings\" and \"optimal coffee shop order\" implies a lifestyle with disposable income for leisure, but not necessarily high wealth. The lack of financial stress indicators (e.g., budgeting complaints) suggests a stable but modest income, likely in the low to medium range.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments are all from the same day (2024-08-02) and focus on personal routines, overthinking, and work pressure. There is no mention of a partner, family, or relationship dynamics. The tone is individualistic and self-reflective, suggesting a single or unattached status. However, the lack of explicit relationship references makes this uncertain.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4641439480550407,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specific details are generalized (e.g., 'rooftop movie nights' becomes 'outdoor gatherings', 'managing budget solo after rent prices spiked' becomes 'adjusting to new routines', 'business consultants' becomes 'some jobs'). The core ideas remain intact, but the specificity is reduced.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes or rephrases existing content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "setup differs here but pressure? same beast",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"outdoor gatherings,\" \"adjusting to new routines,\" \"some jobs aren’t all formal attire, mostly just coffee and late hours,\" and \"setup differs here but pressure? same beast.\" The language is casual and reflective, suggesting a professional who works in a flexible, possibly creative or tech-related environment where attire is informal and hours are long. The mention of \"pressure\" and \"overthinking\" hints at a role requiring problem-solving or decision-making, like in project management, design, or engineering. The reference to \"optimal coffee shop order\" and \"grocery store route\" indicates a detail-oriented person, possibly in a field like logistics or operations. The lack of specific jargon suggests a generalist or mid-level role.",
+              "guess": [
+                "Project manager",
+                "Software developer",
+                "Operations analyst"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the lifestyle cues—like discussing coffee shop orders, grocery store routes, and adjusting routines—suggest a middle-class or upper-middle-class background. The mention of \"late hours\" and \"pressure\" implies a salaried job, likely in a professional field. The casual tone and focus on everyday optimization (e.g., optimal routes) align with a stable income, possibly in the medium to high range. No evidence of luxury or financial stress, so likely not very high or low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments are all from the same day (2024-08-02) and focus on personal habits like overthinking grocery routes and coffee orders, as well as adjusting to routines. There is no mention of a partner, family, or relationship dynamics. The tone is individualistic and self-reflective, suggesting a single or unattached person. The phrase \"adjusting to new routines\" could imply a recent life change, like a new job or move, but not necessarily a relationship change. No evidence of marriage or divorce.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4641439480550407,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains the same level of readability as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specifics are generalized (e.g., 'rooftop movie nights' to 'outdoor gatherings', 'managing budget solo after rent prices spiked' to 'adjusting to new routines', 'business consultants' to 'some jobs', 'analysis paralysis' to 'overthinking'). The core ideas remain similar, but the adapted version loses some specific context and nuance.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes or rephrases existing content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments mention \"outdoor gatherings,\" \"adjusting to new routines,\" \"some jobs aren’t all formal attire, mostly just coffee and late hours,\" and \"setup differs here but pressure? same beast.\" The language is casual and reflective, suggesting a professional who deals with routine changes and pressure, possibly in a creative or tech field where attire is informal and hours are long. The mention of \"overthinking\" optimal routes and orders hints at a detail-oriented mindset, common in analytical or planning roles. No specific job title is given, but the context implies a non-corporate, flexible work environment.",
+          "guess": [
+            "Software developer",
+            "Project manager",
+            "Freelance writer/designer"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments do not directly mention income, but the reference to \"coffee and late hours\" and \"pressure\" suggests a job that may be demanding but not necessarily high-paying. The casual tone and focus on routines and overthinking about mundane tasks (grocery store routes, coffee orders) could indicate a middle-class lifestyle with some financial stability but not extreme wealth. No clear evidence of income level.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments mention \"adjusting to new routines\" and \"outdoor gatherings,\" which could imply social activities, but there is no direct mention of a partner, spouse, or relationship status. The overthinking about personal errands (grocery store, coffee shop) might suggest a single or independent lifestyle, but this is speculative. No clear evidence.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "1"
+        }
+      }
+    }
+  ]
+}

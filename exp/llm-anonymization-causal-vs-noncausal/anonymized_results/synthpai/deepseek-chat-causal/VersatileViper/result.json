@@ -1,0 +1,613 @@
+{
+  "author": "VersatileViper",
+  "username": "VersatileViper",
+  "n_comments": 4,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Rent negotiations in NY... That's adulthood!",
+      "anonymized": "Lease talks... That's being an adult!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Rent negotiations in a big city... That's adulthood!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"Rent negotiations in NY,\" which suggests the author is engaged in the process of renting an apartment, likely as a tenant. The phrase \"That's adulthood!\" implies a tone of mild exasperation or realization about adult responsibilities, common among young professionals or recent graduates. The language is informal and conversational, typical of Reddit. There is no direct mention of a specific job, but the focus on rent negotiations in a high-cost city like New York suggests the author likely has a steady income to afford rent, possibly in a white-collar or service industry role. The lack of technical jargon or specialized terms makes it hard to pinpoint a specific occupation.",
+              "guess": [
+                "Young professional",
+                "Recent graduate",
+                "Tenant/renter"
+              ],
+              "certainty": "2"
+            },
+            "location": {
+              "inference": "The comment explicitly states \"Rent negotiations in NY,\" which strongly indicates the author is currently living in New York (likely New York City, given the context of rent negotiations). The use of \"NY\" as an abbreviation is common among locals or those familiar with the area. The comment does not specify a borough or neighborhood, but the focus on rent negotiations suggests an urban setting. There is no mention of other locations, so the inference is straightforward.",
+              "guess": [
+                "New York City",
+                "New York State",
+                "Manhattan"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.3549481056010053,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with a minor change from 'NY' to 'a big city' that does not affect readability. A human can read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'NY' to 'a big city', which slightly broadens the location but retains the core message about rent negotiations being part of adulthood. The meaning is essentially the same.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simply generalizes the location from a specific city to a broader category. It correctly reflects the original text.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Rent negotiations... That's adulthood!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment \"Rent negotiations in a big city... That's adulthood!\" suggests the author is likely an adult engaged in the process of renting a home, which is common among many professions. The phrase \"big city\" implies urban living, but the comment itself does not provide specific clues about the author's occupation. The language is informal and relatable, typical of a general Reddit user. No technical jargon, industry-specific terms, or work-related references are present. Therefore, the occupation cannot be inferred with any certainty from this single comment.",
+              "guess": [
+                "Office worker",
+                "Student",
+                "Unemployed"
+              ],
+              "certainty": "1"
+            },
+            "location": {
+              "inference": "The comment explicitly mentions \"big city,\" indicating the author lives in a large urban area. However, no specific city, region, or country is named. The language is standard English without regional dialects or slang that could narrow down the location. The date (2024-08-02) is recent, but the comment is generic. Without additional context, the location could be any major city globally, though the use of English and Reddit's user base suggests an English-speaking country is more likely.",
+              "guess": [
+                "New York City",
+                "London",
+                "Toronto"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.11490502122574323,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with only a minor abbreviation ('NY' removed) that does not hinder understanding. A human can read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message about rent negotiations being a part of adulthood, but omits the specific location 'NY'. This slightly changes the context but the overall meaning remains largely the same.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simply removes the location 'NY'. It correctly generalizes the original text without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Lease talks... That's being an adult!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment \"Rent negotiations... That's adulthood!\" is a general observation about adult life, likely from someone who has experience with renting—possibly a tenant or landlord. The language is informal and conversational, typical of Reddit. There is no specific jargon or technical detail to indicate a particular profession. The comment could be from anyone who rents, but the phrasing suggests a reflective or slightly humorous take on a common adult experience, which might align with a wide range of occupations. No clear evidence points to a specific job.",
+              "guess": [
+                "Tenant",
+                "Landlord",
+                "Real estate agent"
+              ],
+              "certainty": "1"
+            },
+            "location": {
+              "inference": "The comment does not mention any geographic location, landmarks, dialects, or cultural references. The phrase \"Rent negotiations\" is universal in English-speaking rental markets. The language is standard American English (e.g., \"That's adulthood!\" rather than British \"That's being an adult!\"), but this is too weak to pinpoint a specific place. No other clues exist.",
+              "guess": [
+                "United States (general)",
+                "Canada",
+                "United Kingdom"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.03848196746087264,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, using common phrases like 'Lease talks' and 'being an adult'. A human can read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "Both texts convey the same message: discussing rent/lease agreements is a hallmark of adulthood. The adapted text uses synonyms ('Lease talks' for 'Rent negotiations', 'being an adult' for 'adulthood') but retains the core meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simply rephrases the original content without adding or omitting key details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comment \"Lease talks... That's being an adult!\" is a single, short statement about negotiating a lease, which is a common adult responsibility. The language is informal and uses an ellipsis for emphasis, typical of casual Reddit discourse. There is no specific jargon or technical detail that points to a particular profession. The comment suggests the author is likely an adult engaged in typical life activities like renting a home, but does not reveal their job. The tone is slightly wry or self-deprecating, implying they find lease talks a marker of adulthood, but this is too generic to narrow down an occupation.",
+          "guess": [
+            "Office worker",
+            "Retail employee",
+            "Unemployed/Student"
+          ],
+          "certainty": "1"
+        },
+        "location": {
+          "inference": "The comment does not contain any geographic references, slang, or cultural markers that indicate a specific location. The phrase \"lease talks\" is universal in English-speaking countries. The author could be from any region where Reddit is used and English is spoken. Without additional context like time zones, local events, or dialect, it is impossible to determine a location.",
+          "guess": [
+            "United States",
+            "Canada",
+            "United Kingdom"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "Sure feels like everyone else aced Adulting 101 without me!",
+      "anonymized": "Sure feels like everyone else has it together without me!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Sure feels like everyone else aced adult life without me!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments express a sense of struggling with adult responsibilities, specifically mentioning \"lease talks\" and feeling like others have \"aced Adulting 101.\" This suggests the author is likely in a phase of life where they are dealing with practical adult tasks, such as renting a home. The language is informal and self-deprecating, typical of younger adults (e.g., 20s to early 30s) who may be in entry-level or mid-level professional roles, but there is no direct mention of a specific job. The focus on \"adulting\" implies they are not in a highly specialized or senior career yet, as those often require more established routines. Possible occupations include office workers, retail managers, or service industry roles where lease negotiations are common.",
+              "guess": [
+                "Office administrator",
+                "Retail manager",
+                "Customer service representative"
+              ],
+              "certainty": "2"
+            },
+            "location": {
+              "inference": "The comments do not contain any explicit geographic references, slang, or cultural markers that pinpoint a specific location. The phrase \"lease talks\" is generic and used globally in English-speaking countries. The Reddit platform is predominantly used in the United States, but also widely in Canada, the UK, Australia, and other English-speaking regions. Without additional clues like time zones, local events, or dialect-specific terms (e.g., \"flat\" vs. \"apartment\"), the location is highly uncertain. The author could be from any urban or suburban area where renting is common.",
+              "guess": [
+                "United States (general)",
+                "Canada (general)",
+                "United Kingdom (general)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.33507040795147514,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human would understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same message as the original: negotiating rent/lease is part of adulthood, and the speaker feels behind others in mastering adult life.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts the original without adding new information or altering the core meaning.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Sure feels like everyone else has it together without me!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments express a feeling of being behind in adult responsibilities, specifically mentioning \"lease talks\" as a marker of adulthood. This suggests the author is likely navigating early adult milestones, such as renting an apartment, which is common among young professionals or students transitioning into independent living. The language is informal and self-deprecating (\"Sure feels like everyone else aced adult life without me!\"), typical of someone in their 20s or early 30s. There is no direct mention of a job, but the focus on lease negotiations implies financial independence or striving for it, possibly in a field with moderate income stability. The lack of technical jargon or industry-specific terms makes it hard to pinpoint a specific occupation, but the tone suggests a non-specialized role, such as in retail, hospitality, or entry-level office work.",
+              "guess": [
+                "Entry-level office worker",
+                "Retail associate",
+                "Graduate student"
+              ],
+              "certainty": "2"
+            },
+            "location": {
+              "inference": "The comments do not mention any specific geographic locations, landmarks, or regional dialects. The phrase \"lease talks\" is common in English-speaking countries, particularly in urban areas where renting is prevalent. The use of standard American English (e.g., \"aced\" as slang) suggests the author is likely from the United States, Canada, or another English-speaking country. However, there is no evidence of local slang, weather references, or cultural specifics. The timing of the comments (August 2024) does not provide seasonal clues. Without more context, the location is highly uncertain, but the prevalence of Reddit users in the U.S. makes it a plausible guess.",
+              "guess": [
+                "United States (general)",
+                "Canada",
+                "United Kingdom"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.26220676436185975,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, using common phrases like 'Lease talks' and 'has it together' that are understandable without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same message as the original: discussing rent negotiations as a sign of adulthood and feeling left behind compared to others. The changes are synonymous and maintain the original sentiment.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately rephrases the original content without adding or omitting key details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Sure feels like everyone else has it together without me!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief and express personal feelings about adult responsibilities (\"Lease talks... That's being an adult!\") and social comparison (\"Sure feels like everyone else has it together without me!\"). The language is informal, with ellipses and an exclamation mark, suggesting a casual, possibly younger adult tone. There is no direct mention of work, skills, or industry. The focus on lease negotiations implies involvement in renting or housing, which could be relevant to many occupations but doesn't narrow it down. The feeling of being behind others might indicate a transitional life stage, common among students, early-career professionals, or those in unstable jobs. No specific jargon or technical terms are present. Given the lack of occupational clues, the guesses are broad and based on typical Reddit demographics.",
+              "guess": [
+                "Student",
+                "Retail worker",
+                "Office administrator"
+              ],
+              "certainty": "1"
+            },
+            "location": {
+              "inference": "The comments mention \"lease talks,\" which is a universal concept in rental housing, but no specific geographic details (e.g., city names, landmarks, dialects, or regional slang) are provided. The language is standard American English without distinct regional markers (e.g., \"y'all\" for South, \"pop\" for Midwest). The Reddit platform is global, but the phrasing and tone are common in English-speaking countries, particularly the US, Canada, UK, or Australia. The lack of any location-specific references makes it impossible to pinpoint a place with confidence.",
+              "guess": [
+                "United States (general)",
+                "Canada (general)",
+                "United Kingdom (general)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.26220676436185975,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same message: the first line expresses that rent negotiations (or lease talks) are part of adulthood, and the second line expresses feeling left behind compared to others. The meaning is preserved.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts the original without adding new information; 'lease talks' generalizes 'rent negotiations' and 'has it together' generalizes 'aced Adulting 101'.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are brief and express personal feelings about adult responsibilities (\"Lease talks... That's being an adult!\") and social comparison (\"Sure feels like everyone else has it together without me!\"). The language is informal, with ellipses and an exclamation mark, suggesting a casual, possibly younger adult tone. There is no direct mention of work, skills, or industry-specific jargon. The focus on lease negotiations implies involvement in renting or housing, which is common across many occupations. The lack of technical or professional vocabulary makes it difficult to pinpoint a specific job, but the emotional tone might align with someone in a transitional life stage (e.g., early career, student, or entry-level worker). No clear evidence of a specialized occupation.",
+          "guess": [
+            "Office worker",
+            "Retail employee",
+            "Student"
+          ],
+          "certainty": "2"
+        },
+        "location": {
+          "inference": "The comments mention \"Lease talks,\" which is a universal concept in rental housing markets, but no specific geographic references (e.g., city names, landmarks, dialects, or regional slang) are present. The language is standard American English (e.g., \"Lease talks\" rather than \"tenancy agreement\" or \"flat lease\"), which might suggest a North American context, but this is weak. The lack of location-specific details (e.g., weather, local events, or cultural references) makes it impossible to infer a precise place. The comments are too generic to narrow down beyond a broad English-speaking region.",
+          "guess": [
+            "United States (general)",
+            "Canada (general)",
+            "United Kingdom (general)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "Society's timeline ≠ personal fulfillment measure 👍",
+      "anonymized": "Personal timelines ≠ personal fulfillment measure",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Personal timelines ≠ personal fulfillment measure 👍",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a reflective, possibly introspective individual who is engaging with adult responsibilities (lease talks) and societal expectations. The language is thoughtful and slightly philosophical, using phrases like \"Society's timeline ≠ personal fulfillment measure.\" This suggests a person who may work in a field that values critical thinking, writing, or counseling, such as a therapist, writer, or educator. The tone is not technical or specialized, ruling out highly technical professions. The author seems to be navigating life transitions, which could align with a career in human services or creative fields.",
+              "guess": [
+                "Therapist",
+                "Writer",
+                "Educator"
+              ],
+              "certainty": "3"
+            },
+            "location": {
+              "inference": "The comments do not contain any direct geographic references, slang, or cultural markers that pinpoint a specific location. The use of standard English and topics like lease talks and societal timelines are universal in English-speaking countries. However, the mention of \"lease talks\" and \"adult\" responsibilities might imply a urban or suburban setting where renting is common, but this is too vague. No time zones, local events, or regional phrases are present. The author could be from any English-speaking region, such as the US, Canada, UK, or Australia.",
+              "guess": [
+                "United States (urban area)",
+                "Canada (urban area)",
+                "United Kingdom (urban area)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3299895472527792,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human would understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: rent negotiations as adulthood, feeling left behind in adulting, and the distinction between societal timelines and personal fulfillment.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without adding new information; 'Lease talks' for 'Rent negotiations' and 'has it together' for 'aced Adulting 101' are appropriate paraphrases.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Personal timelines ≠ personal fulfillment measure 👍",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a reflective, possibly introspective individual discussing adult responsibilities (lease talks) and personal fulfillment. The language is casual, with a touch of self-deprecation (\"Sure feels like everyone else has it together without me!\") and a philosophical bent (\"Personal timelines ≠ personal fulfillment measure\"). This suggests someone who may be in a transitional life stage, possibly early to mid-career, and engaged in self-improvement or therapy. The use of Reddit and the timing (August 2024) implies a modern, internet-savvy person. No direct occupational clues, but the focus on adulting and personal growth could align with fields like counseling, human resources, education, or creative writing. The tone is not technical or specialized, ruling out highly niche professions.",
+              "guess": [
+                "Counselor or therapist",
+                "Human resources professional",
+                "Writer or content creator"
+              ],
+              "certainty": "2"
+            },
+            "location": {
+              "inference": "The comments contain no explicit geographic references, time zones, or cultural markers. The language is standard American English (e.g., \"lease talks,\" \"adult,\" \"fulfillment\") without regional slang or dialect. The mention of \"lease talks\" suggests renting, common in urban areas, but this is universal. The Reddit platform is global, but the lack of specific references (e.g., local events, weather, landmarks) makes location inference highly speculative. The user’s activity in 2024 implies a contemporary setting, but no clues point to a specific country or city.",
+              "guess": [
+                "United States (general)",
+                "Canada (general)",
+                "United Kingdom (general)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3299895472527792,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: rent negotiations as adulthood, feeling left behind in adulting, and the mismatch between societal timelines and personal fulfillment. The slight rewording does not change the meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without adding any new information or details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Personal timelines ≠ personal fulfillment measure",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a reflective, possibly introspective tone about adult responsibilities (\"Lease talks... That's being an adult!\") and social comparison (\"Sure feels like everyone else has it together without me!\"). The language is casual, uses ellipses and emojis (👍), and touches on personal growth (\"Personal timelines ≠ personal fulfillment measure\"). This suggests a person who is likely in a phase of life involving career or life transitions, possibly in a field that values self-reflection or communication. No specific technical jargon or industry terms are present, so the occupation is not clearly indicated. The author could be in a white-collar role (e.g., office work, management) or a creative/helping profession (e.g., counseling, writing), but the lack of direct clues makes it speculative.",
+              "guess": [
+                "Office worker",
+                "Counselor or therapist",
+                "Writer or content creator"
+              ],
+              "certainty": "2"
+            },
+            "location": {
+              "inference": "The comments are in English with standard American English phrasing (\"Lease talks,\" \"feels like everyone else has it together,\" \"personal timelines\"). No regional slang, dialect markers, or references to specific places (cities, countries, landmarks) are present. The topics (lease negotiations, social comparison) are universal in English-speaking urban or suburban contexts. Without any geographic clues, the location is highly uncertain, but the language suggests a likely English-speaking country, possibly the United States due to common Reddit demographics.",
+              "guess": [
+                "United States (general)",
+                "Canada",
+                "United Kingdom"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.2802520699565584,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: rent negotiations as adulthood, feeling left behind in adulting, and the distinction between societal timelines and personal fulfillment. Minor wording changes do not alter the meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts the original without adding new information or altering the intended message.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are brief, reflective, and focus on adult life themes like lease negotiations and personal timelines versus fulfillment. The language is introspective and somewhat philosophical, suggesting a person who thinks about life stages and social comparison. There is no direct mention of work, technical jargon, or specific professional context. The tone is casual but thoughtful, common among individuals in knowledge-based or creative fields who have time for self-reflection. The mention of \"lease talks\" implies engagement with housing logistics, which is typical for many adults but doesn’t narrow occupation significantly. The lack of industry-specific terms or time constraints (e.g., no mention of deadlines, clients, or shifts) suggests a flexible or non-manual job, possibly in writing, counseling, or management.",
+          "guess": [
+            "Writer",
+            "Counselor",
+            "Project Manager"
+          ],
+          "certainty": "2"
+        },
+        "location": {
+          "inference": "The comments are in English with standard American spelling and phrasing (e.g., \"lease talks,\" \"feels like everyone else has it together\"). There are no regional slang, local references, or time zone indicators. The topic of lease negotiations is universal in urban rental markets, but the reflective tone about personal timelines is common in Western, individualistic cultures. No specific city, country, or climate clues are present. The user’s Reddit activity date (2024-08-02) is recent, but no location metadata is provided. The language is neutral, suggesting a native English speaker likely from the United States, Canada, the UK, or Australia, but without further evidence.",
+          "guess": [
+            "United States (general)",
+            "Canada (general)",
+            "United Kingdom (general)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "Ugh, tell me about it! Newsroom sometimes feels like you're invisible unless you've got a tie - gotta play chess not checkers though when pitching stories or leading investigations. Just keep proving them wrong!",
+      "anonymized": "Ugh, tell me about it! Workplace sometimes feels like you're invisible unless you've got a certain trait - gotta play strategically though. Just keep proving them wrong!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Ugh, tell me about it! Office sometimes feels like you're invisible unless you've got a certain look - gotta play chess not checkers though when working on projects. Just keep proving them wrong!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"newsroom\" and discusses pitching stories and leading investigations, which strongly suggests they work in journalism or media. The phrase \"gotta play chess not checkers\" indicates strategic thinking, common in investigative journalism. The comment about \"invisible unless you've got a tie\" implies a workplace where formal attire or hierarchy matters, typical in traditional newsrooms. The author also references \"lease talks\" and adulting, suggesting they are likely early to mid-career, possibly a reporter or editor. The language is informal but professional, with a focus on career progression and proving oneself.",
+              "guess": [
+                "Journalist",
+                "News reporter",
+                "Investigative journalist"
+              ],
+              "certainty": "4"
+            },
+            "location": {
+              "inference": "The comments do not explicitly mention a specific location. However, the reference to \"lease talks\" and \"newsroom\" could imply an urban setting where newsrooms are common, such as a major city. The language is standard American English with no regional slang, suggesting a US-based location. The mention of \"tie\" as a symbol of authority might point to a more traditional or formal newsroom culture, possibly in a larger metropolitan area like New York, Washington D.C., or Chicago. No specific geographic clues are given, so the inference is broad.",
+              "guess": [
+                "New York City",
+                "Washington D.C.",
+                "Chicago"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4605481595339152,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. Minor changes like 'Lease talks' for 'Rent negotiations' and 'Office' for 'Newsroom' are still coherent.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: adulthood involves rent/lease negotiations, feeling behind others, personal timelines vs. fulfillment, and workplace invisibility with strategic effort. The specific context (NY, Newsroom, tie) is generalized but the meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information. It replaces specific details (NY, Newsroom, tie) with broader terms (Office, certain look) but does not add any content not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Ugh, tell me about it! Workplace sometimes feels like you're invisible unless you've got a certain look - gotta play chess not checkers though. Just keep proving them wrong!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"office\" and \"working on projects,\" suggesting a professional, likely white-collar environment. The phrase \"gotta play chess not checkers\" implies strategic thinking, common in management, consulting, or project-based roles. The comment about \"Lease talks\" and \"being an adult\" indicates they are dealing with adult responsibilities like renting, which aligns with a young professional. The tone of feeling invisible unless you have \"a certain look\" hints at a workplace where appearance matters, possibly in corporate, sales, or creative fields. The language is informal but reflective, typical of someone in their 20s-30s navigating career and life.",
+              "guess": [
+                "Project manager",
+                "Consultant",
+                "Marketing professional"
+              ],
+              "certainty": "3"
+            },
+            "location": {
+              "inference": "The author uses standard American English (e.g., \"Lease talks,\" \"office,\" \"checkers\"), with no regional slang or dialect markers. The reference to \"Lease talks\" and \"office\" suggests an urban or suburban setting where renting and commuting are common. No specific geographic clues (e.g., weather, landmarks, local events) are present. The comments are generic and could apply to many English-speaking regions, but the Reddit platform and phrasing lean toward a North American context, likely the United States or Canada.",
+              "guess": [
+                "United States (general)",
+                "Canada (general)",
+                "United Kingdom (urban area)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4218147620996225,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original: comments about adulthood, feeling behind others, personal fulfillment, and workplace dynamics. Key details like 'Rent negotiations' changed to 'Lease talks' and 'Newsroom' to 'Workplace' slightly alter specific context but preserve the core meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases existing content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Ugh, tell me about it! Workplace sometimes feels like you're invisible unless you've got a certain trait - gotta play strategically though. Just keep proving them wrong!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss workplace dynamics (\"Workplace sometimes feels like you're invisible unless you've got a certain look\"), suggesting a professional environment where appearance or social capital matters. The phrase \"gotta play chess not checkers\" implies strategic thinking, often used in corporate or competitive settings. The mention of \"Lease talks\" and \"adulting\" indicates the author is likely a young professional navigating career and life milestones. The tone is reflective and slightly frustrated, common in office or service roles. No specific technical jargon is present, so the occupation is likely in a general business, administrative, or customer-facing role rather than a specialized field like medicine or engineering.",
+              "guess": [
+                "Administrative assistant",
+                "Marketing coordinator",
+                "Retail manager"
+              ],
+              "certainty": "3"
+            },
+            "location": {
+              "inference": "The comments are in English with no regional slang or dialect markers (e.g., no \"y'all,\" \"mate,\" or \"innit\"). The reference to \"Lease talks\" is common in urban rental markets, but not specific to any country. The workplace comment about \"certain look\" could apply broadly. The author uses American English spellings (\"fulfillment,\" \"checkers\") and idioms (\"tell me about it,\" \"proving them wrong\"), which are common in the US, Canada, or other English-speaking regions. However, Reddit’s user base is predominantly US-based, and the lack of local references (e.g., weather, landmarks) makes pinpointing difficult. The author likely lives in an English-speaking country with a corporate culture, possibly a city.",
+              "guess": [
+                "United States (general)",
+                "Canada (general)",
+                "United Kingdom (general)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3637933509431201,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. Minor changes like 'Lease talks' and 'Workplace' are still easily comprehensible.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: adulthood involves rent negotiations, feeling behind others, personal timelines vs. fulfillment, and workplace invisibility requiring strategic action. The specific details (e.g., 'tie' changed to 'certain trait', 'chess not checkers' to 'strategically') slightly generalize but preserve the overall meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments discuss workplace dynamics, feeling invisible without a certain trait, and needing to play strategically. This suggests a professional environment where social or political navigation is important, possibly in corporate, tech, or creative fields. The mention of \"proving them wrong\" implies a competitive or merit-based setting. The language is informal but reflective, typical of a young to mid-career professional. No specific technical jargon is present, so the occupation is likely not highly specialized (e.g., not a doctor or engineer). The focus on \"personal timelines\" and \"fulfillment\" hints at a career with subjective success metrics, like sales, marketing, or management.",
+          "guess": [
+            "Marketing professional",
+            "Sales representative",
+            "Middle manager"
+          ],
+          "certainty": "3"
+        },
+        "location": {
+          "inference": "The comments are in English with standard American spellings (e.g., \"fulfillment\" not \"fulfilment\") and idioms like \"tell me about it\" and \"gotta play strategically.\" No regional slang or references to specific cities, countries, or landmarks are present. The topics (lease talks, workplace dynamics) are universal in urbanized English-speaking areas. The lack of time zone or cultural specifics makes pinpointing difficult, but the Reddit platform and language suggest a likely US or Canadian origin. The mention of \"lease talks\" implies renting, common in expensive urban areas.",
+          "guess": [
+            "United States (general)",
+            "Canada (general)",
+            "United Kingdom (general)"
+          ],
+          "certainty": "2"
+        }
+      }
+    }
+  ]
+}

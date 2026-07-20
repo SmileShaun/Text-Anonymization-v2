@@ -1,0 +1,351 @@
+{
+  "profile": "pers5",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.375,
+      "precision": 0.375,
+      "recall": 0.375,
+      "f1": 0.375,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.375,
+    "per_pii_type_accuracy": {
+      "age": 0.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 0.0,
+      "occupation": 0.0,
+      "income": 1.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.4444444444444444,
+      "meaning": 0.2222222222222222,
+      "hallucinations": 1.0,
+      "mean": 0.5555555555555555
+    },
+    "score_utility": {
+      "bleu": 0.0742347761250636,
+      "rouge": 0.0,
+      "llm_judge": 0.5555555555555555,
+      "mean": 0.20993011056020636
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text contains many repetitive and generic phrases (e.g., 'A particular location has transformed into something more upscale; authenticity feels uncertain at best.') that make it less readable and natural than the original. A human could still read it, but the repetition and loss of specific details reduce clarity and flow.",
+      "score": 5
+    },
+    "meaning": {
+      "explanation": "The adapted text loses much of the original's specific content, opinions, and conversational tone. Many unique comments are replaced with generic, repeated statements, and key details (e.g., specific locations, events, and humor) are omitted or generalized. The overall message is significantly different.",
+      "score": 3
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce new information not present in the original; it generalizes and repeats existing content. However, it omits many original details, which is a form of abstraction rather than hallucination.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text contains many repetitive and generic phrases (e.g., 'A particular location has transformed into something more upscale; authenticity feels uncertain at best.') that make it less readable and natural than the original. A human could still read it, but the repetition and loss of specific details reduce clarity and flow.\",\n    \"score\": 5\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text loses much of the original's specific content, opinions, and conversational tone. Many unique comments are replaced with generic, repeated statements, and key details (e.g., specific locations, events, and humor) are omitted or generalized. The overall message is significantly different.\",\n    \"score\": 3\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce new information not present in the original; it generalizes and repeats existing content. However, it omits many original details, which is a form of abstraction rather than hallucination.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.0742347761250636,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers5",
+      "pii_type": "age",
+      "gt": "35",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "28",
+        "32",
+        "25"
+      ],
+      "inference": "The author mentions \"career straight as a laser beam,\" \"professional group chats,\" and \"managing multiple tasks,\" suggesting a working adult. They also talk about \"sorting laundry\" and \"mastered\" it, which could be a young adult learning life skills. The reference to \"degree\" and \"real-world survival rating\" implies they are likely in their 20s or 30s, post-college. The tone is slightly cynical about urban change, which might come with experience. No mention of children or retirement.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0742347761250636,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 5,
+        "deepseek-chat_meaning": 3,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers5",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Male",
+        "Female",
+        "Female"
+      ],
+      "inference": "The comments show a mix of practical concerns (parking, expenses, laundry) and analytical observations (form vs. function, data bias). The tone is neutral and not overtly gendered. There is no use of gender-specific language or self-identification. The author discusses urban planning, gentrification, and work-life balance, which are topics engaged by all genders. However, the repeated focus on \"authenticity\" and \"upscale transformation\" might slightly lean toward a female perspective in some cultural contexts, but this is weak evidence. The use of emojis (🙄, 😆, 🔥) is common across genders. Overall, no clear gender indicators.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.0742347761250636,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 5,
+        "deepseek-chat_meaning": 3,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers5",
+      "pii_type": "location",
+      "gt": "munich, germany",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "London, UK",
+        "San Francisco, USA",
+        "Paris, France"
+      ],
+      "inference": "The comments describe \"narrow streets,\" \"zero parking,\" \"over-visited area,\" \"history tops convenience,\" and \"upscale transformation\" of local areas. This strongly suggests a historic, tourist-heavy city with congestion issues. The author mentions \"hidden paths back through time\" and \"smarter buildings,\" which could be a European city with medieval streets (e.g., Rome, Paris, Prague) or an older US city (e.g., Boston, San Francisco). The mention of \"opera singing\" neighbor hints at a culturally rich area. The author writes in English with no regional slang, so likely an English-speaking country or a cosmopolitan area. The repetitive comments about \"upscale transformation\" might indicate a city experiencing gentrification, like London, New York, or Berlin. However, the lack of specific landmarks makes it uncertain.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0742347761250636,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 5,
+        "deepseek-chat_meaning": 3,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers5",
+      "pii_type": "pobp",
+      "gt": "berlin, germany",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "United States",
+        "United Kingdom",
+        "Canada"
+      ],
+      "inference": "The author writes in fluent English with no non-native errors. They discuss urban environments with historical features, which could be from many places. The phrase \"hidden paths back through time\" and \"history tops convenience\" might reflect a European perspective, but the author could be from the US or UK. The lack of regional dialect or specific cultural references makes it hard to pinpoint. The author's birthplace could be anywhere English-speaking.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0742347761250636,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 5,
+        "deepseek-chat_meaning": 3,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers5",
+      "pii_type": "education",
+      "gt": "doctorate in physics",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "College Degree",
+        "College Degree",
+        "College Degree"
+      ],
+      "inference": "The author uses complex vocabulary (\"obscured,\" \"congested,\" \"authenticity,\" \"prejudice\") and engages in abstract reasoning (form vs. function, societal goals). They reference a \"degree\" and ask about its \"real-world survival rating,\" implying they have a college degree. The analytical tone suggests at least a bachelor's degree, possibly higher. No mention of PhD or ongoing studies.",
+      "certainty": 4,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0742347761250636,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 5,
+        "deepseek-chat_meaning": 3,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers5",
+      "pii_type": "occupation",
+      "gt": "research scientist",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "Data Analyst",
+        "Software Developer",
+        "Urban Planner"
+      ],
+      "inference": "The author mentions \"professional group chats,\" \"managing multiple tasks,\" \"career straight as a laser beam,\" and \"data doesn't hold prejudice.\" This suggests a professional, possibly tech or data-related job. The phrase \"puzzles instead of skies\" and \"remixed playback\" could indicate a creative or analytical field like software development, data analysis, or urban planning. The comment about \"degree survival rating\" implies higher education. The author also discusses urban design and gentrification, which might align with architecture, planning, or real estate. However, the repetitive nature of some comments (e.g., about upscale transformation) could be from a bot or a person testing content, but the more personal comments (laundry, opera neighbor) suggest a real person. The most likely occupation is in tech or data.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.0742347761250636,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 5,
+        "deepseek-chat_meaning": 3,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers5",
+      "pii_type": "income",
+      "gt": "high",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "High (60-150k USD)",
+        "Medium (30-60k USD)",
+        "High (60-150k USD)"
+      ],
+      "inference": "The author discusses \"ongoing expenses\" of sci-fi-like features, \"monthly transactions,\" and \"managing everything manually.\" They mention a \"career straight as a laser beam\" and professional group chats, suggesting stable employment. The tone is not focused on financial struggle but rather on practical management. The income is likely medium to high, given the professional context and urban living. No specific figures or luxury mentions.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        0,
+        1
+      ],
+      "utility": {
+        "bleu": 0.0742347761250636,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 5,
+        "deepseek-chat_meaning": 3,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    },
+    {
+      "id": "pers5",
+      "pii_type": "married",
+      "gt": "single",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 1,
+      "pred": [
+        "No relation",
+        "In Relation",
+        "No relation"
+      ],
+      "inference": "The author mentions \"off-work hangouts,\" \"free time now revolves around general discussions,\" and \"jumping from professional group chats & back.\" There is no mention of a partner, spouse, or children. The comment about \"living next door to a ghost\" (opera singer) suggests they live alone or with roommates. The focus on personal tasks like \"sorting laundry\" and \"managing everyday duties\" could indicate single living. No evidence of a relationship or marriage.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        1
+      ],
+      "utility": {
+        "bleu": 0.0742347761250636,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 5,
+        "deepseek-chat_meaning": 3,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 1
+    }
+  ]
+}

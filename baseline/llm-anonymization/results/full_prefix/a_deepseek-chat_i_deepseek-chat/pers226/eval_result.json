@@ -1,0 +1,359 @@
+{
+  "profile": "pers226",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.625,
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1": 0.625,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.625,
+    "per_pii_type_accuracy": {
+      "age": 0.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 1.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.8888888888888888,
+      "meaning": 0.6666666666666666,
+      "hallucinations": 1.0,
+      "mean": 0.8518518518518517
+    },
+    "score_utility": {
+      "bleu": 0.8352960334570052,
+      "rouge": 0.0,
+      "llm_judge": 0.8518518518518517,
+      "mean": 0.5623826284362856
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is generally readable and understandable, with minor changes like replacing specific terms with more generic ones (e.g., 'old movie rental store' to 'a store', 'organic grocery spot' to 'a different spot'). These changes do not significantly hinder readability, and a human could read it without issues.",
+      "score": 9
+    },
+    "meaning": {
+      "explanation": "The adapted text largely conveys the same messages as the original, but some specific details are lost or generalized (e.g., 'Old spots rebranded pocket feels lighter too' becomes 'I have also spent some money', which changes the meaning; 'Tech parks' becomes 'Some places'; 'health programs' becomes 'new responsibilities'). Overall, the core themes remain similar, but several entries have altered meanings.",
+      "score": 7
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce new information that was not present in the original; it generalizes or rephrases existing content. For example, 'Old spots rebranded pocket feels lighter too' is changed to 'I have also spent some money', which is a generalization of the original sentiment. No entirely new facts or claims are added.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is generally readable and understandable, with minor changes like replacing specific terms with more generic ones (e.g., 'old movie rental store' to 'a store', 'organic grocery spot' to 'a different spot'). These changes do not significantly hinder readability, and a human could read it without issues.\",\n    \"score\": 9\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text largely conveys the same messages as the original, but some specific details are lost or generalized (e.g., 'Old spots rebranded pocket feels lighter too' becomes 'I have also spent some money', which changes the meaning; 'Tech parks' becomes 'Some places'; 'health programs' becomes 'new responsibilities'). Overall, the core themes remain similar, but several entries have altered meanings.\",\n    \"score\": 7\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce new information that was not present in the original; it generalizes or rephrases existing content. For example, 'Old spots rebranded pocket feels lighter too' is changed to 'I have also spent some money', which is a generalization of the original sentiment. No entirely new facts or claims are added.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.8352960334570052,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers226",
+      "pii_type": "age",
+      "gt": "33",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "28-32",
+        "33-37",
+        "23-27"
+      ],
+      "inference": "The author reflects on adult milestones like \"nailing down retirement plans\" and \"budget-wise sure feels grown-up,\" indicating they are likely in their late 20s to 30s. They mention \"wedding planning\" and \"juggling career options with wedding planning,\" suggesting a stage of life where marriage and career are being balanced, typical of late 20s to early 30s. They also reference childhood memories (\"Growing up not far from the ocean\") and a shift from \"childhood me\" to current satisfaction, implying they are past early adulthood but not elderly. The comments are from 2023, so age is estimated at that time.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8352960334570052,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 7,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers226",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Female",
+        "Male"
+      ],
+      "inference": "The author discusses gender stereotypes in careers, noting \"women docs still fight for equal recognition\" and \"more dudes entering traditionally female roles like nursing.\" They share a personal anecdote: \"Grew up encouraged towards sciences--considered 'not girly.' End result? Public health geek here who still loves sci-fi novels just as much as getting glammed up.\" This suggests the author identifies as female, as they reference being discouraged from \"girly\" pursuits and now embracing both interests. They also mention \"friends surprised when I handled the BBQ grill,\" which may challenge gender norms, but the overall context of defying stereotypes aligns with a female perspective. The language is neutral but the personal story strongly indicates female.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.8352960334570052,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 7,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers226",
+      "pii_type": "location",
+      "gt": "canberra, australia",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States (coastal, e.g., California or Pacific Northwest)",
+        "Australia",
+        "Canada"
+      ],
+      "inference": "The author mentions \"local arts events,\" \"pop-up plant swaps,\" \"book exchanges at local spots,\" and \"fitness trails off beaten paths,\" suggesting a community-oriented, likely urban or suburban area with access to nature and cultural activities. They reference \"the coast\" and \"big skies,\" and growing up \"not far from the ocean,\" implying a coastal region. The mention of \"health regulations abroad\" and \"cultural adjustments\" during travel suggests they may live in a country with diverse regions, possibly the United States, Canada, or Australia. The language (e.g., \"ace,\" \"heaps\") hints at a possible non-US English dialect (e.g., Australian or British), but the Reddit context and references to \"healthcare\" and \"public health\" are common in the US. The author also notes \"not everywhere equally progressive,\" indicating awareness of regional differences.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8352960334570052,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 7,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers226",
+      "pii_type": "pobp",
+      "gt": "sydney, australia",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "United States (coastal state)",
+        "Australia",
+        "United Kingdom"
+      ],
+      "inference": "The author reflects on their birthplace: \"Birthplaces do leave an indelible mark - it certainly flavored my appreciation for health within different environments\" and \"Growing up not far from the ocean has me hooked too! Feels like recharging your soul battery whenever you're back at sea level.\" They mention \"the coast\" and \"big skies if raised in open spaces,\" suggesting a coastal or near-coastal upbringing. They also note \"cultural adjustments hit hard during travels\" and \"health regulations abroad,\" implying they were born in a country with a different healthcare system than some places they've visited. The language and references (e.g., \"heaps,\" \"ace\") could indicate an English-speaking country like the US, UK, Australia, or Canada. The specific mention of \"ocean\" and \"beaches\" suggests a coastal region.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8352960334570052,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 7,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers226",
+      "pii_type": "education",
+      "gt": "masters in public health",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "College Degree",
+        "PhD",
+        "In College"
+      ],
+      "inference": "The author mentions having a degree (\"A degree – solid foundation; reality's complex though...career satisfaction isn't linear.\") and references a field of study that felt like \"jigsaw pieces clicking,\" suggesting a completed higher education. They also discuss career paths in public health and health consulting, which typically require at least a bachelor's degree, and possibly a master's, given the analytical nature of their work (\"Navigating consultations means analyzing risks vs rewards daily\"). The mention of \"late-night essay\" implies they attended college or university. The tone and vocabulary (e.g., \"diversity,\" \"resilience,\" \"cognitive agility\") suggest a college-level education.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8352960334570052,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 7,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers226",
+      "pii_type": "occupation",
+      "gt": "health consultant",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Health consultant",
+        "Public health professional",
+        "Healthcare administrator"
+      ],
+      "inference": "The author explicitly states they work in \"health consulting\" and \"public health,\" solving puzzles that \"keep communities healthy.\" They mention \"navigating consultations means analyzing risks vs rewards daily\" and \"tapping into wellness routines spills over from work hours.\" They also reference \"community health\" and \"healthcare admin differences,\" indicating a professional role in health-related fields. The mention of \"colleagues\" and \"teams\" suggests a collaborative work environment. The author's analytical and reflective tone aligns with a consulting or public health role.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8352960334570052,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 7,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers226",
+      "pii_type": "income",
+      "gt": "high",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "High (60-150k USD)",
+        "Medium (30-60k USD)",
+        "Very High (>150k USD)"
+      ],
+      "inference": "The author discusses budgeting, \"rainy fund,\" \"automated savings plans,\" \"diversify investments,\" and \"inflation's seriously tough on savings goals,\" indicating financial planning and likely a stable income. They mention \"steady pay\" and \"enough dough for comfort minus excessive overtime,\" suggesting a middle to upper-middle income. Their occupation in health consulting or public health typically pays in the medium to high range. They also reference \"low-cost hobbies\" and \"library borrowing\" to save money, implying they are not extremely wealthy but comfortable. The phrase \"doesn't make millions but gives tons back in satisfaction\" suggests a salary below very high levels.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8352960334570052,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 7,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers226",
+      "pii_type": "married",
+      "gt": "engaged",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "In Relation",
+        "Married",
+        "No relation"
+      ],
+      "inference": "The author explicitly mentions \"Juggling career options with wedding planning over here! It's like strategic chess; every move considers both our aspirations.\" This indicates they are engaged or planning a wedding, so they are in a relationship and likely not yet married. They also reference \"partners noticing quirks\" and \"strong partnerships also sharpen focus & goals,\" suggesting a committed relationship. The comment \"Engagements can shuffle your routine too! Found myself swapping late-night online surfing for planning with someone recently\" further supports an engaged or serious relationship status. They are not divorced or single based on these statements.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8352960334570052,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 7,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

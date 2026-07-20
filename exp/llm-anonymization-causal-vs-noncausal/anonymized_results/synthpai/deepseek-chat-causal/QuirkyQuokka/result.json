@@ -1,0 +1,2253 @@
+{
+  "author": "QuirkyQuokka",
+  "username": "QuirkyQuokka",
+  "n_comments": 12,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "those underrated spots are everywhere if you look close enough! found one near some graffiti walls - always thought it was just another city corner till i saw an artist at work there last spring. kinda inspiring tbh 🙂",
+      "anonymized": "those underrated spots are everywhere if you look close enough! found one near some painted walls - always thought it was just another city corner till i saw someone there.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "those underrated spots are everywhere if you look close enough! found one near some graffiti walls - always thought it was just another city corner till i saw an artist at work there.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment discusses finding an \"underrated spot\" near graffiti walls and observing an artist at work, which suggests an appreciation for urban art and hidden local gems. The language is casual and reflective (\"kinda inspiring tbh\"), indicating a creative or open-minded perspective. The author might be in a field that allows for exploration or has flexible hours, such as a creative professional, student, or someone in the service industry. No direct evidence of a specific job is present.",
+              "guess": [
+                "Artist or Designer",
+                "Student",
+                "Freelancer or Gig Worker"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comment uses informal language like \"kinda\" and \"tbh,\" common among younger demographics, and expresses a sense of discovery and inspiration typical of a younger or early-career adult. The reference to \"last spring\" suggests recent memory, but no specific age indicators. The tone is optimistic and exploratory, often associated with teens to early 30s.",
+              "guess": [
+                "22",
+                "28",
+                "19"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comment is a single, brief observation about a personal experience, with no mention of a partner, family, or relationship context. The focus is on an individual moment of inspiration, which could align with a single or in-relation status, but there is no evidence to suggest marriage or divorce. The casual tone doesn’t imply a committed relationship.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.8124008735759053,
+            "readability": {
+              "explanation": "The adapted text is very similar to the original, with only the emoji and 'kinda inspiring tbh' removed. It remains perfectly readable and understandable.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message about discovering an underrated spot near graffiti walls and seeing an artist at work, but omits the personal reflection 'kinda inspiring tbh 🙂', slightly reducing the emotional nuance.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simply removes a small part of the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "those underrated spots are everywhere if you look close enough! found one near some graffiti walls - always thought it was just another city corner till i saw someone at work there.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment describes noticing an \"artist at work\" near graffiti walls, suggesting the author has an appreciation for urban art and possibly a creative or observational profession. The phrasing \"those underrated spots are everywhere if you look close enough\" implies a tendency to explore and notice details, which could align with roles like photographer, journalist, or urban planner. However, the language is casual and not overly technical, so it might not be a highly specialized field. The author seems to value hidden gems, which could also indicate a hobbyist rather than a professional artist.",
+              "guess": [
+                "Photographer",
+                "Urban explorer or journalist",
+                "Graphic designer"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comment uses informal, conversational language (\"those underrated spots,\" \"look close enough,\" \"just another city corner\") typical of younger adults, possibly in their 20s to 30s. The reference to graffiti and urban exploration suggests a contemporary cultural interest, often associated with millennials or Gen Z. There is no mention of family, career specifics, or nostalgic references that would indicate older age. The tone is curious and slightly poetic, which might lean toward a younger, more idealistic perspective.",
+              "guess": [
+                "25",
+                "30",
+                "22"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comment is a single, brief observation about a personal experience, with no mention of a partner, family, or relationship context. The author uses \"I\" and describes a solitary moment (\"saw an artist at work there\"), which could imply they were alone. However, this is weak evidence, as people in relationships also explore alone. The lack of any relational language (e.g., \"we,\" \"my partner\") suggests no strong indication of marriage or partnership, but it is not definitive.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.7242098249624195,
+            "readability": {
+              "explanation": "The adapted text is slightly less readable because it omits the specific detail 'an artist' and the emotional expression 'kinda inspiring tbh 🙂', but it remains clear and understandable for a human reader.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message about discovering underrated spots and the experience near graffiti walls, but it loses the nuance that the person was an artist and the emotional reaction ('kinda inspiring tbh 🙂'). Thus, the meaning is largely preserved but not identical.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it only omits some details from the original. It correctly abstracts the original text without adding false content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "those underrated spots are everywhere if you look close enough! found one near some painted walls - always thought it was just another city corner till i saw someone there.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"found one near some graffiti walls - always thought it was just another city corner till i saw someone at work there.\" This suggests the author is observant of urban environments and possibly appreciates street art or hidden spots. The phrase \"at work\" could refer to a street artist or someone performing a job in that location. The language is casual and descriptive, typical of someone with an artistic or creative bent, or perhaps a photographer, urban explorer, or journalist. No direct evidence of a specific occupation, but the focus on underrated spots and graffiti implies an interest in urban culture.",
+              "guess": [
+                "Urban photographer",
+                "Street artist",
+                "Urban explorer"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comment uses informal language like \"those underrated spots are everywhere if you look close enough!\" and \"found one near some graffiti walls.\" The tone is enthusiastic and slightly youthful, suggesting a younger adult. There is no mention of age-specific references (e.g., school, work, retirement). The Reddit posting date is 2024-08-02, so the author is likely between 20 and 35, given the interest in urban exploration and casual online engagement.",
+              "guess": [
+                "25",
+                "30",
+                "22"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comment is a single observation about a location and does not mention any partner, relationship, or family. The language is individualistic (\"i saw someone at work there\") with no \"we\" or \"us\" pronouns. This suggests the author might be single or not in a relationship, but there is no direct evidence. The lack of relationship context is neutral.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.6318239528560157,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with a natural flow similar to the original. A human can understand it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message about discovering underrated spots and a personal experience near painted walls, but omits the detail about the artist at work and the emotional reaction ('kinda inspiring tbh 🙂'). This slightly changes the nuance.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it only simplifies and omits some details from the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comment discusses finding \"underrated spots\" near \"painted walls\" and observing someone there. This suggests an interest in urban exploration, street art, or photography. The language is casual and observant, typical of someone who spends time in cities, possibly a creative professional like a photographer, artist, or urban planner. The phrase \"look close enough\" implies a trained eye for detail, common in visual arts or journalism. No direct evidence of a specific job, but the context leans toward creative or exploratory fields.",
+          "guess": [
+            "Photographer",
+            "Urban explorer",
+            "Street artist"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The comment uses informal, modern phrasing like \"underrated spots\" and \"just another city corner,\" which is common among younger adults (20s-30s) who engage with online culture and urban trends. The reference to \"painted walls\" (likely murals) aligns with millennial or Gen Z interests. No explicit age indicators, but the tone suggests a relatively young adult, likely between 20 and 35.",
+          "guess": [
+            "25",
+            "30",
+            "22"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comment is a single, brief observation about a location and a person, with no mention of a partner, family, or relationship context. The focus on solitary exploration (\"found one,\" \"saw someone there\") could imply a single or independent lifestyle, but this is weak evidence. The lack of any relational language makes it impossible to infer relationship status with confidence.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "so true, those little routines make such spots homey!",
+      "anonymized": "so true, those routines make such spots comfortable!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "so true, those routines make such spots homey!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss finding \"underrated spots\" near painted walls and mention \"little routines\" that make places homey. This suggests an appreciation for urban exploration, photography, or local culture, possibly indicating a creative or flexible profession like an artist, photographer, or urban planner. The language is casual and observant, not technical or corporate. No direct evidence of occupation.",
+              "guess": [
+                "Photographer",
+                "Urban explorer/artist",
+                "Freelance creative"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments are from 2024 and use informal, contemporary language (\"underrated spots,\" \"homey\"). The tone is reflective but not overly nostalgic, suggesting a young adult or middle-aged perspective. No specific age indicators like references to school, work, or life stages.",
+              "guess": [
+                "25-34",
+                "18-24",
+                "35-44"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments mention \"those little routines make such spots homey,\" which could imply a shared domestic life or personal comfort, but no direct mention of a partner, spouse, or relationship status. The focus is on individual discovery and appreciation.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.6123641695205608,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor changes that do not hinder understanding. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message about underrated spots and routines making places homey, but loses some specific details like 'graffiti walls' becoming 'painted walls' and omits 'an artist at work' and 'kinda inspiring tbh 🙂'. The core meaning is preserved but slightly less vivid.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simplifies and generalizes the original content without adding facts not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "so true, those routines make such spots homey!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss finding \"underrated spots\" near \"painted walls\" and mention \"routines\" making spots \"homey.\" This suggests an appreciation for urban exploration, aesthetics, and possibly photography or art. The language is casual and observant, typical of someone in a creative or flexible field like a photographer, artist, or urban planner. No direct mention of work, but the focus on hidden gems and routines implies a lifestyle with time for exploration, possibly a freelancer or student.",
+              "guess": [
+                "Photographer",
+                "Urban explorer/artist",
+                "Freelance writer"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments are from 2024 and use informal, modern phrasing like \"underrated spots,\" \"look close enough,\" and \"homey.\" The tone is reflective but not overly mature or youthful, suggesting a young adult. No specific age indicators, but the interest in city corners and painted walls aligns with a demographic typically in their 20s to early 30s. The lack of references to family or career milestones hints at a younger, possibly single individual.",
+              "guess": [
+                "25",
+                "30",
+                "22"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments are brief and focus on personal observations about spots and routines, with no mention of a partner, family, or relationship dynamics. The language is singular (\"i saw someone there,\" \"those routines make such spots homey\") and lacks plural pronouns like \"we\" or \"our.\" This suggests the author is likely single or not in a committed relationship, but the evidence is weak due to limited context.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.6123641695205608,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor changes that do not hinder understanding. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message about underrated spots and routines making places homey, but loses some details like 'graffiti walls' becoming 'painted walls' and 'an artist at work' becoming 'someone there', and removes 'kinda inspiring tbh 🙂'. The overall meaning is similar but not identical.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simplifies and generalizes the original content without adding facts not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "so true, those routines make such spots comfortable!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss finding \"underrated spots\" near painted walls and routines making spots \"homey.\" This suggests an appreciation for urban exploration, aesthetics, and comfort in familiar places. The language is casual and observant, typical of someone with a creative or flexible schedule (e.g., artist, photographer, or remote worker) who has time to notice details. No specific technical jargon or professional context is present.",
+              "guess": [
+                "Artist",
+                "Urban explorer",
+                "Freelance photographer"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments use informal, conversational language (\"those underrated spots,\" \"look close enough,\" \"so true,\" \"homey\") with no slang or references to specific generational trends. The tone is reflective and appreciative, suggesting a mature perspective but not elderly. The lack of pop culture references or youthful slang points to an adult, likely between 25-40, who values subtle discoveries.",
+              "guess": [
+                "28",
+                "32",
+                "35"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments mention \"routines\" making spots \"homey,\" which could imply a shared living situation or personal comfort, but there is no direct mention of a partner, spouse, or relationship dynamics. The focus is on individual observation and appreciation of spaces, not on social interactions. The tone is neutral and solitary.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.5914726507910305,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor changes that do not hinder understanding. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message about underrated spots and routines making places homey, but loses some specific details like 'graffiti walls' becoming 'painted walls' and 'an artist at work' becoming 'someone there', and 'little routines' becoming 'routines' and 'homey' becoming 'comfortable'. The core meaning is preserved but slightly diluted.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only simplifies and generalizes the existing content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments discuss finding \"underrated spots\" near \"painted walls\" and mention \"routines\" that make such spots comfortable. This suggests an appreciation for urban exploration, photography, or street art, possibly as a hobby or part of a creative profession. The language is casual and observational, not technical, so it’s likely not a highly specialized field. The author seems to have time to notice and share such details, which could align with flexible or creative work. No direct evidence of a specific job.",
+          "guess": [
+            "Photographer",
+            "Urban explorer",
+            "Artist"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The comments are brief, use informal language (\"those underrated spots,\" \"so true\"), and express a sense of discovery and comfort in routines. This could indicate a younger adult (20s-30s) who is active in exploring city life, but the tone is not overly youthful or slang-heavy. No specific age markers like references to school, work, or life stages. The dates are recent (2024), so the author is likely an adult.",
+          "guess": [
+            "25",
+            "30",
+            "35"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments are about personal observations of spots and routines, with no mention of a partner, family, or relationship dynamics. The language is singular (\"i saw someone there\") and focuses on individual experience. This could suggest being single or in a casual relationship, but there’s no clear evidence. The lack of any relational context makes it hard to infer.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "the little community library box in our area has its charm - free books cycling through constantly & always something interesting popping up!",
+      "anonymized": "a little community resource in the area has its charm - items cycling through constantly & always something interesting popping up!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "the little community library box in the area has its charm - free books cycling through constantly & always something interesting popping up!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on discovering hidden, underrated spots in a city, such as a corner near painted walls and a community library box. The language is observant and appreciative of small, local details, suggesting a person who spends time exploring urban environments. The mention of \"free books cycling through constantly\" implies a familiarity with community resources. This could align with creative or community-oriented professions like an artist, librarian, or urban planner, but the tone is casual and not overly technical. The lack of jargon or specific work-related terms makes it harder to pinpoint, but the pattern of noticing overlooked places hints at a role that values observation, such as a photographer, writer, or social worker.",
+              "guess": [
+                "Photographer",
+                "Writer",
+                "Urban planner"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments are from August 2024 and use informal, conversational language with phrases like \"those underrated spots are everywhere if you look close enough!\" and \"always thought it was just another city corner.\" The tone is curious and slightly nostalgic (\"always something interesting popping up\"), which could suggest a younger adult (20s-30s) who is still discovering their environment, but not a teenager due to the mature reflection on routines and community. There is no mention of family, children, or career milestones, which might indicate a single or early-career stage. The use of \"our area\" implies a settled location, possibly a renter or homeowner in a city.",
+              "guess": [
+                "28",
+                "32",
+                "25"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments use \"our area\" and \"our little community library box,\" which could imply a shared living space or relationship, but \"our\" might also refer to a neighborhood or community rather than a partner. There is no mention of a spouse, children, or relationship activities (e.g., \"we went,\" \"my partner\"). The focus is on solo observations (\"found one,\" \"saw someone there,\" \"always something interesting\"), suggesting an individual perspective. The tone is neutral and not romantic or family-oriented, leaning toward single or in a casual relationship rather than married.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.6686546119362314,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original: underrated spots can be found, routines make places homey, and a community library box is charming. However, some details are slightly altered (e.g., 'graffiti walls' to 'painted walls', 'an artist at work' to 'someone there', 'homey' to 'comfortable'), which slightly reduces the precision of the meaning but retains the core ideas.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or simplifies some details but stays faithful to the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "a little community resource in the area has its charm - free books cycling through constantly & always something interesting popping up!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on discovering hidden, underrated spots in a city, such as a corner near painted walls and a community library box. The language is observant and appreciative of small, local details, suggesting a person who spends time exploring urban environments. This could align with a creative or community-oriented role, like an artist, writer, or librarian, but the lack of technical jargon or specific professional references makes it broad. The tone is casual and reflective, not indicative of a high-stress or corporate job.",
+              "guess": [
+                "Artist",
+                "Writer",
+                "Librarian"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments show a sense of curiosity and appreciation for hidden gems, which is common across ages, but the phrasing (\"those underrated spots are everywhere if you look close enough\") and mention of \"painted walls\" and \"community library box\" suggest a youthful or middle-aged perspective, likely between 25 and 45. There’s no reference to children, retirement, or specific generational markers, so the age is moderately uncertain.",
+              "guess": [
+                "30",
+                "28",
+                "35"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments are solitary observations about public spaces, with no mention of a partner, family, or relationship dynamics. The focus on personal discovery and community elements (like a library box) could indicate a single or independent lifestyle, but it’s equally possible the author is in a relationship and simply not discussing it. The lack of any relational clues makes this highly uncertain.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.6203418133289698,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human would understand without issues. Minor changes like 'painted walls' for 'graffiti walls' and 'comfortable' for 'homey' do not hinder readability.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each comment: discovering underrated spots, appreciating routines, and the charm of a community book exchange. However, 'painted walls' is less specific than 'graffiti walls', 'someone' replaces 'an artist at work', and 'comfortable' slightly shifts the nuance of 'homey'. The third comment changes 'community library box' to 'community resource', which is more generic. Overall meaning is preserved but with minor loss of specificity.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It generalizes or rephrases details (e.g., 'painted walls' for 'graffiti walls', 'someone' for 'an artist at work') but does not add extraneous content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "a little community resource in the area has its charm - items cycling through constantly & always something interesting popping up!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on discovering underrated spots, painted walls, and a community resource with free books. This suggests an interest in urban exploration, local culture, and community engagement. The language is casual and observant, not technical or specialized. The author might be a creative professional (e.g., artist, writer) or someone in a community-oriented role (e.g., librarian, social worker), but the lack of jargon makes a more general occupation like student or retail worker possible. The mention of \"free books cycling through\" hints at a little free library, common in residential areas, which could align with a teacher or parent.",
+              "guess": [
+                "Artist/Designer",
+                "Librarian/Educator",
+                "Urban Explorer/Student"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The writing style is informal but coherent, with proper punctuation and capitalization (e.g., \"look close enough,\" \"always thought\"). The author uses phrases like \"those underrated spots\" and \"a little community resource,\" which suggest a reflective, somewhat nostalgic tone. This could indicate a young adult (20s-30s) who is still exploring their city, but the appreciation for quiet, charming spots might also fit an older adult (40s-50s). The lack of slang or references to specific pop culture makes a precise age difficult.",
+              "guess": [
+                "25-35",
+                "35-45",
+                "18-24"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments are about personal observations and community spots, with no mention of a partner, children, or relationship dynamics. The author uses \"I\" and \"someone there\" but never \"we\" or \"us,\" which could suggest they are alone in these experiences. However, this is weak evidence; many people in relationships still use \"I\" in casual comments. The focus on solitary discovery (e.g., \"found one near some painted walls\") might hint at a single or independent lifestyle, but it’s not conclusive.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.5660927160167993,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor changes that do not hinder understanding. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original, but some details are changed (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'little community library box' to 'little community resource', 'free books' to 'items'). These changes slightly alter the specificity but preserve the core meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or simplifies existing details without adding false content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on finding \"underrated spots\" in a city, near \"painted walls,\" and mention a \"little community resource\" where items cycle through constantly. This suggests an interest in urban exploration, thrift stores, or community exchanges. The language is casual and observant, typical of someone who might work in a creative field (e.g., artist, photographer) or a service-oriented role (e.g., social worker, librarian) that involves community engagement. The mention of \"painted walls\" could indicate street art, hinting at an artistic or cultural profession. The tone is not technical or corporate, so a desk job is less likely.",
+          "guess": [
+            "Artist",
+            "Urban explorer/Photographer",
+            "Social worker/Librarian"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The comments are from August 2024, and the language is modern and informal (e.g., \"underrated spots,\" \"popping up\"). The author uses phrases like \"if you look close enough\" and \"always thought it was just another city corner,\" which reflect a sense of discovery and curiosity often associated with younger adults (20s-30s). There is no mention of family, children, or long-term responsibilities, which might suggest a younger age. However, the appreciation for \"routines\" and \"community resource\" could also indicate a slightly older, settled individual (30s-40s). The lack of slang or references to pop culture makes it hard to pinpoint, but the overall vibe is likely 25-35.",
+          "guess": [
+            "28",
+            "32",
+            "35"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments are about personal discoveries and community spots, with no mention of a partner, family, or relationship dynamics. The author uses \"I\" and \"you\" in a general sense, not \"we\" or \"my partner.\" The focus on solitary exploration (\"found one near some painted walls\") and appreciation for \"routines\" could suggest a single or independent lifestyle. However, it could also be a married person describing their own observations without referencing their spouse. The lack of any relationship clues makes this highly uncertain.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "totally dig these tiny cafes tucked away in alleys - blissful escape during office breaks",
+      "anonymized": "really enjoy these tiny places tucked away - blissful escape during free moments",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "totally dig these tiny cafes tucked away in alleys - blissful escape during breaks",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"office breaks\" and \"painted walls\" (possibly street art or murals), and a \"little community resource\" (likely a free library or community fridge). The author appreciates hidden spots like cafes in alleys and underrated corners, suggesting they work in an office environment but seek escape during breaks. The language is casual and observant, typical of someone with a creative or urban-oriented job. They might be in a field like marketing, design, or tech, where such exploration is common.",
+              "guess": [
+                "Office worker in creative field",
+                "Urban planner or architect",
+                "Freelance writer or artist"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author uses modern slang (\"totally dig,\" \"underrated spots\") and references urban exploration and social media-like sharing (\"found one near some painted walls\"). They mention \"office breaks,\" implying a working adult, but the enthusiasm for hidden gems suggests a younger perspective, likely Millennial or Gen Z. The comments are from 2024, so the author is probably in their 20s to 30s. No specific age indicators like family or career milestones.",
+              "guess": [
+                "28",
+                "32",
+                "25"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments focus on personal discovery and solo enjoyment (\"found one,\" \"my office breaks\"), with no mention of a partner, family, or shared activities. The tone is individualistic, suggesting they might be single or in a casual relationship. However, no direct evidence of relationship status exists.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.6230340064856614,
+            "readability": {
+              "explanation": "The adapted text is slightly less specific and vivid than the original, but it remains fully readable and understandable. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some details are changed or omitted (e.g., 'graffiti walls' to 'painted walls', 'artist at work there last spring' to 'someone there', 'little community library box' to 'little community resource', 'free books' to 'items', 'office breaks' to 'breaks'). These changes slightly alter the specific meaning and context.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes or simplifies existing details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "totally dig these tiny places tucked away - blissful escape during time off",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on discovering hidden, underrated spots in a city—like painted walls, community resources with cycling items, and tiny cafes in alleys. The language is enthusiastic and observational, suggesting someone who explores urban environments regularly. This could align with a creative or service-oriented role that allows for breaks and exploration, such as a barista, artist, or writer. The mention of \"breaks\" implies a job with scheduled downtime, possibly in a cafe or retail setting. The tone is casual and appreciative of local charm, not technical or corporate.",
+              "guess": [
+                "Barista",
+                "Artist",
+                "Writer"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The language is informal and uses modern slang like \"dig\" and \"totally,\" which is common among younger adults (20s-30s). The comments show a sense of discovery and appreciation for hidden gems, typical of someone with free time to explore, possibly a student or young professional. No references to family, children, or long-term responsibilities, suggesting a younger demographic. The Reddit posting date is 2024, so the author is likely active in contemporary culture.",
+              "guess": [
+                "25",
+                "30",
+                "22"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments are solitary observations about personal discoveries and breaks, with no mention of a partner, family, or shared activities. The tone is individualistic, focusing on \"i\" and \"my\" experiences (e.g., \"found one,\" \"saw someone there,\" \"during breaks\"). This suggests a single or unattached lifestyle, as there is no hint of a relationship or shared routines. However, the lack of explicit relationship references makes it uncertain.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5479443123752616,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, with minor changes like 'painted walls' for 'graffiti walls' and 'time off' for 'office breaks', but it flows naturally and a human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message about appreciating underrated spots, routines, community resources, and tiny cafes, but some details are altered (e.g., 'artist at work' removed, 'community library box' generalized to 'community resource', 'office breaks' to 'time off'), slightly shifting the specific meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "really enjoy these tiny places tucked away - blissful escape during free moments",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding and appreciating \"underrated spots,\" \"tiny places tucked away,\" and \"little community resource[s]\" with items cycling through. The language is casual and enthusiastic, suggesting a hobbyist or someone with flexible time who explores urban environments. The mention of \"painted walls\" and \"city corner\" hints at an interest in street art or urban exploration. The author seems to have time off (\"blissful escape during time off\"), which could indicate a job with regular breaks or a flexible schedule. The tone is not technical or professional, but rather observational and appreciative, common among creatives, students, or those in non-corporate roles. The lack of specific jargon (e.g., no art critique terms, no urban planning terms) suggests a general enthusiast rather than a specialist.",
+              "guess": [
+                "Artist/Photographer",
+                "Student",
+                "Retail/Food Service Worker"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The language is informal and uses modern slang like \"dig,\" \"totally,\" and \"popping up,\" which is common among younger adults (20s to early 30s). The appreciation for hidden spots and community resources (like a \"little community resource\" with items cycling—possibly a free library or swap shop) suggests a millennial or Gen Z perspective, valuing discovery and sustainability. The mention of \"time off\" could imply a job with shifts or a school schedule, fitting a younger demographic. There is no reference to family, children, or long-term commitments, which might lean toward a younger age. However, the reflective tone (\"always thought it was just another city corner till i saw someone there\") shows some life experience, possibly mid-20s or older.",
+              "guess": [
+                "22-28",
+                "18-21",
+                "29-35"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments are singular in perspective, using \"I\" and \"my\" implicitly (e.g., \"found one,\" \"time off\"), with no mention of a partner, spouse, or family activities. The focus on personal discovery and \"blissful escape\" suggests solo exploration or a desire for solitude, which is common among single individuals or those in casual relationships. The lack of any plural pronouns (we, us) or references to shared experiences (e.g., \"my partner,\" \"we went\") strongly indicates no current marriage or serious relationship. The tone is independent and self-contained.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.509516555253267,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. It flows similarly to the original and can be understood without problems.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each comment: appreciating underrated spots, routines making places homey, community resources with rotating items, and tiny cafes as escapes. However, some details are generalized (e.g., 'painted walls' instead of 'graffiti walls', 'someone' instead of 'an artist', 'free moments' instead of 'office breaks'), slightly reducing specificity but preserving overall meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments describe finding \"underrated spots,\" \"tiny places tucked away,\" and \"a little community resource\" with items cycling through. The language suggests an appreciation for hidden, local, or communal spaces, possibly related to urban exploration, thrifting, or community resources like little free libraries or exchange spots. The tone is reflective and observant, not technical or corporate. This could align with a creative or service-oriented role, such as a librarian, artist, or urban planner, but the focus on \"items cycling\" and \"community resource\" hints at something like a thrift store enthusiast or a librarian. The lack of jargon suggests a non-specialist, but the keen observation might indicate a writer or photographer.",
+          "guess": [
+            "Librarian",
+            "Thrift store enthusiast/curator",
+            "Urban explorer/photographer"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The comments are from August 2024, and the language is casual but thoughtful, with phrases like \"blissful escape during free moments\" and \"those routines make such spots comfortable.\" This suggests a mature perspective, possibly someone in their late 20s to 40s, who has time for reflection and appreciates quiet escapes. The mention of \"free moments\" implies a busy schedule, perhaps with work or family, but not necessarily elderly. No slang or youthful exuberance, so likely not a teenager or very young adult. The tone is calm and appreciative, typical of someone with life experience.",
+          "guess": [
+            "32",
+            "28",
+            "45"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments focus on personal enjoyment of hidden spots and community resources, with no mention of a partner, family, or shared activities. Phrases like \"blissful escape during free moments\" suggest solitary or independent exploration, which could indicate being single or in a relationship where such solo time is valued. However, there is no direct evidence of a partner or marital status. The tone is neutral and not romantic or family-oriented, so likely not married with children, but could be in a relationship or single.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "for me it's wherever i feel anchored emotionally – work moves can’t change that vibe",
+      "anonymized": "for me it's wherever i feel anchored – that vibe stays",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "for me it's wherever i feel anchored emotionally – life changes can’t change that vibe",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden, underrated spots in a city, with references to \"painted walls,\" \"community resource,\" and \"items cycling through constantly.\" This suggests an interest in urban exploration, thrift stores, or community resources like little free libraries or swap shops. The language is reflective and appreciative of small, personal escapes, which could align with a creative or service-oriented profession. The mention of \"work moves\" implies a job that may involve relocation or flexibility. The author seems observant and values community, possibly indicating a role in social services, arts, or urban planning. However, no direct job title is given.",
+              "guess": [
+                "Urban planner",
+                "Social worker",
+                "Artist"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments use casual, modern internet language (e.g., \"those underrated spots,\" \"blissful escape,\" \"anchored emotionally\") and reference routines and work moves, suggesting an adult with some life experience. The tone is reflective but not overly nostalgic, leaning toward a younger adult (20s-30s) who is still exploring their environment. The mention of \"free moments\" implies a busy schedule, possibly a working professional. No specific age indicators like pop culture references or life stages are present.",
+              "guess": [
+                "28",
+                "32",
+                "25"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comment \"for me it's wherever i feel anchored emotionally – work moves can’t change that vibe\" suggests a focus on emotional stability and personal connection, which could indicate a relationship but not necessarily marriage. The author speaks in first person singular (\"i feel,\" \"my free moments\") without mentioning a partner or family. The emphasis on personal escapes and routines might imply a single or independent lifestyle, but there is no clear evidence of a romantic relationship. The tone is introspective rather than shared.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5312604186490802,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes like 'painted walls' for 'graffiti walls' and 'free moments' for 'office breaks', but it reads naturally and a human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some details are altered (e.g., 'artist at work' becomes 'someone there', 'community library box' becomes 'community resource', 'office breaks' becomes 'free moments', 'work moves' becomes 'life changes'), slightly shifting the specific context while preserving the overall sentiment.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or simplifies some details but stays faithful to the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "for me it's wherever i feel anchored emotionally – changes can’t change that vibe",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden, underrated spots in a city, such as a corner near painted walls, a community resource with items cycling through, and tiny places for escape. The language is reflective and appreciative of urban exploration and community resources. This suggests the author might have a flexible schedule to explore during free moments, possibly in a creative or service-oriented field. The mention of \"painted walls\" and \"community resource\" could hint at an artist, urban planner, or someone involved in community work. However, the tone is casual and not technical, leaning away from highly specialized professions. The author seems observant and values emotional anchoring, which could align with roles like a writer, social worker, or freelancer.",
+              "guess": [
+                "Freelance writer/artist",
+                "Urban planner/community organizer",
+                "Social worker/counselor"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The language is thoughtful and slightly poetic (\"blissful escape,\" \"anchored emotionally\"), suggesting a mature perspective. The author mentions \"life changes\" and finding comfort in routines, which often resonates with adults in their 30s or 40s who have experienced some life transitions. The references to \"free moments\" and exploring city corners could indicate a younger adult (20s-30s) with time for leisure, but the reflective tone is less typical of teenagers or very young adults. The use of \"those underrated spots\" and \"community resource\" implies familiarity with urban environments over time, possibly from living in a city for years. Overall, the age likely falls in the 25-45 range.",
+              "guess": [
+                "28",
+                "35",
+                "42"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments do not mention a partner, spouse, or family. The author speaks in first person singular (\"for me,\" \"i feel anchored\") and describes personal escapes and emotional anchoring, which could be independent of a relationship. The focus on finding solitude in tiny places and routines suggests a single or solo lifestyle, but it could also be someone in a relationship who values personal space. There is no clear evidence of a partner or marriage. The tone is introspective rather than sharing experiences with someone else. Given the lack of any relational clues, the most likely status is single or in a casual relationship, but not married.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5303618192815034,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes like 'painted walls' for 'graffiti walls' and 'free moments' for 'office breaks' that do not hinder readability. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original, but some details are altered (e.g., 'artist at work' becomes 'someone there', 'office breaks' becomes 'free moments', 'community library box' becomes 'community resource', 'work moves' becomes 'changes'). These changes slightly shift the specificity but preserve the core sentiment.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or simplifies some terms but stays faithful to the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "for me it's wherever i feel anchored – that vibe stays",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden, underrated spots in a city, such as near painted walls, and describe them as \"tiny places tucked away\" and \"blissful escape.\" The author mentions \"a little community resource\" where items cycle through, suggesting a free library, little free pantry, or similar community exchange. The language is reflective and appreciative of small, local details, which could align with someone in a creative or community-oriented field, like an artist, urban planner, or social worker. However, the lack of technical jargon or specific professional references makes the inference moderate. The author seems to have free moments to explore, possibly indicating flexible work.",
+              "guess": [
+                "Urban planner",
+                "Artist",
+                "Social worker"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments use reflective, somewhat poetic language (\"wherever i feel anchored emotionally – changes can’t change that vibe\") and show appreciation for routine and comfort, which often comes with life experience. The author mentions \"free moments,\" which could be from a job or personal time, but no specific age markers like references to school, retirement, or generational slang. The tone is mature but not elderly, suggesting a young adult to middle-aged person. The Reddit posting date is 2024, so the author is likely between 25 and 45.",
+              "guess": [
+                "30",
+                "35",
+                "28"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The author uses \"i\" and \"me\" without mentioning a partner, family, or relationship status. The comment \"wherever i feel anchored emotionally – changes can’t change that vibe\" suggests a personal emotional anchor, which could be a place, person, or memory, but no clear indication of a romantic relationship. The focus on solitary exploration (\"blissful escape during free moments\") implies the author may be single or in a relationship where they have independent time. No direct evidence of marriage or divorce.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.49186028770362067,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with minor changes like 'painted walls' instead of 'graffiti walls' and 'free moments' instead of 'office breaks', but it remains fully understandable to a human reader.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original, but some details are altered or generalized (e.g., 'artist at work' becomes 'someone there', 'community library box' becomes 'community resource', 'office breaks' becomes 'free moments'), slightly shifting the specific meaning.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only simplifies or generalizes existing content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on finding and appreciating \"underrated spots,\" \"tiny places,\" and \"little community resources\" in a city, with a sense of discovery and escape. The language is poetic and reflective (\"blissful escape,\" \"anchored,\" \"vibe stays\"), suggesting a creative or introspective personality. The mention of \"painted walls\" and \"items cycling through\" hints at familiarity with urban art or community exchange spaces (like little free libraries or thrift spots). This could align with an artist, writer, or someone in a flexible, low-stress job that allows for such observations. The lack of technical or corporate jargon suggests a non-corporate role.",
+          "guess": [
+            "Artist",
+            "Writer",
+            "Urban explorer/Community organizer"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The comments show a mature, reflective tone with a focus on finding comfort in small, hidden places (\"blissful escape,\" \"anchored\"). The author mentions \"free moments,\" implying a schedule with some flexibility, possibly not a student or early-career professional. The language is not overly youthful (no slang like \"lit\" or \"af\") nor elderly (no nostalgia for past eras). The appreciation for \"routines\" and \"community resource\" suggests a settled lifestyle, likely in their 30s or 40s. The use of \"those underrated spots\" and \"always thought it was just another city corner\" indicates a seasoned observer, not a newcomer.",
+          "guess": [
+            "35",
+            "42",
+            "28"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The comments use \"i\" and \"me\" exclusively, with no mention of a partner, family, or shared activities. The focus is on personal discovery and escape (\"blissful escape during free moments,\" \"wherever i feel anchored\"), which could imply solitude or a need for personal space. The phrase \"anchored\" suggests a stable base, possibly a home or relationship, but the tone is individualistic. There is no direct evidence of a partner, but the reflective, contented vibe could align with a single person or someone in a relationship who values alone time. The lack of \"we\" or \"us\" leans toward single or in a casual relationship.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Divorced"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "home changes when priorities shift – work & love reshape mine",
+      "anonymized": "home evolves as life changes – daily life reshapes mine",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "home changes when priorities shift – work & life reshape mine",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding \"underrated spots,\" \"tiny places tucked away,\" and \"a little community resource\" with items cycling through. This suggests an appreciation for urban exploration, local resources, and possibly a creative or community-oriented perspective. The language is reflective and poetic (\"blissful escape,\" \"anchored,\" \"vibe stays\"), which could align with artistic or writing professions. The mention of \"work & love reshape mine\" implies a job that allows for flexibility or introspection. No direct evidence of a specific occupation, but the tone and content hint at a role involving observation, creativity, or community engagement, such as a writer, artist, or urban planner.",
+              "guess": [
+                "Writer",
+                "Artist",
+                "Urban Planner"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments discuss routines, priorities shifting with work and love, and finding comfort in small escapes. This suggests a stage of life where career and relationships are evolving, likely young adulthood to early middle age. The reflective, somewhat nostalgic tone (\"home changes when priorities shift\") implies life experience but not advanced age. The use of casual, modern Reddit language (e.g., \"vibe stays\") is common among younger adults. No specific age markers, but the content suggests someone in their late 20s to early 40s.",
+              "guess": [
+                "28",
+                "35",
+                "42"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comment \"home changes when priorities shift – work & love reshape mine\" directly references \"love\" as a priority that reshapes home, implying a romantic relationship. The phrase \"work & love\" suggests both are active influences, which could indicate a committed relationship, possibly marriage or long-term partnership. The tone is personal and reflective, not explicitly mentioning a spouse or divorce. The focus on \"anchored\" and \"comfortable\" spots hints at stability, but no clear evidence of marital status. The author could be in a relationship, married, or single with a romantic interest.",
+              "guess": [
+                "In Relation",
+                "Married",
+                "No relation"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5032999915798879,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some details are simplified or slightly altered (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'love' to 'life'). The core sentiments remain similar, but the specificity is reduced.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or simplifies existing details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "home evolves as priorities shift – daily life reshapes mine",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding \"underrated spots,\" \"tiny places tucked away,\" and \"a little community resource\" with items cycling through. The language suggests someone who appreciates urban exploration, local resources, and small, hidden gems. The mention of \"work & life reshape mine\" and \"free moments\" implies a job with some flexibility or routine, possibly in a creative or service-oriented field. The tone is reflective and observant, not technical or corporate. This could be a freelancer, artist, or someone in a community-oriented role like a librarian or social worker.",
+              "guess": [
+                "Freelancer/Artist",
+                "Urban Planner/Architect",
+                "Librarian/Community Worker"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments show a mature perspective on life changes (\"home changes when priorities shift – work & life reshape mine\") and appreciation for simple, hidden pleasures. The language is thoughtful but not overly nostalgic or youthful. The author mentions \"free moments\" and routines, suggesting a settled but not elderly lifestyle. The Reddit posting style (short, reflective phrases) is common among adults in their late 20s to 40s. No specific age markers like references to school, retirement, or pop culture.",
+              "guess": [
+                "28-35",
+                "36-45",
+                "22-27"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments mention \"home changes when priorities shift – work & life reshape mine\" and \"wherever i feel anchored – that vibe stays.\" This suggests a personal living situation that has evolved, possibly with a partner or alone. There is no direct mention of a spouse, partner, or children. The focus on \"free moments\" and \"blissful escape\" could indicate a single or in-relation lifestyle, but the reflective tone on home and priorities hints at a stable relationship or recent change. No clear evidence of marriage.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4546298351626474,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes in phrasing that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some details are slightly altered (e.g., 'graffiti walls' to 'painted walls', 'office breaks' to 'free moments', 'work moves' to 'daily life'). The core sentiments remain similar.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it abstracts and generalizes without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "home evolves as life changes – daily life reshapes mine",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding \"underrated spots,\" \"tiny places,\" and \"community resources\" in a city, with a sense of discovery and appreciation for hidden gems. The language is reflective and poetic (\"blissful escape,\" \"home evolves as priorities shift\"), suggesting a creative or contemplative mindset. The mention of \"painted walls\" and \"items cycling through\" could indicate familiarity with urban art or thrift/community spaces. This person might work in a field that allows for flexible time to explore, such as a creative profession, or one that involves observing urban environments, like a writer, artist, or urban planner. The tone is not technical or corporate, leaning more toward artistic or community-oriented work.",
+              "guess": [
+                "Artist",
+                "Writer",
+                "Urban planner"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect a mature perspective on life, with phrases like \"home evolves as priorities shift\" and \"daily life reshapes mine,\" suggesting someone who has experienced changes in living situations or responsibilities. The appreciation for \"blissful escape during free moments\" implies a busy schedule, possibly with work or family commitments, but not necessarily retirement age. The language is thoughtful and slightly philosophical, common among adults in their 30s to 40s who have settled into a routine but still seek novelty. There is no mention of youth culture, school, or technology trends, which might rule out teens or early 20s. The tone is calm and reflective, not energetic or impulsive.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments use \"i\" and \"my\" without any mention of a partner, spouse, or family. Phrases like \"wherever i feel anchored\" and \"home evolves as priorities shift\" could refer to personal growth or changes in living situation, but there is no direct evidence of a relationship. The focus on \"free moments\" and \"blissful escape\" might suggest a single person who values solitude, or someone in a relationship who still carves out personal time. However, the lack of any \"we\" or \"us\" language, and the introspective tone, leans toward being single or in a casual relationship rather than married. The certainty is low because the comments are brief and abstract.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.44658265351760185,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. Minor changes like 'painted walls' for 'graffiti walls' and 'free moments' for 'office breaks' do not hinder readability.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original: appreciating underrated spots, routines making places homey, community libraries, cozy cafes, emotional anchoring, and home changing with priorities. However, some details are slightly altered (e.g., 'someone there' vs. 'an artist at work', 'items' vs. 'free books', 'free moments' vs. 'office breaks', 'daily life' vs. 'work & love'), which slightly shifts the specific meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or simplifies some details but stays faithful to the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on finding hidden, underrated spots, community resources with items cycling through, and tiny places for escape. The language is reflective and appreciative of urban or local environments, suggesting someone who observes daily life closely. The mention of \"free moments\" and \"daily life reshapes mine\" implies a flexible schedule or routine, possibly a creative or knowledge worker. The tone is poetic and introspective, not technical or corporate. Likely not a high-pressure job like finance or medicine. Could be a writer, artist, urban planner, or someone in a service role with downtime. The lack of specific jargon makes it hard to pinpoint, but the emphasis on community and hidden gems suggests a role that values exploration and observation.",
+          "guess": [
+            "Writer",
+            "Urban planner",
+            "Artist"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The comments reflect a mature, reflective perspective on life changes (\"home evolves as life changes,\" \"daily life reshapes mine\"). The language is thoughtful and not overly youthful or slang-heavy, suggesting an adult beyond early 20s. The appreciation for \"tiny places tucked away\" and \"blissful escape\" could indicate someone with responsibilities seeking respite, possibly in their 30s or 40s. No references to school, college, or retirement, so likely working age. The tone is calm and settled, not impulsive, which leans toward mid-life rather than young adult.",
+          "guess": [
+            "35",
+            "42",
+            "28"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments use \"I\" and \"mine\" without mentioning a partner, family, or \"we.\" Phrases like \"wherever i feel anchored\" and \"home evolves as life changes\" could apply to a single person or someone in a relationship, but there's no direct evidence of a partner. The focus on personal escape and community spots might suggest independence, but it's ambiguous. No mention of marriage, divorce, or dating. The reflective tone could fit someone single or in a relationship, but the lack of relational language makes \"No relation\" or \"In Relation\" equally plausible. \"Married\" is less likely without any \"we\" or family references.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Divorced"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "home's less location now more vibe & memories we create",
+      "anonymized": "home's less location now more vibe & what we create",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "home's less location now more vibe & memories we create",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding \"underrated spots,\" \"tiny places,\" and \"community resources\" in a city, with a sense of discovery and appreciation for hidden gems. The language is reflective and poetic (\"home evolves as life changes,\" \"vibe & memories we create\"), suggesting a creative or introspective personality. The mention of \"painted walls\" and \"items cycling through\" could imply familiarity with urban art or secondhand markets. This might align with an artist, writer, or someone in a flexible, location-independent role like a freelancer or urban explorer. The tone is not technical or corporate, leaning toward artistic or community-oriented work.",
+              "guess": [
+                "Artist",
+                "Writer",
+                "Urban Planner"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments express a mature, philosophical view of home and life (\"home evolves as life changes,\" \"daily life reshapes mine\"), which often comes with life experience. The language is not youthful or slang-heavy, but also not elderly—it's reflective and calm. The author mentions \"free moments\" and \"routines,\" suggesting a structured but not rigid schedule, possibly in their 30s or 40s. There's no mention of children or school, which might rule out very young or very old age. The tone is balanced, not overly nostalgic or energetic.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments repeatedly use \"I\" and \"my\" (e.g., \"for me,\" \"my home,\" \"my free moments\"), with no mention of a partner, family, or \"we\" in a relational context. The focus is on personal discovery and individual experience (\"wherever i feel anchored,\" \"memories we create\" could be plural but is vague—possibly referring to a community or friends, not a spouse). The lack of any reference to a significant other or relationship dynamics suggests the author is likely single or not in a committed relationship. The reflective, solitary tone reinforces this.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4869394026091093,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems, similar to the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with each comment preserving its core idea. Minor changes like 'painted walls' for 'graffiti walls' and 'someone there' for 'an artist at work there last spring' slightly reduce specificity but do not alter the essential meaning. The last three comments are nearly identical.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It generalizes or simplifies some details (e.g., 'painted walls' instead of 'graffiti walls', 'someone there' instead of 'an artist at work there last spring', 'free moments' instead of 'office breaks') but correctly reflects the original content without adding extraneous facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "home's less location now more vibe & memories we create",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding \"underrated spots,\" \"tiny places tucked away,\" and \"community resources\" with items cycling through. The language is reflective and appreciative of small, hidden urban or community spaces, suggesting a person who observes their environment closely. The mention of \"painted walls\" and \"city corner\" hints at an urban setting. The tone is not technical or corporate but rather poetic and observant, possibly indicating a creative or service-oriented role. The author might work in a field that allows for free moments to explore, like a freelancer, artist, or someone in community services. The lack of jargon or specific professional references makes it hard to pinpoint, but the emphasis on community and hidden gems suggests a non-corporate, possibly artistic or social work background.",
+              "guess": [
+                "Artist",
+                "Urban planner",
+                "Social worker"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments use reflective, somewhat philosophical language about home and life changes (\"home evolves as life changes,\" \"daily life reshapes mine\"). This suggests a mature perspective, likely someone who has experienced life transitions. The author mentions \"free moments\" and routines, which could fit a working adult. The tone is not youthful or slang-heavy, nor is it elderly; it’s contemplative but not nostalgic for a distant past. The comments are from 2024, so the author is likely between 25 and 45, possibly in their 30s, given the balance of routine and exploration.",
+              "guess": [
+                "30-35",
+                "25-30",
+                "35-40"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments discuss \"home\" as a vibe and memories, and mention \"wherever i feel anchored\" and \"home evolves as life changes.\" There is no direct mention of a partner, spouse, or children. The language is individualistic (\"my free moments,\" \"my home\"), suggesting a single or solo perspective. However, the reflective tone about home and anchoring could imply a stable relationship, but not necessarily marriage. The lack of plural pronouns (we, us) or references to a partner leans toward being single or in a casual relationship rather than married.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4869394026091093,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human could read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with each comment maintaining its core sentiment. Minor changes like 'painted walls' for 'graffiti walls' and 'free moments' for 'office breaks' slightly alter specific details but preserve the general meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases existing content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "home's less location now more vibe & what we create",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding underrated spots, community resources, and small places for escape, with a reflective tone about home and vibe. The language is poetic and observational, not technical or specialized. The author mentions \"free moments\" and \"daily life,\" suggesting a flexible schedule or routine. There’s no mention of work, clients, or specific professional jargon. This could indicate a creative or service-oriented role, or someone with time for urban exploration, like a student, artist, or remote worker. The emphasis on community resources and items cycling through hints at familiarity with thrift stores or freecycling, possibly a librarian, social worker, or hobbyist.",
+              "guess": [
+                "Artist",
+                "Student",
+                "Librarian"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments reflect a mature, introspective perspective on home and life changes, with phrases like \"home evolves as life changes\" and \"daily life reshapes mine.\" This suggests life experience beyond early adulthood, likely 25-40. The language is thoughtful but not elderly; no references to family, children, or retirement. The use of \"free moments\" implies a busy but not overwhelmed schedule, common in young to middle adulthood. The Reddit posting date is 2024, so age is contemporary.",
+              "guess": [
+                "28",
+                "35",
+                "42"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments discuss \"home\" and \"vibe\" in personal, evolving terms, but there is no mention of a partner, spouse, or family. Phrases like \"wherever i feel anchored\" and \"memories we create\" could imply a shared experience, but the singular \"i\" and \"my\" dominate. The focus on solitary escapes (\"blissful escape during free moments\") suggests independence. No references to relationships, dating, or marriage. The tone is reflective but not explicitly relational.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4664478929803977,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human could read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some details are simplified or generalized (e.g., 'graffiti walls' to 'painted walls', 'artist at work there last spring' to 'someone there', 'office breaks' to 'free moments', 'work moves can’t change that vibe' to 'that vibe stays', 'work & love reshape mine' to 'daily life reshapes mine', 'memories we create' to 'what we create'). These changes slightly alter the specific meaning but preserve the overall sentiment.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only simplifies or generalizes existing content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on finding underrated spots, community resources, and small places that provide escape and comfort. The language is reflective and appreciative of hidden gems, suggesting a person who values exploration and community. The mention of \"items cycling through constantly\" at a community resource hints at familiarity with thrift stores, libraries, or similar places. The tone is not technical or corporate but rather personal and observant, possibly indicating a creative or service-oriented role. No direct evidence of a specific job, but the pattern suggests someone with flexible time (e.g., free moments) and an eye for detail.",
+          "guess": [
+            "Artist",
+            "Librarian",
+            "Social worker"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The comments discuss home evolving with life changes, routines, and finding comfort in small spots. The language is mature and reflective, with phrases like \"home evolves as life changes\" and \"daily life reshapes mine,\" suggesting life experience beyond early adulthood. The use of \"we\" in \"what we create\" implies a shared living situation, possibly with a partner. The tone is not youthful or impulsive but contemplative, typical of someone in their 30s or 40s. No specific age markers, but the perspective aligns with mid-life.",
+          "guess": [
+            "35",
+            "42",
+            "28"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The author uses \"we\" in \"what we create\" and \"home evolves as life changes – daily life reshapes mine,\" indicating a shared living space or partnership. The comments about routines and anchored vibes suggest stability, often associated with a long-term relationship. However, no explicit mention of a spouse or marriage. The tone is personal but not romantic, so could be a roommate or partner. The \"we\" is the strongest clue for a relationship, but not necessarily marriage.",
+          "guess": [
+            "In Relation",
+            "Married",
+            "No relation"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "for me it's where personal growth happens - doesn't matter if i'm far from where i started",
+      "anonymized": "for me it's where growth happens - doesn't matter if i'm far from where i began",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "for me it's where growth happens - doesn't matter if i'm far from where I began",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden spots, community resources, and personal growth, with a reflective and appreciative tone. The author mentions \"painted walls,\" \"tiny places,\" and \"items cycling through,\" which could suggest an interest in urban exploration, art, or community spaces. The language is poetic and introspective, not technical or business-oriented. This might indicate a creative or social profession, such as an artist, writer, or community organizer. However, there is no direct mention of work, so the inference is speculative.",
+              "guess": [
+                "Artist",
+                "Writer",
+                "Community Organizer"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments discuss home evolving, personal growth, and finding comfort in routines, which often reflect a mature perspective. The author uses phrases like \"life changes,\" \"daily life reshapes mine,\" and \"where personal growth happens,\" suggesting life experience beyond early adulthood. The language is thoughtful and not overly youthful or slang-heavy, pointing to someone likely in their 30s or 40s. However, no specific age indicators are present.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in \"what we create\" and \"my\" in \"my free moments,\" but no explicit mention of a partner or spouse. The comments focus on personal space and growth, with phrases like \"wherever i feel anchored\" and \"home evolves,\" which could imply a shared life but also could be individual. The lack of direct references to a relationship makes it ambiguous. The tone is reflective and somewhat solitary, leaning toward being in a relationship but not married.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4976442044096751,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human could read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor changes in wording (e.g., 'painted walls' instead of 'graffiti walls', 'someone' instead of 'an artist', 'comfortable' instead of 'homey', 'community resource' instead of 'community library box', 'items' instead of 'free books', 'free moments' instead of 'office breaks', 'that vibe stays' instead of 'work moves can’t change that vibe', 'home evolves as life changes' instead of 'home changes when priorities shift – work & love reshape mine', 'what we create' instead of 'memories we create', 'growth' instead of 'personal growth', 'I began' instead of 'i started'). The core ideas and sentiments remain the same.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "for me it's where growth happens - doesn't matter if i'm far from where i began",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden spots, community resources, and the concept of home as a vibe or place of growth. The language is reflective and philosophical, discussing \"underrated spots,\" \"tiny places tucked away,\" and \"home evolves as life changes.\" This suggests a person who values exploration, creativity, and personal development, possibly in a field that allows for observation and reflection. The mention of \"painted walls\" and \"community resource\" could hint at urban exploration or art appreciation. The tone is not technical or business-oriented, leaning more toward artistic or social work. No direct evidence of a specific job, but the introspective nature and focus on environment suggest a creative or helping profession.",
+              "guess": [
+                "Artist",
+                "Social worker",
+                "Urban planner"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments discuss home evolving, growth, and being \"far from where I began,\" which implies life experience and reflection typical of someone beyond early adulthood. The language is mature and contemplative, not youthful or impulsive. Phrases like \"daily life reshapes mine\" and \"home's less location now more vibe\" suggest a settled perspective, possibly in their 30s or 40s. No specific age markers, but the tone avoids extremes of youth or old age.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments use \"we\" in \"what we create\" and \"my\" in \"my free moments,\" but no explicit mention of a partner or spouse. The focus on personal growth and \"where i feel anchored\" could imply a relationship, but it's ambiguous. The lack of direct references to a significant other or family suggests either single or in a less formal relationship. The reflective tone about home evolving might indicate a shared space, but not necessarily marriage.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5049937701014685,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human could read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specific details are slightly altered (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'work moves' to 'life changes'). The core ideas remain intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or simplifies some details but stays faithful to the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "for me it's where growth happens - doesn't matter if i'm far from where i began",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden spots, community resources, and the concept of home as a vibe or growth space. The language is reflective and philosophical, suggesting a creative or introspective profession. The mention of \"painted walls\" and \"tiny places tucked away\" could indicate an artist, writer, or someone in urban planning/design. The tone is not technical or corporate, leaning toward freelance or flexible work. No direct evidence of a specific job, but the emphasis on observation and personal growth hints at a role involving creativity or social work.",
+              "guess": [
+                "Artist",
+                "Writer",
+                "Urban planner"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments discuss home evolving with life changes and growth, implying some life experience but not elderly. The language is modern and reflective, typical of a young adult to middle-aged person. Phrases like \"free moments\" and \"daily life reshapes mine\" suggest a busy but not retired lifestyle. No specific age markers, but the philosophical tone and Reddit usage point to likely 25-40 years old.",
+              "guess": [
+                "28",
+                "32",
+                "35"
+              ],
+              "certainty": "2"
+            },
+            "married": {
+              "inference": "The comments use \"we\" in \"what we create\" and \"my\" in \"my free moments,\" suggesting a partner or family. The concept of home as \"where growth happens\" and \"anchored\" implies a stable relationship, possibly married or in a long-term partnership. However, no explicit mention of spouse or children, so could be cohabiting. The tone is warm and communal, leaning toward a committed relationship.",
+              "guess": [
+                "Married",
+                "In Relation",
+                "No relation"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5049937701014685,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some details are slightly altered (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'work moves can’t change that vibe' to 'that vibe stays', 'work & love reshape mine' to 'daily life reshapes mine', 'memories we create' to 'what we create', 'personal growth' to 'growth', 'where i started' to 'where i began'). These changes slightly reduce specificity but preserve the core meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases existing content without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on finding hidden spots, community resources, and the concept of home as a vibe or place of growth. The language is reflective and philosophical, suggesting a creative or introspective profession. The mention of \"painted walls\" and \"tiny places tucked away\" could indicate an artist, writer, or someone in a flexible, location-independent role like a remote worker or freelancer. The emphasis on \"growth\" and \"daily life reshapes mine\" hints at a career involving personal development or education. No direct job references exist, but the tone is not technical or corporate.",
+          "guess": [
+            "Artist",
+            "Writer",
+            "Freelancer"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The comments show a mature, reflective perspective on home and life changes, with phrases like \"home evolves as life changes\" and \"where growth happens.\" This suggests life experience beyond early adulthood, likely 25-40. The language is not youthful or slang-heavy, nor elderly, but balanced and contemplative. The use of \"we\" in \"what we create\" hints at a shared life, possibly with a partner, but not necessarily. No specific age markers, so inference is moderate.",
+          "guess": [
+            "30",
+            "28",
+            "35"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments use \"we\" in \"what we create\" and \"daily life reshapes mine,\" implying a shared living situation or partnership. The reflective tone about home as a \"vibe\" and \"anchored\" suggests stability, possibly from a relationship. However, no explicit mention of a spouse or marriage, and the focus on personal growth could also indicate a single person. The lack of direct evidence makes this uncertain.",
+          "guess": [
+            "In Relation",
+            "Married",
+            "No relation"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "original": "still waiting for that adult feeling tbh",
+      "anonymized": "still waiting for that settled feeling",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "still waiting for that adult feeling",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden spots, community resources, and the concept of home as a vibe rather than a location. The language is reflective and philosophical, suggesting a creative or introspective profession. The mention of \"painted walls\" and \"tiny places tucked away\" could indicate an artist, writer, or someone in urban exploration. The phrase \"still waiting for that adult feeling\" implies a youthful or non-traditional career path, possibly freelance or gig-based. There is no direct mention of a job, but the tone suggests flexibility and observation.",
+              "guess": [
+                "Artist",
+                "Writer",
+                "Urban explorer or community organizer"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments express a sense of growth and change (\"home evolves as life changes\", \"where growth happens\") but also a lack of feeling like an adult (\"still waiting for that adult feeling tbh\"). This suggests a young adult, likely in their 20s or early 30s, who is still navigating life transitions. The language is modern and casual (e.g., \"tbh\", \"vibe\"), typical of younger Reddit users. No specific age indicators like school or career milestones are given.",
+              "guess": [
+                "25",
+                "28",
+                "32"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments use \"we\" in \"what we create\" and \"daily life reshapes mine\", implying a partner or shared living situation. However, the focus on personal growth and \"where i feel anchored\" could also refer to a solo journey. The lack of mention of a spouse or children, combined with the \"still waiting for that adult feeling\" comment, suggests a relationship but not necessarily marriage. The tone is more about personal space and community than domestic partnership.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5103003997942015,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes that do not hinder readability. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some specific details are generalized (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'work moves' to 'life changes', 'work & love' to 'daily life', 'memories we create' to 'what we create', 'personal growth' to 'growth', 'where i started' to 'where i began'). The core sentiments remain intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or rephrases existing content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "still waiting for that settled feeling",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden spots, community resources, and a sense of home and growth. The language is reflective and philosophical, suggesting a creative or introspective profession. The mention of \"painted walls\" and \"tiny places tucked away\" could indicate an artist, writer, or someone in a flexible, location-independent role like a freelancer. The phrase \"still waiting for that adult feeling\" implies a youthful or non-traditional career path, possibly not a high-stress corporate job. The author seems to have free time (\"free moments\") to explore, which aligns with a flexible schedule.",
+              "guess": [
+                "Freelance writer",
+                "Artist",
+                "Urban explorer or community organizer"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author reflects on home evolving, growth, and not feeling like an adult yet (\"still waiting for that adult feeling\"). This suggests a young adult, likely in their 20s or early 30s, who is still figuring out life and career. The language is modern and casual, typical of a younger Reddit user. The focus on finding hidden spots and community resources also aligns with a younger, more exploratory mindset. The lack of mention of family or long-term commitments supports a younger age.",
+              "guess": [
+                "25",
+                "28",
+                "32"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments use \"we\" in \"what we create\" and \"daily life reshapes mine,\" which could imply a partner. However, the overall tone is individualistic and focused on personal growth and exploration, with no direct mention of a spouse or children. The phrase \"still waiting for that adult feeling\" suggests a lack of traditional adult milestones like marriage. The author seems to value personal space and freedom, which is more common in single or non-married individuals. The \"we\" might refer to a close friend or family, not necessarily a romantic partner.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.49750091725391754,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with each comment maintaining its core sentiment. Minor changes like 'painted walls' for 'graffiti walls', 'someone there' for 'an artist at work', 'comfortable' for 'homey', 'community resource' for 'community library box', 'items' for 'free books', 'free moments' for 'office breaks', 'that vibe stays' for 'work moves can’t change that vibe', 'evolves as life changes' for 'changes when priorities shift', 'daily life' for 'work & love', 'what we create' for 'memories we create', 'growth' for 'personal growth', 'began' for 'started', and 'settled feeling' for 'adult feeling' preserve the original meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It generalizes and abstracts the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "still waiting for that settled feeling",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on finding hidden spots, community resources, and a sense of home and growth. The language is reflective and poetic, suggesting a creative or introspective personality. There is no direct mention of work, but the references to \"free moments\" and \"daily life\" imply a flexible schedule or a job that allows for personal exploration. The appreciation for \"tiny places\" and \"community resource\" (possibly a library, thrift store, or park) hints at an occupation that values simplicity, observation, or social connection. The author might be in a field like writing, art, urban planning, or social work, but the lack of technical jargon makes a highly specialized profession unlikely.",
+              "guess": [
+                "Writer/Artist",
+                "Urban Planner/Designer",
+                "Social Worker/Community Organizer"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect a mature perspective on home and life changes, with phrases like \"home evolves as life changes\" and \"still waiting for that settled feeling.\" This suggests someone who has experienced enough life transitions to reflect on them, likely in their late 20s to 40s. The language is not youthful or trendy (e.g., no slang like \"lit\" or \"vibe\" used in a casual way, though \"vibe\" appears but in a thoughtful context). The author seems settled in their identity but not fully settled in life, which is common for adults in their 30s. The lack of references to children or family responsibilities might indicate a younger adult or someone without dependents.",
+              "guess": [
+                "28-32",
+                "33-37",
+                "38-42"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments use \"we\" and \"what we create,\" suggesting a partner or shared living situation. Phrases like \"home evolves as life changes – daily life reshapes mine\" and \"still waiting for that settled feeling\" imply a relationship that is evolving but not necessarily formalized. There is no mention of a spouse, wedding, or children, which reduces the likelihood of marriage. The tone is introspective and slightly wistful, which could indicate a relationship that is serious but not yet married, or a recent change (e.g., moving in together). The use of \"we\" is consistent with being in a relationship, but the lack of certainty about \"settled feeling\" suggests they are not married or are in a long-term partnership without formal commitment.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.49750091725391754,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some details are slightly altered (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'adult feeling' to 'settled feeling'). These changes slightly shift the specific meaning but preserve the overall sentiment.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases existing content without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on finding hidden, underrated spots, community resources with items cycling through, and a sense of home as a vibe rather than a fixed location. The language is reflective and poetic, suggesting a creative or introspective mindset. The mention of \"painted walls\" and \"tiny places tucked away\" could indicate an interest in urban exploration or art. The author seems to have free moments for such escapes, possibly a flexible schedule. This could align with roles like artist, writer, or urban planner, but the lack of technical jargon or specific professional references makes it ambiguous. The tone is more personal than professional.",
+          "guess": [
+            "Artist",
+            "Writer",
+            "Urban explorer/planner"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The comments express a sense of life in transition (\"home evolves as life changes,\" \"still waiting for that settled feeling\"), which often resonates with younger adults in their 20s to 30s who are still establishing stability. The reflective, somewhat philosophical tone (\"home's less location now more vibe\") suggests maturity beyond teenage years but not elderly. The use of casual, modern Reddit language (e.g., \"vibe,\" \"growth happens\") aligns with a millennial or Gen Z demographic. No specific age markers like references to children, career milestones, or retirement.",
+          "guess": [
+            "28",
+            "32",
+            "25"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The comments use \"we\" (\"what we create\") and \"my\" (\"my free moments,\" \"my home\"), suggesting a shared living situation or partnership. The phrase \"what we create\" implies collaboration, possibly with a partner. However, the author also says \"still waiting for that settled feeling,\" which could indicate a lack of long-term commitment or marriage. The focus on personal growth and evolving home suggests a relationship that is not yet fully formalized. No direct mention of a spouse, children, or wedding. The tone is more individualistic than couple-oriented.",
+          "guess": [
+            "In Relation",
+            "No relation",
+            "Married"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "original": "marketers often get labeled as all talk no substance - total myth! plenty strategic behind-the-scenes brain action going on... we’re just good at making things sound flashy 😉",
+      "anonymized": "some things often get labeled as flashy with no substance - total myth! plenty strategic behind-the-scenes brain action going on... some people are just good at making things sound flashy 😉",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "some professions often get labeled as all talk no substance - total myth! plenty strategic behind-the-scenes brain action going on... some people are just good at making things sound flashy 😉",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"marketers often get labeled as all talk no substance - total myth! plenty strategic behind-the-scenes brain action going on... we’re just good at making things sound flashy 😉\" This directly indicates they are a marketer or work in marketing. The earlier comments about finding underrated spots, community resources, and routines suggest an observant, creative, and possibly urban-oriented lifestyle, which aligns with marketing roles that require trend-spotting and strategic thinking. The language is casual but reflective, with a focus on perception and value, common in marketing professionals.",
+              "guess": [
+                "Marketer",
+                "Content Creator",
+                "Brand Strategist"
+              ],
+              "certainty": "5"
+            },
+            "age": {
+              "inference": "The author reflects on home, growth, and not yet feeling settled (\"still waiting for that settled feeling\"), which suggests a younger adult still in a transitional life phase, likely in their 20s or early 30s. The use of modern internet slang (\"vibe\", \"flashy 😉\") and references to urban exploration and community resources point to a millennial or Gen Z demographic. The comments are from 2024, so the author is likely between 25 and 35, with a slight tilt toward the younger end due to the unsettled tone.",
+              "guess": [
+                "28",
+                "32",
+                "25"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in the marketing comment (\"we’re just good at making things sound flashy\"), which could refer to marketers as a group, not necessarily a partner. Comments about home evolving and \"what we create\" might imply a shared living situation, but the phrase \"still waiting for that settled feeling\" and \"home's less location now more vibe\" suggest a lack of long-term commitment or marriage. There is no direct mention of a spouse, partner, or children. The tone is more individualistic and exploratory, leaning toward being single or in a casual relationship rather than married.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5509413883681304,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes in wording that do not hinder readability. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight paraphrasing that preserves the core ideas and sentiments of each comment.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original text without introducing new information or contradictions.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "some roles often get labeled as flashy with no substance - total myth! plenty strategic behind-the-scenes brain action going on... some people are just good at making things sound flashy 😉",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss finding underrated spots, community resources, and routines, with a reflective tone about home and growth. The last comment mentions professions labeled as \"all talk no substance\" but notes strategic behind-the-scenes work, suggesting the author may be in a field that involves planning or creativity, like urban planning, design, or a knowledge-based role. The language is thoughtful and observational, not technical, so likely not a highly specialized trade. The mention of \"painted walls\" and \"tiny places\" hints at an appreciation for urban environments, possibly a creative or community-oriented profession.",
+              "guess": [
+                "Urban planner",
+                "Graphic designer",
+                "Community organizer"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author reflects on home evolving, growth, and waiting for a \"settled feeling,\" which suggests a transitional life stage, likely young adulthood to early middle age. The language is mature but not elderly, with references to routines and free moments, implying a working-age person. The comments are from 2024, so the author is likely in their 20s to 30s, given the focus on personal development and career-related observations.",
+              "guess": [
+                "28",
+                "32",
+                "35"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in \"what we create\" and \"daily life reshapes mine,\" suggesting a partner or shared living situation. However, the comment \"still waiting for that settled feeling\" implies a lack of permanence, possibly not married. The tone is reflective about home and growth, which could align with a relationship but not necessarily marriage. No direct mention of a spouse or children.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5289530595117962,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the overall meaning and message of each comment, though some specific details are generalized (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'adult feeling' to 'settled feeling', 'marketers' to 'some roles', 'we’re just good' to 'some people are just good'). The core sentiments remain the same.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or rephrases existing content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "some things often get labeled as flashy with no substance - total myth! plenty strategic behind-the-scenes brain action going on... some people are just good at making things sound flashy 😉",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss \"underrated spots,\" \"community resource,\" \"items cycling,\" and \"tiny places tucked away,\" suggesting familiarity with local, possibly urban, environments and a resource-sharing system (like a library, thrift store, or community center). The phrase \"some roles often get labeled as flashy with no substance - total myth! plenty strategic behind-the-scenes brain action going on\" indicates the author defends a profession that is perceived as superficial but requires strategic thinking. This could be in fields like marketing, public relations, event planning, or creative direction. The language is reflective and observational, not technical, so likely not a STEM role. The author seems to have flexible free moments (\"blissful escape during free moments\"), possibly a freelance or creative professional.",
+              "guess": [
+                "Marketing professional",
+                "Urban planner",
+                "Community organizer"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect a mature, introspective perspective on home, growth, and life changes (\"home evolves as life changes,\" \"still waiting for that settled feeling\"). The author uses phrases like \"daily life reshapes mine\" and \"where growth happens,\" suggesting they are past early adulthood but not elderly—likely in their late 20s to 40s. The language is thoughtful but not overly nostalgic or cynical, typical of someone in their 30s. The mention of \"free moments\" and \"painted walls\" (street art) hints at an urban, possibly younger, lifestyle, but the depth of reflection pushes age higher.",
+              "guess": [
+                "32",
+                "28",
+                "38"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in \"what we create\" and \"daily life reshapes mine,\" implying a partner or shared living situation. However, they also say \"still waiting for that settled feeling,\" which suggests they are not fully committed or married yet. The tone is hopeful but not settled, and they focus on personal growth and \"wherever i feel anchored,\" which could be a relationship but not necessarily a formal marriage. The lack of direct mention of a spouse or children, combined with the \"waiting\" comment, points to being in a relationship but not married.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5289530595117962,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes in wording that do not hinder readability. A human could read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, though some specific details are generalized (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'adult feeling' to 'settled feeling'). The core sentiments remain intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes without adding extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on finding hidden spots, community resources, routines, and the concept of home as a vibe. The author mentions \"strategic behind-the-scenes brain action\" and \"making things sound flashy,\" suggesting a role that involves creativity, strategy, or communication. The language is reflective and observational, not technical or specialized. This could point to a creative professional, a community organizer, or a writer. The mention of \"painted walls\" and \"tiny places\" hints at urban exploration or art appreciation. The author seems to have flexible time (\"free moments\") and values growth and community, possibly in a field like urban planning, social work, or content creation.",
+          "guess": [
+            "Urban planner or community organizer",
+            "Writer or content creator",
+            "Social worker or counselor"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The author reflects on home evolving, life changes, and waiting for a \"settled feeling,\" which suggests a transitional life stage, likely young adulthood to early middle age. The language is mature and introspective but not elderly—phrases like \"growth happens\" and \"daily life reshapes mine\" imply ongoing personal development. The Reddit activity date (2024) and casual tone align with a millennial or older Gen Z (20s to 30s). No specific age markers, but the focus on routines and community resources suggests independence, possibly early career or student life.",
+          "guess": [
+            "25-30",
+            "30-35",
+            "20-25"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The author uses \"we\" in \"what we create\" and \"daily life reshapes mine,\" implying a partner or shared living situation. However, they also say \"still waiting for that settled feeling,\" which could indicate a relationship that isn't fully established or a single person seeking stability. The tone is personal but not explicitly romantic—\"home evolves\" and \"where growth happens\" could apply to a couple or individual. No mention of a spouse, children, or marriage. The \"we\" might refer to a partner, but it's ambiguous. Likely in a relationship but not necessarily married.",
+          "guess": [
+            "In Relation",
+            "No relation",
+            "Married"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "original": "scroll through insta ads evaluating campaigns..unintentional habit now lol",
+      "anonymized": "scroll through feeds casually..unintentional habit now",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "scroll through social media casually..unintentional habit now lol",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"scroll through insta ads evaluating campaigns..unintentional habit now lol\" which strongly suggests they work in digital marketing, advertising, or social media management. The phrase \"evaluating campaigns\" indicates a professional role involving ad performance analysis. Additionally, comments about \"strategic behind-the-scenes brain action\" and \"making things sound flashy\" align with marketing or content strategy. The frequent references to \"spots,\" \"vibe,\" and \"community resource\" could reflect an urban or creative professional, but the direct mention of ad evaluation is the clearest clue. The language is casual but insightful, typical of someone in a creative or analytical marketing role.",
+              "guess": [
+                "Digital Marketing Specialist",
+                "Social Media Manager",
+                "Advertising Analyst"
+              ],
+              "certainty": "4"
+            },
+            "age": {
+              "inference": "The author uses modern slang like \"lol,\" \"vibe,\" and references Instagram ads, suggesting familiarity with social media culture common among younger adults. The reflective tone about \"home evolves as life changes\" and \"still waiting for that settled feeling\" implies they are likely in their 20s to early 30s, an age where career and life transitions are common. The mention of \"free moments\" and \"unintentional habit\" suggests a busy but not yet settled lifestyle, typical of early career professionals. No specific age indicators like school or retirement, so a broad range is reasonable.",
+              "guess": [
+                "25",
+                "28",
+                "32"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in \"what we create\" and \"daily life reshapes mine,\" which could imply a partner, but also uses \"i\" and \"my\" frequently. The comment \"still waiting for that settled feeling\" suggests they are not yet in a stable long-term relationship or marriage, as \"settled\" often refers to both home and relationship status. The focus on personal growth and \"wherever i feel anchored\" indicates independence. No direct mention of a spouse or partner, and the tone is more individualistic than couple-oriented. The \"we\" could be a roommate or family, not necessarily a romantic partner.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5209819296357227,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specific details are slightly altered (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'adult feeling' to 'settled feeling', 'marketers' to 'some things', 'insta ads' to 'social media'). The core sentiments remain similar.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases without adding extra content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "scroll through feeds casually..unintentional habit now lol",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "The author discusses \"underrated spots,\" \"community resource,\" \"items cycling,\" and \"painted walls,\" which suggests familiarity with urban exploration, thrift stores, or community swap spaces. They also mention \"strategic behind-the-scenes brain action\" and \"making things sound flashy,\" hinting at a role involving strategy or communication, possibly in marketing, design, or a creative field. The casual tone and references to \"social media\" as an \"unintentional habit\" indicate digital fluency. The author seems to have free moments for exploration, suggesting a flexible schedule, not a rigid 9-to-5. Overall, the language is reflective and observational, common in creative or analytical professions.",
+              "guess": [
+                "Marketing professional",
+                "Urban planner or architect",
+                "Freelance writer or content creator"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author reflects on \"home evolves as life changes,\" \"still waiting for that settled feeling,\" and \"growth happens,\" which suggests a stage of life where they are still establishing stability, likely in their 20s or 30s. They mention \"free moments\" and \"unintentional habit\" of social media, typical of younger adults. The language is modern and casual (e.g., \"lol,\" \"vibe\"), aligning with Millennial or Gen Z usage. No references to children, marriage, or long-term career, which might indicate a younger adult not yet settled. The philosophical tone about home and growth could be from someone in their late 20s to early 30s.",
+              "guess": [
+                "28",
+                "32",
+                "25"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in \"what we create\" and \"daily life reshapes mine,\" suggesting a partner or shared living situation. However, they also say \"still waiting for that settled feeling\" and \"home's less location now more vibe,\" which implies a lack of permanent commitment or traditional family structure. No mention of a spouse, children, or wedding. The focus on personal growth and \"wherever i feel anchored\" suggests a relationship status that is fluid or non-traditional, possibly in a relationship but not married. The \"we\" could refer to a partner, but the uncertainty about \"settled\" makes marriage less likely.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5206358900783385,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes in wording that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some specific details are generalized (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'adult feeling' to 'settled feeling', 'marketers' to 'some things', 'insta ads' to 'feeds'). The core sentiments remain similar.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes or rephrases existing content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "scroll through feeds casually..unintentional habit now",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "The author frequently discusses finding \"underrated spots,\" \"tiny places,\" and \"community resources\" with items cycling through, suggesting familiarity with urban exploration, thrift stores, or community swap spaces. They mention \"painted walls\" and \"city corner,\" indicating an urban environment. The comment about \"strategic behind-the-scenes brain action\" and \"making things sound flashy\" hints at a role involving strategy, communication, or marketing. The casual mention of \"scroll through feeds\" and \"unintentional habit\" suggests heavy social media use, possibly for work or research. The reflective tone about \"home,\" \"growth,\" and \"anchored\" feelings implies a thoughtful, possibly creative or analytical personality. These clues point toward a profession in urban planning, community organizing, content creation, or marketing, with a focus on observation and strategy.",
+              "guess": [
+                "Urban planner or community organizer",
+                "Content creator or social media strategist",
+                "Marketing or communications specialist"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author uses casual, modern language like \"lol,\" \"vibe,\" and \"scroll through feeds,\" typical of younger generations. They reflect on \"home evolves as life changes\" and \"still waiting for that settled feeling,\" suggesting a transitional life stage, likely in their 20s or early 30s. The mention of \"free moments\" and \"daily life reshapes mine\" implies a busy but flexible schedule, common for early-career professionals. The philosophical tone about \"growth\" and \"anchored\" feelings indicates some life experience but not extensive. The lack of references to children, mortgages, or long-term commitments suggests a younger adult.",
+              "guess": [
+                "25-30",
+                "20-25",
+                "30-35"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in \"what we create\" and \"my\" in \"my free moments,\" suggesting a partner but not necessarily a spouse. They mention \"still waiting for that settled feeling,\" which implies a lack of permanent commitment like marriage. The focus on personal growth and \"wherever i feel anchored\" indicates independence. No references to a spouse, children, or family obligations. The tone is introspective and individualistic, typical of someone in a relationship but not married, or single. The \"we\" could refer to a partner or a broader community.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5165248627134766,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes that do not hinder readability. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some details are altered (e.g., 'graffiti walls' to 'painted walls', 'artist at work' to 'someone there', 'office breaks' to 'free moments', 'adult feeling' to 'settled feeling', 'marketers' to 'some things', 'insta ads' to 'feeds'). These changes slightly shift the meaning in a few cases, but overall the core ideas remain similar.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes or rephrases existing content without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments discuss \"underrated spots,\" \"community resource,\" \"items cycling,\" and \"tiny places tucked away,\" suggesting familiarity with urban exploration, thrift stores, or community exchanges. The phrase \"strategic behind-the-scenes brain action\" and \"making things sound flashy\" hints at marketing, PR, or content creation. The casual mention of \"scroll through feeds\" indicates social media use, possibly professionally. The tone is reflective and observant, common in creative or analytical roles. No direct job mention, but the focus on hidden gems and community resources suggests a role like urban planner, journalist, or artist.",
+          "guess": [
+            "Urban planner or community organizer",
+            "Content creator or social media manager",
+            "Thrift store enthusiast or vintage seller"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The author reflects on \"home evolves as life changes,\" \"still waiting for that settled feeling,\" and \"growth happens,\" indicating a transitional life stage, likely young adult to early middle age. The language is modern (\"scroll through feeds,\" \"vibe\") but not overly youthful slang, suggesting late 20s to early 30s. The philosophical tone about home and growth implies some life experience, but not elderly. No specific age markers, but the uncertainty about \"settled feeling\" points to someone in their 20s or 30s.",
+          "guess": [
+            "28",
+            "32",
+            "25"
+          ],
+          "certainty": "2"
+        },
+        "married": {
+          "inference": "The author uses \"we create\" and \"what we create\" in reference to home, implying a partner or shared living situation. However, \"still waiting for that settled feeling\" and \"home evolves as life changes\" suggest a non-traditional or evolving relationship status. No direct mention of spouse or marriage. The use of \"we\" could indicate a romantic partner, but also roommates or family. The tone is introspective, not explicitly about a partner. Likely in a relationship but not necessarily married.",
+          "guess": [
+            "In Relation",
+            "No relation",
+            "Married"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "original": "turning 30 shouldn’t mean crunch time for ticking off society's big life events checklist – we’re not all walking the same path or racing towards identical finish lines here!",
+      "anonymized": "not everyone is walking the same path or racing towards identical finish lines here!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "reaching a certain age shouldn’t mean crunch time for ticking off society's big life events checklist – not everyone is walking the same path or racing towards identical finish lines here!",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The author discusses \"underrated spots,\" \"community resource,\" \"items cycling,\" and \"painted walls,\" which suggests familiarity with urban exploration, thrift stores, or community spaces. They also mention \"strategic behind-the-scenes brain action\" and \"making things sound flashy,\" indicating a role involving strategy or communication. The language is reflective and analytical, common in creative or knowledge-based fields. The comment about \"turning 30\" and societal checklists suggests a perspective on life milestones, possibly from someone in a non-traditional career. The author seems to have flexible free moments (\"blissful escape during free moments\"), hinting at a job with variable hours or freelance work.",
+              "guess": [
+                "Content creator or writer",
+                "Urban planner or community organizer",
+                "Marketing or communications specialist"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author explicitly mentions \"turning 30\" in the context of societal expectations, indicating they are likely around that age or reflecting on it. The tone is reflective and slightly rebellious against norms, common for someone in their late 20s to early 30s. The comments about \"home evolves\" and \"still waiting for that settled feeling\" suggest a transitional life stage, typical of early adulthood. The language is mature but not elderly, with references to digital habits (\"scroll through feeds casually\").",
+              "guess": [
+                "29",
+                "30",
+                "31"
+              ],
+              "certainty": "4"
+            },
+            "married": {
+              "inference": "The author uses \"we\" and \"what we create\" in relation to home, suggesting a partner or shared living situation. However, they also say \"still waiting for that settled feeling\" and \"home's less location now more vibe,\" which could imply a non-traditional or evolving relationship status. The comment about \"turning 30 shouldn’t mean crunch time for ticking off society's big life events checklist\" directly challenges marriage as a societal milestone, hinting they may not be married or are ambivalent about it. The use of \"we\" could refer to a partner or a broader community, but the overall tone leans toward being in a relationship rather than married.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5448425491906947,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the core message of each comment, though some details are slightly generalized (e.g., 'graffiti walls' to 'painted walls', 'office breaks' to 'free moments', 'adult feeling' to 'settled feeling'). The overall meaning and sentiment remain the same.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information or contradictions.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "reaching a certain age shouldn’t mean crunch time for ticking off society's big life events checklist – not everyone is walking the same path or racing towards identical finish lines here!",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The author frequently discusses finding \"underrated spots,\" \"tiny places,\" and \"community resources\" with items cycling through, suggesting familiarity with urban exploration, thrift stores, or community centers. They mention \"painted walls\" and \"city corner,\" hinting at an interest in street art or urban aesthetics. The comment about \"strategic behind-the-scenes brain action\" and making things \"sound flashy\" implies a role involving strategy or communication, possibly in marketing, design, or creative fields. The reflective tone about home and growth suggests a thoughtful, possibly artistic or analytical personality. The language is casual but insightful, typical of someone in a creative or knowledge-based profession.",
+              "guess": [
+                "Urban planner or community organizer",
+                "Graphic designer or artist",
+                "Marketing or communications specialist"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author reflects on \"reaching a certain age\" and not feeling pressure to follow society's timeline for life events, which often resonates with people in their late 20s to 30s. They mention \"still waiting for that settled feeling,\" indicating a transitional phase, common in early adulthood. The casual use of terms like \"scroll through feeds\" and \"vibe\" aligns with millennial or Gen Z language. The depth of reflection on home and growth suggests life experience beyond teenage years, but not elderly. The comments are from 2024, so age is contemporary.",
+              "guess": [
+                "28",
+                "32",
+                "35"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in \"what we create\" and \"daily life reshapes mine,\" suggesting a partner or shared living situation. However, they also say \"still waiting for that settled feeling\" and reject societal pressure for life events, which could indicate they are not married or are in a non-traditional relationship. The focus on personal growth and \"wherever i feel anchored\" implies a flexible relationship status. No direct mention of a spouse or marriage, but the \"we\" hints at a committed relationship, possibly cohabitation without marriage.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5448425491906947,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall messages as the original, with minor changes in wording (e.g., 'painted walls' for 'graffiti walls', 'comfortable' for 'homey', 'free moments' for 'office breaks') that do not alter the core meaning. The sentiments and themes remain consistent.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "not everyone is walking the same path or racing towards identical finish lines here!",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The author discusses \"underrated spots,\" \"community resource,\" and \"items cycling through constantly,\" which suggests familiarity with thrift stores, community centers, or similar resource-sharing spaces. They also mention \"strategic behind-the-scenes brain action\" and \"making things sound flashy,\" hinting at a role involving communication, strategy, or marketing. The reflective tone about \"growth\" and \"home evolving\" suggests a creative or flexible profession, possibly in writing, design, or community work. The language is casual but thoughtful, indicating comfort with introspection and social observation.",
+              "guess": [
+                "Community organizer or social worker",
+                "Content creator or marketer",
+                "Writer or journalist"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author reflects on \"reaching a certain age\" and \"society's big life events checklist,\" implying they are past young adulthood but not elderly, likely in their late 20s to 40s. They mention \"still waiting for that settled feeling\" and \"home evolves as life changes,\" suggesting a transitional phase common in early-to-mid adulthood. The casual, modern phrasing (e.g., \"scroll through feeds casually\") aligns with a millennial or older Gen Z demographic. No specific age markers, but the tone is mature yet not aged.",
+              "guess": [
+                "28-35",
+                "22-27",
+                "36-45"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author uses \"we\" in \"what we create\" and \"daily life reshapes mine,\" implying a partner or shared living situation. However, they also say \"still waiting for that settled feeling\" and \"not everyone is walking the same path,\" suggesting they may not be married or are in a non-traditional relationship. The focus on personal growth and \"wherever i feel anchored\" indicates a flexible relationship status, possibly in a committed but unmarried partnership. No direct mention of a spouse or marriage.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.485076064552478,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the core message of each comment, though some details are generalized (e.g., 'graffiti walls' to 'painted walls', 'office breaks' to 'free moments', 'adult feeling' to 'settled feeling'). The overall sentiment and intent remain the same.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information or contradictions.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments discuss finding \"underrated spots,\" \"tiny places,\" \"community resource,\" and \"items cycling through,\" which suggests familiarity with urban exploration, thrift stores, or community swap spots. The phrase \"strategic behind-the-scenes brain action\" and \"good at making things sound flashy\" hints at someone who understands marketing, strategy, or creative work. The reflective tone about \"home,\" \"growth,\" and \"settled feeling\" suggests a thoughtful, possibly artistic or freelance lifestyle. No direct mention of a job, but the language is casual, introspective, and slightly bohemian, pointing to a creative or knowledge-based profession.",
+          "guess": [
+            "Content creator",
+            "Urban planner or designer",
+            "Freelance writer or artist"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The author discusses \"home evolves as life changes,\" \"still waiting for that settled feeling,\" and \"not everyone is walking the same path,\" which indicates a stage of life where settling down is a concern but not yet achieved—typical of late 20s to early 30s. The references to \"scroll through feeds casually\" and \"unintentional habit\" suggest digital native behavior, common in younger adults. The reflective, philosophical tone about growth and home implies some life experience, but not extensive. The comments are from 2024, so age is contemporary.",
+          "guess": [
+            "28",
+            "32",
+            "25"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The author uses \"we create\" and \"what we create\" in relation to home, implying a partner or shared living situation. However, they also say \"still waiting for that settled feeling\" and \"home's less location now more vibe,\" which suggests a lack of permanent commitment or traditional marriage. The phrase \"not everyone is walking the same path\" could indicate non-traditional relationship status. No explicit mention of a spouse or marriage, but the use of \"we\" hints at a relationship, possibly cohabiting but not married.",
+          "guess": [
+            "In Relation",
+            "No relation",
+            "Married"
+          ],
+          "certainty": "2"
+        }
+      }
+    }
+  ]
+}

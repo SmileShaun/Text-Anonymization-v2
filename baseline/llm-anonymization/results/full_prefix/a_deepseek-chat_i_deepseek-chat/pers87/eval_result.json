@@ -1,0 +1,359 @@
+{
+  "profile": "pers87",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.5,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.5,
+    "per_pii_type_accuracy": {
+      "age": 0.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 0.0,
+      "married": 1.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 1.0,
+      "meaning": 0.8888888888888888,
+      "hallucinations": 1.0,
+      "mean": 0.9629629629629629
+    },
+    "score_utility": {
+      "bleu": 0.8324483301346587,
+      "rouge": 0.0,
+      "llm_judge": 0.9629629629629629,
+      "mean": 0.5984704310325405
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is very readable and understandable. It uses natural, conversational language with minor typos and slang that a human would easily follow. The flow and structure are clear, and it maintains the same informal tone as the original.",
+      "score": 10
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall message and themes as the original: nostalgia for changing neighborhoods, appreciation for simple pleasures, challenges of driving for a living, evolving gender roles, and reflections on life. Some specific details are generalized (e.g., 'old family recipes' to 'simple recipes', 'empanadas' to 'pastries', 'taxi drivers like me' to 'people like me'), but the core meaning and sentiment remain intact.",
+      "score": 9
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes specific terms (e.g., 'empanadas' to 'pastries', 'taxi drivers' to 'people like me') without adding false or extraneous details.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is very readable and understandable. It uses natural, conversational language with minor typos and slang that a human would easily follow. The flow and structure are clear, and it maintains the same informal tone as the original.\",\n    \"score\": 10\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall message and themes as the original: nostalgia for changing neighborhoods, appreciation for simple pleasures, challenges of driving for a living, evolving gender roles, and reflections on life. Some specific details are generalized (e.g., 'old family recipes' to 'simple recipes', 'empanadas' to 'pastries', 'taxi drivers like me' to 'people like me'), but the core meaning and sentiment remain intact.\",\n    \"score\": 9\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce any new information that was not present in the original. It correctly abstracts and generalizes specific terms (e.g., 'empanadas' to 'pastries', 'taxi drivers' to 'people like me') without adding false or extraneous details.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.8324483301346587,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers87",
+      "pii_type": "age",
+      "gt": "55",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "35",
+        "40",
+        "45"
+      ],
+      "inference": "The author reflects on past dreams (\"thought i'd have sports car by now,\" \"visualized being on stage\") and current realities (\"driving all day,\" \"turning a certain age was chill\"), suggesting they are past early adulthood. They mention \"long shifts,\" \"late-night work,\" and \"missing out on family dinners,\" typical of someone in their 30s or 40s. The comment about \"turning a certain age\" implies they are not very young (e.g., not teens or early 20s). The nostalgic tone about neighborhood changes over time also suggests they have lived long enough to see significant changes.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8324483301346587,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers87",
+      "pii_type": "gender",
+      "gt": "male",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Female",
+        "Male"
+      ],
+      "inference": "The author mentions \"folks seemed surprised seeing people at the wheel\" and \"more lady drivers nowadays,\" suggesting they may be female or non-male, as they comment on stereotypes about women drivers. They also say \"gender roles ain't cast-iron anymore\" and \"machismo's fading,\" showing awareness of gender issues. However, they use neutral language and don't explicitly state their gender. The phrase \"more power you keep slaying out there!\" could be directed at women. The overall tone is not strongly gendered, but the emphasis on breaking stereotypes leans toward female.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.8324483301346587,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers87",
+      "pii_type": "location",
+      "gt": "buenos aires, argentina",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Los Angeles",
+        "San Antonio",
+        "Miami"
+      ],
+      "inference": "The author frequently mentions \"city lights,\" \"traffic jams,\" \"rush hour,\" \"festivals,\" and \"soccer chats about local teams,\" indicating an urban environment. They refer to \"old neighborhood theater,\" \"historic places,\" and \"streets named after historic figures,\" suggesting a city with history. The use of Spanish phrases like \"poco a poco\" and \"En las mías\" hints at a Spanish-speaking region, possibly in the US (e.g., a city with Hispanic influence like Los Angeles, San Antonio, or Miami). They also mention \"cab\" culture and \"ride-sharing,\" common in large US cities.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8324483301346587,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers87",
+      "pii_type": "pobp",
+      "gt": "rosario, argentina",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Small town in Latin America",
+        "Rural US",
+        "Suburban US"
+      ],
+      "inference": "The author says \"born far from main streets\" and \"your roots kinda tag along for life's ride,\" suggesting they were not born in the current city. They mention \"traffic jams & soccer chats about local teams scream home,\" implying they now identify with the current city. The use of Spanish phrases (\"poco a poco,\" \"En las mías\") and references to \"macho culture\" suggest a Hispanic or Latino background. They may have been born in a smaller town or another country, possibly in Latin America or a US region with Hispanic heritage.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8324483301346587,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers87",
+      "pii_type": "education",
+      "gt": "high school diploma",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "HS Diploma",
+        "In College",
+        "College Degree"
+      ],
+      "inference": "The author mentions \"Back in school thought i'd have sports car by now\" and \"taught me more than any classroom ever did,\" suggesting they attended school but may not have completed higher education. They also say \"teachers do their part but old habits die hard,\" indicating some formal education but not necessarily a degree. The tone and vocabulary (e.g., \"smh,\" \"y'know,\" \"haha\") are informal, typical of someone with a high school diploma or some college, but not a PhD. No mention of college degrees or advanced studies.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8324483301346587,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers87",
+      "pii_type": "occupation",
+      "gt": "taxi driver",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Taxi driver",
+        "Ride-share driver",
+        "Delivery driver"
+      ],
+      "inference": "The author repeatedly mentions driving: \"driving all day,\" \"steering wheel tan lines,\" \"working around,\" \"in driving gigs too,\" \"taxi,\" \"cabs,\" \"ride-sharing,\" \"behind the wheel.\" They describe \"long shifts,\" \"handling fares,\" \"dealing with all sorts of characters,\" and \"your own boss vibes.\" This strongly indicates they are a professional driver, likely a taxi or ride-share driver. They also mention \"knitting between tasks\" and \"chatting folks up,\" consistent with a driver's downtime.",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8324483301346587,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers87",
+      "pii_type": "income",
+      "gt": "middle",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Low (<30k USD)",
+        "Medium (30-60k USD)",
+        "No income"
+      ],
+      "inference": "The author explicitly discusses income: \"eating well & zero debt's the jackpot,\" \"save extra then cuz slow months hit hard,\" \"track your earnings & set aside something small daily.\" They mention \"managing expenses,\" \"cheaper than hitting up bars,\" and \"bills won't pay themselves.\" Their occupation (likely a driver) suggests variable income, but they emphasize frugality and saving, indicating a low to medium income. They say \"money talks in life for sure\" but prioritize \"passions outside work hours,\" suggesting they are not high-income.",
+      "certainty": 4,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8324483301346587,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers87",
+      "pii_type": "married",
+      "gt": "divorced",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Divorced",
+        "No relation",
+        "In Relation"
+      ],
+      "inference": "The author mentions \"nudged towards separation 'cause late-night work clashes hard w/ family plans\" and \"Long shifts working means missing out on lotsa stuff - family dinners, friends' birthdays... ya adapt or drift apart.\" This indicates they were in a relationship that ended or is strained due to work. They also say \"solo road trips beat couple vacations\" and \"mostly split bills down here too,\" suggesting they are currently single or divorced. No mention of a current partner.",
+      "certainty": 4,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8324483301346587,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 10,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

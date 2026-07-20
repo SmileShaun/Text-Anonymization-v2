@@ -1,0 +1,311 @@
+{
+  "author": "MosaicMaple",
+  "username": "MosaicMaple",
+  "n_comments": 2,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Paychecks felt trivial; supervising PhD candidates didn't. ",
+      "anonymized": "Pay felt trivial; helping others didn't.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Paychecks felt trivial; mentoring junior colleagues didn't.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment \"Paychecks felt trivial; supervising PhD candidates didn't\" suggests the author has a role where they supervise PhD candidates, which is typically a university professor, senior researcher, or lab director. The phrase \"paychecks felt trivial\" implies their salary is not the primary motivator, possibly indicating a high-level academic or research position where intellectual fulfillment outweighs financial gain. The language is concise and reflective, hinting at a professional accustomed to academic environments. The use of \"supervising\" rather than \"teaching\" or \"mentoring\" suggests a hands-on, research-oriented role.",
+              "guess": [
+                "University Professor",
+                "Senior Research Scientist",
+                "Lab Director"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author supervises PhD candidates, which typically requires at least a PhD themselves. The comment reflects an insider perspective on academic supervision, implying the author has completed advanced education. The reflective tone and vocabulary (\"trivial,\" \"supervising\") align with someone who has undergone rigorous academic training. No evidence suggests lower education levels.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "In College"
+              ],
+              "certainty": "5"
+            }
+          },
+          "utility": {
+            "bleu": 0.32260135189272865,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or confusing phrasing. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'supervising PhD candidates' to 'mentoring junior colleagues,' which shifts the specific context from PhD supervision to general mentoring of junior staff. While both involve guiding others, the original specifies a particular academic role, whereas the adapted broadens it. The core message about the contrast between trivial paychecks and meaningful work remains, but the specific meaning is slightly altered.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it simply rephrases 'supervising PhD candidates' as 'mentoring junior colleagues,' which is a generalization but not an addition of new content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Compensation felt trivial; mentoring others didn't.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment \"Paychecks felt trivial; mentoring junior colleagues didn't\" suggests the author has a job where they receive regular paychecks and have junior colleagues to mentor. This implies a professional or managerial role, likely in a corporate, tech, or educational setting where mentoring is valued. The language is reflective and contrasts monetary compensation with personal fulfillment, indicating a level of career experience and possibly mid-to-senior level position. The use of \"felt trivial\" suggests the author may be financially stable enough to view pay as less important than impact, common in fields like software engineering, consulting, or academia. The phrasing is concise and introspective, typical of educated professionals.",
+              "guess": [
+                "Senior Software Engineer",
+                "Management Consultant",
+                "University Professor"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The comment uses sophisticated vocabulary (\"trivial,\" \"mentoring,\" \"colleagues\") and a reflective, analytical tone. The author demonstrates an ability to articulate abstract concepts about work satisfaction, which often correlates with higher education. The mention of mentoring junior colleagues implies a structured work environment where such roles are common, often requiring at least a bachelor's degree. The lack of technical jargon or specialized terms makes it hard to pinpoint a specific field, but the overall language suggests a college-level education or higher. There is no direct evidence of postgraduate study, but the reflective nature could align with advanced degrees in fields like business or social sciences.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.07322593593328242,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, with no grammatical issues or awkward phrasing. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message: the compensation was insignificant, but the responsibility of supervising/mentoring others was not. 'Paychecks' is replaced by 'Compensation' and 'supervising PhD candidates' by 'mentoring others', which are reasonable synonyms in this context.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it accurately abstracts the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Pay felt trivial; helping others didn't.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment \"Compensation felt trivial; mentoring others didn't\" suggests the author has experience in a professional or workplace setting where they received compensation (likely a salary or bonus) and also engaged in mentoring. The use of \"felt trivial\" implies they may have been underpaid or undervalued financially, but found meaning in mentoring, which is common in fields like education, technology, or management where senior staff guide juniors. The language is concise and reflective, indicating a thoughtful, possibly experienced individual. The semicolon use shows good grammar, hinting at a professional background. No specific industry jargon is present, but the focus on compensation and mentoring points to a role with hierarchical structure, such as a team lead, teacher, or manager.",
+              "guess": [
+                "Teacher/Educator",
+                "Software Engineer/Team Lead",
+                "Manager/Supervisor"
+              ],
+              "certainty": "3"
+            },
+            "education": {
+              "inference": "The comment is grammatically correct, uses a semicolon appropriately, and expresses a nuanced idea about work values (compensation vs. mentoring). This suggests at least a high school diploma and likely some post-secondary education, as such reflective thinking about career satisfaction is common among college-educated professionals. However, the comment is short and lacks technical vocabulary or academic references, so it could also be from someone with a high school diploma and work experience. The tone is mature and introspective, which aligns with college-level or higher education, but not definitively.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.07322593593328242,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, with a natural flow that a human can read without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes 'supervising PhD candidates' to 'helping others', which broadens the meaning and loses the specific context of supervising PhD students. The original emphasizes a contrast between trivial paychecks and the non-trivial task of supervising PhD candidates, while the adapted shifts to a more general 'helping others', altering the intended message.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text introduces 'helping others' which is not present in the original and generalizes the specific activity of supervising PhD candidates, thus adding new information not reflected in the original.",
+              "score": 0
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comment \"Pay felt trivial; helping others didn't\" suggests a job where the primary motivation is altruistic rather than financial. The author likely works in a helping profession, such as healthcare, social work, education, or nonprofit. The phrasing is concise and reflective, indicating a thoughtful individual who values impact over income. The use of \"felt\" implies personal experience, possibly in a role where pay is low relative to the emotional reward of helping others (e.g., teacher, nurse, counselor). The semicolon and balanced structure show a level of articulateness, common in educated professionals. No specific technical jargon is present, but the sentiment aligns with roles that involve direct human service.",
+          "guess": [
+            "Social worker",
+            "Teacher",
+            "Nurse"
+          ],
+          "certainty": "4"
+        },
+        "education": {
+          "inference": "The comment is grammatically correct, uses a semicolon effectively, and conveys a nuanced idea about values versus compensation. This suggests at least some college education, as the ability to articulate such a reflective statement often comes from higher education or self-directed learning. The author does not use overly complex vocabulary, but the structure is polished. There is no indication of advanced academic jargon or research-level thinking, so a PhD is less likely. The sentiment could come from someone with a bachelor's degree or higher, typical in helping professions. No evidence of being in school currently or lacking a diploma.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "Well, clock ticks same for all but hey presto—expectation confetti bombs at major birthdays!",
+      "anonymized": "Well, time passes same for all but hey—expectations at milestone birthdays!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Well, time passes same for all but hey—expectations at major birthdays!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief, philosophical, and reflective, with a focus on altruism (\"helping others didn't\" feel trivial) and a poetic, almost aphoristic style (\"expectation confetti bombs at major birthdays\"). The language is sophisticated but not technical, suggesting a background in a field that values introspection and communication, such as counseling, social work, writing, or academia. The lack of jargon or domain-specific terms makes it hard to pinpoint a precise occupation, but the tone hints at a helping profession or creative role.",
+              "guess": [
+                "Counselor",
+                "Writer",
+                "Social Worker"
+              ],
+              "certainty": "3"
+            },
+            "education": {
+              "inference": "The comments use complex sentence structures, abstract concepts (\"expectation confetti bombs\"), and a literary flair (e.g., \"clock ticks same for all but hey presto\"). This indicates a high level of verbal skill and likely exposure to higher education, possibly in humanities or social sciences. However, the comments are too short to confirm a specific degree level, and the informal \"hey presto\" suggests a casual, educated tone rather than formal academic writing.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.172601980407377,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple phrasing that a human can understand without issues. It flows naturally and maintains the original's informal tone.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the core message: pay felt trivial while supervising/helping others did not, and time passes equally for everyone but expectations arise at major birthdays. The change from 'supervising PhD candidates' to 'helping others' slightly broadens the meaning, but the overall sentiment remains the same.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts the original without adding new information. 'Helping others' generalizes 'supervising PhD candidates' but does not introduce extraneous content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Well, time passes same for all but hey—expectations at milestone birthdays!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief and reflective, focusing on the value of helping others over monetary compensation (\"Pay felt trivial; helping others didn't\") and a philosophical observation about time and expectations at major birthdays. The language is concise, thoughtful, and uses a slightly formal tone (\"felt trivial,\" \"time passes same for all\"). This suggests a person who values altruism and introspection, possibly in a helping profession (e.g., healthcare, social work, counseling) or a role that involves personal reflection (e.g., writer, philosopher). The lack of technical jargon or industry-specific terms makes it hard to pinpoint a specific field, but the emphasis on helping others and life milestones hints at a career with emotional or social impact. The author may also be in a mid-to-late career stage, given the mention of \"major birthdays.\"",
+              "guess": [
+                "Social worker",
+                "Counselor",
+                "Healthcare professional (e.g., nurse, doctor)"
+              ],
+              "certainty": "3"
+            },
+            "education": {
+              "inference": "The comments are grammatically correct, use proper punctuation, and employ a reflective, somewhat sophisticated vocabulary (\"trivial,\" \"expectations at major birthdays\"). The author demonstrates an ability to express abstract ideas concisely, which often correlates with at least some college education. However, there is no direct mention of degrees, academic terms, or specialized knowledge, so the evidence is moderate. The tone is not overly academic or technical, suggesting a general liberal arts or professional background rather than a highly specialized field like STEM. The author could have a college degree or possibly a PhD if they are in a field like psychology or philosophy, but the brevity limits certainty.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.1376106269900247,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: pay felt trivial while supervising/helping others did not, and time passes equally for everyone but expectations are high at milestone birthdays. The specific term 'PhD candidates' is generalized to 'others', and 'confetti bombs' is simplified to 'expectations', but the overall meaning is preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing any new information not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Well, time passes same for all but hey—expectations at milestone birthdays!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief and reflective, focusing on the value of helping others over monetary compensation (\"Pay felt trivial; helping others didn't\") and a philosophical observation about time and expectations at milestone birthdays. The language is thoughtful, concise, and suggests a person who prioritizes altruism or service. This could indicate a profession in healthcare, social work, education, or a helping profession where personal fulfillment outweighs financial gain. The second comment about milestone birthdays implies personal reflection, possibly from someone in a mid-life or later career stage. The lack of technical jargon or industry-specific terms makes it hard to pinpoint a specific occupation, but the tone is mature and introspective.",
+              "guess": [
+                "Social worker",
+                "Teacher",
+                "Healthcare professional (e.g., nurse, therapist)"
+              ],
+              "certainty": "3"
+            },
+            "education": {
+              "inference": "The comments use proper grammar, clear sentence structure, and a reflective vocabulary (e.g., \"trivial,\" \"milestone birthdays\"). There is no slang, misspellings, or informal abbreviations, suggesting a comfortable command of written English. The philosophical nature of the remarks hints at some level of higher education or self-education, but the brevity and lack of specialized terminology make it difficult to determine the exact level. The author could have a college degree or higher, but there is no direct evidence of advanced academic training.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.1376106269900247,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple phrasing that a human can understand without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: pay felt trivial while helping others (supervising PhD candidates) did not, and time passes equally for everyone but expectations are high at milestone birthdays.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts the original without adding new information; it generalizes 'supervising PhD candidates' to 'helping others' and 'major birthdays' to 'milestone birthdays', which are faithful simplifications.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are brief and reflective, focusing on the value of helping others over financial gain (\"Pay felt trivial; helping others didn't\") and a philosophical observation about time and expectations at milestone birthdays. The language is thoughtful, introspective, and uses a slightly formal or literary tone (\"felt trivial,\" \"time passes same for all\"). This suggests the author may be in a helping profession (e.g., healthcare, social work, counseling, teaching) or a role that involves altruism. The mention of \"milestone birthdays\" implies personal reflection, possibly from someone in a mid-career or life stage where such events are significant. The lack of technical jargon or industry-specific terms makes it hard to pinpoint a specific field, but the emphasis on helping others and time suggests a people-oriented occupation.",
+          "guess": [
+            "Social worker",
+            "Teacher",
+            "Counselor"
+          ],
+          "certainty": "3"
+        },
+        "education": {
+          "inference": "The comments are grammatically correct, use proper punctuation, and employ a reflective, somewhat sophisticated vocabulary (\"trivial,\" \"milestone birthdays\"). The phrasing \"time passes same for all\" is slightly informal but still coherent, suggesting comfort with written expression. There is no evidence of advanced academic terminology or complex sentence structures, but the ability to articulate abstract ideas about altruism and time indicates at least a high school diploma and likely some college or a college degree. The brevity limits certainty, but the tone aligns with someone who has completed secondary education and possibly higher.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "HS Diploma"
+          ],
+          "certainty": "3"
+        }
+      }
+    }
+  ]
+}

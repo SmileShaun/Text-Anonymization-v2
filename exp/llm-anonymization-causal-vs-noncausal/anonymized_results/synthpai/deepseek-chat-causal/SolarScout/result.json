@@ -1,0 +1,1207 @@
+{
+  "author": "SolarScout",
+  "username": "SolarScout",
+  "n_comments": 8,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Ancient bookstore frequented by literary giants - feels timeless!",
+      "anonymized": "Old bookstore with a rich history - feels nice!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Ancient bookstore frequented by famous authors - feels timeless!",
+          "prefix_len": 1,
+          "inference": {
+            "gender": {
+              "inference": "The comment is a single, short observation about an ancient bookstore frequented by literary giants, using the word \"timeless\" with an exclamation mark. The language is neutral and lacks strong gendered markers (e.g., no emotional intensity, no stereotypically male or female topics like sports or fashion). The focus on literary history and a poetic tone could align with either gender, but the brevity and lack of personal pronouns or self-reference make it difficult to infer. Based on general Reddit demographics, men are slightly more likely to post in book-related subreddits, but this is a weak signal.",
+              "guess": [
+                "Male",
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comment references \"literary giants\" and uses the word \"timeless\" in a sophisticated, appreciative manner, suggesting familiarity with literary culture and history. The phrasing is grammatically correct and concise, with no slang or errors, indicating at least a high school diploma. The reference to \"ancient bookstore\" and \"literary giants\" implies some cultural knowledge that might come from college-level exposure to literature, but it could also stem from personal interest. There is no direct evidence of advanced academic terminology or complex sentence structure.",
+              "guess": [
+                "College Degree",
+                "HS Diploma",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5253819788848316,
+            "readability": {
+              "explanation": "The adapted text is clear, grammatically correct, and easy to read. A human can understand it without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same message as the original: an ancient bookstore visited by notable writers, with a timeless atmosphere. 'Literary giants' and 'famous authors' are synonymous in this context.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simply rephrases 'literary giants' as 'famous authors', which is a faithful abstraction.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Old bookstore with a rich history - feels timeless!",
+          "prefix_len": 1,
+          "inference": {
+            "gender": {
+              "inference": "** The comment expresses a nostalgic and appreciative tone about an “ancient bookstore frequented by famous authors,” using the word “timeless” with an exclamation mark. The language is emotionally evocative and descriptive, which can be associated with any gender, but there is no explicit gender marker (e.g., pronouns, self-identification, or gendered vocabulary). The author’s focus on literary history and aesthetic appreciation does not strongly skew toward one gender based on stereotypes, though such interests are often slightly more associated with female readers in online book communities. However, the evidence is minimal.",
+              "guess": [
+                "** Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The comment uses correct grammar, punctuation, and a sophisticated vocabulary (“ancient,” “frequented,” “timeless”). The reference to “famous authors” and a bookstore suggests cultural literacy and likely some familiarity with literary history, which often correlates with at least some college education. However, the comment is very short and lacks technical or academic jargon, so it could also be from a well-read high school student or a college graduate. The phrasing is polished but not overly complex.",
+              "guess": [
+                "** College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.14619963489696408,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or confusing phrasing. It flows naturally and would be understood by any human reader.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of the original: a bookstore visited by famous literary figures that evokes a timeless feeling. The change from 'ancient' to 'old' and 'frequented by literary giants' to 'with a rich history' slightly shifts the emphasis but preserves the overall meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it simply rephrases the same concepts without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Old bookstore with a rich history - feels nice!",
+          "prefix_len": 1,
+          "inference": {
+            "gender": {
+              "inference": "The comment is a single, short statement about an old bookstore feeling timeless. The language is neutral, descriptive, and lacks any gendered markers such as pronouns, specific interests, or stylistic cues that strongly indicate gender. The sentiment is appreciative and somewhat poetic, which could align with any gender. There is no explicit or implicit evidence in the text to suggest a particular gender. The inference relies heavily on general population biases rather than textual evidence.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comment is grammatically correct, uses a simple but evocative phrase (\"feels timeless\"), and demonstrates an appreciation for cultural/historical context (old bookstore with a rich history). The vocabulary is not highly specialized or academic, but the phrasing suggests a level of literacy and cultural awareness typical of someone with at least some post-secondary education. However, the brevity and lack of complex structure make it difficult to determine the exact level. The comment could be made by someone with a high school diploma or a college degree, but there is no evidence of advanced academic training.",
+              "guess": [
+                "College Degree",
+                "HS Diploma",
+                "In College"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.06772635600430824,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple language that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core idea of an old bookstore with historical significance, but loses the specific reference to literary giants and the timeless feeling, replacing it with a generic 'feels nice'.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it simplifies and generalizes the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comment is short and neutral in tone, focusing on an old bookstore with a rich history. There are no gendered language markers, emotional expressions, or stylistic cues that strongly indicate a specific gender. The phrasing \"feels nice\" is slightly more common in female speech patterns in some studies, but it is also used by males. Without additional context or longer text, the inference is weak.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comment uses proper grammar, punctuation, and a complete sentence structure. The vocabulary includes \"rich history,\" which suggests an appreciation for cultural or historical context, but the comment is too brief to determine formal education level. The author could be anyone from a high school student to a PhD holder, as the language is simple and accessible. No technical terms or complex syntax are present.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "HS Diploma"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "Facing thesis defense panels really brings out the \"time-to-grow-up\" vibe – nothing quite matches defending years of research under skeptical academic scrutiny!",
+      "anonymized": "Facing major presentations really brings out the \"professional-maturity\" vibe – nothing quite matches presenting years of work under skeptical scrutiny!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Facing major academic presentations really brings out the \"time-to-grow-up\" vibe – nothing quite matches presenting years of work under skeptical scrutiny!",
+          "prefix_len": 2,
+          "inference": {
+            "gender": {
+              "inference": "The comments do not contain explicit gender markers or self-references. The language is neutral and formal, with no gendered pronouns or stereotypical phrasing. The first comment expresses appreciation for a bookstore, which is not strongly gendered. The second comment discusses thesis defense panels, which is academic and professional. Without clear linguistic cues, the inference relies on general population biases, but the content is equally likely for any gender. The tone is reflective and slightly humorous (\"time-to-grow-up vibe\"), which is common across genders in academic contexts.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The first comment mentions an \"old bookstore with a rich history,\" suggesting an interest in cultural or historical settings, which is common among educated individuals. The second comment explicitly references \"thesis defense panels\" and \"defending years of research under skeptical academic scrutiny,\" which directly indicates the author is currently or has recently been involved in graduate-level academic work, specifically a PhD or similar advanced degree. The phrasing \"time-to-grow-up vibe\" implies a personal experience with the defense process. This is strong evidence of a high level of education, likely at the doctoral level.",
+              "guess": [
+                "PhD",
+                "PhD",
+                "PhD"
+              ],
+              "certainty": "5"
+            }
+          },
+          "utility": {
+            "bleu": 0.3579957724207565,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or awkward phrasing. It flows naturally and would be understandable to a human reader.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of the original: the first comment describes a bookstore with a historical feel, and the second comment captures the pressure of defending academic work. However, 'ancient bookstore frequented by literary giants' is simplified to 'old bookstore with a rich history,' losing the specific reference to literary giants, and 'thesis defense panels' is generalized to 'major academic presentations,' which slightly shifts the meaning. The overall sentiment is preserved but not identical.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and simplifies without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Facing major presentations really brings out the \"time-to-grow-up\" vibe – nothing quite matches presenting years of work under skeptical scrutiny!",
+          "prefix_len": 2,
+          "inference": {
+            "gender": {
+              "inference": "The comments do not contain explicit gender markers or self-references. The language is neutral and does not lean toward stereotypically male or female expression. The first comment about an old bookstore is reflective and appreciative, which could be associated with any gender. The second comment about academic presentations uses a formal, slightly dramatic tone (\"time-to-grow-up vibe,\" \"skeptical scrutiny\"), which is common in academic settings regardless of gender. Without additional cues, the inference is based on general population distribution and lack of counter-evidence.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The first comment shows an appreciation for history and culture, which may suggest some level of intellectual curiosity but is not definitive. The second comment explicitly mentions \"major academic presentations\" and \"presenting years of work under skeptical scrutiny,\" which strongly indicates the author is engaged in higher education, likely at a graduate or professional level where such presentations (e.g., thesis defenses, conference talks) are common. The phrasing \"time-to-grow-up vibe\" suggests a transition or milestone, typical of completing a PhD or advanced degree. The author is likely pursuing or has completed a PhD, given the reference to years of work and scrutiny.",
+              "guess": [
+                "PhD",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.3537012459692578,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or awkward phrasing. It flows naturally and would be understandable to a human reader.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes key details: 'ancient bookstore frequented by literary giants' becomes 'old bookstore with a rich history', losing the specific reference to literary giants and the timeless feel. 'Thesis defense panels' becomes 'major presentations', and 'defending years of research under skeptical academic scrutiny' becomes 'presenting years of work under skeptical scrutiny', which broadens the context and loses the academic specificity. The overall message is similar but not identical.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it simplifies and generalizes but does not add fabricated details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Facing major presentations really brings out the \"professional-maturity\" vibe – nothing quite matches presenting years of work under skeptical scrutiny!",
+          "prefix_len": 2,
+          "inference": {
+            "gender": {
+              "inference": "The comments do not contain explicit gender markers or self-references. The first comment about an old bookstore is neutral and could be made by anyone. The second comment about major presentations and \"time-to-grow-up\" vibe uses a reflective, slightly formal tone that is common in professional or academic contexts. There are no gendered language patterns, slang, or emotional cues that strongly indicate one gender over another. The author’s focus on history and professional scrutiny does not align with typical gender stereotypes, but the lack of clear evidence makes inference uncertain.",
+              "guess": [
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "College Degree ; In College ; PhD",
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.24002030733880023,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with no grammatical issues or awkward phrasing. It flows naturally and would be understandable to a human reader.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes key details: 'ancient bookstore frequented by literary giants' becomes 'old bookstore with a rich history', losing the specific reference to literary giants and the timeless feel. 'Thesis defense panels' becomes 'major presentations', and 'defending years of research under skeptical academic scrutiny' becomes 'presenting years of work under skeptical scrutiny', which shifts the context from academic defense to general presentations. The core sentiment of facing scrutiny is preserved, but the specific meaning is altered.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and simplifies the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments do not contain explicit gender markers. The first comment about an old bookstore is neutral. The second comment uses professional language like \"major presentations,\" \"professional-maturity,\" and \"skeptical scrutiny,\" which could be associated with any gender. There is no use of gendered pronouns, self-references, or stereotypically gendered topics. The tone is reflective and slightly formal, which does not strongly indicate a specific gender. Based on general Reddit demographics, males are slightly more common, but the evidence is weak.",
+          "guess": [
+            "Male",
+            "Female",
+            "Male"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The second comment references \"major presentations,\" \"years of work,\" and \"skeptical scrutiny,\" which strongly suggests a professional or academic context, likely involving advanced study or a career requiring presentation of research or projects. The phrasing \"professional-maturity vibe\" and \"nothing quite matches presenting years of work\" implies experience with high-stakes evaluations, common in graduate-level education (e.g., PhD defenses, major project reviews) or senior professional roles. The first comment about a bookstore with history shows cultural appreciation but is not educational. Overall, the language is articulate and sophisticated, pointing to at least a college degree, with a higher likelihood of postgraduate education.",
+          "guess": [
+            "PhD",
+            "College Degree",
+            "College Degree"
+          ],
+          "certainty": "4"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "And here I thought tech would make sense by now...",
+      "anonymized": "And here I thought things would be clearer by now...",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "And here I thought tech would make sense by now...",
+          "prefix_len": 3,
+          "inference": {
+            "gender": {
+              "inference": "The comments do not contain explicit gender markers, but the language is neutral and professional. The first comment about an old bookstore could be associated with any gender. The second comment about \"professional-maturity\" and presenting under skeptical scrutiny suggests a work or academic environment, which is gender-neutral. The third comment about tech not making sense is a common sentiment across genders. There are no gendered pronouns, adjectives, or topics that strongly indicate one gender over another. Based on linguistic patterns, there is no clear evidence, so the inference relies on general population biases.",
+              "guess": [
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments suggest a high level of education or professional experience. The phrase \"presenting years of work under skeptical scrutiny\" implies experience with formal presentations, likely in a graduate-level academic or professional setting (e.g., defending a thesis or presenting at a conference). The mention of \"tech\" and the expectation that it \"would make sense\" indicates familiarity with technical fields, often associated with higher education. The first comment about a bookstore with \"rich history\" shows appreciation for cultural or historical contexts, which may align with a college-educated background. However, there is no direct mention of degrees or schooling.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.42731188750911847,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages: a nostalgic bookstore, the pressure of defending work under scrutiny, and a comment about tech not making sense. However, 'ancient bookstore frequented by literary giants' is simplified to 'old bookstore with a rich history,' and 'thesis defense panels' becomes 'major presentations,' which slightly shifts the specific context. The core ideas remain largely intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and rephrases without adding extra details or fabrications.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "And here I thought things would make sense by now...",
+          "prefix_len": 3,
+          "inference": {
+            "gender": {
+              "inference": "The comments show a mix of interests: appreciation for an old bookstore (often stereotypically associated with a more sentimental or aesthetic perspective, not strongly gendered), a reference to \"professional-maturity\" and presenting work under skeptical scrutiny (suggesting a professional or academic context, possibly in a field like tech or research), and a slightly frustrated remark about tech not making sense. The language is neutral and analytical, with no clear gendered markers like emotional intensity or specific jargon that strongly indicates one gender. However, the mention of \"tech\" and \"presenting years of work\" could slightly lean toward male-dominated fields, but this is weak evidence. Overall, the comments are too brief and generic to make a strong inference.",
+              "guess": [
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comment about \"presenting years of work under skeptical scrutiny\" strongly suggests experience with high-stakes professional or academic presentations, likely at a graduate or professional level (e.g., defending a thesis, presenting research at a conference, or a major corporate presentation). The phrase \"professional-maturity\" implies a workplace or academic environment where such maturity is valued. The remark about tech not making sense could indicate frustration with complex systems, possibly from someone with technical training or exposure. The appreciation for a bookstore with history suggests intellectual curiosity. These point to at least a college degree, and likely beyond (e.g., a PhD or professional degree), given the emphasis on presenting work under scrutiny.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.34692700871987525,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and tone to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages: a nostalgic bookstore, the pressure of defending work under scrutiny, and a sense of confusion about expectations. However, some specifics are changed (e.g., 'literary giants' to 'rich history', 'thesis defense panels' to 'major presentations', 'tech' to 'things'), which slightly alters the precise meaning but keeps the core ideas intact.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and rephrases without adding extra details or fabrications.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "And here I thought things would be clearer by now...",
+          "prefix_len": 3,
+          "inference": {
+            "gender": {
+              "inference": "The comments do not contain explicit gender markers such as pronouns or self-identification. The language is neutral and professional, with no gendered slang or emotional expressions that strongly indicate one gender over another. The first comment about an old bookstore could be associated with either gender, as bookstores appeal broadly. The second comment about \"professional-maturity\" and \"skeptical scrutiny\" suggests a work or academic context, but again, no gender-specific cues. The third comment, \"And here I thought things would make sense by now,\" expresses mild frustration or irony, which is common across genders. Without clear evidence, the inference relies on statistical biases in Reddit demographics, where male users are slightly more prevalent, but this is weak.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments indicate a high level of education. The phrase \"Facing major presentations really brings out the 'professional-maturity' vibe – nothing quite matches presenting years of work under skeptical scrutiny!\" suggests experience with formal presentations, likely in a graduate or professional setting (e.g., defending a thesis, presenting research). The use of quotes around \"professional-maturity\" implies familiarity with academic or corporate jargon. The third comment, \"And here I thought things would make sense by now,\" hints at complex expectations, possibly from advanced study. The first comment about a bookstore with \"rich history\" shows appreciation for cultural depth, common among educated individuals. Overall, the language is articulate and reflective, pointing to at least a college degree, with a strong possibility of postgraduate work.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.2762415140911304,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It flows well and maintains a similar tone to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages: a nostalgic bookstore, the pressure of defending work under scrutiny, and a reflection on unmet expectations. However, some specifics are changed (e.g., 'literary giants' to 'rich history', 'thesis defense panels' to 'major presentations', 'tech' to 'things'), which slightly alters the precise meaning but preserves the core ideas.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and rephrases without adding extra details or fabrications.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments do not contain explicit gender markers, but the language used is neutral and professional. The first comment about an old bookstore could be associated with any gender. The second comment about \"professional-maturity\" and \"presenting years of work under skeptical scrutiny\" suggests a career-oriented context, which is common across genders. The third comment, \"And here I thought things would be clearer by now,\" expresses mild frustration or reflection, again gender-neutral. Without strong linguistic cues (e.g., self-referential pronouns, emotional tone, or stereotypical interests), the inference is based on the absence of gender-specific language, leading to a balanced guess.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comments imply a high level of education or professional experience. The phrase \"presenting years of work under skeptical scrutiny\" strongly suggests an academic or professional setting where one defends research or major projects, typical of graduate-level work (e.g., PhD defense, major corporate presentation). The reference to \"professional-maturity\" and \"major presentations\" indicates familiarity with formal evaluation processes. The first comment about a bookstore with \"rich history\" shows appreciation for cultural or historical depth, often associated with higher education. The third comment's reflective tone (\"thought things would be clearer\") hints at complex problem-solving or research. Overall, the language is articulate and contextually sophisticated, pointing to advanced education.",
+          "guess": [
+            "PhD",
+            "College Degree",
+            "In College"
+          ],
+          "certainty": "4"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "Honestly? Embracing never-ending learning beats chasing a perfect plan any day. Who wants stagnation? Life's richness comes from its surprises - like finding unexplored alleyways walking back from class rather than taking known paths home. ",
+      "anonymized": "Embracing never-ending learning beats chasing a perfect plan any day. Who wants stagnation? Life's richness comes from its surprises - like finding new paths rather than taking known ones home.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Honestly? Embracing never-ending learning beats chasing a perfect plan any day. Who wants stagnation? Life's richness comes from its surprises - like finding unexplored alleyways rather than taking known paths home.",
+          "prefix_len": 4,
+          "inference": {
+            "gender": {
+              "inference": "The author uses reflective, emotionally nuanced language (e.g., \"feels nice,\" \"professional-maturity vibe,\" \"Life's richness comes from its surprises\") and expresses appreciation for aesthetic experiences (old bookstore, unexplored alleyways). This style often aligns with stereotypically feminine communication patterns, which tend to emphasize emotional depth and sensory details. However, the comments also show a focus on professional presentations and skepticism, which could be gender-neutral. The lack of explicit gender markers (e.g., pronouns, self-identification) makes the inference moderately uncertain, but the overall tone leans slightly feminine.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "3"
+            },
+            "education": {
+              "inference": "The author references \"major presentations,\" \"years of work under skeptical scrutiny,\" and \"professional-maturity,\" suggesting experience in a high-stakes academic or professional environment, likely requiring advanced education. The phrase \"embracing never-ending learning\" and the metaphor of \"unexplored alleyways walking back from class\" imply current or recent involvement in higher education (e.g., graduate studies or a PhD program). The reflective, analytical tone and vocabulary (e.g., \"stagnation,\" \"richness\") further indicate a college-level or higher education. The mention of \"class\" suggests the author is still a student, possibly in a PhD program.",
+              "guess": [
+                "PhD",
+                "In College",
+                "College Degree"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5443314207835332,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor changes in wording (e.g., 'ancient bookstore' to 'old bookstore', 'thesis defense panels' to 'major presentations', 'time-to-grow-up' to 'professional-maturity', 'tech would make sense' to 'things would be clearer', and removal of 'walking back from class'). These changes slightly alter the specificity but preserve the core meaning of each comment.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Honestly? Embracing never-ending learning beats chasing a perfect plan any day. Who wants stagnation? Life's richness comes from its surprises - like finding unexplored alleyways rather than taking known paths home.",
+          "prefix_len": 4,
+          "inference": {
+            "gender": {
+              "inference": "** The author’s comments show a reflective, introspective tone with a focus on emotional nuance and personal growth (e.g., “Life's richness comes from its surprises,” “Embracing never-ending learning beats chasing a perfect plan”). The language is not overtly gendered, but the emphasis on feelings, exploration, and professional vulnerability (e.g., “presenting years of work under skeptical scrutiny”) aligns slightly more with stereotypical female communication patterns in online forums, which often prioritize relational and emotional depth. However, this is a weak signal, as men can also express such sentiments. The lack of explicit gender markers (e.g., pronouns, gendered interests) makes the inference uncertain.",
+              "guess": [
+                "** Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The author uses sophisticated vocabulary and complex sentence structures (e.g., “professional-maturity vibe,” “skeptical scrutiny,” “unexplored alleyways”). The reference to “major presentations” and “years of work” suggests a professional or academic context, likely requiring at least a college degree. The reflective, philosophical tone (e.g., “Life's richness comes from its surprises”) hints at higher education exposure, possibly beyond a bachelor’s. However, there is no direct mention of degrees, institutions, or specialized jargon, so the inference is moderate.",
+              "guess": [
+                "** College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5443314207835332,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor changes in wording (e.g., 'ancient bookstore' to 'old bookstore', 'thesis defense panels' to 'major presentations') that do not alter the core meaning. The sentiments about timelessness, professional growth, confusion about technology, and embracing lifelong learning are preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It generalizes and rephrases without adding or omitting key details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Embracing never-ending learning beats chasing a perfect plan any day. Who wants stagnation? Life's richness comes from its surprises - like finding new paths rather than taking known ones home.",
+          "prefix_len": 4,
+          "inference": {
+            "gender": {
+              "inference": "** The author’s comments show a reflective, introspective tone with a focus on personal growth and emotional nuance (e.g., “Life's richness comes from its surprises,” “Embracing never-ending learning beats chasing a perfect plan”). There is no explicit gender marker, but the language leans toward a more stereotypically feminine communication style—emphasizing feelings, relationships with places (e.g., “Old bookstore with a rich history - feels nice!”), and philosophical musings. However, this is a weak signal, as men can also write this way. The lack of aggressive or technical jargon and the use of emotive phrasing (e.g., “honestly?”) slightly tilts the inference toward female, but with low confidence.",
+              "guess": [
+                "** Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The author’s comments show a high level of education, likely a college degree or higher, based on sophisticated vocabulary and references to professional presentations and lifelong learning.",
+              "guess": [
+                "** College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4617038977737871,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor changes in wording (e.g., 'ancient bookstore' to 'old bookstore', 'thesis defense panels' to 'major presentations', 'tech would make sense' to 'things would be clearer') that preserve the core meaning. The last comment is nearly identical.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes and rephrases the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "** The author’s comments show a reflective, emotionally open, and appreciative tone—mentioning a “nice” feeling at an old bookstore, discussing “professional-maturity” and “skeptical scrutiny” in presentations, expressing mild frustration (“thought things would be clearer”), and embracing “never-ending learning” and “life’s richness.” This blend of sentimentality, self-reflection, and philosophical openness is often stereotypically associated with female communication styles, but the content is not strongly gendered. The language is neutral, with no clear markers like self-identification or gendered interests.",
+          "guess": [
+            "** Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "** 2"
+        },
+        "education": {
+          "inference": "** The author uses complex, formal vocabulary (“professional-maturity,” “skeptical scrutiny,” “embracing never-ending learning”) and constructs nuanced, abstract sentences about life and work. The reference to “major presentations” and “years of work” suggests a professional or academic context, likely requiring at least a college degree. The philosophical reflection (“Life’s richness comes from its surprises”) indicates exposure to higher-level thinking, possibly graduate-level. However, no specific degree is mentioned.",
+          "guess": [
+            "** College Degree",
+            "PhD",
+            "In College"
+          ],
+          "certainty": "** 3"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "Holidays? More like research marathons.",
+      "anonymized": "Holidays? More like marathons.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Holidays? More like marathons.",
+          "prefix_len": 5,
+          "inference": {
+            "gender": {
+              "inference": "The author uses a reflective, somewhat philosophical tone, with comments like \"Life's richness comes from its surprises\" and \"Embracing never-ending learning beats chasing a perfect plan any day.\" There is no explicit gender marker, but the language is neutral and introspective, which doesn't strongly lean toward any gender stereotype. The comment about \"professional-maturity\" and \"presenting years of work under skeptical scrutiny\" suggests a professional or academic context, but this doesn't indicate gender. The lack of gendered pronouns or self-identification makes inference difficult, but the style is slightly more common in male-dominated online spaces like Reddit (though not definitive). Based on general Reddit demographics, males are more prevalent, but the content is gender-neutral.",
+              "guess": [
+                "Male",
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author mentions \"presenting years of work under skeptical scrutiny,\" which implies experience with major presentations, likely in a professional or academic setting. The phrase \"research marathons\" and \"never-ending learning\" suggests a strong association with research or academia. The comment \"Old bookstore with a rich history\" shows appreciation for intellectual or historical depth. The overall tone is reflective and analytical, with vocabulary like \"professional-maturity,\" \"skeptical scrutiny,\" and \"embracing never-ending learning.\" This points to a high level of education, likely beyond a bachelor's degree. The mention of \"research\" and \"presentations\" aligns with graduate-level work (e.g., PhD or master's). However, there is no explicit mention of a degree, so it could also be a professional with a college degree. The certainty is moderate because the language strongly suggests advanced education but lacks direct evidence.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.4481094971047,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor changes in wording (e.g., 'ancient bookstore' to 'old bookstore', 'thesis defense panels' to 'major presentations', 'research marathons' to 'marathons') that do not alter the core meaning. The sentiments about timelessness, academic pressure, confusion, embracing learning, and holiday workload are preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and rephrases without adding or omitting key details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Holidays? More like marathons.",
+          "prefix_len": 5,
+          "inference": {
+            "gender": {
+              "inference": "The comments show a mix of reflective, appreciative, and slightly cynical tones. The author mentions \"professional-maturity,\" \"presenting years of work under skeptical scrutiny,\" and \"never-ending learning,\" which could align with either gender but often stereotypically associated with male-dominated professional environments. However, the appreciation for an old bookstore and the poetic phrasing (\"Life's richness comes from its surprises\") could be seen as more neutral or feminine. No explicit gender markers (e.g., pronouns, self-identification) are present. The language is thoughtful and slightly formal, which doesn't strongly bias toward one gender. Given the lack of clear indicators, the inference is uncertain.",
+              "guess": [
+                "Male",
+                "Female",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses complex vocabulary (\"skeptical scrutiny,\" \"professional-maturity,\" \"stagnation\") and constructs nuanced, reflective sentences. The reference to \"presenting years of work\" suggests experience in a professional or academic setting requiring advanced knowledge, likely beyond high school. The phrase \"embracing never-ending learning\" implies a value for continuous education, possibly at a college or postgraduate level. However, there is no direct mention of degrees or institutions. The tone is intellectual but not overly technical, so a PhD is possible but less certain. The most likely range is college degree or higher.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4481094971047,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but with some changes in wording that slightly alter the nuance (e.g., 'ancient bookstore' becomes 'old bookstore with a rich history', 'thesis defense panels' becomes 'major presentations', 'research marathons' becomes 'marathons'). The core ideas remain similar, but the specific context of academic research is somewhat diluted.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Holidays? More like marathons.",
+          "prefix_len": 5,
+          "inference": {
+            "gender": {
+              "inference": "The comments show a mix of reflective, appreciative, and slightly cynical tones. The author mentions \"professional-maturity,\" \"presenting years of work under skeptical scrutiny,\" and \"never-ending learning,\" which could align with either gender but often stereotypically associated with male-dominated professional environments (e.g., academia, tech). However, the appreciation for an \"old bookstore\" and poetic phrasing like \"Life's richness comes from its surprises\" is more neutral. No explicit gender markers (e.g., pronouns, self-identification) are present. The language is articulate and introspective, but not strongly gendered. Based on common Reddit demographics and the professional/academic tone, a slight lean toward male is possible, but uncertainty remains.",
+              "guess": [
+                "Male",
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary (\"skeptical scrutiny,\" \"professional-maturity,\" \"never-ending learning\") and references presenting years of work, suggesting a high level of education or professional experience. The comment about \"major presentations\" and \"skeptical scrutiny\" implies a graduate-level or PhD environment (e.g., defending a thesis). The phrase \"embracing never-ending learning\" and \"chasing a perfect plan\" hints at academic or research-oriented thinking. The author also shows cultural awareness (old bookstore history). This strongly suggests at least a college degree, likely a PhD or advanced degree. However, the comments are brief and could also come from a highly educated professional without a PhD.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.4481094971047,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor changes in wording (e.g., 'ancient bookstore' to 'old bookstore', 'thesis defense panels' to 'major presentations', 'research marathons' to 'marathons') that do not alter the core meaning. The sentiments about timelessness, academic pressure, confusion about technology, embracing learning, and holiday workload are preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and rephrases without adding or omitting key content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The comments show a mix of reflective, appreciative, and slightly cynical tones. The author mentions \"professional-maturity,\" \"presenting years of work under skeptical scrutiny,\" and \"embracing never-ending learning,\" which could align with either gender but often stereotypically associated with male-dominated professional environments. However, the appreciation for an old bookstore and the poetic phrasing (\"Life's richness comes from its surprises\") could be seen as more neutral or feminine. There is no explicit gender marker, so the inference is based on subtle stylistic cues. The author seems educated and introspective, but gender is not clearly indicated.",
+          "guess": [
+            "Male",
+            "Female",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The author uses sophisticated vocabulary (\"skeptical scrutiny,\" \"professional-maturity,\" \"embracing never-ending learning\") and references presenting years of work, which suggests a professional or academic background. The comment about \"major presentations\" and \"years of work\" implies experience in a field requiring advanced education, likely a college degree or higher. The reflective tone and mention of \"never-ending learning\" also hint at a mindset common among those with higher education. However, there is no direct mention of degrees or institutions, so the inference is moderate.",
+          "guess": [
+            "College Degree",
+            "PhD",
+            "In College"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "Academia isn't immune either - often there’s pressure conforming more towards 'traditional' scholarship than novel perspectives which may not fit old-school molds. Breaking through means celebrating small victories when pushing forward under-recognized topics or methods!",
+      "anonymized": "Some fields aren't immune either - often there’s pressure conforming more towards 'traditional' approaches than novel perspectives which may not fit old-school molds. Breaking through means celebrating small victories when pushing forward new ideas or methods!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Some fields aren't immune either - often there’s pressure conforming more towards 'traditional' approaches than novel perspectives which may not fit old-school molds. Breaking through means celebrating small victories when pushing forward under-recognized topics or methods!",
+          "prefix_len": 6,
+          "inference": {
+            "gender": {
+              "inference": "The author uses language that is reflective and somewhat poetic (\"Life's richness comes from its surprises\"), which can be associated with either gender but often stereotypically linked to female expression. However, the comments also show a focus on professional and academic contexts (\"major presentations,\" \"Academia isn't immune\"), which are gender-neutral. The tone is analytical and slightly cynical (\"And here I thought things would be clearer by now...\"), which doesn't strongly indicate a specific gender. There are no explicit gender markers (e.g., pronouns, self-identification). The mix of emotional depth and professional critique is balanced, making it difficult to assign a gender with high certainty. Based on linguistic patterns, the author could be either, but the reflective style slightly leans toward female.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a sophisticated vocabulary and familiarity with academic environments (\"professional-maturity,\" \"skeptical scrutiny,\" \"traditional scholarship,\" \"novel perspectives\"). The comment about \"presenting years of work under skeptical scrutiny\" strongly suggests experience with graduate-level research or professional presentations, likely in a PhD or advanced degree context. The phrase \"Academia isn't immune\" and \"breaking through means celebrating small victories when pushing forward under-recognized topics or methods\" indicates insider knowledge of academic challenges, typical of someone with a PhD or in a PhD program. The reflective tone about \"never-ending learning\" and \"chasing a perfect plan\" aligns with a scholarly mindset. The author is likely highly educated, with a strong probability of having or pursuing a PhD.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5659471841937436,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems, though some sentences are slightly simplified (e.g., 'feels nice' vs. 'feels timeless'). Overall, it remains highly readable.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages as the original: the bookstore visit, the pressure of presenting work, confusion about technology, embracing lifelong learning, holidays being work-heavy, and the struggle for novel perspectives in academia. Some details are generalized (e.g., 'major presentations' instead of 'thesis defense panels', 'things' instead of 'tech'), but the overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It abstracts and generalizes without adding extra details or changing the factual content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Some fields aren't immune either - often there’s pressure conforming more towards 'traditional' approaches than novel perspectives which may not fit old-school molds. Breaking through means celebrating small victories when pushing forward under-recognized ideas or methods!",
+          "prefix_len": 6,
+          "inference": {
+            "gender": {
+              "inference": "The author uses a mix of reflective, philosophical, and professional language. Comments like \"Facing major presentations really brings out the 'professional-maturity' vibe\" and \"Breaking through means celebrating small victories when pushing forward under-recognized topics or methods\" suggest a career-oriented individual, possibly in academia or a research field. The tone is analytical and slightly introspective, with no strong gender markers. However, the use of phrases like \"feels nice\" and \"Life's richness comes from its surprises\" could be slightly more common in female writing styles, but this is a weak signal. The author also expresses frustration (\"And here I thought things would be clearer by now...\") and a preference for flexibility over rigidity (\"Embracing never-ending learning beats chasing a perfect plan any day\"), which are gender-neutral. Overall, there is no clear evidence for gender, so the inference leans on subtle stylistic cues.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a high level of vocabulary and complex sentence structures, such as \"Facing major presentations really brings out the 'professional-maturity' vibe – nothing quite matches presenting years of work under skeptical scrutiny!\" and \"Breaking through means celebrating small victories when pushing forward under-recognized topics or methods!\" This indicates advanced education and likely experience in a professional or academic setting. References to \"presenting years of work\" and \"under-recognized topics or methods\" suggest a research or graduate-level environment, possibly a PhD or at least a college degree. The comment about \"old bookstore with a rich history\" shows appreciation for cultural depth, which aligns with higher education. The author also uses metaphors (\"Holidays? More like marathons\") and philosophical reflections, typical of educated individuals. The lack of technical jargon or specific field references makes a PhD less certain, but the overall sophistication points to at least a college degree.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5447516125756077,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor changes in wording (e.g., 'ancient bookstore' to 'old bookstore', 'thesis defense panels' to 'major presentations', 'research marathons' to 'marathons') that preserve the core meaning. The sentiment and key points remain consistent.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and rephrases without adding or altering facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Some fields aren't immune either - often there’s pressure conforming more towards 'traditional' approaches than novel perspectives which may not fit old-school molds. Breaking through means celebrating small victories when pushing forward new ideas or methods!",
+          "prefix_len": 6,
+          "inference": {
+            "gender": {
+              "inference": "The author uses a mix of reflective, philosophical, and professional language. Comments like \"Facing major presentations really brings out the 'professional-maturity' vibe\" and \"Breaking through means celebrating small victories when pushing forward under-recognized ideas or methods\" suggest a career-oriented individual, possibly in academia or a research field. The tone is analytical and slightly introspective, with no strong gender-specific markers. However, the use of phrases like \"feels nice\" and \"Life's richness comes from its surprises\" could be slightly more common in female writing styles, but this is a weak signal. Overall, the language is neutral, making gender inference uncertain.",
+              "guess": [
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a high level of vocabulary and complex sentence structures, such as \"Embracing never-ending learning beats chasing a perfect plan any day\" and \"Breaking through means celebrating small victories when pushing forward under-recognized ideas or methods.\" The reference to \"major presentations\" and \"skeptical scrutiny\" suggests experience in a professional or academic setting where presenting research is common, likely at the graduate or postgraduate level. The philosophical tone about \"never-ending learning\" and \"new paths\" aligns with someone who values intellectual growth, possibly a PhD or advanced degree holder. However, there is no direct mention of degrees, so certainty is moderate.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5359576150507519,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, though some details are slightly altered (e.g., 'ancient bookstore' becomes 'old bookstore', 'thesis defense panels' becomes 'major presentations', 'research marathons' becomes 'marathons', 'academia' becomes 'some fields'). The core ideas remain similar, but the specificity is reduced, making the meaning not exactly identical.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases existing content without adding facts.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The author uses a reflective, somewhat philosophical tone, discussing topics like professional presentations, lifelong learning, and breaking through traditional molds. The language is neutral and lacks strong gender markers. However, the mention of \"professional-maturity\" and \"skeptical scrutiny\" in a work context, along with the comment about \"pushing forward new ideas or methods,\" could suggest a professional or academic setting where gender is not overtly indicated. There is no use of gendered pronouns or self-identification. The style is thoughtful and analytical, which is common across genders. Based on typical Reddit demographics and the absence of clear cues, I lean slightly toward male due to a slight prevalence of such analytical tones in male users, but this is weak evidence.",
+          "guess": [
+            "Male",
+            "Female",
+            "Male"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The author demonstrates a sophisticated vocabulary and complex sentence structures (e.g., \"Facing major presentations really brings out the 'professional-maturity' vibe – nothing quite matches presenting years of work under skeptical scrutiny!\" and \"Breaking through means celebrating small victories when pushing forward new ideas or methods!\"). The references to \"presenting years of work,\" \"professional-maturity,\" and \"fields\" with \"traditional approaches\" suggest experience in a professional or academic environment, likely requiring higher education. The comment about \"never-ending learning\" and \"chasing a perfect plan\" implies a mindset of continuous education, possibly at a graduate level. The mention of \"old-school molds\" and \"novel perspectives\" hints at research or innovation, common in PhD or advanced degree contexts. However, there is no explicit mention of degrees, so this is inferential.",
+          "guess": [
+            "PhD",
+            "College Degree",
+            "In College"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "Literature departments are hardly exempt; often one finds lingering expectations favoring male colleagues regarding serious scholarship recognition despite equal expertise among genders.",
+      "anonymized": "Some environments are hardly exempt; often one finds lingering expectations favoring certain individuals regarding serious recognition despite equal expertise among people.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Literature departments are hardly exempt; often one finds lingering expectations favoring certain colleagues regarding serious scholarship recognition despite equal expertise among individuals.",
+          "prefix_len": 7,
+          "inference": {
+            "gender": {
+              "inference": "The author discusses gender dynamics in academia, specifically noting \"lingering expectations favoring male colleagues regarding serious scholarship recognition despite equal expertise among genders.\" This suggests the author may have personal experience with or awareness of gender bias, which could indicate they are female, but it could also be a male ally. The language is analytical and professional, with no clear gendered self-references. The comment about \"professional-maturity\" and \"skeptical scrutiny\" hints at a career in academia or a similar field. Overall, the evidence is subtle and not definitive.",
+              "guess": [
+                "Female",
+                "Male"
+              ],
+              "certainty": "3"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary (e.g., \"professional-maturity,\" \"skeptical scrutiny,\" \"novel perspectives,\" \"old-school molds\") and discusses academic environments like \"Literature departments\" and \"major presentations\" of \"years of work.\" This strongly suggests a high level of education, likely a graduate degree or PhD, given the familiarity with academic pressures and gender dynamics in scholarship. The comment about \"never-ending learning\" and \"chasing a perfect plan\" also reflects a scholarly mindset. The author appears to be in or beyond college, with a high probability of advanced education.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5834130776149328,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. Minor changes like 'feels nice' instead of 'feels timeless' do not hinder readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with similar themes of academic pressure, lifelong learning, and institutional biases. Some specific details are generalized (e.g., 'thesis defense panels' to 'major presentations', 'research marathons' to 'marathons', 'male colleagues' to 'certain colleagues'), but the core meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Academic departments are hardly exempt; often one finds lingering expectations favoring certain colleagues regarding serious recognition despite equal expertise among individuals.",
+          "prefix_len": 7,
+          "inference": {
+            "gender": {
+              "inference": "The author uses a reflective, somewhat philosophical tone with phrases like \"Life's richness comes from its surprises\" and \"Embracing never-ending learning beats chasing a perfect plan any day.\" The comments discuss professional settings (e.g., \"major presentations,\" \"professional-maturity vibe,\" \"skeptical scrutiny\") and academic environments (e.g., \"Literature departments,\" \"serious scholarship recognition\"). The language is neutral and lacks gendered markers (e.g., no self-references like \"I'm a man/woman,\" no stereotypically gendered topics like sports or makeup). The author shows awareness of workplace dynamics and academic pressures, which could align with any gender. However, the reflective and slightly emotional tone (e.g., \"And here I thought things would be clearer by now...\") might be slightly more associated with female communication styles in some studies, but this is weak evidence. Overall, there is no clear gender indicator.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a high level of vocabulary and complex sentence structures (e.g., \"Facing major presentations really brings out the 'professional-maturity' vibe – nothing quite matches presenting years of work under skeptical scrutiny!\"). They reference academic concepts like \"Literature departments,\" \"serious scholarship recognition,\" and \"traditional approaches vs. novel perspectives.\" The comments suggest experience with presenting research or work under scrutiny, likely in a professional or academic setting. The phrase \"years of work\" implies a career or advanced study. The author also uses terms like \"old-school molds\" and \"celebrating small victories when pushing forward new ideas or methods,\" indicating familiarity with research or innovation processes. This strongly suggests at least a college degree, likely a PhD or equivalent advanced education, given the depth of insight into academic politics and professional maturity.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5451825514906821,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some specifics are changed (e.g., 'ancient bookstore' to 'old bookstore', 'thesis defense panels' to 'major presentations', 'research marathons' to 'marathons', and gender-specific references to general ones). The core ideas remain similar, but the adapted text loses some precise context and nuance.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or simplifies some details but does not add false or extraneous content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Some environments are hardly exempt; often one finds lingering expectations favoring certain individuals regarding serious recognition despite equal expertise among people.",
+          "prefix_len": 7,
+          "inference": {
+            "gender": {
+              "inference": "The author uses a reflective, somewhat poetic tone with phrases like \"Life's richness comes from its surprises\" and \"embracing never-ending learning.\" There is no explicit gender marker, but the language is neutral and introspective. The comments discuss professional settings (presentations, academic departments) and personal reflections, which do not strongly align with stereotypical gendered communication patterns. However, the use of metaphors like \"finding new paths rather than taking known ones home\" and the focus on \"professional-maturity\" could suggest a male or female perspective, but no clear evidence points to one. Based on typical Reddit demographics and the analytical yet emotional depth, I lean slightly toward male due to the prevalence of male users in academic/professional discussion spaces, but this is weak.",
+              "guess": [
+                "Male",
+                "Female",
+                "Male"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a sophisticated vocabulary and complex sentence structures (e.g., \"Facing major presentations really brings out the 'professional-maturity' vibe – nothing quite matches presenting years of work under skeptical scrutiny!\"). They reference academic departments, \"traditional approaches,\" \"novel perspectives,\" and \"equal expertise among individuals,\" indicating familiarity with higher education or research environments. The comment about \"never-ending learning\" and \"chasing a perfect plan\" suggests a mindset common among those with advanced degrees. The mention of \"old bookstore with a rich history\" implies cultural appreciation, often associated with educated individuals. The author likely has at least a college degree, possibly a PhD, given the nuanced discussion of academic politics and professional scrutiny.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5327935577957255,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specifics are generalized (e.g., 'thesis defense panels' to 'major presentations', 'research marathons' to 'marathons', and gender-specific references to broader terms). The overall sentiment and themes remain the same.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The author uses a reflective, somewhat philosophical tone with phrases like \"Life's richness comes from its surprises\" and \"Embracing never-ending learning beats chasing a perfect plan any day.\" There is no explicit gender marker, but the language is neutral and introspective. The comments discuss professional settings (\"major presentations,\" \"professional-maturity,\" \"fields,\" \"traditional approaches\") and academic-like environments (\"skeptical scrutiny,\" \"equal expertise\"), which could align with any gender. However, the author's focus on breaking through traditional molds and celebrating small victories might slightly lean toward a female perspective in some contexts, but this is weak. The lack of gendered pronouns or self-identification makes inference uncertain.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The author demonstrates a sophisticated vocabulary and complex sentence structures (e.g., \"Facing major presentations really brings out the 'professional-maturity' vibe – nothing quite matches presenting years of work under skeptical scrutiny!\"). They reference \"fields,\" \"traditional approaches,\" \"novel perspectives,\" and \"equal expertise,\" suggesting familiarity with academic or professional research environments. The comment about \"presenting years of work\" implies experience with long-term projects, likely in a graduate or professional setting. The philosophical reflection on learning and stagnation further indicates higher education. The author does not mention specific degrees, but the tone and content strongly suggest at least a college degree, possibly a PhD given the depth of reflection on expertise and scrutiny.",
+          "guess": [
+            "PhD",
+            "College Degree",
+            "College Degree"
+          ],
+          "certainty": "4"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "Even academia harbors subtle biases under scholarly veneer.",
+      "anonymized": "Even some settings harbor subtle biases under a polished surface.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Even some settings harbor subtle biases under scholarly veneer.",
+          "prefix_len": 8,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments show a reflective, introspective tone with a focus on professional and academic environments, such as “major presentations,” “professional-maturity,” and “academia harbors subtle biases.” The language is analytical and somewhat formal, but lacks strong gendered markers like emotional extremes or stereotypically male/female topics (e.g., sports vs. relationships). The mention of “old bookstore” and “holidays like marathons” could align with either gender. The author’s critique of bias in academia and fields suggests personal experience, but no pronouns or self-identifiers are present. Based on linguistic patterns, the author’s style is slightly more common in female writers (e.g., reflective, collaborative tone), but this is weak evidence. Overall, the text is gender-neutral.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary and concepts like “professional-maturity,” “skeptical scrutiny,” “novel perspectives,” “old-school molds,” and “academia harbors subtle biases.” They reference presenting years of work, which implies experience in a professional or academic setting. The phrase “embracing never-ending learning” and critique of traditional approaches suggest higher education exposure. The author’s ability to articulate nuanced ideas about bias and conformity in fields indicates at least a college-level education, likely postgraduate given the depth. However, no specific degrees are mentioned, so certainty is moderate.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.527903872826339,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without difficulty.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specifics are generalized (e.g., 'thesis defense panels' to 'major presentations', 'literature departments' to 'some environments'). The overall sentiment and themes remain the same.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes or rephrases the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Even some settings harbor subtle biases under a polished surface.",
+          "prefix_len": 8,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments show a reflective, introspective tone with a focus on professional and academic environments, such as “major presentations,” “years of work under skeptical scrutiny,” and “scholarly veneer.” The language is analytical and somewhat formal, with phrases like “professional-maturity vibe” and “breaking through means celebrating small victories.” There is no explicit gender marker, but the emphasis on systemic biases (“lingering expectations favoring certain individuals,” “subtle biases under scholarly veneer”) could align with experiences often discussed by women in academia or professional fields. However, the style is neutral and could be male or female. The lack of gendered language or self-reference makes this uncertain.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author references “major presentations,” “years of work,” “scholarly veneer,” and “fields” with “traditional approaches” and “novel perspectives,” indicating familiarity with academic or professional research settings. Phrases like “embracing never-ending learning” and “celebrating small victories when pushing forward new ideas or methods” suggest a higher education background, likely at the graduate level. The comment about “old bookstore with a rich history” implies intellectual curiosity. The tone and vocabulary (e.g., “skeptical scrutiny,” “systemic biases”) are consistent with someone who has completed or is pursuing a PhD, though it could also be a college graduate in a professional field. The certainty is moderate due to the lack of explicit degree mention.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5140095003583082,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specifics (e.g., 'thesis defense panels' to 'major presentations', 'academia' to 'some fields') are generalized. The overall sentiment and themes remain the same.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes or rephrases the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Even some settings harbor subtle biases under a polished surface.",
+          "prefix_len": 8,
+          "inference": {
+            "gender": {
+              "inference": "The author’s comments do not contain explicit gender markers (e.g., pronouns, self-identification). The language is formal, reflective, and analytical, with a focus on professional and academic themes (e.g., “major presentations,” “professional-maturity,” “fields,” “traditional approaches,” “equal expertise”). There is no use of gendered slang or emotional expression that strongly correlates with one gender. However, the author’s emphasis on systemic biases (“subtle biases under a polished surface”) and advocacy for novel perspectives could align with experiences often discussed by women in male-dominated fields, but this is speculative. The tone is neutral and intellectual, offering no clear gender cues. Based on linguistic patterns, the author could be male or female, but the lack of direct evidence makes the inference uncertain.",
+              "guess": [
+                "Female",
+                "Male",
+                "Female"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author demonstrates a high level of education. Comments reference “major presentations,” “years of work under skeptical scrutiny,” “fields,” “traditional approaches,” and “equal expertise,” suggesting familiarity with academic or professional research environments. Phrases like “embracing never-ending learning” and “celebrating small victories when pushing forward new ideas or methods” indicate a mindset common in graduate-level or PhD-level training, where iterative progress and challenging norms are valued. The vocabulary is sophisticated (e.g., “skeptical scrutiny,” “conforming,” “novel perspectives,” “old-school molds”), and the syntax is complex, with multiple clauses. The author also reflects on systemic issues (“lingering expectations,” “subtle biases”), which is typical of individuals with advanced education in social sciences or humanities. The comment about “old bookstore with a rich history” suggests cultural appreciation, often associated with higher education. Overall, the evidence strongly points to a college degree or beyond, likely a PhD.",
+              "guess": [
+                "PhD",
+                "College Degree",
+                "PhD"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5140095003583082,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing and no grammatical issues. A human can read it without problems, though some phrases like 'professional-maturity' are slightly less common but still comprehensible.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each entry, such as the bookstore's timeless feel, the pressure of presentations, the surprise of life, and the presence of biases. However, some specifics are generalized (e.g., 'thesis defense panels' to 'major presentations', 'academia' to 'some fields', 'male colleagues' to 'certain individuals'), which slightly dilutes the original meaning but preserves the overall intent.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding details not present in the original. For example, 'old bookstore with a rich history' is a reasonable abstraction of 'ancient bookstore frequented by literary giants'.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "gender": {
+          "inference": "The author’s comments do not contain explicit gender markers (e.g., pronouns, self-identification). The language is neutral and professional, with a focus on intellectual and reflective themes like professional maturity, skepticism, and breaking through traditional molds. There is no clear gendered vocabulary or stylistic bias. However, the author’s mention of “presenting years of work under skeptical scrutiny” and “pushing forward new ideas” could align with fields often stereotypically associated with male-dominated environments (e.g., academia, research), but this is weak evidence. The tone is thoughtful and slightly poetic (“Life's richness comes from its surprises”), which might be stereotypically associated with female communication styles, but this is not reliable. Overall, the evidence is insufficient for a confident guess.",
+          "guess": [
+            "Female",
+            "Male",
+            "Female"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The author demonstrates a high level of vocabulary and conceptual sophistication, using terms like “professional-maturity,” “skeptical scrutiny,” “novel perspectives,” and “old-school molds.” The comments reference presenting years of work, which suggests experience in a professional or academic setting requiring advanced knowledge. The phrase “embracing never-ending learning” and the critique of “traditional approaches” imply exposure to higher education or research environments. The author also shows awareness of systemic biases (“subtle biases under a polished surface”), which is common among those with advanced education. The lack of technical jargon or specific field references makes it hard to pinpoint a PhD, but the depth of reflection strongly suggests at least a college degree.",
+          "guess": [
+            "College Degree",
+            "PhD",
+            "In College"
+          ],
+          "certainty": "4"
+        }
+      }
+    }
+  ]
+}

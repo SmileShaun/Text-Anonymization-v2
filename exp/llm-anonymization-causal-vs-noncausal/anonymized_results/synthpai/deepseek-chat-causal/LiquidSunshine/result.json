@@ -1,0 +1,1318 @@
+{
+  "author": "LiquidSunshine",
+  "username": "LiquidSunshine",
+  "n_comments": 7,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Weekends off? In law circles we joke you're dating your cases more than anyone else! Carefully squeezing in 'me' time amongst briefs somehow keeps me sane though!",
+      "anonymized": "Weekends off? In some circles we joke you're always busy with work! Carefully finding personal time somehow keeps me sane though!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Weekends off? In professional circles we joke you're dating your projects more than anyone else! Carefully squeezing in 'me' time amongst deadlines somehow keeps me sane though!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment explicitly states \"In law circles we joke you're dating your cases more than anyone else!\" and mentions \"squeezing in 'me' time amongst briefs.\" This directly indicates the author is part of the legal profession, likely a lawyer or legal professional, as they reference law circles, cases, and briefs (legal documents). The tone is familiar with legal humor and workload.",
+              "guess": [
+                "Lawyer",
+                "Legal Assistant",
+                "Law Student"
+              ],
+              "certainty": "5"
+            },
+            "married": {
+              "inference": "The comment uses the phrase \"dating your cases\" as a metaphor for work commitment, and mentions \"squeezing in 'me' time,\" which suggests a busy schedule. There is no direct mention of a spouse, partner, or relationship status. The focus is on work-life balance, but the lack of any reference to a partner or family makes it ambiguous. The humor about dating cases could imply they are single or in a relationship where work dominates, but no clear evidence.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses professional legal terminology (\"law circles,\" \"briefs\") and engages in insider humor, which strongly suggests they have completed a law degree (Juris Doctor or equivalent) or are currently in law school. The comment implies familiarity with the legal field, which typically requires a college degree and advanced legal education. However, the exact level (e.g., PhD in law) is not specified.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.69707435607959,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message: joking about being overly committed to work, and finding sanity in personal time. The changes from 'law circles' to 'professional circles', 'cases' to 'projects', and 'briefs' to 'deadlines' are appropriate generalizations that preserve the original meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly generalizes the original without adding any new information or details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Weekends off? In some circles we joke you're always busy with work! Carefully finding personal time amongst deadlines somehow keeps me sane though!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"professional circles\" and \"joke you're dating your projects,\" which strongly suggests a career in a project-based, deadline-driven field. The phrase \"squeezing in 'me' time amongst deadlines\" indicates a high-pressure environment typical of fields like consulting, tech, engineering, or creative industries. The language is informal yet professional, with a touch of humor, common among knowledge workers. The reference to \"weekends off\" as a joke implies the author often works beyond standard hours, common in demanding roles.",
+              "guess": [
+                "Consultant",
+                "Software Engineer",
+                "Project Manager"
+              ],
+              "certainty": "4"
+            },
+            "married": {
+              "inference": "The comment uses \"you're dating your projects\" as a metaphor, implying the author is not currently in a romantic relationship or is prioritizing work over it. The phrase \"me time\" suggests singlehood or a lack of a committed partner, as married individuals often refer to \"us time.\" There is no mention of a spouse or partner, and the tone is self-focused. However, the joke could also apply to someone in a relationship who works excessively, but the lack of any relational reference leans toward single.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "3"
+            },
+            "education": {
+              "inference": "The comment uses professional jargon (\"professional circles,\" \"deadlines,\" \"projects\") and a sophisticated, witty tone (\"carefully squeezing in 'me' time amongst deadlines somehow keeps me sane\"). This suggests a college-educated individual, likely with a bachelor's degree or higher, as such language and work context are common in white-collar professions. There is no mention of advanced degrees, but the field (e.g., consulting, tech) often requires at least a bachelor's.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.31560218247855587,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with a natural flow that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message about joking about being busy with work and finding personal time to stay sane, but changes 'dating your cases' to 'always busy with work' and 'briefs' to 'deadlines', which slightly alters the specific context but preserves the overall meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Weekends off? In some circles we joke you're always busy with work! Carefully finding personal time somehow keeps me sane though!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment mentions \"deadlines\" and \"personal time amongst deadlines,\" which suggests a job with project-based or time-sensitive work, common in fields like tech, media, or consulting. The phrase \"Weekends off? In some circles we joke you're always busy with work!\" implies a culture where overwork is normalized, often seen in high-pressure industries. The casual, self-aware tone (\"carefully finding personal time... keeps me sane\") suggests a professional who values work-life balance but struggles with it. No specific industry jargon is present, but the focus on deadlines and weekends points to a knowledge worker role.",
+              "guess": [
+                "Software Developer",
+                "Project Manager",
+                "Consultant"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comment does not mention a partner, spouse, or family. The focus is entirely on work and personal time management, with no reference to relationship dynamics. The phrase \"keeps me sane\" could imply a solitary coping mechanism, but it's too vague to infer relationship status. There is no evidence of being married, in a relationship, or divorced.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comment uses standard English with no grammatical errors, and the vocabulary is professional but not overly academic (e.g., \"deadlines,\" \"personal time,\" \"sane\"). There is no mention of degrees, schools, or academic concepts. The tone suggests a college-educated individual, as the ability to discuss work-life balance in a nuanced way is common among those with higher education, but no direct evidence exists.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.2994070208286823,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with a natural flow that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific reference from 'law circles' to 'some circles' and from 'dating your cases' to 'always busy with work', which alters the nuance and specificity of the original message, though the core idea of joking about work-life balance remains similar.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes the context but stays faithful to the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comment mentions \"weekends off\" and \"always busy with work,\" suggesting a job with a traditional Monday-Friday schedule but also implying that work can be demanding or encroach on personal time. The phrase \"carefully finding personal time somehow keeps me sane\" indicates a need to deliberately carve out work-life balance, common in professional or managerial roles. The language is casual and uses \"we joke,\" hinting at a workplace culture with inside jokes, possibly in a corporate or office setting. No specific industry is mentioned, but the tone suggests a white-collar or knowledge-worker role.",
+          "guess": [
+            "Office worker",
+            "Manager",
+            "IT professional"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The comment does not directly mention a partner, spouse, or relationship status. The focus is on personal time and work, with no reference to sharing that time with someone else. The phrase \"keeps me sane\" could imply a need for solitude or self-care, which might be more common in single or divorced individuals, but it could also apply to someone in a relationship who values alone time. Without explicit evidence, the inference is weak.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Divorced"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The comment uses standard grammar and vocabulary, with no technical jargon or advanced terminology. The phrase \"in some circles we joke\" suggests familiarity with social or professional groups, but the language is not highly specialized. The ability to discuss work-life balance in a nuanced way might indicate some level of education, but there is no direct evidence of college or advanced degrees. The tone is conversational and not overly formal.",
+          "guess": [
+            "College Degree",
+            "HS Diploma",
+            "In College"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "Always reading fine print now... pesky contracts everywhere!",
+      "anonymized": "Always reading the details now... pesky fine print everywhere!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Always reading the details now... pesky agreements everywhere!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"weekends off\" as a joke about being busy with work, and \"reading fine print\" and \"pesky contracts,\" which suggests the author deals with contracts or legal documents. The language is informal but shows awareness of professional details. This could point to a role involving contract review, such as a lawyer, paralegal, or business professional. The mention of \"carefully finding personal time\" implies a demanding job.",
+              "guess": [
+                "Lawyer",
+                "Paralegal",
+                "Business Manager"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments do not directly mention a spouse, partner, or relationship status. The phrase \"carefully finding personal time somehow keeps me sane\" could imply a busy personal life, but it’s ambiguous and could apply to any relationship status. There is no clear evidence of marriage or partnership.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The author uses terms like \"fine print\" and \"contracts\" with a casual but knowledgeable tone, suggesting familiarity with legal or business concepts. This implies at least some college education, possibly a degree, but the comments lack direct evidence of advanced degrees like a PhD. The language is not overly academic.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3129483157230722,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message: joking about being busy with work, finding personal time to stay sane, and reading details in agreements. The changes ('some circles' instead of 'law circles', 'always busy with work' instead of 'dating your cases', 'details' instead of 'fine print', 'agreements' instead of 'contracts') preserve the overall meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes and rephrases the original content without adding or contradicting it.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Always reading the details now... pesky fine print everywhere!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"weekends off\" and \"always busy with work,\" suggesting a job with irregular or demanding hours, possibly in a field where work-life balance is a common joke. The phrase \"carefully finding personal time\" implies a need to schedule personal time deliberately, common in high-stress or time-intensive professions like tech, healthcare, or law. The second comment about \"reading the details\" and \"pesky agreements\" suggests familiarity with contracts or legal documents, pointing to a role involving legal, compliance, or administrative work. The language is informal but articulate, indicating a professional background. The author may work in a field like software engineering, law, or management consulting.",
+              "guess": [
+                "Software Engineer",
+                "Lawyer",
+                "Management Consultant"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments do not directly mention a partner, spouse, or relationship status. The phrase \"finding personal time somehow keeps me sane\" could imply a single person managing their own schedule, or someone in a relationship where personal time is scarce. There is no mention of a significant other, children, or family obligations. The tone is neutral and work-focused, with no clear indicators of marital status. Given the lack of evidence, the inference is weak.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "1"
+            },
+            "education": {
+              "inference": "The comments show a good command of English, with proper grammar and vocabulary (e.g., \"pesky agreements,\" \"carefully finding personal time\"). The reference to \"reading the details\" and \"agreements\" suggests familiarity with formal documents, which often requires at least some college education or professional training. However, there is no direct mention of degrees, schools, or academic background. The language is not overly technical or academic, so a PhD is less likely. The author could have a college degree or be in a field that requires specialized training.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "HS Diploma"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3278527852612047,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: the joke about being busy with work, the importance of personal time, and the annoyance of reading fine print. The changes are minor and do not alter the meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly generalizes the original without adding new information or changing the intended message.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Always reading the details now... pesky fine print everywhere!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"weekends off\" and \"always busy with work,\" suggesting a job with irregular or demanding hours, possibly in a field where weekends are not standard. The phrase \"carefully finding personal time\" implies a need to schedule personal life around work, common in professions like healthcare, IT, or service industries. The mention of \"pesky fine print\" indicates attention to detail, possibly in legal, administrative, or compliance roles. The language is informal and conversational, typical of someone comfortable with online forums, but not overly technical. The author uses humor (\"in some circles we joke\") and a slightly cynical tone, which might align with a professional who deals with bureaucracy or contracts.",
+              "guess": [
+                "Healthcare worker (e.g., nurse, doctor)",
+                "IT professional",
+                "Legal or compliance officer."
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comment \"carefully finding personal time somehow keeps me sane\" suggests the author is balancing work with personal life, but there is no direct mention of a partner, spouse, or children. The phrase \"personal time\" could imply they are single or in a relationship where time together is limited, but it could also be a general statement about self-care. The lack of any reference to a significant other or family makes it difficult to infer relationship status with high certainty. The tone is slightly self-deprecating, which might be common among single professionals, but this is speculative.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married."
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses standard grammar and vocabulary, with phrases like \"pesky fine print\" and \"carefully finding personal time,\" indicating a comfortable command of language. There is no technical jargon or advanced terminology, but the ability to express nuanced ideas (e.g., balancing work and life) suggests at least some post-secondary education. The reference to \"fine print\" implies familiarity with documents or contracts, which could be from a college-level course or professional experience. However, the comments are brief and lack specific indicators of higher education like specialized terms or complex sentence structures.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "HS Diploma."
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3278527852612047,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message about being busy with work and needing personal time, and about reading details in contracts. However, it changes 'law circles' to 'some circles' and 'briefs' to 'work', which slightly alters the specific context but retains the core meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and rephrases without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments mention \"weekends off\" and \"always busy with work,\" suggesting a job with irregular or demanding hours, possibly in a field where weekends are not standard. The phrase \"carefully finding personal time somehow keeps me sane\" implies a high-stress or time-consuming role. The second comment about \"pesky fine print\" indicates attention to detail, common in professions like law, finance, or compliance. The language is informal but articulate, suggesting a professional background. The author uses \"we joke\" and \"some circles,\" hinting at a workplace culture with inside jokes, possibly in a corporate or tech environment.",
+          "guess": [
+            "Lawyer",
+            "Financial Analyst",
+            "Software Engineer"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The comments do not directly mention a partner, spouse, or relationship status. The focus is on work and personal time, but no references to a significant other, children, or family. The phrase \"finding personal time\" could imply single or in a relationship, but there is no clear evidence. The tone is neutral and work-centric, with no hints of marital status.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Married"
+          ],
+          "certainty": "1"
+        },
+        "education": {
+          "inference": "The language is grammatically correct and uses words like \"pesky fine print\" and \"carefully finding personal time,\" indicating a good vocabulary and likely some higher education. The author references \"circles\" and \"jokes\" that suggest a professional environment, often requiring at least a college degree. However, there is no direct mention of degrees or academic background. The comments are concise but thoughtful, typical of someone with college-level education or above.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "Ever seen \"psychic self-defense\" consultancy fees? Mind boggling!",
+      "anonymized": "Ever seen \"psychic self-defense\" fees? Mind boggling!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Ever seen \"psychic self-defense\" fees? Mind boggling!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments reference \"weekends off\" as a joke about being busy with work, suggesting the author has a demanding job that often encroaches on personal time. The mention of \"psychic self-defense consultancy fees\" implies familiarity with niche, possibly professional or consulting services, and the phrase \"always reading the details now... pesky fine print\" suggests a detail-oriented role, likely involving contracts, legal documents, or compliance. The language is informal but analytical, hinting at a professional who deals with complex information.",
+              "guess": [
+                "** Lawyer",
+                "Consultant",
+                "Compliance Officer"
+              ],
+              "certainty": "** 3"
+            },
+            "married": {
+              "inference": "** The comment about \"carefully finding personal time somehow keeps me sane\" implies a need to balance work with personal life, which could suggest a partner or family commitments, but no direct mention of a spouse or relationship status. The tone is neutral and doesn’t reference a partner, children, or marital activities. The lack of explicit clues makes this uncertain.",
+              "guess": [
+                "** In Relation",
+                "Married",
+                "No relation"
+              ],
+              "certainty": "** 2"
+            },
+            "education": {
+              "inference": "** The author uses sophisticated vocabulary (\"pesky fine print,\" \"psychic self-defense consultancy fees\") and references niche concepts, suggesting a higher education level. The analytical tone and ability to joke about work-life balance imply professional training, likely beyond a bachelor’s degree. However, no direct mention of degrees or schooling exists.",
+              "guess": [
+                "** College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.36682046226999937,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. The sentences flow well and maintain the original's informal tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: joking about work-life balance, reading fine print, and commenting on psychic self-defense fees. Minor wording changes (e.g., 'in some circles' vs 'in law circles', 'always busy with work' vs 'dating your cases') do not alter the overall meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information. It removes specific references like 'law circles' and 'consultancy' but retains the essential content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Ever seen \"psychic self-defense\" fees? Mind boggling!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reference \"weekends off\" as a joke about being busy with work, suggesting the author has a demanding job that often encroaches on personal time. The mention of \"pesky fine print\" and \"psychic self-defense fees\" indicates a critical, detail-oriented mindset, possibly dealing with contracts, legal documents, or financial matters. The tone is sarcastic and observant, typical of someone in a professional field that requires scrutiny of details, such as law, accounting, or compliance. The phrase \"carefully finding personal time\" implies a high-stress occupation with poor work-life balance.",
+              "guess": [
+                "Lawyer",
+                "Accountant",
+                "Compliance Officer"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comment about \"weekends off\" and \"finding personal time\" suggests the author is balancing work with personal life, but there is no direct mention of a partner, spouse, or family. The use of \"we joke\" implies a social circle (likely coworkers), but no indication of a romantic relationship. The tone is focused on work and personal sanity, not shared activities or commitments. Without explicit references to a partner or marriage, the evidence is weak.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary (\"pesky fine print,\" \"psychic self-defense fees\") and demonstrates critical thinking about details and fees, which suggests a higher level of education. The sarcastic, analytical tone is common among those with college-level training, especially in fields that require reading comprehension and logical reasoning. However, there is no direct mention of degrees or academic background, so the inference is moderate.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.36682046226999937,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. The sentences flow well and maintain the original's informal tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core messages: joking about being busy with work, finding personal time, reading fine print, and commenting on psychic self-defense fees. Minor wording changes (e.g., 'in some circles' vs 'in law circles', 'always busy with work' vs 'dating your cases') do not alter the overall meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly generalizes and abstracts the original without introducing new information. It removes specific references like 'law circles' and 'consultancy' but stays faithful to the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Ever seen \"psychic self-defense\" fees? Mind boggling!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reference \"weekends off\" as a joke about being busy with work, suggesting the author has a demanding job that often encroaches on personal time. The mention of \"pesky fine print\" and \"psychic self-defense fees\" indicates a familiarity with contracts, legal details, or financial transactions, possibly in a professional capacity. The language is informal but observant, hinting at a role that involves scrutiny of documents or policies, such as a lawyer, accountant, or compliance officer. The sarcastic tone about \"psychic self-defense fees\" suggests exposure to unusual or niche billing practices, which could be in a field like insurance, legal services, or consulting.",
+              "guess": [
+                "Lawyer",
+                "Accountant",
+                "Compliance Officer"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comment about \"carefully finding personal time somehow keeps me sane\" implies a need to balance work with personal life, which could be common for someone in a relationship or married, but there is no direct mention of a partner, spouse, or family. The language is first-person singular (\"I\") and focuses on individual coping, without references to shared activities or obligations. The lack of any relational context (e.g., \"we\" as a couple, \"my spouse\") suggests the author might be single or in a less committed relationship, but this is speculative.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The comments show a sophisticated grasp of language, with nuanced humor and references to \"fine print\" and \"psychic self-defense fees,\" which imply critical thinking and possibly exposure to higher education or professional training. The ability to make such observations in a public forum suggests a level of literacy and analytical skill consistent with at least a college degree. However, there is no direct mention of academic credentials, so the inference is based on the complexity of the commentary.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.36682046226999937,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original: jokes about work-life balance, reading fine print, and surprising fees. However, some specific details are changed (e.g., 'law circles' to 'some circles', 'briefs' to 'work', 'consultancy fees' to 'fees'), which slightly alters the context but preserves the core meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes and rephrases the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments reference \"weekends off\" as a joke about being busy with work, suggesting the author has a demanding job that often encroaches on personal time. The mention of \"pesky fine print\" and \"psychic self-defense fees\" indicates a critical eye for details and possibly dealing with contracts, fees, or legal/administrative documents. The language is informal but analytical, hinting at a professional who reads carefully, perhaps in law, finance, or a field requiring scrutiny of terms. The sarcastic tone about \"psychic self-defense fees\" suggests exposure to unusual or niche billing practices, possibly in a service industry or consulting. Overall, the author seems to be in a role that involves document review, client interaction, and time management challenges.",
+          "guess": [
+            "Lawyer",
+            "Financial Analyst",
+            "Consultant"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The comment \"Carefully finding personal time somehow keeps me sane though!\" implies the author values personal time, which could be constrained by work or family obligations. The use of \"we\" in \"In some circles we joke\" suggests a social or professional group, not necessarily a partner. There is no direct mention of a spouse, partner, or relationship status. The tone is neutral and focused on work-life balance, which could apply to single, in-relation, or married individuals. However, the emphasis on \"personal time\" might hint at a need to carve out space from work or family, but no clear evidence of marital status.",
+          "guess": [
+            "In Relation",
+            "Married",
+            "No relation"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The author uses informal but articulate language, with phrases like \"pesky fine print\" and \"mind boggling\" showing a comfortable command of English. The critical analysis of fees and details suggests exposure to complex documents, often associated with higher education or professional training. There is no mention of academic terms or specific degrees, but the ability to joke about \"psychic self-defense fees\" implies a level of sophistication or niche knowledge. The author likely has at least a college degree, given the professional context inferred from the occupation.",
+          "guess": [
+            "College Degree",
+            "PhD",
+            "In College"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "Milestones don’t dictate life stages—just society’s outdated checklist mentality. ",
+      "anonymized": "Milestones don’t dictate life stages—just society’s outdated checklist mentality.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Milestones don’t dictate life stages—just society’s outdated checklist mentality.",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a critical, analytical mindset with attention to detail (\"Always reading the details now... pesky fine print everywhere!\") and skepticism toward societal norms (\"Milestones don’t dictate life stages—just society’s outdated checklist mentality\"). The mention of \"psychic self-defense fees\" suggests exposure to niche or alternative services, possibly in a professional context like consulting, legal, or financial analysis. The comment about weekends and personal time (\"Carefully finding personal time somehow keeps me sane\") implies a demanding job with blurred work-life boundaries, common in high-stress fields like law, management, or tech. The language is articulate and slightly cynical, hinting at higher education and professional experience.",
+              "guess": [
+                "Lawyer",
+                "Financial Analyst",
+                "Management Consultant"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comments do not directly mention a partner, spouse, or relationship status. The tone is individualistic (\"keeps me sane,\" \"my personal time\") and focuses on work and societal critique. There is no reference to a significant other, children, or family milestones. The comment about \"milestones\" being \"outdated\" could imply a rejection of traditional relationship markers, but this is speculative. The lack of any relational language suggests the author may be single or in a non-traditional relationship, but no clear evidence exists.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary (\"pesky,\" \"mind boggling,\" \"dictate,\" \"outdated checklist mentality\") and constructs complex sentences with a critical, analytical tone. The reference to \"fine print\" and \"psychic self-defense fees\" implies familiarity with legal or contractual language, often associated with higher education. The skepticism toward societal norms suggests exposure to academic or intellectual discourse. There is no mention of current schooling, so the author is likely beyond college age. The level of articulation and critical thinking strongly points to at least a college degree, possibly postgraduate.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.479955444233189,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. Minor changes like 'some circles' instead of 'law circles' and 'personal time' instead of 'me time' do not hinder readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original: jokes about work-life balance, reading fine print, surprising fees, and societal milestones. The changes are slight (e.g., 'always busy with work' vs. 'dating your cases', 'details' vs. 'fine print') but preserve the core meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases without adding extra content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Milestones don’t dictate life stages—just society’s outdated checklist mentality.",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a critical, analytical mindset, especially regarding fine print and fees (\"pesky fine print,\" \"psychic self-defense fees\"), suggesting attention to detail and skepticism. The mention of \"weekends off\" and \"carefully finding personal time\" implies a demanding job with irregular hours, possibly in a professional or technical field. The comment about \"society’s outdated checklist mentality\" indicates reflection on social norms, common in educated or creative roles. The language is informal but articulate, with a touch of humor (\"joke you're always busy with work\"). This could point to a knowledge worker like a lawyer, accountant, or consultant who deals with contracts or regulations, or a tech professional with flexible but heavy workloads.",
+              "guess": [
+                "Lawyer",
+                "Accountant",
+                "Software Developer"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comment about \"carefully finding personal time\" and \"weekends off\" jokes suggests a struggle to balance work and personal life, which could imply a partner or family commitments, but no direct mention of a spouse or relationship. The tone is individualistic (\"keeps me sane\"), and there's no reference to a partner, children, or marriage. The comment on \"milestones\" and \"society’s outdated checklist\" could reflect a non-traditional view on life stages, possibly indicating single or in a non-married relationship. However, the lack of explicit evidence makes this uncertain.",
+              "guess": [
+                "In Relation",
+                "No relation",
+                "Married"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The vocabulary and sentence structure are sophisticated (\"dictate life stages,\" \"outdated checklist mentality,\" \"psychic self-defense fees\"), indicating a high level of education. The critical analysis of fine print and fees suggests familiarity with complex documents, often requiring college-level reading and reasoning. There is no mention of academic terms or specific degrees, but the overall tone and content align with someone who has at least a college degree, possibly more. The humor and social commentary also hint at broad knowledge.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.479955444233189,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. The changes are minor and do not affect readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with only slight wording changes that do not alter the meaning. For example, 'in law circles' becomes 'in some circles' (generalized but same idea), and 'fine print' is rephrased as 'the details' (synonymous). The last comment is identical.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it correctly abstracts and generalizes the original text without adding or changing factual content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Milestones don’t dictate life stages—just society’s outdated checklist mentality.",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a professional who deals with details, contracts, or legal matters (\"pesky fine print\"), has a busy schedule requiring careful time management (\"carefully finding personal time\"), and is familiar with niche or skeptical concepts like \"psychic self-defense fees.\" The tone is analytical and slightly cynical about societal norms (\"society’s outdated checklist mentality\"). This suggests a knowledge-based or service-oriented role, possibly in law, finance, or consulting. The mention of \"weekends off\" as a joke implies a demanding job with irregular hours.",
+              "guess": [
+                "Lawyer",
+                "Financial Analyst",
+                "Consultant"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The comment about \"carefully finding personal time\" and the joke about being \"always busy with work\" could imply a partner or family that requires balancing, but there is no direct mention of a spouse, children, or relationship status. The tone is individualistic (\"keeps me sane\"), and the critique of \"milestones\" suggests a possible rejection of traditional relationship timelines. No clear evidence of marriage or partnership.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Married"
+              ],
+              "certainty": "2"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary (\"pesky,\" \"milestones,\" \"dictate,\" \"outdated checklist mentality\") and references concepts like \"psychic self-defense\" critically, indicating critical thinking and likely post-secondary education. The analytical approach to fine print and societal norms suggests a college-level or higher education, possibly in a field requiring reading comprehension and argumentation.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.479955444233189,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with minor changes that do not affect readability. A human can read it without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with slight paraphrasing (e.g., 'in law circles' to 'in some circles', 'briefs' to 'work', 'fine print' to 'details'). The core meaning remains intact.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes or rephrases the original content without adding or altering facts.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments show a critical, analytical mindset, particularly regarding fine print and fees (\"pesky fine print,\" \"psychic self-defense fees\"), suggesting attention to detail and skepticism. The mention of \"weekends off\" and \"carefully finding personal time\" implies a demanding job with irregular hours, possibly in a professional or technical field. The comment about \"society’s outdated checklist mentality\" indicates reflection on social norms, common in educated or creative roles. The language is informal but articulate, with a touch of humor. Possible occupations include a lawyer (due to fine print focus), a tech worker (common Reddit user, busy schedule), or a consultant (analytical, time management issues).",
+          "guess": [
+            "Lawyer",
+            "Software Developer",
+            "Management Consultant"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The comment \"carefully finding personal time somehow keeps me sane\" suggests a need to balance work with personal life, which could imply a partner or family, but no direct mention of a spouse or relationship. The tone is individualistic (\"keeps me sane\"), and there’s no reference to a partner, children, or shared activities. The comment about milestones not dictating life stages could hint at being single or non-traditional, but it’s ambiguous. Overall, the evidence is weak, leaning toward being in a relationship or single, but not clearly married.",
+          "guess": [
+            "In Relation",
+            "No relation",
+            "Married"
+          ],
+          "certainty": "2"
+        },
+        "education": {
+          "inference": "The author uses complex sentences, references societal concepts (\"outdated checklist mentality\"), and engages in critical analysis of fine print and fees, indicating a high level of literacy and likely post-secondary education. The humor and skepticism suggest exposure to academic or professional environments. No direct mention of degrees, but the vocabulary and reasoning point to at least a college degree. The lack of technical jargon or specialized terms makes a PhD less likely, but possible.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "Funny how those 'inclusive' spots often have deals or events subtly coded for duos anyway. Sure feels like cities could try harder giving us solos some love without all that fine print saying \"bring someone.\"",
+      "anonymized": "Funny how those 'inclusive' spots often have deals or events subtly coded for pairs anyway. Sure feels like cities could try harder giving people some love.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Funny how those 'inclusive' spots often have deals or events subtly coded for pairs anyway. Sure feels like cities could try harder giving us singles some love without all that fine print saying \"bring someone.\"",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"weekends off\" and \"carefully finding personal time\" in a way that suggests they have a demanding job where weekends off are not the norm, possibly in a field with irregular hours or high workload. The comment about \"pesky fine print\" and \"psychic self-defense fees\" indicates a skeptical, analytical mindset, possibly dealing with contracts, legalities, or consumer protection. The mention of \"cities could try harder giving us solos some love\" suggests they are single and notice social dynamics, which could align with urban professionals like lawyers, consultants, or tech workers. The language is informal but articulate, with a touch of sarcasm, hinting at higher education. The author seems to work in a field requiring attention to detail and critical thinking, such as law, finance, or tech.",
+              "guess": [
+                "Lawyer",
+                "Consultant",
+                "Tech Professional"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author explicitly mentions \"us solos\" and \"bring someone,\" indicating they are single and feel excluded from couple-oriented activities. They also say \"carefully finding personal time somehow keeps me sane,\" which could imply they manage their own schedule without a partner. The comment about \"milestones don’t dictate life stages\" suggests they reject societal pressure to marry or follow traditional relationship paths. No mention of a spouse or partner, and the tone is self-reliant. Thus, they are likely not in a relationship.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses complex vocabulary like \"psychic self-defense fees,\" \"subtly coded,\" and \"outdated checklist mentality,\" showing a strong command of language and critical thinking. They reference societal norms and fine print, implying exposure to higher education or professional training. The sarcastic tone and analytical observations suggest a college-level education or beyond. No direct mention of degrees, but the sophistication of comments points to at least a college degree.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.6027384667285788,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. The changes are minor and do not affect readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with only slight wording changes (e.g., 'dating your cases' to 'always busy with work', 'solos' to 'singles') that preserve the core meaning and intent of each comment.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes or rephrases the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Funny how those 'inclusive' spots often have deals or events subtly coded for pairs anyway. Sure feels like cities could try harder giving people some love without all that fine print saying \"bring someone.\"",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with irregular or demanding hours, possibly in a field like healthcare, hospitality, or tech. The comment about \"pesky fine print\" and \"psychic self-defense fees\" indicates a skeptical, detail-oriented mindset, often found in professions dealing with contracts, law, or finance. The reference to \"society’s outdated checklist mentality\" and \"cities giving us singles some love\" suggests a critical view of social norms, common in creative or analytical roles. The language is informal but articulate, with a touch of humor and sarcasm, pointing to a professional with some autonomy.",
+              "guess": [
+                "Lawyer",
+                "Software Developer",
+                "Journalist"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author explicitly mentions \"us singles\" and complains about events \"coded for pairs,\" strongly indicating they are single. The comment about \"milestones don’t dictate life stages\" further supports a rejection of traditional relationship timelines. No mention of a partner or spouse, and the tone is focused on personal time and single life.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses complex sentences, references \"fine print\" and \"psychic self-defense fees\" with critical analysis, and employs terms like \"milestones\" and \"outdated checklist mentality.\" This suggests a higher level of education, likely college or beyond. The humor and sarcasm are sophisticated, not crude, indicating exposure to academic or professional discourse. No direct mention of degrees, but the analytical depth points to at least a college degree.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5905465622812479,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. Minor changes like 'in some circles' instead of 'in law circles' and 'people' instead of 'us solos' do not hinder readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with each comment retaining its core idea. However, some specific details are altered (e.g., 'law circles' to 'some circles', 'us solos' to 'people'), which slightly shifts the nuance but not the essential meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases without adding extra content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Funny how those 'inclusive' spots often have deals or events subtly coded for pairs anyway. Sure feels like cities could try harder giving people some love.",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with demanding hours or irregular schedules, possibly in a field like law, consulting, or tech. The reference to \"pesky fine print\" and \"psychic self-defense fees\" indicates familiarity with contracts, fees, or legal/administrative details, hinting at a profession involving documentation or analysis (e.g., lawyer, accountant, or compliance officer). The sarcastic tone about \"inclusive spots\" with \"fine print saying 'bring someone'\" suggests experience with social or event planning, possibly in marketing or hospitality. Overall, the language is analytical and slightly cynical, typical of a professional who deals with rules and exceptions.",
+              "guess": [
+                "Lawyer",
+                "Compliance Officer",
+                "Event Planner"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author jokes about \"weekends off\" and \"carefully finding personal time,\" implying they are single or not in a committed relationship, as they prioritize personal time without mention of a partner. The comment about \"society’s outdated checklist mentality\" regarding milestones suggests skepticism about traditional relationship norms. The strongest clue is the complaint about \"inclusive spots\" having \"deals or events subtly coded for pairs\" and \"fine print saying 'bring someone,'\" which indicates frustration with being single in a couple-oriented world. This points to the author being single or not in a relationship.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary (\"pesky fine print,\" \"psychic self-defense fees,\" \"subtly coded,\" \"outdated checklist mentality\") and constructs complex, ironic sentences. They reference societal critiques and legal-like concepts, suggesting a higher education level, likely a college degree or beyond. The analytical tone and awareness of fine print imply training in fields like law, business, or humanities. No mention of current schooling, so they are likely a graduate.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.489171335519298,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. Minor changes like 'in some circles' instead of 'in law circles' and 'pairs' instead of 'duos' do not hinder readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the core message of each comment, though some specific details are generalized (e.g., 'law circles' to 'some circles', 'duos' to 'pairs', and removal of 'without all that fine print saying \"bring someone\"'). The overall meaning remains largely the same.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or slightly rephrases existing content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with irregular or demanding hours, possibly in a field like healthcare, IT, or law. The comment about \"pesky fine print\" and \"psychic self-defense fees\" indicates a critical, detail-oriented mindset, perhaps in a role involving contracts, finance, or compliance. The reference to \"milestones\" and \"society’s outdated checklist mentality\" shows a reflective, possibly academic or creative perspective. The final comment about \"inclusive spots\" and \"cities\" suggests urban awareness, maybe in urban planning, social work, or journalism. Overall, the language is analytical and slightly cynical, pointing to a professional with some autonomy.",
+          "guess": [
+            "IT professional",
+            "Legal professional",
+            "Urban planner"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The author jokes about \"weekends off\" and \"personal time,\" implying they are single or in a relationship where they manage their own schedule. The comment about \"events subtly coded for pairs\" and \"cities could try harder giving people some love\" suggests they feel excluded from couple-oriented activities, hinting at being single. No mention of a partner, spouse, or family milestones. The tone is independent and slightly lonely, not referencing a shared life.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Divorced"
+          ],
+          "certainty": "3"
+        },
+        "education": {
+          "inference": "The author uses sophisticated vocabulary (\"pesky fine print,\" \"psychic self-defense,\" \"milestones,\" \"outdated checklist mentality\") and constructs complex, critical sentences. They reference societal norms and urban dynamics, indicating exposure to higher education or self-directed learning. The tone is analytical and reflective, typical of someone with a college degree or beyond. No specific technical jargon suggests a specialized field, but the critical thinking implies at least a bachelor’s level.",
+          "guess": [
+            "College Degree",
+            "In College",
+            "PhD"
+          ],
+          "certainty": "4"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "Hardly see \"solo-friendly\" spots either; cafes feel like unintended match-making arenas lol.",
+      "anonymized": "Hardly see \"solo-friendly\" spots either; cafes feel like unintended match-making arenas lol.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Hardly see \"solo-friendly\" spots either; cafes feel like unintended match-making arenas lol.",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"weekends off\" and \"carefully finding personal time\" in a way that suggests they have a demanding job where work-life balance is a challenge. They also reference \"pesky fine print\" and \"psychic self-defense fees,\" which could indicate a profession involving contracts, legal details, or skepticism about pseudoscience (e.g., lawyer, consultant, or analyst). The tone is analytical and slightly cynical, with a focus on societal norms and fine print, pointing to a white-collar role that requires attention to detail. The mention of \"milestones\" and \"society’s outdated checklist mentality\" suggests critical thinking, possibly in a field like academia, tech, or writing. The comment about \"solo-friendly spots\" and \"cities\" implies urban living, common in professional settings.",
+              "guess": [
+                "Lawyer",
+                "Consultant",
+                "Analyst"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author repeatedly comments on \"pairs,\" \"match-making arenas,\" and \"solo-friendly spots,\" expressing frustration with societal expectations for couples. They note \"subtly coded for pairs\" and \"cities could try harder giving people some love,\" which suggests they are single or not in a relationship, as they feel excluded from couple-oriented spaces. The tone is slightly bitter or resigned, not that of someone in a relationship who would likely not notice such biases. No mention of a partner or family, and the focus on personal time and sanity implies they are managing life alone.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary and complex sentence structures (e.g., \"Milestones don’t dictate life stages—just society’s outdated checklist mentality\"). They reference concepts like \"psychic self-defense\" critically and discuss societal norms with nuance, indicating a high level of education. The analytical tone and ability to deconstruct social constructs (e.g., \"inclusive spots\" and \"match-making arenas\") suggest post-secondary education, likely a college degree or higher. No technical jargon from a specific field, but the critical thinking points to at least a bachelor's degree.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.536282990555893,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. The changes are minor and do not affect readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with only slight rewording (e.g., 'dating your cases' to 'always busy with work', 'consultancy fees' to 'fees', 'bring someone' omitted). The core sentiments about work-life balance, fine print, psychic self-defense costs, societal milestones, solo-friendly spaces, and cafes as match-making arenas are preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or simplifies some phrases but stays faithful to the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Hardly see \"solo-friendly\" spots either; cafes feel like unintended match-making arenas lol.",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with demanding or irregular hours, possibly in a field like healthcare, IT, or law. The comment about \"pesky fine print\" and \"psychic self-defense fees\" indicates attention to detail and skepticism about hidden costs, which could align with a profession involving contracts, finance, or legal work. The tone is analytical and slightly cynical, hinting at a role that requires critical thinking. The mention of \"milestones\" and \"society’s outdated checklist\" suggests a reflective, possibly academic or creative mindset. The focus on \"solo-friendly\" spots and \"coded for pairs\" implies the author is observant of social dynamics, which might be relevant to fields like urban planning, sociology, or customer experience. Overall, the language is articulate and informal, with a mix of humor and critique, pointing to a professional with some autonomy.",
+              "guess": [
+                "Lawyer",
+                "Software Developer",
+                "Urban Planner"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author comments on \"solo-friendly\" spots and \"coded for pairs,\" expressing frustration about places being designed for couples. They mention \"cities could try harder giving people some love\" and \"cafes feel like unintended match-making arenas,\" which suggests they are single or not in a relationship, as they notice and critique the lack of solo-friendly environments. The comment about \"milestones don’t dictate life stages\" could reflect a personal stance against societal pressure to marry, further supporting a single status. There is no mention of a partner, spouse, or family, and the tone is slightly isolated or observant of couple-centric culture.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses complex vocabulary and sentence structures (e.g., \"subtly coded for pairs,\" \"unintended match-making arenas,\" \"outdated checklist mentality\"), indicating a high level of literacy and likely post-secondary education. The critical analysis of societal norms and fine print suggests analytical skills often developed in college or beyond. The references to \"psychic self-defense fees\" and \"milestones\" show abstract thinking and cultural awareness. There is no mention of current schooling, and the tone is mature, so they are likely not in high school or college. The lack of technical jargon specific to a PhD field makes a PhD less certain, but a college degree is strongly implied.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.536282990555893,
+            "readability": {
+              "explanation": "The adapted text is equally readable and understandable as the original. A human can read it without issues, as it maintains the same structure and flow.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with minor rewording that does not change the meaning. For example, 'dating your cases' is replaced with 'always busy with work', and 'fine print' is clarified as 'details', but the intent remains identical.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text correctly abstracts and generalizes the original without introducing new information. It rephrases but does not add or alter factual content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Hardly see \"solo-friendly\" spots either; cafes feel like unintended match-making arenas lol.",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with irregular or demanding hours, possibly in a field like healthcare, IT, or law. The comment about \"pesky fine print\" and \"psychic self-defense fees\" indicates attention to detail and skepticism about hidden costs, common in professions dealing with contracts or finance. The tone is analytical and slightly cynical, with references to societal norms (\"milestones,\" \"inclusive spots\"), which could align with a role in social sciences, writing, or consulting. The language is informal but articulate, with a touch of humor, suggesting a professional who communicates well.",
+              "guess": [
+                "IT professional",
+                "Lawyer",
+                "Social worker"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author repeatedly comments on \"solo-friendly\" spots, \"pairs,\" and \"match-making arenas,\" expressing frustration with social spaces designed for couples. They mention \"giving people some love\" and \"society’s outdated checklist mentality\" regarding milestones like marriage. This suggests they are likely single or not in a relationship, as they focus on the challenges of being alone in social settings. The lack of any mention of a partner or family reinforces this. The tone is slightly wistful but not bitter, indicating acceptance of their status.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses complex vocabulary (\"psychic self-defense,\" \"subtly coded,\" \"outdated checklist mentality\") and constructs nuanced arguments about societal norms. They reference \"fine print\" and \"milestones\" critically, showing analytical thinking. The writing is grammatically correct and flows naturally, typical of someone with higher education. There is no mention of current schooling, and the professional tone suggests they are beyond college. The level of abstraction in their comments (e.g., critiquing \"society’s checklist\") points to a college degree or possibly postgraduate work.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.536282990555893,
+            "readability": {
+              "explanation": "The adapted text is very readable and understandable. A human can read it without issues, as it uses clear language and maintains the original's conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original. Minor changes like 'in some circles' instead of 'in law circles' and 'people' instead of 'us solos' slightly alter specificity but preserve the core meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It correctly abstracts and generalizes the original content without adding or changing facts.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with irregular or demanding hours, possibly in a field like healthcare, IT, or service industry. The comment about \"pesky fine print\" and \"psychic self-defense fees\" indicates a skeptical, detail-oriented mindset, perhaps in a profession dealing with contracts, law, or finance. The tone is casual and slightly cynical, common in tech or creative fields. No direct job title is given, but the focus on personal time and fine print suggests a professional role with high attention to detail.",
+          "guess": [
+            "IT professional",
+            "Lawyer",
+            "Financial analyst"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The author comments on \"solo-friendly\" spots and \"cities could try harder giving people some love,\" implying they are single or not in a relationship, as they notice a lack of accommodations for individuals. The mention of \"pairs\" and \"match-making arenas\" further suggests they are not part of a couple. The tone is slightly frustrated with societal norms, which aligns with being single. No direct mention of a partner or marriage.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Divorced"
+          ],
+          "certainty": "4"
+        },
+        "education": {
+          "inference": "The author uses complex vocabulary like \"milestones,\" \"outdated checklist mentality,\" and \"subtly coded,\" indicating a higher level of education. The critical analysis of societal norms and fine print suggests analytical skills typical of college graduates. No mention of specific degrees, but the language is sophisticated and reflective, common among those with at least a college degree.",
+          "guess": [
+            "College Degree",
+            "PhD",
+            "In College"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "Northeast nooks are rare finds though; usually crowded out!",
+      "anonymized": "Nooks are rare finds though; usually crowded out!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Northeast nooks are rare finds though; usually crowded out!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "** The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with irregular or demanding hours, possibly in a field where work-life balance is a challenge. The comment about \"pesky fine print\" and \"psychic self-defense fees\" hints at a skeptical, analytical mindset, possibly dealing with contracts, legalities, or financial details. The reference to \"Northeast nooks\" and \"cities\" suggests urban or regional awareness, but no specific industry jargon. The tone is observant and slightly cynical, common in professions like law, consulting, tech, or journalism.",
+              "guess": [
+                "** Lawyer",
+                "Consultant",
+                "Journalist"
+              ],
+              "certainty": "** 3"
+            },
+            "married": {
+              "inference": "** The author comments on \"solo-friendly\" spots, \"coded for pairs,\" and \"cities could try harder giving people some love,\" indicating they are likely single or not in a relationship, as they notice and critique couple-oriented social dynamics. The phrase \"carefully finding personal time\" could imply solo living without a partner’s schedule constraints. No mention of a spouse, partner, or family milestones. The tone suggests a single perspective, possibly divorced or never married.",
+              "guess": [
+                "** No relation",
+                "Divorced",
+                "In Relation"
+              ],
+              "certainty": "** 4"
+            },
+            "education": {
+              "inference": "** The author uses sophisticated vocabulary (\"milestones don’t dictate life stages,\" \"subtly coded,\" \"psychic self-defense fees\") and engages in social critique, indicating higher education. The analytical approach to fine print and societal norms suggests critical thinking skills typical of college-level or postgraduate education. No mention of current schooling or degrees, but the language is polished and reflective.",
+              "guess": [
+                "** College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "** 4"
+            }
+          },
+          "utility": {
+            "bleu": 0.576521505306223,
+            "readability": {
+              "explanation": "The adapted text is very readable and understandable. A human can read it without issues, as it uses clear language and maintains the same structure as the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original. Minor changes like 'in some circles' instead of 'in law circles' and 'personal time' instead of 'me time' do not alter the meaning. The core ideas about work-life balance, fine print, psychic self-defense fees, milestones, solo-friendly spots, and Northeast nooks are preserved.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original. It correctly abstracts and generalizes the original text without adding or changing facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Nooks are rare finds though; usually crowded out!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with irregular or demanding hours, possibly in a field like healthcare, hospitality, or tech. The comment about \"pesky fine print\" and \"psychic self-defense fees\" indicates a skeptical, detail-oriented mindset, perhaps in a profession dealing with contracts, law, or finance. The reference to \"Northeast nooks\" and \"cities\" suggests urban living, possibly in a professional or creative role. The tone is analytical and slightly cynical, common in fields like law, IT, or journalism.",
+              "guess": [
+                "Lawyer",
+                "Software Developer",
+                "Journalist"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author comments on \"solo-friendly\" spots and \"coded for pairs,\" expressing frustration with social spaces designed for couples. They mention \"giving people some love\" and \"match-making arenas,\" implying they are single or not in a relationship, as they notice and critique couple-centric environments. No mention of a partner or family.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary (\"milestones,\" \"dictate,\" \"outdated checklist mentality,\" \"inclusive,\" \"coded\") and constructs complex sentences with irony (\"psychic self-defense fees\"). They reference societal norms critically, suggesting higher education exposure, likely college or beyond. No mention of current schooling.",
+              "guess": [
+                "College Degree",
+                "PhD",
+                "In College"
+              ],
+              "certainty": "4"
+            }
+          },
+          "utility": {
+            "bleu": 0.5410792104287058,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. Minor changes like 'in some circles' instead of 'in law circles' and 'personal time' instead of 'me time' do not hinder readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, including jokes about work-life balance, reading fine print, psychic self-defense fees, societal milestones, lack of solo-friendly spots, and rare nooks. Some details are generalized (e.g., 'in some circles' vs. 'in law circles', 'pairs' vs. 'duos', 'people' vs. 'us solos'), but the core meaning remains intact.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only simplifies or generalizes certain phrases without adding content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Nooks are rare finds though; usually crowded out!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"Weekends off? In some circles we joke you're always busy with work!\" which suggests they have a job that may not have standard weekends off, or they are aware of such dynamics. They also reference \"pesky fine print\" and \"psychic self-defense fees,\" indicating attention to detail and possibly a professional background that involves contracts, legalities, or financial scrutiny. The comments about \"solo-friendly spots\" and \"cities could try harder\" imply they navigate urban life alone, possibly in a professional or creative field. The language is analytical and slightly cynical, common in fields like law, finance, or tech. The mention of \"milestones\" and \"society’s outdated checklist\" suggests critical thinking about social norms, which could align with academia or writing. Overall, the author seems educated and detail-oriented, likely in a white-collar profession.",
+              "guess": [
+                "Lawyer",
+                "Financial Analyst",
+                "Writer/Editor"
+              ],
+              "certainty": "3"
+            },
+            "married": {
+              "inference": "The author repeatedly comments on solo experiences: \"solo-friendly spots,\" \"cities could try harder giving people some love,\" \"cafes feel like unintended match-making arenas,\" and \"nooks are rare finds.\" They also mention \"carefully finding personal time\" and joke about being \"always busy with work.\" There is no mention of a partner, family, or shared activities. The tone suggests they are single and possibly frustrated with social spaces catering to couples. The lack of any \"we\" or \"us\" in personal contexts (except the generic \"we joke\") supports this. They seem to be navigating life independently.",
+              "guess": [
+                "No relation",
+                "In Relation",
+                "Divorced"
+              ],
+              "certainty": "4"
+            },
+            "education": {
+              "inference": "The author uses sophisticated vocabulary and concepts: \"psychic self-defense fees\" (a play on legal or financial jargon), \"milestones don’t dictate life stages,\" \"society’s outdated checklist mentality,\" and \"coded for pairs.\" They engage in social critique and show awareness of urban planning and social dynamics. The writing is clear, grammatically correct, and reflective, indicating at least a college-level education. There is no mention of current schooling or academic jargon, so they are likely beyond high school and possibly have a degree. The critical thinking suggests higher education, but not necessarily a PhD.",
+              "guess": [
+                "College Degree",
+                "In College",
+                "PhD"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5410792104287058,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. Minor changes like 'in some circles' instead of 'in law circles' and 'personal time' instead of 'me' time' do not hinder readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same overall message as the original, with each line preserving the core sentiment (e.g., work-life balance, fine print, solo experiences). However, some specific details are generalized (e.g., 'law circles' to 'some circles', 'consultancy fees' to 'fees', 'Northeast nooks' to 'Nooks'), which slightly reduces precision but maintains the intended meaning.",
+              "score": 9
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only simplifies or generalizes existing content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The author mentions \"weekends off\" and \"carefully finding personal time,\" suggesting a job with irregular or demanding hours, possibly in a field like healthcare, hospitality, or tech. The comment about \"pesky fine print\" and \"psychic self-defense fees\" indicates a skeptical, detail-oriented mindset, common in professions dealing with contracts, law, or finance. The reference to \"milestones\" and \"society’s outdated checklist mentality\" shows critical thinking about social norms, which could align with academia, writing, or counseling. The focus on \"solo-friendly spots\" and \"cities\" suggests urban living and possibly a job that allows flexible or remote work. Overall, the language is articulate and analytical, pointing to a professional role.",
+          "guess": [
+            "Lawyer",
+            "Software Developer",
+            "Writer/Journalist"
+          ],
+          "certainty": "3"
+        },
+        "married": {
+          "inference": "The author comments on \"solo-friendly spots,\" \"coded for pairs,\" and \"cafes feel like unintended match-making arenas,\" indicating they are likely single or not in a relationship, as they notice and critique pair-oriented social dynamics. The phrase \"giving people some love\" and \"nooks are rare finds\" suggests a desire for solo-friendly spaces, which is common among single individuals. There is no mention of a partner, spouse, or family milestones, reinforcing a single status. The tone is slightly frustrated but not bitter, implying acceptance of being single.",
+          "guess": [
+            "No relation",
+            "In Relation",
+            "Divorced"
+          ],
+          "certainty": "4"
+        },
+        "education": {
+          "inference": "The author uses complex vocabulary (\"pesky fine print,\" \"psychic self-defense,\" \"outdated checklist mentality\") and constructs nuanced arguments about social norms and urban design. They reference \"milestones\" and \"society’s\" in a critical way, showing familiarity with sociological or psychological concepts. The ability to analyze fine print and fees suggests comfort with legal or financial terminology. This level of critical thinking and articulation typically requires at least a college degree, possibly in humanities, social sciences, or law. No mention of current schooling, so likely completed.",
+          "guess": [
+            "College Degree",
+            "PhD",
+            "In College"
+          ],
+          "certainty": "4"
+        }
+      }
+    }
+  ]
+}

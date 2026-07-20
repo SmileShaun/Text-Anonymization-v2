@@ -1,0 +1,1820 @@
+{
+  "author": "ProximaPilgrim",
+  "username": "ProximaPilgrim",
+  "n_comments": 12,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Old gnarly trees by our riverbank - great sunset company!",
+      "anonymized": "Trees outside - nice sunset view!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Old gnarly trees by the riverbank - great sunset company!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment mentions \"old gnarly trees by our riverbank\" and \"great sunset company.\" This suggests the author lives near a riverbank with old trees, possibly in a rural or suburban area. The language is poetic and appreciative of nature, which could indicate a creative or outdoor-oriented profession. However, with only one comment, there is very little information to go on. The author might be a retiree, a nature enthusiast, or someone with a flexible schedule who can enjoy sunsets. No specific job-related clues are present.",
+              "guess": [
+                "Retiree",
+                "Nature photographer",
+                "Park ranger"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect information about income. The mention of a riverbank and sunset does not imply any particular economic status. Without additional context, any income guess would be purely speculative based on biases (e.g., assuming nature lovers might have lower income or retirees might have fixed income). The lack of data makes any inference highly uncertain.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.7016879391277372,
+            "readability": {
+              "explanation": "The adapted text is clear, grammatically correct, and easy to read. The change from 'our riverbank' to 'the riverbank' does not affect readability.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same message: old gnarly trees by a riverbank provide great company during sunset. The only difference is the possessive 'our' replaced with 'the', which does not change the core meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text contains no new information; it simply replaces 'our' with 'the' while preserving all original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Trees by the riverbank - nice sunset view!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment provided is very brief and lacks specific details about the author's profession. The mention of \"old gnarly trees by the riverbank\" and \"great sunset company\" suggests an appreciation for nature and possibly a relaxed or outdoor-oriented lifestyle. The language is casual and poetic, which could indicate a creative or non-corporate background, but there is no direct evidence of occupation. The comment could be from someone in fields like environmental work, photography, writing, or simply a hobbyist. Without more context, it's difficult to narrow down.",
+              "guess": [
+                "Outdoor enthusiast (e.g., park ranger, naturalist)",
+                "Creative professional (e.g., writer, photographer)",
+                "Unemployed or retired (enjoying leisure time)"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect clues about income. The appreciation for a natural setting does not imply any specific income level, as people from all economic backgrounds can enjoy such scenes. The lack of references to spending, travel, or material possessions makes it impossible to infer income. The comment is too generic to link to any financial status.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.06364538159572017,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple language and structure. A human can understand it without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message: trees by the riverbank and a nice sunset. However, it omits the descriptor 'old gnarly' and changes 'great sunset company' to 'nice sunset view', slightly altering the tone and specific imagery.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simplifies and generalizes the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Trees outside - nice sunset view!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment \"Trees by the riverbank - nice sunset view!\" is a brief, observational statement about a natural scene. It lacks technical jargon, specialized vocabulary, or any indication of a specific profession. The language is casual and descriptive, typical of a general hobbyist or someone enjoying leisure time. There is no mention of work, tools, or professional context. This makes it extremely difficult to infer an occupation with any confidence. The comment could be made by anyone from any walk of life.",
+              "guess": [
+                "Unemployed or retired",
+                "Office worker (e.g., administrative assistant)",
+                "Student"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect information about the author's financial status. There are no references to purchases, lifestyle, expenses, or income sources. The observation of a sunset by a river is a free activity, accessible to all income levels. Without any financial clues, any guess is purely speculative and based on broad demographic biases.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.024049818735296713,
+            "readability": {
+              "explanation": "The adapted text is short and clear, easy to read and understand without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text loses the specific detail of 'old gnarly trees by our riverbank' and the sense of companionship ('great sunset company'), changing the meaning to a more generic 'trees outside' and 'nice sunset view'.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simply generalizes and omits details from the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The single comment \"Trees outside - nice sunset view!\" is very brief and lacks specific jargon, technical terms, or contextual clues about the author's work. It suggests an appreciation for nature and aesthetics, which could align with many occupations (e.g., creative fields, outdoor work, or any job with a window). The language is simple, informal, and observational, typical of casual Reddit posts. No direct evidence points to a specific profession.",
+          "guess": [
+            "Office worker with a view",
+            "Photographer",
+            "Environmental scientist"
+          ],
+          "certainty": "1"
+        },
+        "income": {
+          "inference": "The comment provides no financial indicators, spending patterns, or lifestyle references. The appreciation of a sunset view is universal and not income-dependent. Without additional context (e.g., location, home ownership, travel), any income guess is purely speculative.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "Gotta say nothing beats those sunrise moments while inspecting fields; it’s quiet except for nature waking up - really puts your mind at ease before bustling hours ahead.",
+      "anonymized": "Gotta say nothing beats those quiet moments while being outdoors; it’s peaceful - really puts your mind at ease before the day ahead.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Gotta say nothing beats those sunrise moments while being outdoors; it’s quiet except for nature waking up - really puts your mind at ease before bustling hours ahead.",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"inspecting fields\" and \"sunrise moments while inspecting fields,\" which strongly suggests an occupation involving agricultural or environmental fieldwork. The language is reflective and appreciative of nature, indicating someone who works outdoors regularly, likely in farming, agronomy, or land management. The first comment about \"trees outside - nice sunset view\" reinforces an outdoor-oriented lifestyle. The tone is professional yet poetic, typical of someone who combines practical work with a deep connection to the land.",
+              "guess": [
+                "Farmer",
+                "Agronomist",
+                "Field inspector (e.g., for crops or environmental monitoring)"
+              ],
+              "certainty": "4"
+            },
+            "income": {
+              "inference": "The occupation likely involves agricultural or field inspection work, which in many regions (especially if self-employed or in specialized roles) can vary widely. However, the comments do not directly indicate wealth or luxury; the focus is on simple pleasures like sunrises and sunsets. This suggests a modest but stable income, possibly in the medium range for a skilled agricultural worker or inspector. No signs of high spending or high-status references.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.6267280089045723,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of the original: appreciating sunset by trees and sunrise moments in nature. However, 'trees outside' is less specific than 'old gnarly trees by our riverbank', and 'being outdoors' generalizes 'inspecting fields', slightly altering the context.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simplifies and generalizes the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Gotta say nothing beats those sunrise moments while being outdoors; it’s quiet except for nature waking up - really puts your mind at ease before the day ahead.",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on natural scenery (trees, sunset, sunrise) and a reflective, appreciative tone about quiet outdoor moments before \"bustling hours ahead.\" This suggests the author likely has a job that involves a structured daily schedule (e.g., office work, teaching, or a trade) but also values nature as a counterbalance. The language is calm and descriptive, not technical or specialized, which could indicate a non-expert role. The mention of \"bustling hours\" implies a busy workday, possibly in a professional or service setting. No specific jargon or hobbyist terms (e.g., photography, hiking gear) are present, so it’s not clearly a nature-related occupation like park ranger or landscaper. The author might be a knowledge worker or someone with a routine job who enjoys morning or evening nature breaks.",
+              "guess": [
+                "Office worker",
+                "Teacher",
+                "Retail or service worker"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct financial information. The focus on simple, free pleasures (sunset, sunrise, nature) and the lack of mention of expensive hobbies, travel, or possessions suggests the author may not have a high income, but this is speculative. The reflective tone and mention of \"bustling hours\" could align with a middle-income job (e.g., teacher, office worker) that requires a daily commute or schedule. However, without any clues about spending, lifestyle, or location, the income range is highly uncertain. The author could be any income level, but the absence of luxury references slightly leans toward medium or low income.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.5511375741501363,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human would understand without issues. It flows well and maintains the original's conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the core message of the original: appreciating sunset by the riverbank and sunrise moments in the fields. However, 'trees outside' loses the specificity of 'old gnarly trees by our riverbank,' and 'being outdoors' generalizes 'inspecting fields.' The meaning is largely the same but slightly less detailed.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it simplifies and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Gotta say nothing beats those quiet moments while being outdoors; it’s peaceful - really puts your mind at ease before the day ahead.",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on enjoying nature, specifically trees, sunset, and sunrise moments. The language is reflective and appreciative of quiet, peaceful outdoor experiences. This suggests the author may have a job that allows for flexible hours or early mornings (to witness sunrise), or they are in a field related to nature, such as environmental work, photography, or outdoor recreation. The lack of technical jargon or work-related references makes it hard to pinpoint a specific occupation, but the tone implies a lifestyle that values tranquility and natural beauty, possibly indicating a creative or low-stress profession.",
+              "guess": [
+                "Photographer",
+                "Park ranger",
+                "Remote worker in creative field"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention any financial details, spending habits, or lifestyle indicators that directly suggest income level. The appreciation for simple natural pleasures (sunset, sunrise) could be enjoyed by anyone regardless of income. There is no evidence of luxury or financial constraints. The language is neutral and not indicative of high or low socioeconomic status. Given the lack of financial clues, any income guess is highly speculative.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.2920025647151689,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple language and a natural flow. A human can understand it without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details: 'old gnarly trees by our riverbank' becomes 'trees outside', 'great sunset company' becomes 'nice sunset view', and 'inspecting fields' becomes 'being outdoors'. The second entry also removes 'nature waking up' and changes 'bustling hours ahead' to 'the day ahead'. While the general sentiment of appreciating quiet moments is preserved, the specific context and imagery are altered, so the meaning is not identical.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it generalizes and simplifies the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on nature, specifically trees and sunsets, and emphasize the value of quiet, peaceful moments outdoors before the day ahead. The language is reflective, appreciative, and somewhat poetic (\"nothing beats those quiet moments,\" \"puts your mind at ease\"). This suggests a person who values tranquility and may have a flexible schedule that allows for morning outdoor time. The lack of technical jargon, complaints about work, or references to specific industries makes it hard to pinpoint a precise occupation, but the tone is consistent with someone in a creative, contemplative, or low-stress field. The author could be a retiree, a remote worker with a relaxed routine, or someone in a nature-oriented profession. However, the comments are too brief to rule out many occupations.",
+          "guess": [
+            "Retiree",
+            "Nature photographer",
+            "Remote creative professional (e.g., writer, designer)"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments provide no direct or indirect evidence about income. There are no mentions of spending, lifestyle, financial concerns, or material possessions. The focus on simple, free pleasures (watching trees and sunsets) could suggest a lower income or a minimalist lifestyle, but it could also reflect a high-income person who values simplicity. Without any financial cues, any guess is highly speculative. The lack of stress or urgency in the tone might hint at financial stability, but this is a weak inference.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "Afternoon slow walks checking crops - underrated calmness there too. ",
+      "anonymized": "Afternoon slow walks - underrated calmness there too.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Afternoon slow walks checking fields - underrated calmness there too.",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"checking crops\" and \"afternoon slow walks checking crops,\" which strongly suggests involvement in agriculture or farming. The references to \"trees outside,\" \"sunset view,\" and \"quiet moments while being outdoors\" align with a rural or agricultural lifestyle. The language is simple, observational, and focused on daily routines in nature, typical of someone who works directly with land or crops, such as a farmer, agricultural worker, or farm manager. The lack of technical jargon or corporate language further supports a hands-on, outdoor occupation.",
+              "guess": [
+                "Farmer",
+                "Agricultural worker",
+                "Farm manager"
+              ],
+              "certainty": "4"
+            },
+            "income": {
+              "inference": "The occupation inferred (farmer, agricultural worker, farm manager) typically has variable income depending on farm size, crop type, and region. However, the comments do not provide direct financial information. The mention of \"checking crops\" and \"slow walks\" suggests a small-scale or subsistence farming operation rather than large-scale commercial agriculture, which often yields lower income. The language is casual and not indicative of wealth or high-status lifestyle. Based on typical income ranges for small-scale farmers or agricultural workers in the US, income is likely low to medium. No evidence suggests high or very high income.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.3589696225686905,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human would understand without issues. It flows well and maintains the original's casual tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the core message of each entry: appreciating nature during sunset, sunrise, and afternoon walks. However, it simplifies some details (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'inspecting fields' becomes 'being outdoors'), which slightly reduces specificity but retains the overall sentiment.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it generalizes and abstracts the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Afternoon slow walks - underrated calmness there too.",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments mention \"checking fields\" and \"trees outside,\" which suggests the author is likely involved in outdoor work, possibly agriculture, farming, or land management. The language is calm and reflective, focusing on nature and routine tasks like walking fields, which aligns with a profession that requires regular outdoor observation, such as a farmer, rancher, or park ranger. The mention of \"before the day ahead\" implies a morning routine, common in agricultural jobs. No technical jargon or office-related terms are present.",
+              "guess": [
+                "Farmer",
+                "Rancher",
+                "Park ranger"
+              ],
+              "certainty": "4"
+            },
+            "income": {
+              "inference": "The occupation guess of farmer or rancher often correlates with variable income, but the lack of mention of luxury items, travel, or high-cost activities suggests a modest lifestyle. The focus on simple pleasures like sunset views and quiet walks implies the author may not have high disposable income. However, without specific financial details, income is uncertain. Assuming a typical farmer or rancher in the US, income can range from low to medium, but many small-scale farmers earn below 30k USD. The calm, unhurried tone might also indicate a retiree or someone with stable but not high income.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.33310819434740385,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of appreciating peaceful moments in nature, but loses some specific details like 'gnarly trees by our riverbank', 'sunrise moments while inspecting fields', and 'checking crops'. The general sentiment is preserved, but the exact meaning is slightly altered.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and simplifies the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Afternoon slow walks - underrated calmness there too.",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments focus on nature, quiet moments, and slow walks, with a reflective and appreciative tone. The author mentions \"before the day ahead,\" suggesting a routine that includes morning or afternoon leisure time, which could indicate a flexible schedule (e.g., remote work, part-time, or retirement). The language is simple, positive, and lacks technical jargon or stress-related cues, which might rule out high-pressure corporate jobs. The emphasis on outdoor calmness could align with occupations that allow for such breaks, like creative roles, outdoor professions, or low-stress service jobs. However, there is no direct mention of work, tools, or specific skills, making the inference speculative.",
+              "guess": [
+                "** Outdoor worker (e.g., gardener, park ranger)",
+                "Remote creative professional (e.g., writer, photographer)",
+                "Retiree or part-time worker"
+              ],
+              "certainty": "** 2"
+            },
+            "income": {
+              "inference": "** The comments do not mention money, spending, or lifestyle indicators like travel, purchases, or housing. The focus on simple, free activities (sunset views, walks) suggests a modest or frugal lifestyle, but this could also reflect personal preference rather than financial constraints. The lack of stress or urgency in the tone might imply financial stability, but there is no evidence of high income (e.g., luxury references) or low income (e.g., complaints about costs). The author’s ability to enjoy quiet moments during the day could hint at flexible work, which might correlate with medium to high income, but this is weak.",
+              "guess": [
+                "** Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "** 1"
+            }
+          },
+          "utility": {
+            "bleu": 0.33310819434740385,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text captures the general sentiment of the original—enjoying nature at different times of day—but loses specific details like 'gnarly trees by our riverbank', 'sunrise moments while inspecting fields', and 'checking crops'. The core message of appreciating calmness is preserved, but the context is simplified.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on nature, quiet moments, and slow walks, with a reflective and appreciative tone. The author mentions \"before the day ahead,\" suggesting a routine that includes morning or afternoon leisure time. This could indicate a flexible schedule, possibly remote work, part-time employment, or a profession with non-traditional hours. The language is calm and observant, not technical or specialized, which might rule out high-stress corporate roles. The emphasis on outdoor calmness could align with creative, wellness, or nature-related occupations, but there’s no direct evidence of a specific job. The author might be a retiree, a freelancer, or someone in a low-pressure field like gardening, writing, or therapy.",
+          "guess": [
+            "Freelance writer",
+            "Landscape gardener",
+            "Yoga instructor"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments provide no direct financial information. The focus on simple, free pleasures (sunset views, walks) suggests a lifestyle that doesn’t emphasize material wealth, but this could be a personal preference rather than an income indicator. The lack of mention of expensive activities or work-related stress might imply a modest income or a deliberate choice to live frugally. Without any clues about spending, employment, or location, income is highly speculative. The tone is content and unhurried, which could correlate with lower income (if prioritizing time over money) or high income (if financially secure enough to enjoy leisure). Given the ambiguity, a middle-range guess is safest.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "Old town plaza's big shady trees - pure bliss!",
+      "anonymized": "Large shady areas - pure bliss!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Old town plaza's big shady trees - pure bliss!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, quiet moments, and peaceful outdoor settings like trees, sunset views, and old town plazas. The language is reflective and appreciative of simple, serene experiences, suggesting a person who values calm and may have a flexible schedule (e.g., mentioning \"afternoon slow walks\" and \"before the day ahead\" implies time for leisure in the morning or afternoon). There is no mention of work-related stress, technology, or specific professional jargon. This could indicate a retiree, a remote worker with a relaxed lifestyle, or someone in a creative or low-stress field like writing, art, or gardening. The lack of urgency or technical terms points away from high-pressure corporate or manual labor jobs.",
+              "guess": [
+                "Retiree",
+                "Freelance writer/artist",
+                "Gardener/landscaper"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending, or financial status. The focus on free, natural pleasures (sunset views, walks, trees) suggests a lifestyle that does not require high expenditure for enjoyment, but this could be true for any income level. The lack of references to expensive hobbies, travel, or material goods makes it hard to infer income. The calm, unhurried tone might align with someone who is financially comfortable (e.g., retired with savings) or someone with modest means who finds joy in simple things. No clear evidence points to a specific bracket.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.39473911601176614,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message of appreciating nature and calm moments, but some specific details are removed (e.g., 'by our riverbank', 'inspecting fields', 'checking crops'). The core sentiment remains, but the context is slightly generalized.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it only simplifies and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Plaza's big shady trees - pure bliss!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, quiet moments, and peaceful outdoor settings like trees, sunset views, and old town plazas. The language is reflective and appreciative of simple, serene experiences, suggesting a person who values calmness and possibly has time for leisurely activities like afternoon walks. There is no mention of work, technology, or stress, which might indicate a job with flexible hours or a retirement lifestyle. The tone is not technical or specialized, so it could be someone in a creative, service, or non-demanding profession. However, the lack of specific work-related clues makes this speculative.",
+              "guess": [
+                "Retiree",
+                "Freelance writer",
+                "Park ranger"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention any financial details, purchases, or lifestyle indicators like travel, luxury items, or cost concerns. The focus on simple, free activities (walking, enjoying trees and sunsets) suggests a modest lifestyle, but this could also reflect personal preference rather than income level. Without explicit clues, income is hard to determine, but the lack of material references might lean toward lower or medium income, though it’s uncertain.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3367050710381669,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message of appreciating nature and calm moments, but some specific details are simplified or omitted (e.g., 'by our riverbank' becomes 'outside', 'inspecting fields' becomes 'being outdoors', 'checking crops' is removed). The core sentiment remains, but the context is slightly altered.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and simplifies without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Large shady areas - pure bliss!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, trees, sunsets, and quiet outdoor moments, with a reflective and appreciative tone. The language is simple, poetic, and emphasizes peace and calmness, suggesting a person who values mindfulness and has time to enjoy these moments. There is no mention of work, technology, or stress, which could indicate a job with flexible hours or a retirement. The repeated mention of \"trees\" and \"plaza\" might imply an urban setting with access to parks. Possible occupations include a park ranger, a nature photographer, a writer, a retiree, or someone in a low-stress profession like a librarian or gardener. However, the lack of specific work-related clues makes this speculative.",
+              "guess": [
+                "Park ranger or nature guide",
+                "Retiree",
+                "Writer or poet"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending, or financial status. The focus on simple, free pleasures like walking and enjoying trees suggests a lifestyle that may not require high income, but could also be a choice of a wealthy person valuing simplicity. No indicators of luxury, travel, or expensive hobbies. The language is not indicative of financial stress or wealth. Given the lack of evidence, income is hard to determine, but the appreciation of free activities might lean toward lower or medium income, though it could be any level.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.2820617025151734,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original, though some descriptive details are simplified.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message of appreciating peaceful outdoor moments, but loses specific details like 'gnarly trees by our riverbank', 'inspecting fields', 'nature waking up', 'checking crops', and 'old town plaza's big shady trees'. The core sentiment remains, but the context is less precise.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it simplifies and generalizes the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on nature, tranquility, and outdoor experiences like sunset views, quiet moments, slow walks, and shady areas. The language is reflective and appreciative of simple pleasures, suggesting a person who values peace and has time to observe and enjoy these moments. There is no mention of work-related stress, technology, or specific professional jargon. This could indicate a job with flexible hours, such as a creative professional, a remote worker, or someone in a low-stress field like gardening, writing, or retirement. The lack of specific technical or business language makes it hard to pinpoint, but the emphasis on calmness and nature might align with occupations like a park ranger, landscape photographer, or a therapist who encourages mindfulness. However, the comments are too generic to be certain.",
+          "guess": [
+            "Park ranger",
+            "Landscape photographer",
+            "Mindfulness coach"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not directly mention income, spending, or financial status. The focus on simple, free activities (sunset views, walks, shady areas) suggests a lifestyle that does not require high expenditure, but this could be a choice regardless of income. There is no indication of luxury, travel, or expensive hobbies. The language is neutral and not indicative of wealth or poverty. Given the lack of financial cues, any income guess is speculative. However, the appreciation for nature and quiet moments might be more common among those with moderate income who value work-life balance, but this is a weak inference.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "Planning's one thing, life's curveballs another!",
+      "anonymized": "Planning's one thing, life's changes another!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Planning's one thing, life's curveballs another!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, outdoor experiences, and quiet moments, with phrases like \"trees outside,\" \"sunset view,\" \"quiet moments while being outdoors,\" \"afternoon slow walks,\" and \"large shady areas.\" The language is reflective and appreciative of simple pleasures, suggesting a person who values tranquility and has time to observe nature. There is no mention of work-related stress, deadlines, or specific professional jargon. The comment \"Planning's one thing, life's curveballs another!\" hints at a philosophical or adaptable mindset, possibly from someone in a flexible or creative field. The lack of technical or corporate language, combined with a focus on leisure and nature, could indicate an occupation that allows for flexible hours or remote work, such as a writer, artist, or outdoor-related professional. However, the comments are too generic to pinpoint a specific job with high certainty.",
+              "guess": [
+                "Writer",
+                "Landscape photographer",
+                "Park ranger"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending, or financial status. The focus on simple, low-cost activities like walking and enjoying nature suggests a lifestyle that does not require high expenditure, but this could be a personal preference rather than a financial constraint. The reflective and unhurried tone might imply a stable income that allows for free time, but there is no evidence of luxury or financial stress. Given the lack of specific financial clues, the income is difficult to estimate. The most plausible range is Medium to High, as the author appears to have leisure time and a contemplative mindset, which often correlates with a comfortable income, but this is speculative.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.356496204432306,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each entry, though some specific details (e.g., 'by our riverbank', 'inspecting fields', 'checking crops', 'old town plaza's big shady trees') are generalized or omitted. The overall sentiment and key ideas remain similar.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it abstracts and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Planning's one thing, life's changes another!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, outdoor experiences, and quiet moments, with phrases like \"trees outside,\" \"sunset view,\" \"quiet moments while being outdoors,\" \"afternoon slow walks,\" and \"large shady areas.\" The language is reflective and appreciative of simple pleasures, suggesting a person who values tranquility and has time for such observations. The comment \"Planning's one thing, life's curveballs another!\" implies a pragmatic or philosophical outlook, possibly from someone in a field that requires adaptability or planning, but not necessarily high-stress. The lack of technical jargon, work-related references, or specific professional terminology suggests the author is not in a highly specialized or corporate role. The tone is casual and personal, typical of someone with a flexible schedule or a job that allows for outdoor breaks, such as a remote worker, retiree, or someone in a creative or low-pressure field. Given the focus on nature and calmness, occupations like a park ranger, gardener, or freelance writer are plausible, but the general appreciation for outdoor leisure could also indicate a student or part-time worker.",
+              "guess": [
+                "Park ranger",
+                "Gardener",
+                "Freelance writer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, financial status, or work-related expenses. The focus on simple, free activities like watching sunsets, walking, and enjoying shady areas suggests a lifestyle that does not require significant spending on entertainment or luxury. The language is unpretentious and lacks references to expensive hobbies, travel, or consumer goods. This could indicate a lower to medium income, as the author seems content with low-cost pleasures. However, the ability to take time for afternoon walks and quiet moments might imply a flexible schedule, which could be associated with a range of incomes (e.g., remote worker with moderate income, or retiree on fixed income). The lack of stress or urgency in the comments does not strongly point to high income, which often correlates with demanding jobs. Given the options, \"Low\" or \"Medium\" are most plausible, but the absence of clear financial cues makes certainty low.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.32620646676495274,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as appreciating nature, calm moments, and the unpredictability of life. However, some specific details are lost (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'inspecting fields' becomes 'being outdoors', 'old town plaza's big shady trees' becomes 'large shady areas', and 'life's curveballs' becomes 'life's changes'). The core sentiments remain, but the specificity is reduced.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes or simplifies the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Planning's one thing, life's changes another!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, quiet moments, and outdoor experiences like sunset views, trees, shady areas, and slow walks. The language is reflective and appreciative of simple pleasures, with a philosophical note about planning versus life’s changes. There is no mention of work, technology, or specific professional jargon. This suggests a lifestyle that allows for flexible time or a job that doesn’t dominate their thoughts, possibly in a creative, low-stress, or nature-related field. The tone is calm and unhurried, which could align with roles like a park ranger, gardener, or freelance writer who values tranquility. However, the lack of direct evidence means the inference is speculative.",
+              "guess": [
+                "Park ranger",
+                "Gardener",
+                "Freelance writer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention money, spending, or financial concerns. The focus on free or low-cost activities (e.g., walking, enjoying trees, sunset views) suggests a lifestyle that doesn’t require high income, but could also indicate a preference for simplicity regardless of wealth. The reflective tone about planning and life changes might hint at financial stability or acceptance, but there’s no clear evidence of income level. Given the lack of financial cues, the guess is based on the assumption that such a nature-focused, unhurried lifestyle is often associated with lower to medium income, though it could be higher if the person works remotely or in a high-paying field with flexible hours.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.32620646676495274,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as appreciating nature, calm moments, and the unpredictability of life. However, some specific details (e.g., 'by our riverbank', 'inspecting fields', 'old town plaza') are generalized or omitted, slightly reducing the precision of meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on nature, quiet moments, and outdoor experiences like sunset views, walks, and shady areas. The language is reflective and appreciative of simple pleasures, suggesting a lifestyle with flexibility or leisure time. The mention of \"Planning's one thing, life's changes another\" hints at adaptability, possibly in a field that requires scheduling or project management. The tone is calm and unhurried, not typical of high-stress or time-pressured jobs. This could align with professions like a park ranger, landscape architect, or a remote worker with flexible hours, but the lack of technical or specialized jargon makes it hard to pinpoint. The author seems to value tranquility, which might indicate a job with low stress or one that allows for outdoor breaks.",
+          "guess": [
+            "Park ranger",
+            "Landscape architect",
+            "Remote software developer with flexible schedule"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not directly mention money, spending, or lifestyle indicators like travel, luxury items, or financial concerns. The focus on simple outdoor pleasures (sunset, walks, shady areas) suggests a modest or contented lifestyle, but this could apply to any income level. There is no evidence of high-cost activities or financial stress. The reflective tone might imply stability, but without specific clues (e.g., references to work, purchases, or time constraints), income is highly uncertain. The author could be low-income (enjoying free nature) or high-income (choosing simplicity). Given the lack of data, a middle-range guess is safest.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "Mateo taught me long ago - harvests are like retirement plans; you predict all you want; still gotta adjust when it hits different.",
+      "anonymized": "Someone taught me long ago - some things are like long-term plans; you predict all you want; still gotta adjust.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Someone taught me long ago - some things are like retirement plans; you predict all you want; still gotta adjust when it hits different.",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments emphasize nature, outdoor activities (trees, sunset, walks, shady areas), and a reflective, philosophical tone about planning and life changes. The mention of \"Mateo\" and \"harvests\" suggests a connection to agriculture or farming, possibly as a farmer, gardener, or someone involved in crop management. The language is calm and appreciative of simple pleasures, which aligns with a lifestyle that values routine and natural cycles. The reference to \"retirement plans\" and \"harvests\" implies direct experience with seasonal work or agricultural planning. The author likely works outdoors or in a field related to land management.",
+              "guess": [
+                "Farmer",
+                "Gardener",
+                "Landscaper"
+              ],
+              "certainty": "4"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the focus on simple, nature-based activities (walks, trees, sunset views) and the philosophical comparison of harvests to retirement plans suggest a modest or variable income typical of agricultural or outdoor work. The tone lacks concern for material wealth, and the reference to \"adjusting when it hits different\" implies income fluctuations, common in farming or seasonal labor. No clear evidence of high income, but the lifestyle could support a medium range if the author owns land or has a stable job. Given the lack of explicit financial data, the inference is moderate.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.45141964412905367,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as appreciating nature, calm moments, and life's unpredictability. However, some specific details are lost (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'inspecting fields' becomes 'being outdoors', 'Mateo' becomes 'someone'), which slightly alters the meaning.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Someone taught me long ago - some things are like long-term plans; you predict all you want; still gotta adjust when it hits different.",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, quiet moments, and outdoor experiences like trees, sunset views, and slow walks. The language is reflective and philosophical, with a mention of \"retirement plans\" and \"planning's one thing, life's changes another.\" This suggests a person who values simplicity, calmness, and perhaps has a flexible schedule (e.g., enjoying afternoon walks and quiet mornings). The tone is not technical or corporate; it feels more like someone in a creative, contemplative, or low-stress field. The mention of retirement plans could imply they are older or have financial planning experience, but the overall vibe is more aligned with a nature-oriented or wellness-related occupation. No specific job jargon is present, so the inference is based on lifestyle cues.",
+              "guess": [
+                "Landscape photographer",
+                "Park ranger",
+                "Yoga instructor"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, spending, or financial status. The focus is on simple pleasures like trees, walks, and sunset views, which are free or low-cost activities. The mention of \"retirement plans\" suggests some awareness of financial planning, but the tone is not about wealth or luxury. The lack of references to expensive hobbies, travel, or material goods implies a modest lifestyle. Given the reflective and peaceful nature of the comments, the author likely has a stable but not high income, possibly in the medium range. However, the evidence is weak.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4221696395615198,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original, though some details are simplified.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as enjoying nature, appreciating calm moments, and the unpredictability of plans. However, some specific details are lost (e.g., 'old gnarly trees by our riverbank' becomes 'Trees outside', 'inspecting fields' becomes 'being outdoors', 'Mateo' becomes 'Someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans'). The core meanings are preserved but with less specificity.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it simplifies and generalizes the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Someone taught me long ago - some things are like long-term plans; you predict all you want; still gotta adjust.",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, quiet moments, and outdoor experiences like sunset views, shady areas, and slow walks. The language is reflective and philosophical, with mentions of planning and adjusting to life’s changes. This suggests a person who values simplicity, mindfulness, and perhaps has a flexible schedule that allows for afternoon walks and outdoor appreciation. The tone is not technical or specialized, and there is no mention of work-related topics, deadlines, or stress. This could indicate a retiree, a remote worker with free time, or someone in a low-stress, nature-oriented field like landscaping or park management. However, the lack of specific job clues makes it broad.",
+              "guess": [
+                "Retiree",
+                "Remote worker (e.g., writer, designer)",
+                "Landscaper or gardener"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, spending, or financial status. The focus on simple, free pleasures like sunset views and walks suggests a lifestyle that may not require high income, but could also reflect a wealthy person who chooses simplicity. The reflective tone about planning and life changes hints at life experience, possibly older age, which could mean retirement income or savings. Without any financial clues, income is highly uncertain. The most likely range is Medium to High, as the author has time for leisure and uses standard English, but no evidence supports a specific bracket.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3579863485690035,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original, though some details are simplified.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as enjoying nature, appreciating calm moments, and acknowledging unpredictability. However, some specific details are lost (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'Mateo' becomes 'someone', and 'harvests are like retirement plans' becomes 'some things are like long-term plans'), which slightly alters the meaning.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it abstracts and generalizes the content without adding false details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on nature, quiet moments, outdoor walks, and planning versus life’s unpredictability. The language is reflective, calm, and philosophical, suggesting a person who values simplicity and mindfulness. There is no mention of work, technology, or specific professional jargon. The author seems to have time for slow walks and sunset views, possibly indicating a flexible schedule or a job that allows for such leisure. The mention of “long-term plans” and “adjusting” could relate to a career involving strategy, but the overall tone is more personal than corporate. This could point to a profession like a writer, therapist, or retiree, but also a remote worker or someone in a low-stress field. The lack of technical terms or stress indicators suggests a non-demanding occupation.",
+          "guess": [
+            "Writer",
+            "Therapist",
+            "Retiree"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not directly mention money, spending, or financial status. The focus on simple pleasures like trees, walks, and sunset views suggests a lifestyle that may not require high income, but could also be a choice of a wealthier person. The reflective, unhurried tone might indicate financial stability or a lower-pressure life. However, there is no evidence of luxury, travel, or financial concerns. The author could be in a medium-income bracket, but the lack of specific clues makes this uncertain. The philosophical comment about planning and life’s changes could hint at a person who has learned from experience, possibly older and settled.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "Estate planning? Ha! More like infinite puzzles!",
+      "anonymized": "Some things? Ha! More like puzzles!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Some things? Ha! More like infinite puzzles!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature appreciation (trees, sunset, outdoor quiet moments, slow walks, shady areas) and mention \"estate planning\" and \"long-term plans\" with a tone of complexity (\"infinite puzzles\"). The language is reflective and somewhat philosophical, suggesting a person who values calmness and planning. The mention of \"estate planning\" specifically hints at a professional or personal involvement in legal, financial, or advisory work, possibly as a lawyer, financial planner, or similar. However, the overall tone is not highly technical, and the nature comments could indicate a flexible schedule (e.g., enjoying afternoon walks), which might align with a semi-retired professional or someone in a less rigid field. The lack of specific jargon or work-related details makes the inference moderate.",
+              "guess": [
+                "Estate planner",
+                "Financial advisor",
+                "Retired professional"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the reference to \"estate planning\" often involves managing significant assets, which could imply a higher income bracket if it's their profession. The reflective, unhurried tone (e.g., \"afternoon slow walks\") might suggest financial stability or flexibility, possibly from a high-income career or retirement. However, there is no explicit evidence of wealth or spending, and the comments are generic. The \"infinite puzzles\" remark could indicate a complex but not necessarily high-paying field. Given the ambiguity, a medium-to-high range is plausible, but certainty is low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Very High (>150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3672374686096402,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but with some loss of specificity (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'inspecting fields' becomes 'being outdoors', 'Mateo' becomes 'someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans'). The core ideas are preserved, but details are simplified.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Some things? Ha! More like infinite puzzles!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, quiet moments, and outdoor experiences like sunset views, shady areas, and slow walks. The language is reflective and philosophical, mentioning long-term plans, adjustments, and puzzles. This suggests a person who values simplicity, mindfulness, and perhaps works in a field that allows for flexible time or remote work, such as a creative professional, writer, or someone in a contemplative role. There is no direct mention of a job, but the tone implies a non-corporate, possibly self-employed or artistic occupation.",
+              "guess": [
+                "Writer",
+                "Landscape photographer",
+                "Yoga instructor"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention money, spending, or financial status. The focus on peaceful, low-cost activities (walks, trees, sunset) and philosophical musings suggests a lifestyle that may not prioritize high income, but could also indicate a comfortable middle-class background where such leisure is possible. Without explicit financial clues, income is highly uncertain.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3672374686096402,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but with some loss of specificity (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'inspecting fields' becomes 'being outdoors', 'Mateo' becomes 'someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans'). The core ideas are preserved, but details are simplified.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it generalizes and abstracts the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Some things? Ha! More like puzzles!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus on nature, quiet moments, and planning versus life's unpredictability. The author mentions \"long-term plans\" and \"infinite puzzles,\" which could suggest a reflective or strategic mindset, possibly in a field requiring adaptability or problem-solving. The language is casual and philosophical, not technical or specialized, indicating a general interest in life observations rather than a specific professional jargon. The timing (early morning comments about sunset and slow walks) might imply a flexible schedule, common in creative or remote work. No direct evidence of a specific occupation is present, but the tone and themes hint at a role involving planning, analysis, or creativity.",
+              "guess": [
+                "Project manager",
+                "Writer",
+                "Software developer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct financial information. The author discusses nature and life philosophy, with no mention of spending, lifestyle, or work-related income. The lack of stress about time (e.g., \"slow walks,\" \"quiet moments\") could suggest a comfortable but not necessarily high-income situation, as such leisure is accessible across income levels. Without any clues about housing, travel, or purchases, income is highly speculative. The reflective tone might align with a middle-income bracket, but this is a weak inference.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3454291097333373,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but some specific details are lost or generalized (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'Mateo' becomes 'someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans'). The core sentiments remain, but the specificity is reduced.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes or simplifies existing content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus on nature, quiet moments, outdoor walks, and peaceful reflections. The language is contemplative and appreciative of simple pleasures, with mentions of planning and life adjustments. There is no technical jargon, business terminology, or specific professional references. The author seems to have a flexible schedule, as they mention \"afternoon slow walks\" and \"quiet moments before the day ahead,\" suggesting they may not have a rigid 9-to-5 job. The mention of \"puzzles\" could hint at a problem-solving role, but it's vague. Overall, the tone and content align with someone in a creative, low-stress, or nature-oriented field, possibly with autonomy over their time.",
+          "guess": [
+            "Landscape photographer",
+            "Park ranger",
+            "Freelance writer"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not mention money, work, or financial status. The focus is entirely on personal enjoyment of nature and philosophical musings about planning. There is no indication of wealth or poverty, but the ability to take slow walks and enjoy afternoons suggests a lifestyle that may not be high-pressure or high-income. The language is simple and not indicative of high-status vocabulary. Without any direct or indirect financial clues, the income is highly uncertain.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "Nights on farm—quiet yet tough missing fam events.",
+      "anonymized": "Outdoors—quiet yet tough.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Nights outdoors—quiet yet tough missing events.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a person who appreciates nature, quiet moments, and outdoor settings like trees, sunset views, and farms. They mention \"nights on farm\" and \"missing fam events,\" suggesting a rural or agricultural lifestyle. The language is reflective and philosophical (\"life's changes,\" \"long-term plans,\" \"puzzles\"), but not technical or specialized. There is no mention of office work, technology, or professional jargon. This points toward someone involved in farming, agriculture, or a nature-oriented occupation, possibly a farmer, farm worker, or outdoor enthusiast. The mention of \"planning\" and \"adjusting\" could relate to seasonal or operational planning in farming. The tone is calm and observant, not stressed or corporate.",
+              "guess": [
+                "Farmer",
+                "Agricultural worker",
+                "Park ranger or grounds keeper"
+              ],
+              "certainty": "4"
+            },
+            "income": {
+              "inference": "The comments suggest a rural or farm setting, which often correlates with lower to moderate income, especially for small-scale farming. The author mentions \"missing fam events\" and \"tough\" nights, which could imply financial or logistical challenges. There is no indication of high spending, luxury, or professional wealth. The language is simple and grounded, not indicative of high-income professions like tech or finance. Given typical income ranges for farming or outdoor labor, a low to medium income is plausible. However, without explicit financial details, certainty is moderate.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.3337410872008351,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specific details (e.g., 'old gnarly trees by our riverbank' becomes 'Trees outside', 'inspecting fields' becomes 'being outdoors', 'Mateo' becomes 'Someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans', 'Estate planning' becomes 'Some things') are generalized or omitted. The overall sentiment and key ideas are preserved.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only simplifies and generalizes existing content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Nights outdoors—quiet yet tough.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on outdoor experiences, nature appreciation (trees, sunset, shady areas, walks), and a reflective, philosophical tone about planning and life’s unpredictability. The language is calm, observant, and somewhat poetic, suggesting a person who values solitude and natural settings. There is no mention of work, technology, or specific professional jargon. This could indicate a profession that allows for flexible time or is nature-oriented, such as a landscape architect, park ranger, or a writer/artist who draws inspiration from outdoors. The mention of “missing events” due to nights outdoors might imply a social or event-based job (e.g., event planner) that conflicts with personal preferences. However, the overall tone leans toward a contemplative, possibly creative or environmental role.",
+              "guess": [
+                "Landscape architect",
+                "Park ranger",
+                "Writer/artist"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly reference money, spending, or lifestyle indicators. The focus on simple pleasures (quiet moments, walks, shady areas) and philosophical musings suggests a person who may not prioritize material wealth or could have a modest income. The lack of complaints about costs or mentions of expensive hobbies (e.g., travel, gear) implies a low to medium income range. However, the ability to enjoy outdoor time without work pressure might indicate a flexible or part-time job, which could align with lower income. No clear evidence of high spending or financial stress.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3206157787130891,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment but simplifies or generalizes specific details (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'inspecting fields' becomes 'being outdoors', 'Mateo' becomes 'someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans', 'estate planning' becomes 'some things', 'farm' becomes 'outdoors', 'missing fam events' is omitted). The overall sentiment and themes are preserved, but some specificity and emotional nuance are lost.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or omits details. No hallucination is present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Outdoors—quiet yet tough.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and planning versus life's unpredictability. The language is reflective, philosophical, and somewhat poetic (e.g., \"pure bliss,\" \"quiet yet tough,\" \"some things are like long-term plans\"). There is no mention of specific work tasks, technology, or professional jargon. The author seems to have time for slow walks and sunset views, suggesting a flexible schedule or a lifestyle that values leisure. The tone is contemplative, which could align with creative or therapeutic professions, but also with someone in a routine job who finds solace outdoors. The lack of stress or time-pressure language hints at a non-corporate, possibly lower-pressure occupation. Given the emphasis on nature and planning, it could be a role like a park ranger, a writer, or a retiree, but the comments are too vague for high certainty.",
+              "guess": [
+                "Park ranger or outdoor guide",
+                "Writer or philosopher",
+                "Retiree or part-time worker"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, spending, or financial concerns. The focus on simple pleasures like sunset views, shady areas, and slow walks suggests a lifestyle that does not require high income for satisfaction. The language is not aspirational about wealth or material goods. The author’s ability to enjoy quiet outdoor moments without mention of work stress could imply a stable but modest income, or possibly no income (e.g., retired). However, the mention of \"planning\" and \"long-term plans\" might indicate some financial stability or foresight. There is no evidence of luxury or poverty, so the income is likely in the low to medium range, but certainty is low due to lack of direct clues.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.31605855691920254,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original, though some details are simplified.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as appreciating nature, calm moments, and life's unpredictability. However, it loses specific details like 'old gnarly trees by our riverbank', 'inspecting fields', 'Mateo', 'harvests are like retirement plans', 'estate planning', and 'missing fam events', which changes the nuance and reduces the specificity of the content.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes or omits details. It correctly abstracts the original text without adding false content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and planning versus life's unpredictability. The language is reflective, philosophical, and somewhat poetic (e.g., \"Outdoors—quiet yet tough,\" \"some things are like long-term plans; you predict all you want; still gotta adjust\"). There is no mention of specific work tasks, technical jargon, or professional settings. The author seems to have time for afternoon walks and sunset views, suggesting a flexible schedule or a lifestyle that values leisure. The tone is calm and contemplative, not rushed or stressed. This could indicate a profession that allows for reflection, such as a writer, artist, or someone in a nature-related field (e.g., park ranger, landscaper). Alternatively, it might be a retiree or someone with a low-stress job. The lack of work-related details makes it hard to pinpoint, but the emphasis on planning and adjustment hints at strategic thinking, possibly in management or consulting. However, the overall vibe is more aligned with creative or outdoor occupations.",
+          "guess": [
+            "Writer/poet",
+            "Park ranger",
+            "Retiree"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments provide no direct financial information. The author's focus on simple pleasures (sunset views, shady areas, slow walks) rather than material possessions or expensive activities suggests a modest lifestyle. There is no mention of travel, luxury, or financial concerns. The reflective, unhurried tone could imply financial stability without high income, or possibly a lower income with contentment. The lack of stress about work or money hints at either a comfortable middle-class existence or a minimalist approach. Given the occupation guesses (writer, park ranger, retiree), income could range from low to medium. A writer might have variable income, often low; a park ranger typically earns medium; a retiree might have fixed income. Without more data, it's speculative.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "original": "Hit 30 farming; suddenly you're not just sowing seeds but planting roots deep – life stuff gets real fast!",
+      "anonymized": "Hit a milestone; suddenly you're not just starting things but building something deep – life gets real fast!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Hit a milestone; suddenly you're not just starting things but building foundations deep – life stuff gets real fast!",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a strong connection to nature, outdoor activities, and farming. Phrases like \"Trees outside,\" \"quiet moments while being outdoors,\" \"afternoon slow walks,\" \"large shady areas,\" and \"Hit 30 farming\" suggest the author is involved in agriculture or a nature-related profession. The mention of \"sowing seeds\" and \"planting roots deep\" indicates hands-on farming experience, possibly as a farmer, gardener, or landscaper. The reflective tone about life changes and planning aligns with someone who works with natural cycles and long-term growth. The language is casual but thoughtful, typical of someone with practical outdoor knowledge.",
+              "guess": [
+                "Farmer",
+                "Gardener",
+                "Landscaper"
+              ],
+              "certainty": "4"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the focus on farming and outdoor work suggests a profession that may not be high-paying. Farming, especially small-scale or personal, often yields low to medium income. The reflective tone about \"life stuff gets real fast\" at age 30 could imply financial challenges or modest earnings. No evidence of luxury or high spending is present. Given typical income ranges for farmers or gardeners in the US, medium income is plausible, but low income is also possible depending on scale.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3341527144150813,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original, though some details are simplified.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages and themes as the original, such as appreciating nature, planning versus life's unpredictability, and personal growth. However, some specific details are lost or generalized (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'Mateo' becomes 'someone', 'estate planning' becomes 'some things', 'farming' becomes 'a milestone', 'missing fam events' is omitted). The core meaning is preserved but not identical.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only simplifies and generalizes existing content. No hallucinations are present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Hit a milestone; suddenly you're not just starting things but building foundations deep – life stuff gets real fast!",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and reflections on planning and life changes. The language is contemplative and philosophical, with phrases like \"building foundations deep\" and \"life stuff gets real fast.\" This suggests a person who values simplicity, patience, and long-term thinking, possibly in a field that allows for flexible schedules or outdoor work. The mention of \"milestones\" and \"building foundations\" could indicate a career involving construction, landscaping, or project management, but the reflective tone also hints at a creative or therapeutic profession. The lack of technical jargon or corporate language reduces the likelihood of high-stress office jobs. The author seems to have time for afternoon walks and quiet moments, which might point to a semi-retired or self-employed individual, or someone in a low-pressure role. Given the emphasis on nature and calm, occupations like landscaper, park ranger, or counselor are plausible. However, the philosophical musings could also align with a writer or teacher. The most consistent theme is a connection to the outdoors and a reflective mindset, so I lean toward a nature-oriented or contemplative profession.",
+              "guess": [
+                "Landscaper",
+                "Park ranger",
+                "Writer"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, job stress, or financial concerns. The author appreciates simple pleasures like sunset views, shady areas, and slow walks, which are free or low-cost activities. There is no indication of luxury spending, travel, or high-end lifestyle. The reflective tone about \"building foundations\" and \"life stuff gets real fast\" could imply a mid-life stage where financial stability is present but not extravagant. The lack of complaints about work or money suggests a comfortable but not wealthy income. Given the possible occupations (landscaper, park ranger, writer), these typically fall in the low to medium income range in the US. A landscaper might earn medium income if self-employed or specialized, but park rangers and writers often earn low to medium. The author’s ability to enjoy quiet outdoor moments during the day might indicate flexible hours, which could align with a lower-income but fulfilling job. There is no evidence of high income or very high income, as no mentions of investments, business, or high-cost hobbies appear. Thus, the income is likely low to medium.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3341527144150813,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original, though some details are simplified.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as appreciating nature, reflecting on planning versus life's unpredictability, and personal growth. However, some specific details are lost (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'Mateo' becomes 'someone', 'estate planning' becomes 'some things', 'farming' becomes 'a milestone', and 'missing fam events' is omitted). The core meaning is preserved but with less specificity.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it generalizes and abstracts the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Hit a milestone; suddenly you're not just starting things but building something deep – life gets real fast!",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and reflections on planning and life changes. The language is contemplative and philosophical, with references to \"building foundations deep\" and \"life stuff gets real fast,\" suggesting a person who values stability and long-term thinking. There is no mention of specific work tasks, technology, or professional jargon. The tone is calm and appreciative of simple pleasures, which could align with roles that allow for flexible schedules or outdoor work. However, the lack of direct occupational clues makes this speculative. Possible occupations include a landscape architect, a park ranger, a writer, a therapist, or a retiree. The mention of \"milestones\" and \"building foundations\" might hint at a career involving project management or construction, but the outdoor emphasis is stronger.",
+              "guess": [
+                "Landscape architect",
+                "Park ranger",
+                "Writer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not provide any direct financial information, such as mentions of spending, savings, or work-related income. The focus on nature and quiet moments could suggest a modest lifestyle, but there is no evidence of financial stress or wealth. The reflective tone about \"life stuff gets real fast\" might imply a mid-career stage, but income cannot be reliably inferred. Given the lack of clues, any guess is highly uncertain.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.30757607129643544,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with simple language and natural phrasing. A human can understand it without issues, though some details are omitted compared to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each entry, such as appreciating nature, quiet moments, planning vs. life changes, and personal growth. However, some specifics (e.g., 'riverbank', 'inspecting fields', 'Mateo', 'farming', 'estate planning') are generalized or removed, slightly altering the context but preserving the overall sentiment.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content without adding false details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "** The comments focus heavily on outdoor experiences, nature, quiet moments, and reflections on planning versus life’s unpredictability. The language is contemplative and philosophical, with phrases like “building something deep” and “life gets real fast,” suggesting a person who values introspection and possibly works in a field that allows for flexible schedules or outdoor time. The mention of “milestones” and “building something deep” could imply a career involving long-term projects, such as in construction, landscaping, or creative fields like writing or photography. However, the lack of technical jargon or specific work-related terms makes it hard to pinpoint a precise occupation. The tone is calm and appreciative of simple pleasures, which might align with roles that are not high-pressure or corporate.",
+          "guess": [
+            "** Landscaper or gardener",
+            "Outdoor photographer",
+            "Writer or philosopher"
+          ],
+          "certainty": "** 2"
+        },
+        "income": {
+          "inference": "** The comments do not directly mention money, job titles, or financial status. The focus on nature and quiet moments could suggest a lifestyle that is not driven by high income, but this is speculative. The reflective tone and mention of “building something deep” might indicate a stable but not extravagant income, possibly in a creative or service-oriented field. Without explicit financial cues, any income guess is highly uncertain.",
+          "guess": [
+            "** Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "** 1"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "original": "Not just festivals – crops teach that lesson yearly!",
+      "anonymized": "Not just festivals – cycles teach that lesson yearly!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Not just festivals – cycles teach that lesson yearly!",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a strong connection to nature, outdoor activities, and an appreciation for quiet moments, with references to \"crops,\" \"festivals,\" and \"building something deep.\" The language is reflective and philosophical, suggesting a role that involves planning, adjustment, and long-term cycles. This could align with agriculture, horticulture, or environmental work, where one observes seasonal changes and crop cycles. The mention of \"milestones\" and \"building something deep\" might indicate a career with tangible outcomes, like farming or landscaping. The tone is calm and observant, not corporate or tech-focused. Given the Reddit posting style (multiple comments on one day), the author might have flexible time, possibly self-employed or in a field with seasonal rhythms.",
+              "guess": [
+                "Farmer",
+                "Landscape architect",
+                "Park ranger"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the focus on outdoor life, \"crops,\" and \"festivals\" suggests a rural or agricultural setting. Such occupations often have variable income, but in developed countries, farming can range from low to medium depending on scale. The reflective, unhurried tone might imply a lifestyle not driven by high earnings, possibly modest. No clear indicators of wealth or poverty exist, but the lack of mention of travel, luxury, or urban amenities hints at a lower to medium income bracket. The author’s appreciation for simple pleasures (sunset, walks, shady areas) aligns with a less materialistic lifestyle.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.337126876966889,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as appreciating nature, reflecting on planning versus reality, and life lessons from farming. However, some specific details are lost (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'Mateo' is removed, 'harvests are like retirement plans' becomes 'some things are like long-term plans', and 'estate planning' becomes 'some things'). The core sentiments remain, but the specificity is reduced.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Not just festivals – cycles teach that lesson yearly!",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and reflections on planning and life changes. The language is contemplative and philosophical, with references to \"building something deep,\" \"milestones,\" and \"cycles\" that teach lessons. This suggests a person who values introspection and may work in a field that allows for flexible time or outdoor exposure, such as a creative profession, counseling, or a role in environmental or outdoor education. The lack of technical jargon or corporate language points away from high-stress office jobs. The mention of \"puzzles\" and \"long-term plans\" could indicate problem-solving or strategic thinking, possibly in a field like project management or design. However, the overall tone is more reflective than action-oriented, leaning toward a profession that involves mentoring, writing, or nature-related work.",
+              "guess": [
+                "Outdoor educator or guide",
+                "Counselor or therapist",
+                "Writer or content creator"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, lifestyle, or consumption patterns. The focus on simple pleasures like \"trees,\" \"sunset view,\" \"slow walks,\" and \"large shady areas\" suggests a modest or contented lifestyle, not one driven by high income. The reflective tone about \"life gets real fast\" and \"adjusting plans\" could imply financial constraints or a non-luxury life, but there is no clear evidence of income level. The author might have a stable but not high income, possibly in the medium range, given the emphasis on peace over material wealth. No indicators of poverty or wealth are present.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.337126876966889,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, such as appreciating nature, calmness, life's unpredictability, and personal growth. However, some specific details are generalized or omitted (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'Mateo' becomes 'someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans'), which slightly shifts the meaning but retains the core ideas.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Not just festivals – cycles teach that lesson yearly!",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and reflections on planning and life changes. The language is contemplative and philosophical, with references to \"building something deep,\" \"milestones,\" and \"cycles\" that suggest a person who values structure, growth, and long-term thinking. There is no mention of specific work tasks, technology, or corporate jargon. The author seems to have time for slow walks and sunset views, which could indicate a flexible schedule or a job that allows for outdoor appreciation. The tone is calm and reflective, not rushed or stressed. This could point to a profession that involves planning, teaching, or creative work, but the lack of technical or business-specific language makes it hard to pinpoint. The mention of \"puzzles\" and \"adjusting plans\" might hint at problem-solving roles. Given the emphasis on nature and quiet, the author might be in a field like landscaping, environmental work, or even a writer or philosopher. However, the comments are too general to be certain.",
+              "guess": [
+                "Environmental scientist",
+                "Landscape architect",
+                "Writer/Philosopher"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, spending, or financial status. The focus is on simple pleasures like sunset views, shady areas, and slow walks, which are free or low-cost activities. There is no indication of luxury, travel, or expensive hobbies. The reflective tone about \"building something deep\" and \"life gets real fast\" could suggest a middle-class perspective where financial stability is present but not extravagant. The author might have a stable income that allows for leisure time, but the lack of any financial references makes income estimation highly speculative. The comments are more about lifestyle and mindset than material wealth.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.337126876966889,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each entry but simplifies or generalizes specific details (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'Mateo' becomes 'someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans'). The overall sentiment and themes are preserved, though some specificity is lost.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it abstracts and generalizes without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and reflections on planning versus life's unpredictability. The language is contemplative and philosophical, with references to \"building something deep,\" \"milestones,\" and \"cycles\" that suggest a career involving long-term projects, personal growth, or perhaps creative or strategic work. There is no mention of technical jargon, corporate settings, or specific professional tools. The tone is calm and introspective, which could align with roles like a writer, therapist, or outdoor guide. However, the lack of direct occupational clues makes this speculative. The repeated emphasis on \"outdoors\" and \"quiet\" might hint at a job that allows flexible time outdoors, such as a park ranger, landscape photographer, or freelance consultant who works remotely.",
+          "guess": [
+            "Writer",
+            "Outdoor guide",
+            "Therapist"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not mention money, spending, or financial status directly. The focus on simple pleasures like \"trees,\" \"sunset,\" \"slow walks,\" and \"shady areas\" suggests a lifestyle that values experiences over material wealth, which could indicate a lower or medium income. The reflective tone about \"planning\" and \"life's changes\" might imply financial stability but not extravagance. There is no evidence of high-cost activities or luxury references. Given the lack of financial data, any income guess is highly uncertain and based on stereotypes about occupations like writers or outdoor guides, which often fall in the low to medium range.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "original": "Roots matter; lessons are everywhere. ",
+      "anonymized": "Roots matter; lessons are everywhere.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Roots matter; lessons are everywhere.",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and life lessons about planning and adaptability. The language is reflective and philosophical, with phrases like \"life gets real fast\" and \"roots matter; lessons are everywhere.\" There is no mention of specific work tasks, technology, or professional jargon. The author seems to have time for slow walks and sunset views, suggesting a flexible schedule. The tone is calm and contemplative, not rushed or stressed. This could indicate a profession that allows for outdoor time or introspection, such as a writer, artist, therapist, or someone in a nature-related field like landscaping or forestry. However, the lack of technical details makes it hard to pinpoint. The mention of \"milestones\" and \"building something deep\" might hint at a career with long-term projects, like a researcher or educator. Overall, the evidence is subtle and open to interpretation.",
+              "guess": [
+                "Writer/Philosopher",
+                "Outdoor Educator",
+                "Landscape Designer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct or indirect clues about income. There is no mention of money, spending, lifestyle costs, or financial concerns. The focus is entirely on nature, personal growth, and philosophical reflections. Without any financial context, any guess is purely speculative. The author could be in any income bracket, from low to very high, depending on their actual occupation and location. The reflective tone might suggest a comfortable lifestyle with leisure time, but that could also be a matter of prioritization rather than wealth. Given the complete absence of evidence, the certainty is very low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3610036555477818,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text preserves the core message and sentiment of each original comment, though some specific details (e.g., 'riverbank', 'inspecting fields', 'Mateo', 'estate planning', 'farming', 'sowing seeds') are generalized or omitted. The overall themes of nature, reflection, planning, and life lessons remain intact.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present or implied in the original; it abstracts and generalizes without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Roots matter; lessons are everywhere.",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences (trees, sunset, walks, shady areas), and reflective, philosophical observations about life, planning, and cycles. The language is contemplative and poetic, with phrases like \"quiet moments,\" \"pure bliss,\" \"roots matter,\" and \"lessons are everywhere.\" There is no mention of technical jargon, corporate settings, or specific professional tools. The author seems to have a flexible schedule, as they mention \"afternoon slow walks\" and \"quiet moments before the day ahead,\" suggesting they may not be tied to a rigid 9-to-5 job. The emphasis on \"building something deep\" and \"milestones\" could indicate a creative or self-directed career, such as writing, art, or counseling, rather than a high-pressure corporate role. The lack of specific industry references makes it hard to pinpoint, but the tone suggests a profession that values reflection and nature, possibly in education, therapy, or the arts.",
+              "guess": [
+                "Writer/poet",
+                "Outdoor guide or park ranger",
+                "Counselor or therapist"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, spending, or financial status. The focus is on simple, low-cost pleasures like walking outdoors, enjoying trees and sunsets, and reflecting on life. There is no indication of luxury, travel, or expensive hobbies. The reflective, unhurried tone might suggest a modest lifestyle, possibly with a stable but not high income. However, without any financial clues, the inference is weak. The author could be a retiree, a student, or someone in a low-stress job, but also could be a high-earner who values simplicity. Given the lack of evidence, a middle-range guess is safest.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3610036555477818,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each entry, though some specific details (e.g., 'riverbank', 'inspecting fields', 'Mateo', 'estate planning', 'farming', 'sowing seeds') are generalized or omitted. The overall sentiment and themes remain similar, but the specificity is reduced.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Roots matter; lessons are everywhere.",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and life lessons about planning, adjustment, and building something deep. The language is reflective, philosophical, and uses metaphors like \"puzzles,\" \"cycles,\" and \"roots.\" There is no mention of specific work tasks, technology, or professional jargon. The author seems to have time for slow walks and sunset views, suggesting a flexible schedule. The tone is calm and contemplative, not rushed or stressed. This could indicate a profession that allows for outdoor appreciation and introspection, such as a writer, artist, therapist, or someone in a nature-related field like landscaping or forestry. The lack of technical or corporate language makes a high-pressure office job less likely. The mention of \"building something deep\" and \"milestones\" might hint at a career with long-term projects, like a researcher, educator, or entrepreneur. However, the overall vibe is more aligned with a creative or contemplative role.",
+              "guess": [
+                "Writer",
+                "Landscaper",
+                "Therapist"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, income, or financial status. The focus is on simple pleasures like nature, quiet moments, and life lessons, which could be enjoyed regardless of income. The reflective and unhurried tone might suggest a comfortable lifestyle, but there is no evidence of wealth or poverty. The author could be retired, a student, or someone with a modest income who values experiences over material goods. The lack of stress about work or finances in the comments is notable but not definitive. Given the absence of financial clues, any income guess is speculative. The most neutral assumption would be a medium income, as it aligns with many reflective, outdoor-loving individuals, but certainty is low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3610036555477818,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human could read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the core message of each original comment, though some specific details (e.g., 'riverbank', 'inspecting fields', 'Mateo', 'estate planning', 'farming', 'sowing seeds') are generalized or omitted. The overall sentiment and themes (nature appreciation, life lessons, planning vs. reality) are preserved.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it abstracts and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments focus heavily on nature, outdoor experiences (trees, sunset, walks, shady areas), and philosophical reflections on planning, life changes, milestones, and building something deep. The language is contemplative and poetic, with references to \"roots,\" \"cycles,\" and \"puzzles.\" This suggests a person who values introspection and may work in a field that allows for flexible time outdoors or involves creative/reflective thinking. The mention of \"building something deep\" and \"milestones\" could indicate a career with long-term projects, such as in writing, counseling, or environmental work. The lack of technical jargon or corporate language points away from high-stress office jobs. The author seems to have time for slow walks and quiet moments, which might align with a profession that is not rigidly scheduled, like a freelance writer, therapist, or outdoor educator.",
+          "guess": [
+            "Writer",
+            "Therapist",
+            "Environmental educator"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments do not directly mention money, job, or financial status. The focus is on simple pleasures (sunset, walks, shady areas) and philosophical musings, which could indicate a modest lifestyle or a person who prioritizes non-material wealth. The reflective tone and mention of \"life gets real fast\" after a milestone might suggest a mid-career stage, but there is no evidence of high spending or financial stress. The lack of complaints about work or money, combined with the appreciation for free outdoor activities, could imply a stable but not extravagant income. Given the ambiguity, a medium income is plausible, but low or high cannot be ruled out.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "original": "Culture's just part; choices define us more.",
+      "anonymized": "Culture's just part; choices define us more.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Culture's just part; choices define us more.",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and life lessons. The language is reflective, philosophical, and uses metaphors like \"puzzles,\" \"long-term plans,\" and \"cycles.\" There is no mention of specific work tasks, technology, or professional jargon. The author seems to have time for afternoon walks and observing sunsets, suggesting a flexible schedule. The tone is calm and contemplative, not rushed or stressed. This could indicate a profession that allows for reflection and outdoor time, such as a writer, artist, therapist, or someone in a nature-related field like landscaping or forestry. The lack of technical or corporate language makes high-pressure office jobs less likely. The mention of \"building something deep\" and \"roots matter\" might hint at a career involving growth, like gardening, teaching, or counseling.",
+              "guess": [
+                "Writer/Philosopher",
+                "Landscape Architect/Gardener",
+                "Therapist/Counselor"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, spending, or financial status. The focus is on simple pleasures like sunsets, walks, and shady areas, which are free or low-cost activities. There is no indication of luxury, travel, or expensive hobbies. The reflective, unhurried tone might suggest a comfortable but not extravagant lifestyle, possibly with a moderate income that allows for free time. However, the lack of financial references makes it hard to be precise. The author could be retired, a student, or someone with a modest income who values simplicity. Given the philosophical nature, they might prioritize fulfillment over wealth.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.37420953992791584,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It maintains a similar flow and structure to the original, though some specific details are generalized, which does not hinder readability.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages and themes as the original, such as appreciating nature, reflecting on life, and dealing with planning and change. However, some specific details (e.g., 'old gnarly trees by our riverbank' becomes 'Trees outside', 'inspecting fields' becomes 'being outdoors', 'Mateo' becomes 'Someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans') are generalized or omitted, slightly altering the precise meaning but preserving the core ideas.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it correctly abstracts and generalizes the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Culture's just part; choices define us more.",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and life lessons. The language is reflective, philosophical, and uses metaphors like \"puzzles,\" \"long-term plans,\" \"cycles,\" and \"roots.\" There is no mention of specific work tasks, technology, or professional jargon. The author seems to have time for slow walks and sunset views, suggesting a flexible schedule. The tone is contemplative and wise, possibly from someone in a role that involves mentoring, teaching, or creative thinking. The lack of stress about deadlines or corporate life hints at a non-traditional or semi-retired occupation. The repeated emphasis on \"building something deep\" and \"choices define us\" could align with a career in counseling, writing, or the arts. However, the practical mention of \"planning\" and \"adjusting\" might also fit a project manager or entrepreneur who values balance. Overall, the author appears to be in a profession that allows for reflection and connection with nature, possibly in a creative, educational, or therapeutic field.",
+              "guess": [
+                "Writer/Philosopher",
+                "Counselor/Therapist",
+                "Landscape Architect/Urban Planner"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, spending, or financial status. The focus is on simple pleasures like \"trees,\" \"sunset view,\" \"slow walks,\" and \"shady areas,\" which are free or low-cost activities. The author values \"quiet moments\" and \"peaceful\" experiences over material wealth. The philosophical tone about \"choices define us\" and \"roots matter\" suggests a lifestyle that prioritizes fulfillment over high income. There is no indication of luxury, travel, or expensive hobbies. The author could be in a lower-income creative or service profession, or possibly semi-retired with modest savings. The lack of financial stress or boasting suggests a stable but not wealthy income. Given the reflective nature, the author might be in a medium-income bracket, but the absence of any financial cues makes this uncertain.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.37420953992791584,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a similar flow and structure to the original, though some specific details are generalized, which does not hinder readability.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages and themes as the original, such as appreciating nature, reflecting on life, and dealing with planning and change. However, some specific details (e.g., 'old gnarly trees by our riverbank' becomes 'Trees outside', 'inspecting fields' becomes 'being outdoors', 'Mateo' becomes 'Someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans') are generalized or omitted, slightly altering the precise meaning but preserving the core ideas.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it correctly abstracts and generalizes the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Culture's just part; choices define us more.",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The comments focus heavily on nature, outdoor experiences, quiet moments, and life lessons. The language is reflective, philosophical, and somewhat poetic, with phrases like \"roots matter; lessons are everywhere\" and \"choices define us more.\" There is no mention of technical jargon, corporate settings, or specific professional tools. The author seems to value simplicity, observation, and personal growth, which could align with roles that involve introspection, creativity, or working outdoors. The lack of references to deadlines, clients, or structured work suggests a flexible or non-traditional occupation. Possible occupations include a writer, artist, or outdoor guide, but the tone is more contemplative than action-oriented, leaning toward a creative or reflective profession.",
+              "guess": [
+                "Writer",
+                "Artist",
+                "Outdoor guide"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention money, lifestyle, or financial concerns. The focus is on intangible experiences like peace, calmness, and life lessons, which could indicate a lower income where material wealth is not prioritized, or a higher income where financial stability allows for such reflection. However, the lack of references to travel, luxury, or expensive hobbies suggests a modest lifestyle. The philosophical tone and emphasis on nature over consumption might point to a lower or medium income, as high-income individuals often mention work stress or financial planning. Given the ambiguity, the most likely range is low to medium, but without clear evidence, certainty is low.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.37420953992791584,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a similar flow and structure to the original, though some specific details are generalized, which does not hinder readability.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages and themes as the original, such as appreciating nature, reflecting on life, and dealing with planning and change. However, some specific details are omitted or generalized (e.g., 'old gnarly trees by our riverbank' becomes 'trees outside', 'Mateo' becomes 'someone', 'harvests are like retirement plans' becomes 'some things are like long-term plans'), which slightly alters the specificity but retains the core meaning.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it correctly abstracts and generalizes the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments reflect a reflective, philosophical tone with themes of nature, planning, life changes, and personal growth. Phrases like \"quiet moments while being outdoors,\" \"roots matter,\" \"choices define us more,\" and \"building something deep\" suggest someone who values introspection and possibly works in a field that allows for such contemplation. The language is not technical or specialized, but it shows a thoughtful, observant mindset. The mention of \"cycles teach that lesson yearly\" and \"festivals\" could imply a connection to seasonal or cultural events, but no direct job-related terms appear. The author seems to have time for outdoor walks and reflection, which might indicate a flexible schedule or a profession that doesn't require constant high-pressure output. Possible occupations include a writer, counselor, teacher, or someone in a creative or nature-related field. The lack of specific jargon or work references makes it hard to pinpoint, but the tone is mature and contemplative.",
+          "guess": [
+            "Writer",
+            "Counselor",
+            "Teacher"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not mention money, job, or financial status directly. The focus is on personal experiences, nature, and life philosophy. The author's ability to enjoy \"afternoon slow walks\" and \"quiet moments\" without urgency might suggest a stable lifestyle, but it could also be someone with modest means who values simplicity. There is no indication of wealth or poverty. The reflective tone could align with a middle-income professional, but without concrete evidence, any guess is speculative. The lack of financial references or consumer-related language limits certainty.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    }
+  ]
+}

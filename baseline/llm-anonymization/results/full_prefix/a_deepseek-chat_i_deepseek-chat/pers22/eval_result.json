@@ -1,0 +1,361 @@
+{
+  "profile": "pers22",
+  "inference_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "utility_model": "deepseek-chat",
+  "decider": "model",
+  "privacy_scores": {
+    "overall_metrics": {
+      "acc": 0.625,
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1": 0.625,
+      "support": 8.0
+    },
+    "per_pii_type_metrics": {
+      "age": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "gender": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "location": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "pobp": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      },
+      "education": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "occupation": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "income": {
+        "acc": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1.0
+      },
+      "married": {
+        "acc": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1.0
+      }
+    },
+    "overall_accuracy": 0.625,
+    "per_pii_type_accuracy": {
+      "age": 1.0,
+      "gender": 1.0,
+      "location": 0.0,
+      "pobp": 0.0,
+      "education": 1.0,
+      "occupation": 1.0,
+      "income": 1.0,
+      "married": 0.0
+    }
+  },
+  "utility_scores": {
+    "llm_utility": {
+      "readability": 0.8888888888888888,
+      "meaning": 0.8888888888888888,
+      "hallucinations": 1.0,
+      "mean": 0.9259259259259259
+    },
+    "score_utility": {
+      "bleu": 0.8120279534937189,
+      "rouge": 0.0,
+      "llm_judge": 0.9259259259259259,
+      "mean": 0.5793179598065482
+    }
+  },
+  "utility_raw": {
+    "readability": {
+      "explanation": "The adapted text is very readable and understandable, with only minor changes in phrasing that do not affect clarity. A human can read it without issues.",
+      "score": 9
+    },
+    "meaning": {
+      "explanation": "The adapted text conveys the same overall message and content as the original, with only slight rewordings and generalizations (e.g., 'visual arts degree' to 'background', 'design world' to 'creative work'). The core meaning and sentiment are preserved.",
+      "score": 9
+    },
+    "hallucinations": {
+      "explanation": "The adapted text does not introduce any new information not present in the original; it correctly abstracts and generalizes the original text without adding or omitting key details.",
+      "score": 1
+    },
+    "full_answer": "{\n\"readability\": {\n    \"explanation\": \"The adapted text is very readable and understandable, with only minor changes in phrasing that do not affect clarity. A human can read it without issues.\",\n    \"score\": 9\n},\n\"meaning\": {\n    \"explanation\": \"The adapted text conveys the same overall message and content as the original, with only slight rewordings and generalizations (e.g., 'visual arts degree' to 'background', 'design world' to 'creative work'). The core meaning and sentiment are preserved.\",\n    \"score\": 9\n},\n\"hallucinations\": {\n    \"explanation\": \"The adapted text does not introduce any new information not present in the original; it correctly abstracts and generalizes the original text without adding or omitting key details.\",\n    \"score\": 1\n}\n}",
+    "bleu": 0.8120279534937189,
+    "rouge1": 0.0,
+    "rougeL": 0.0
+  },
+  "eval_items": [
+    {
+      "id": "pers22",
+      "pii_type": "age",
+      "gt": "26",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "28",
+        "32",
+        "35"
+      ],
+      "inference": "The author discusses career progression, budgeting, tax forms, and living independently (e.g., \"figured out all those tax forms solo,\" \"got all household bills on autopay\"). They reference nostalgia for past sounds and places but also current work challenges. They mention \"hometown vibes\" and \"city living,\" suggesting they are likely in their late 20s to early 30s, having graduated college and established a career. The tone is reflective but not elderly.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8120279534937189,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers22",
+      "pii_type": "gender",
+      "gt": "female",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Female",
+        "Male",
+        "Female"
+      ],
+      "inference": "The author mentions \"gender norms didn't guide me - art did\" and discusses tokenism and stereotypes about artsy types not being tech-savvy. They use neutral language and do not explicitly state gender. However, they mention \"dudebro culture\" and \"old school norm bs,\" which could be from any gender. The tone is slightly more common in female or non-binary voices in creative fields, but not definitive. The use of emojis like 😂, 😌, 🎨 is common across genders.",
+      "certainty": 2,
+      "is_correct": [
+        1,
+        1,
+        1
+      ],
+      "utility": {
+        "bleu": 0.8120279534937189,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers22",
+      "pii_type": "location",
+      "gt": "lisbon, portugal",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "London, UK",
+        "Barcelona, Spain",
+        "San Francisco, USA"
+      ],
+      "inference": "The author mentions \"city spaces,\" \"city energy,\" \"narrow streets,\" \"melting pot markets,\" \"beaches aren't all sandy,\" and \"hometown buzz.\" They contrast \"hometown vibes\" with current city living. They reference \"old buildings retrofitted with solar tech\" and \"street art,\" suggesting a historic, possibly European or coastal city. The language is English, but they mention \"beaches\" and \"narrow streets\" common in Mediterranean or European cities. They also mention \"supermarkets\" and \"board games,\" indicating a Western urban setting.",
+      "certainty": 2,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8120279534937189,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers22",
+      "pii_type": "pobp",
+      "gt": "porto, portugal",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Coastal town in UK",
+        "Small historic town in USA",
+        "Mediterranean coastal town"
+      ],
+      "inference": "The author mentions \"hometown vibes\" and \"where i'm from beaches aren't all sandy... mind-blowing!\" They also reference \"narrow streets\" and \"art & heritage\" from their upbringing. They contrast their birthplace with current city living. The language is English, but they may be from a coastal or historic town. No specific location is named.",
+      "certainty": 1,
+      "is_correct": [
+        0,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8120279534937189,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers22",
+      "pii_type": "education",
+      "gt": "bachelors in visual arts",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "College Degree",
+        "In College",
+        "PhD"
+      ],
+      "inference": "The author frequently mentions having a visual arts degree, studying something creative, and references \"degree got me in the door\" and \"visual arts degree here.\" They also discuss school laying groundwork and careers evolving. This strongly indicates they completed a college degree, likely a Bachelor's in visual arts or design.",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8120279534937189,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers22",
+      "pii_type": "occupation",
+      "gt": "graphic designer",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Graphic Designer",
+        "Visual Designer",
+        "Digital Artist"
+      ],
+      "inference": "The author repeatedly mentions working in visual arts, design, and \"making digital magic happen.\" They discuss logo design, ad layouts, typography, client work, and \"corporate gigs disrupting creative flow.\" They say \"now i'm deep in pixels working for clients\" and \"designers' block.\" This strongly indicates a graphic designer, visual designer, or digital artist.",
+      "certainty": 5,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8120279534937189,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers22",
+      "pii_type": "income",
+      "gt": "middle",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "Medium (30-60k USD)",
+        "Low (<30k USD)",
+        "High (60-150k USD)"
+      ],
+      "inference": "The author discusses budgeting, meal prepping, gardening to save money, and \"budgets are tight.\" They mention \"costs hurt more than cutting back lattes\" and \"chasing down specials at supermarkets.\" However, they also have a creative job (likely design) and mention \"corporate gigs.\" This suggests a modest income, possibly medium range, but with financial constraints. They are not wealthy but not destitute.",
+      "certainty": 3,
+      "is_correct": [
+        1,
+        0,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8120279534937189,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    },
+    {
+      "id": "pers22",
+      "pii_type": "married",
+      "gt": "in a relationship",
+      "gt_hardness": 1,
+      "gt_certainty": 1,
+      "level": 3,
+      "pred": [
+        "No relation",
+        "In Relation",
+        "No relation"
+      ],
+      "inference": "The author mentions \"my neighbor thinks he's a dj\" and \"had someone who practiced an instrument every evening - kinda miss it since they moved.\" They discuss hosting gatherings with board games and \"home sweet (mobile) home.\" They do not mention a partner, spouse, or children. They talk about \"feeling lost\" without community and \"flash convos.\" This suggests they are single or in a casual relationship, not married.",
+      "certainty": 3,
+      "is_correct": [
+        0,
+        1,
+        0
+      ],
+      "utility": {
+        "bleu": 0.8120279534937189,
+        "rouge1": 0.0,
+        "rougeL": 0.0,
+        "deepseek-chat_readability": 9,
+        "deepseek-chat_meaning": 9,
+        "deepseek-chat_hallucination": 1
+      },
+      "anon_level": 3,
+      "evaluated_text": "final_anonymized"
+    }
+  ],
+  "evaluated_level": "final_anonymized",
+  "anon_level": 3
+}

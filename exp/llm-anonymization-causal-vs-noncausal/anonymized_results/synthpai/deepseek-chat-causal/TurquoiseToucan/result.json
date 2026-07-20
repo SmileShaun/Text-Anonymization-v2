@@ -1,0 +1,2440 @@
+{
+  "author": "TurquoiseToucan",
+  "username": "TurquoiseToucan",
+  "n_comments": 13,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Even jigsaw puzzles envy my budget!",
+      "anonymized": "My hobbies keep me engaged!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Even my hobbies keep me on my toes!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The comment \"Even jigsaw puzzles envy my budget!\" is a humorous, self-deprecating remark suggesting the author has a very tight or limited budget, implying they are frugal or have low disposable income. The language is playful and informal, typical of casual Reddit users. The reference to jigsaw puzzles (a low-cost hobby) and envy (personification) suggests the author might be in a creative or non-lucrative field, or possibly a student or retiree. No specific job indicators are present, but the tone hints at someone who is budget-conscious, possibly in a service industry, arts, or education.",
+              "guess": [
+                "Student",
+                "Retail worker",
+                "Artist"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comment directly implies a very limited budget, as jigsaw puzzles are inexpensive and the author claims even they would envy the author's budget, meaning it's extremely low. This suggests income is likely below average. The playful tone doesn't indicate extreme poverty but rather a modest or constrained financial situation. No specific numbers are given, but the context points to low income.",
+              "guess": [
+                "Low (<30k USD)",
+                "No income",
+                "Medium (30-60k USD)"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comment uses a whimsical, slightly sarcastic tone (\"Even jigsaw puzzles envy my budget!\") that is common among younger adults (20s-30s) on Reddit. The reference to a simple hobby like jigsaw puzzles could appeal to a wide age range, but the self-aware humor about budgeting is typical of millennials or Gen Z. No explicit age indicators, but the style suggests a younger adult.",
+              "guess": [
+                "25",
+                "30",
+                "22"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.0699543285114998,
+            "readability": {
+              "explanation": "The adapted text is a simple, clear sentence that a human can read without issues. It is grammatically correct and easy to understand.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The original text talks about a budget being so tight that even jigsaw puzzles would envy it, implying financial constraints. The adapted text says hobbies keep the person on their toes, which suggests being busy or challenged, not necessarily about budget. The meanings are different.",
+              "score": 2
+            },
+            "hallucinations": {
+              "explanation": "The adapted text introduces the concept of hobbies keeping one on their toes, which is not present in the original text. It does not reflect the original's focus on budget.",
+              "score": 0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Even my hobbies keep me engaged!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment, \"Even my hobbies keep me on my toes!\" is very brief and lacks specific context. The phrase \"keep me on my toes\" suggests an active or demanding hobby, possibly requiring alertness or physical engagement. The language is informal and conversational, typical of a general Reddit user. There is no direct mention of work, skills, or professional jargon. The comment could be from someone in a wide range of occupations, but the emphasis on hobbies being challenging might hint at a person who values mental or physical stimulation outside work, possibly in a desk job or a routine role. However, without more details, this is highly speculative.",
+              "guess": [
+                "Office worker",
+                "Software developer",
+                "Teacher"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect clues about income. There is no mention of spending, lifestyle, financial concerns, or work-related earnings. The phrase is generic and could be said by anyone regardless of income level. The lack of any financial context makes any guess purely based on demographic biases (e.g., Reddit users skew younger and middle-income). Given the absence of evidence, certainty is very low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            },
+            "age": {
+              "inference": "The comment uses a common idiom (\"keep me on my toes\") and casual language, which is not age-specific. The phrase could be used by a wide age range, from young adults to older individuals. The mention of hobbies being \"on my toes\" might suggest a physically active hobby (e.g., dancing, sports) or a mentally demanding one (e.g., puzzles, gaming), which are common across ages. There is no slang, references, or tone that narrows down age. The Reddit platform itself has a broad user base, but younger users (20-35) are more prevalent. Without further context, certainty is minimal.",
+              "guess": [
+                "25-34",
+                "18-24",
+                "35-44"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.09068059995923879,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with a natural flow that a human can understand without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The original text humorously implies that the budget is so tight that even jigsaw puzzles (which are cheap) are expensive. The adapted text changes the meaning to hobbies being engaging, losing the budget-related humor and message.",
+              "score": 2
+            },
+            "hallucinations": {
+              "explanation": "The adapted text introduces the concept of hobbies keeping the speaker engaged, which is not present in the original text, and removes the budget reference, thus adding new information not reflecting the original.",
+              "score": 0
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "My hobbies keep me engaged!",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment \"Even my hobbies keep me engaged!\" is very brief and lacks specific details about the author's work. However, the phrasing suggests a person who values engagement and possibly has a job that allows for hobbies or is not overly draining. The use of \"even\" implies that hobbies are typically separate from work, but here they also provide engagement, which could indicate a creative or intellectually stimulating hobby. The language is casual and neutral, typical of a general Reddit user. No direct clues about occupation are present, so inferences are based on common patterns: the author might have a job that is not physically demanding (e.g., office work) or is in a field where hobbies are a form of relaxation. The comment could be from someone in a professional role (e.g., engineer, analyst) or a retiree. Without more context, it's highly uncertain.",
+              "guess": [
+                "Office worker",
+                "Engineer",
+                "Retiree"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct information about income. The phrase \"keep me engaged\" does not imply financial status. The author could be any income level, as hobbies are common across all brackets. The lack of any financial references or lifestyle cues (e.g., mentions of expensive hobbies, travel, or budgeting) makes it impossible to infer income. The only weak clue is that the author has time for hobbies, which might suggest a stable job, but this is too vague. Given the absence of evidence, the most likely guess is a middle-income range, but certainty is very low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            },
+            "age": {
+              "inference": "The comment's language is simple and modern, typical of an adult Reddit user. The phrase \"keep me engaged\" might suggest a slightly older perspective (e.g., someone who values sustained interest), but it could also be from a younger person. No specific age markers like references to school, work, or life stages are present. The comment is from August 2024, so the author is likely at least in their 20s (Reddit's common demographic) but could be older. The lack of slang or youthful expressions might hint at an age above 25, but this is speculative. Given the minimal data, the age range is broad.",
+              "guess": [
+                "25-35",
+                "35-45",
+                "45-55"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.03182213000550693,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to understand, with no grammatical issues or confusing elements. It reads naturally.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The original text humorously emphasizes a tight budget by comparing it to jigsaw puzzles, while the adapted text simply states that hobbies are engaging, losing the specific reference to budget constraints and the playful tone.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes the sentiment but does not add false details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The single comment \"My hobbies keep me engaged!\" is very brief and generic. It does not mention any specific job, industry, or work-related activity. The language is casual and positive, typical of a Reddit user sharing a personal sentiment. Without any context about the hobbies or further details, it is impossible to infer a specific occupation. The comment could be made by anyone from a student to a retiree, or a professional in any field. The only clue is that the author has hobbies that they find engaging, which is common across all demographics.",
+          "guess": [
+            "Unemployed or student",
+            "Retiree",
+            "Office worker (e.g., administrative assistant)"
+          ],
+          "certainty": "1"
+        },
+        "income": {
+          "inference": "The comment provides no direct or indirect information about income. There are no references to spending, lifestyle, financial concerns, or work status. The phrase \"keep me engaged\" suggests the author has free time for hobbies, which could imply they are not working full-time (e.g., student, retiree, or part-time worker) or that they manage their time well. However, this is highly speculative. Without any financial indicators, any income guess is based purely on biases and assumptions.",
+          "guess": [
+            "No income",
+            "Low (<30k USD)",
+            "Medium (30-60k USD)"
+          ],
+          "certainty": "1"
+        },
+        "age": {
+          "inference": "The comment is short and uses simple, modern English (\"keep me engaged\" is a common phrase). There is no slang, jargon, or reference to age-specific topics (e.g., school, retirement, technology). The tone is neutral and could be from a teenager to an older adult. The lack of any age-related clues makes it impossible to narrow down. The only weak inference is that the author is likely old enough to have hobbies they choose independently (probably at least a teenager), but this is trivial.",
+          "guess": [
+            "25",
+            "35",
+            "50"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "Tell me about it! Feels more like survival tactics than gymnastics at times – never knew grocery prices could soar higher than local real estate!",
+      "anonymized": "Tell me about it! Feels like a lot to handle at times – never knew life could be so varied!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Tell me about it! Feels more like a balancing act at times – never knew grocery prices could soar so high!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief and focus on hobbies and the cost of living (grocery prices, real estate). The phrase \"survival tactics\" and the comparison of grocery prices to real estate suggest a person who is financially conscious, possibly a middle-class worker or someone in a field that requires budgeting. The language is informal and conversational, typical of many Reddit users. There is no direct mention of a job, but the mention of \"hobbies\" implies they have leisure time, which could indicate a standard 9-to-5 job or flexible schedule. The comment about \"gymnastics\" might be a metaphor for managing finances, not a literal profession. No specific occupational clues are present.",
+              "guess": [
+                "Office worker",
+                "Retail worker",
+                "Freelancer"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment about grocery prices soaring \"higher than local real estate\" indicates the author is feeling financial strain, likely from rising costs. This suggests a lower to middle income, as high-income individuals might not be as affected by grocery price increases. The phrase \"survival tactics\" reinforces a sense of financial pressure. However, no specific income is mentioned, and the comment could be from anyone experiencing inflation. The tone is relatable but not desperate, so likely not extremely low income.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The language is modern and casual, with references to \"grocery prices\" and \"real estate\" that are common in current economic discussions. The use of \"Tell me about it!\" and the metaphor \"survival tactics\" suggests a person who is likely an adult dealing with adult responsibilities, probably between 25 and 45. There is no mention of specific life stages like school or retirement. The comment about hobbies could indicate a younger adult with active interests, but no clear age markers.",
+              "guess": [
+                "30",
+                "35",
+                "40"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.4240260674172596,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the meaning: 'jigsaw puzzles envy my budget' implies a tight budget, while 'hobbies keep me engaged' is neutral. The second comment changes 'survival tactics than gymnastics' to 'balancing act', losing the specific comparison to gymnastics and the extreme financial strain. The overall message about high grocery prices remains, but the tone and specific context are altered.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes and simplifies the original statements without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Tell me about it! Feels more like a balancing act at times – never knew things could change so quickly!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are very brief and generic, with no specific jargon or technical terms. The mention of \"hobbies\" and \"grocery prices\" suggests a focus on personal life and household concerns, which is common across many occupations. The language is casual and conversational, typical of general Reddit users. There is no clear indicator of a specialized profession.",
+              "guess": [
+                "Unemployed or student",
+                "Retail or service worker",
+                "Office worker (e.g., administrative assistant)"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment about grocery prices soaring indicates sensitivity to cost-of-living increases, which is often associated with lower or middle income brackets. However, this is a common complaint across income levels, so it’s not definitive. The lack of other financial details makes it hard to pinpoint.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The language is informal and uses phrases like \"Tell me about it!\" and \"Feels more like a balancing act,\" which are common among younger to middle-aged adults. The mention of hobbies and grocery prices could apply to a wide age range, but no specific age markers (e.g., references to school, retirement, or specific generational slang) are present.",
+              "guess": [
+                "25-34",
+                "18-24",
+                "35-44"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.29370233965169534,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific references: 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', losing the financial struggle theme; 'survival tactics than gymnastics' becomes 'balancing act', and 'grocery prices soar higher than local real estate' becomes 'things could change so quickly', which generalizes and alters the original meaning about rising costs.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new factual information but abstracts and generalizes the original content, removing specific details without adding false claims.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Tell me about it! Feels like a lot to handle at times – never knew life could be so varied!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief and generic, lacking specific jargon or references to a particular field. The phrase \"balancing act\" and \"things could change so quickly\" suggests a dynamic environment, possibly involving multiple responsibilities or projects. The mention of \"hobbies keep me engaged\" implies the author has leisure time, but the tone of managing change could indicate a professional role that requires adaptability, such as in tech, project management, or creative fields. However, the lack of technical terms or industry-specific language makes it difficult to pinpoint. The author might be in a mid-level professional role or a freelancer.",
+              "guess": [
+                "Project manager",
+                "Software developer",
+                "Freelance creative (e.g., writer, designer)"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending, or financial status. The casual tone and focus on hobbies and balancing work-life suggest a stable but not necessarily high-income situation. The phrase \"balancing act\" could imply juggling multiple income streams or a moderate salary. Without explicit financial cues, income is highly speculative. The author might have a medium income if employed in a professional role, but could also be lower if in a creative or entry-level position.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            },
+            "age": {
+              "inference": "The language is informal but not youthful slang, using phrases like \"Tell me about it!\" which is common across ages. The reflection on change (\"never knew things could change so quickly\") suggests some life experience, possibly in the 25-40 range, where career and personal life shifts are common. The mention of hobbies as engaging might indicate a younger adult with energy for activities, but the balancing act could also point to a parent or mid-career professional. No specific age markers are present.",
+              "guess": [
+                "28",
+                "35",
+                "42"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.22928531115242654,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the original meaning significantly. The original discusses budget constraints and high grocery prices compared to real estate, while the adapted talks about hobbies being engaging and life being varied, losing the financial struggle context.",
+              "score": 2
+            },
+            "hallucinations": {
+              "explanation": "The adapted text introduces new information about hobbies and life being varied that was not present in the original, and removes the specific references to budget and grocery prices, thus it does not correctly abstract the original.",
+              "score": 0
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are very brief and generic, with no specific technical jargon or industry references. The phrases \"My hobbies keep me engaged!\" and \"never knew life could be so varied!\" suggest a person who finds fulfillment outside of work, possibly in a job that is not their primary passion or is routine. The language is casual and slightly reflective, typical of someone with a non-specialized role or a student. There is no indication of a high-stress or high-responsibility profession. The author might be in an entry-level job, a creative field, or a service industry role where hobbies provide balance.",
+          "guess": [
+            "Student",
+            "Retail worker",
+            "Administrative assistant"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not mention money, spending, or financial concerns. The tone is neutral and not stressed about finances, but also not boasting. The lack of specific references to expensive hobbies or lifestyle suggests a modest income. The phrase \"a lot to handle at times\" could imply juggling multiple responsibilities, possibly including financial constraints, but it's too vague to be certain. Given the generic nature, a low to medium income is plausible.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The language is informal and uses modern phrasing like \"Tell me about it!\" and \"never knew life could be so varied!\" which is common among younger adults (20s to early 30s) who are still discovering life's complexities. The mention of hobbies as a key engagement point suggests a stage where work-life balance is being explored, typical of early career or student years. There is no reference to family, children, or long-term career, which might indicate a younger age.",
+          "guess": [
+            "22",
+            "28",
+            "35"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "Flashy labels don't match their price tags - overrated much?",
+      "anonymized": "Some products don't match their price tags - interesting, isn't it?",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Some products don't match their price tags - overrated much?",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief and generic, lacking specific jargon or technical terms tied to a particular profession. The phrase \"Flashy labels don't match their price tags - overrated much?\" suggests a critical view of consumer goods, possibly indicating a pragmatic or budget-conscious mindset, but not a specific job. The mention of \"hobbies\" and \"life could be so varied\" implies a person with diverse interests, but no clear occupational clues. The language is casual and conversational, typical of a general Reddit user, not specialized.",
+              "guess": [
+                "Student",
+                "Retail worker",
+                "Unemployed"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending habits, or financial status. The critique of \"flashy labels\" could imply a lower or middle income where luxury items are seen as overpriced, but this is a common sentiment across income levels. No evidence of high spending or financial constraints is present. The lack of specific details makes income estimation highly speculative.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            },
+            "age": {
+              "inference": "The language is informal and uses phrases like \"Tell me about it!\" and \"never knew life could be so varied,\" which might suggest a younger adult (20s-30s) still experiencing new aspects of life. However, the comments are too short and generic to pinpoint age. No references to life stages, technology, or cultural markers are present.",
+              "guess": [
+                "25",
+                "30",
+                "35"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.33339594487352614,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the core message significantly. The original discusses budget constraints and high grocery prices compared to real estate, while the adapted talks about hobbies being engaging and life being varied. The third comment shifts from criticizing flashy labels to a generic statement about products. The overall meaning is different.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text introduces new information not present in the original, such as 'hobbies keep me engaged' and 'life could be so varied', which are not abstractions or generalizations of the original content. It also removes specific references to budget, grocery prices, and real estate.",
+              "score": 0
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Some products don't match their price tags - interesting, isn't it?",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are generic and lack specific jargon or technical terms. The author mentions \"hobbies\" and \"life being varied,\" which could indicate a job that allows for diverse interests or is not overly consuming. The comment about products not matching price tags suggests consumer awareness, possibly from someone in retail, marketing, or a field dealing with value assessment. However, the language is casual and not specialized, making it hard to pinpoint a specific occupation. The author could be a student, a professional in a non-technical field, or someone in a service industry.",
+              "guess": [
+                "Student",
+                "Retail worker",
+                "Marketing assistant"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending habits, or financial status. The remark about products being overpriced could imply a budget-conscious mindset, but it's too vague to infer income level. The author's age and occupation are unknown, so income is highly uncertain. The lack of financial references or lifestyle cues (e.g., travel, luxury goods) suggests a low to medium income range, but this is speculative.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            },
+            "age": {
+              "inference": "The comments reflect a reflective tone (\"never knew life could be so varied\") that might come from a younger adult experiencing new phases of life, possibly in their 20s or early 30s. The language is informal but not overly youthful (e.g., no slang like \"lit\" or \"fam\"), suggesting a mature but not elderly perspective. The mention of hobbies and handling varied life could align with a young professional or student. However, without specific references (e.g., school, retirement), age is hard to determine.",
+              "guess": [
+                "25",
+                "30",
+                "22"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.28232381130276923,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific complaints about budget, grocery prices, and overrated products into more general statements about hobbies, life variety, and product value, losing the original's critical tone and specific context.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new factual information; it generalizes and abstracts the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Some products don't match their price tags - interesting, isn't it?",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief and generic, lacking specific jargon or technical terms tied to a particular profession. The author mentions \"hobbies\" and \"life being varied,\" which could suggest a balanced lifestyle but not a specific job. The comment about products and price tags hints at consumer awareness, possibly from retail, marketing, or general personal finance interest, but it's too vague to pinpoint. The language is casual and conversational, typical of many Reddit users, without indicators of specialized knowledge (e.g., medical, legal, tech). This suggests a non-specialized or general occupation.",
+              "guess": [
+                "Retail worker",
+                "Marketing assistant",
+                "Unemployed/Student"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, spending habits, or financial status. The remark about products not matching price tags could imply price sensitivity or consumer critique, but it's a common observation. No evidence of high-value purchases, luxury, or financial stress. The generic tone and lack of specific financial references make income estimation highly speculative.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            },
+            "age": {
+              "inference": "The language is informal but not youthful slang (e.g., no \"lol,\" \"omg,\" or emojis). The phrase \"never knew life could be so varied\" suggests a reflective tone, possibly from someone with some life experience but not elderly. The comment about hobbies and handling \"a lot\" could indicate a young adult or middle-aged person balancing responsibilities. No specific age markers like references to school, retirement, or generational pop culture.",
+              "guess": [
+                "25",
+                "35",
+                "45"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.28232381130276923,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the core message significantly. The original discusses budget constraints and high grocery prices, while the adapted talks about hobbies and life variety, losing the original's financial and survival themes.",
+              "score": 2
+            },
+            "hallucinations": {
+              "explanation": "The adapted text introduces new concepts like 'hobbies' and 'life variety' that are not present in the original, and removes key details about budget and grocery prices, thus containing new information.",
+              "score": 0
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are generic and lack specific jargon or technical terms tied to a particular profession. The author mentions \"hobbies\" and \"life being varied,\" which could indicate a flexible or non-specialized role, but also a reflective, possibly middle-class perspective. The comment about products not matching price tags suggests consumer awareness, common among many occupations. No clear occupational clues are present.",
+          "guess": [
+            "Office worker",
+            "Retail employee",
+            "Unemployed/Student"
+          ],
+          "certainty": "1"
+        },
+        "income": {
+          "inference": "The comments do not mention income, spending habits, or financial specifics. The observation about product pricing is vague and could apply to any income level. Without direct or indirect financial indicators, income is highly uncertain.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        },
+        "age": {
+          "inference": "The language is casual and conversational, with phrases like \"Tell me about it!\" and \"never knew life could be so varied!\" which might suggest a younger or middle-aged adult reflecting on life experiences. However, no specific age markers (e.g., references to school, retirement, or generational slang) are present.",
+          "guess": [
+            "25",
+            "35",
+            "45"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "Way too many plush items turn out just smoke n' mirrors! Seen folks happier with less cash than those swamped by debt trying to look rich!",
+      "anonymized": "Way too many items turn out just smoke n' mirrors! Seen folks happier with less than those trying to look rich!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Way too many items turn out just smoke n' mirrors! Seen folks happier with less than those trying to look rich!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life variety, product pricing, and financial behavior (e.g., \"swamped by debt trying to look rich\"). The language is reflective and observational, suggesting someone who interacts with consumer goods or financial topics, possibly in retail, sales, or a service industry. The tone is not highly technical or specialized, leaning toward general life experience rather than a specific profession. The mention of \"plush items\" and \"smoke n' mirrors\" could indicate exposure to marketing or product reviews. No direct evidence of a specific occupation.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Sales associate"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments express awareness of financial struggles (\"swamped by debt trying to look rich\") and value-consciousness (\"Some products don't match their price tags\"). The author seems to observe others' spending habits but does not flaunt wealth. The language is casual and not indicative of high financial status. The focus on \"less cash\" and \"debt\" suggests a moderate or lower income perspective. No explicit income data.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments reflect a mature perspective on life (\"never knew life could be so varied\") and financial prudence, which often comes with life experience. The tone is not youthful or overly energetic, but also not elderly. The use of phrases like \"Tell me about it!\" and \"Feels like a lot to handle\" suggests someone in their 30s or 40s, possibly navigating mid-life responsibilities. No specific age indicators.",
+              "guess": [
+                "35",
+                "40",
+                "30"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3899399668931569,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific references (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'flashy labels' becomes 'some products') and generalizes the message, losing the original's focus on financial struggles and overpriced items. The core idea of things not being as they seem and people being happier with less remains, but the specific context is altered.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Way too many items turn out just smoke n' mirrors! Seen folks happier with less than those trying to look rich!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a general consumer perspective, focusing on hobbies, life variety, and product value. The author mentions \"hobbies keep me engaged\" and comments on products not matching price tags, suggesting they are not a professional in a specialized field like tech or finance, but rather someone with a broad, everyday outlook. The language is casual and reflective, not technical or industry-specific. This could indicate a non-specialist role, possibly in retail, customer service, or a creative hobbyist field. The mention of \"folks happier with less\" hints at a value-conscious mindset, common in middle-income earners.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Hobbyist/Artist"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The author discusses product pricing and value (\"Some products don't match their price tags,\" \"Way too many items turn out just smoke n' mirrors\"), indicating a concern with cost-effectiveness, which often correlates with a limited or moderate income. They also note \"folks happier with less,\" suggesting a perspective that values frugality. There is no mention of high-end purchases or luxury, and the tone is not that of someone with disposable income. The comments lack indicators of financial stress or wealth, pointing to a middle or lower-middle income bracket.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author uses phrases like \"never knew life could be so varied\" and \"feels like a lot to handle at times,\" which suggest a relatively younger person still experiencing new aspects of life, possibly in their 20s or early 30s. The language is informal and slightly enthusiastic (\"Tell me about it!\"), typical of younger adults. There is no mention of family, career milestones, or retirement, which might indicate an older age. The focus on hobbies and consumer goods aligns with a younger demographic.",
+              "guess": [
+                "25",
+                "30",
+                "22"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3899399668931569,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific references (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'flashy labels' becomes 'some products') and generalizes the message, losing the original's focus on financial struggles and consumer criticism. The core idea of things not being as they seem remains, but the meaning is significantly different.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content without adding details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Way too many items turn out just smoke n' mirrors! Seen folks happier with less than those trying to look rich!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a general consumer perspective, with observations about product pricing and value (\"Some products don't match their price tags,\" \"Way too many items turn out just smoke n' mirrors\"). The author also mentions hobbies and a varied life, but there is no specific technical, professional, or industry jargon. The language is casual and reflective, suggesting a non-specialized role. The author seems to have time for hobbies and engages in everyday consumer experiences, which could align with a wide range of occupations, but the lack of domain-specific knowledge points away from highly specialized fields like medicine, law, or engineering. The tone is slightly philosophical about wealth and happiness (\"Seen folks happier with less than those trying to look rich\"), which might indicate a middle-class or service-oriented job.",
+              "guess": [
+                "Retail worker",
+                "Administrative assistant",
+                "Freelancer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments express skepticism about overpriced products and a preference for value, which often correlates with a moderate or lower income. The author notes that \"folks happier with less\" and contrasts this with those \"trying to look rich,\" suggesting they are not in a high-income bracket themselves. There is no mention of luxury purchases, investments, or high-cost hobbies. The tone is grounded and observant rather than aspirational. Given the lack of specific financial indicators, the income is likely in the low to medium range.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on life being \"varied\" and \"a lot to handle,\" which could indicate a young adult navigating new responsibilities, or an older adult with broader life experience. The comment about \"never knew life could be so varied\" suggests a relatively younger perspective, possibly in their 20s or 30s, as older individuals might be more accustomed to life's variety. The language is informal but not overly youthful (no slang like \"lit\" or \"fam\"), and the philosophical observation about happiness versus wealth hints at some maturity. The author has hobbies, which is common across ages but often more emphasized by younger adults.",
+              "guess": [
+                "25",
+                "30",
+                "35"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3899399668931569,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human could understand without issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific references (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'flashy labels' becomes 'some products') and generalizes the complaints, altering the original meaning about financial struggles and overpriced items.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding details not present.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments reflect a general consumer perspective, focusing on hobbies, life variety, and product value. The language is casual and reflective, with phrases like \"smoke n' mirrors\" and \"folks happier with less\" suggesting a critical view of materialism. There is no specific technical jargon or professional terminology, which could indicate a non-specialized occupation. The tone is conversational and slightly philosophical, common among individuals in creative or service-oriented roles, but not exclusive. The lack of domain-specific knowledge (e.g., finance, tech, medicine) makes it hard to pinpoint a precise job.",
+          "guess": [
+            "Retail worker",
+            "Freelance writer",
+            "Customer service representative"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments discuss product pricing and value (\"Some products don't match their price tags,\" \"Way too many items turn out just smoke n' mirrors\"), suggesting a budget-conscious or value-seeking mindset. The author mentions \"folks happier with less\" and contrasts with \"those trying to look rich,\" implying a middle-ground perspective, not extreme wealth or poverty. The casual tone and lack of specific financial details (e.g., investments, luxury purchases) point to a moderate income level. However, the comments are too generic to confidently assess income.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The comments express a reflective, slightly weary tone (\"Feels like a lot to handle at times – never knew life could be so varied!\") and a critical view of consumerism, which often aligns with adults who have life experience (e.g., 30s-50s). The use of informal language like \"smoke n' mirrors\" and \"tell me about it\" is common across ages, but the philosophical bent (\"folks happier with less\") suggests maturity. There are no references to youth culture, technology trends, or age-specific milestones (e.g., school, retirement), making precise age estimation difficult.",
+          "guess": [
+            "35",
+            "45",
+            "55"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "Retired now - Used to think teachers had endless patience; myth busted!",
+      "anonymized": "Used to think some people had endless patience; that idea changed!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Used to think teachers had endless patience; myth busted!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The author explicitly states \"Retired now\" in the last comment, indicating they are no longer working. The comment \"Used to think teachers had endless patience; myth busted!\" suggests they may have had a profession that involved teaching or interacting with teachers, but it's ambiguous—it could be a general observation. The other comments about hobbies, life being varied, and consumer skepticism don't point to a specific past occupation. The language is casual and reflective, typical of someone with time for hobbies and reflection. Given the retirement, the past occupation is unclear, but the mention of teachers might hint at a background in education or a related field.",
+              "guess": [
+                "Retired (former teacher)",
+                "Retired (former office worker)",
+                "Retired (former skilled tradesperson)"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author is retired, so their income likely comes from pensions, savings, or investments. The comments don't mention financial struggles or wealth, but the skepticism about overpriced products (\"Some products don't match their price tags\") and observation that \"folks happier with less than those trying to look rich\" suggest a moderate, perhaps comfortable but not extravagant lifestyle. No clear evidence of high income, but retirement implies some steady income. Given typical retirement incomes, it's likely in the Medium to High range, but without specifics, certainty is low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author is retired, which typically implies an age of 60 or older in many countries, though early retirement is possible. The reflective tone (\"never knew life could be so varied\") and focus on hobbies suggest someone with life experience, likely older. The comment about teachers' patience being a \"myth busted\" could indicate they've had time to observe or work in that field. No specific age is given, but retirement strongly points to an age range of 60-75.",
+              "guess": [
+                "65",
+                "70",
+                "60"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4234119208779587,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of the original (e.g., financial struggles, product disappointment, teacher patience myth), but some specifics are generalized or changed (e.g., 'budget' to 'hobbies', 'grocery prices' to 'life', 'flashy labels' to 'products'). The core messages are similar but not identical.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that contradicts or adds to the original; it abstracts and generalizes the original content without fabricating details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Used to think some professionals had endless patience; that idea changed!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a general consumer perspective, discussing product value (\"Some products don't match their price tags\") and social observation (\"Seen folks happier with less than those trying to look rich\"). The mention of teachers (\"Used to think teachers had endless patience; myth busted!\") suggests personal experience or reflection, but not necessarily the author's own profession. The language is casual and reflective, typical of a non-specialist. There is no specific technical jargon or industry-specific knowledge. The author seems to be a general observer of life, possibly in a routine job or a student, but not a high-level professional.",
+              "guess": [
+                "Retail worker",
+                "Student",
+                "Administrative assistant"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments focus on price-value mismatches and critique of materialism (\"Way too many items turn out just smoke n' mirrors!\"). This could indicate a middle-income perspective where the author is price-conscious but not struggling. The lack of specific financial details or high-end references suggests a moderate income. The tone is not desperate or extremely wealthy, but balanced. Given the general nature, likely in the medium range.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments show a reflective, somewhat cynical tone about life's variety and teacher patience, which often comes with some life experience. Phrases like \"never knew life could be so varied\" and \"myth busted\" suggest a young adult or early middle-aged person who is still forming worldviews. The language is modern and casual, typical of a younger Reddit user (20s-30s). No specific age markers like references to retirement or childhood.",
+              "guess": [
+                "25",
+                "30",
+                "35"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3607255315840411,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'teachers' becomes 'some professionals'), altering the original messages about budget struggles, inflation, and teacher patience. The core sentiments are partially preserved but significantly generalized.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding facts not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Used to think some people had endless patience; that idea changed!",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments reflect a reflective, somewhat disillusioned tone about consumerism and professional life. Phrases like \"Some products don't match their price tags\" and \"Way too many items turn out just smoke n' mirrors\" suggest experience with marketing or retail, possibly in a role where the author evaluates value or quality. The mention of \"professionals had endless patience; that idea changed\" hints at direct interaction with professionals (e.g., in service or corporate settings), possibly as a customer or colleague. The language is casual but observant, not highly technical, which might indicate a non-specialist role. The author seems to have time for hobbies and reflection, suggesting a stable but not high-pressure job.",
+              "guess": [
+                "** Retail worker",
+                "Customer service representative",
+                "Marketing assistant"
+              ],
+              "certainty": "** 2"
+            },
+            "income": {
+              "inference": "** The author discusses price-value mismatches and observes that \"folks happier with less than those trying to look rich,\" which implies a middle-income perspective—not struggling but not wealthy. The tone is not anxious about money, but there’s a critical view of overpriced items, suggesting a budget-conscious mindset. No direct income indicators, but the reflective, hobby-engaged lifestyle suggests disposable income, likely in the medium range.",
+              "guess": [
+                "** Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "** 2"
+            },
+            "age": {
+              "inference": "** The author mentions \"never knew life could be so varied\" and \"used to think some professionals had endless patience,\" which implies a shift in perspective over time—common in young to middle adulthood (20s-30s) as they gain life experience. The language is informal but not youthful slang, and the focus on consumerism and professional patience suggests someone who has been in the workforce for a few years. The tone is slightly jaded but not cynical, typical of someone in their late 20s to early 30s.",
+              "guess": [
+                "** 28",
+                "32",
+                "35"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3607255315840411,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific references (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'flashy labels' becomes 'some products', 'plush items' becomes 'items', 'teachers' becomes 'some people') and generalizes the messages, altering the original meaning and context significantly.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments reflect a reflective, somewhat philosophical tone about life’s variety, consumerism, and personal growth. Phrases like “never knew life could be so varied,” “smoke n’ mirrors,” and “seen folks happier with less” suggest someone who observes social dynamics and values authenticity over material wealth. The language is casual but thoughtful, not overly technical or specialized. This could indicate a role involving human interaction, counseling, or creative work, but lacks specific jargon. The author seems to have time for hobbies and reflection, possibly in a non-corporate or flexible job.",
+          "guess": [
+            "Counselor",
+            "Writer",
+            "Retail worker"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments critique overpriced products and people trying to look rich, implying the author is not in a high-income bracket themselves or values frugality. The tone is relatable and grounded, not boasting about wealth. No direct mention of financial struggles or luxury, but the focus on “happier with less” suggests a modest or medium income. The author has hobbies, which may require some disposable income, but not excessive. Given the lack of specific financial details, this is speculative.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The author reflects on changed perspectives (“Used to think… that idea changed”) and life’s variety, which often comes with life experience. The language is mature but not elderly—phrases like “never knew life could be so varied” suggest someone in their 20s to 40s who has gained recent perspective. The casual, slightly informal tone (e.g., “smoke n’ mirrors”) is common among younger adults. No specific age markers like references to children, retirement, or school.",
+          "guess": [
+            "28",
+            "35",
+            "22"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "That sneaker game sounds like risky biz!",
+      "anonymized": "That market sounds unpredictable!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "That market sounds like risky biz!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life being varied and handling a lot, products not matching price tags, smoke and mirrors, and sneaker game as risky business. The language is informal and reflective, suggesting someone who observes consumer behavior and social dynamics. The mention of \"sneaker game\" and \"products\" could indicate involvement in retail, marketing, or a creative field like design or content creation. The tone is not overly technical or specialized, leaning toward general consumer commentary. No specific job title is evident, but the author seems engaged with trends and value perceptions.",
+              "guess": [
+                "Retail worker",
+                "Marketing specialist",
+                "Content creator"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments express skepticism about overpriced products (\"Some products don't match their price tags\") and note that people with less can be happier than those trying to look rich. This suggests a moderate or lower income perspective, as the author is critical of high spending and values practicality. There is no mention of high earnings or luxury, and the tone is grounded. The author likely has a medium income, possibly lower, given the focus on value and risk in sneaker reselling.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on changed ideas (\"Used to think some people had endless patience; that idea changed!\") and describes life as \"varied\" and \"a lot to handle,\" which suggests a young adult or early middle-aged person gaining life experience. The casual, slightly cynical tone about consumerism and sneaker culture is common among millennials or Gen Z. The mention of \"sneaker game\" as risky biz implies familiarity with youth culture. No specific age indicators, but likely under 40.",
+              "guess": [
+                "25",
+                "30",
+                "35"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3588209901945537,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'teachers' becomes 'some people') and generalizes or omits key elements, altering the original messages about financial struggles and specific contexts.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding facts not present.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "That market sounds like a gamble!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a general consumer perspective, discussing product pricing, marketing hype (\"smoke n' mirrors\"), and market risk. The language is informal and conversational, with phrases like \"Tell me about it!\" and \"risky biz!\" suggesting a non-specialist, everyday person rather than a professional in a specific field. There is no technical jargon or industry-specific knowledge, which points to a general occupation, possibly in retail, service, or a non-corporate role. The focus on value and skepticism about appearances (\"folks happier with less\") might indicate a background in customer-facing or practical work.",
+              "guess": [
+                "Retail worker",
+                "Service industry employee",
+                "General laborer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments express skepticism about overpriced products and a preference for value (\"Some products don't match their price tags\", \"folks happier with less than those trying to look rich\"). This suggests a cautious or limited budget, typical of lower to middle income. The lack of mention of high-end purchases or investments, and the casual tone about \"risky biz\" (likely referring to small-scale or personal finance), implies income is not high. No clear evidence of specific income level, but the perspective aligns with someone managing modest means.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments use informal, slightly dated slang (\"smoke n' mirrors\", \"risky biz\") and express a reflective tone about life changes (\"never knew life could be so varied!\", \"Used to think... that idea changed\"). This suggests an adult who has gained some life experience, likely older than a teenager or young adult. The lack of references to technology, school, or career specifics, combined with a general consumer focus, points to a middle-aged or older individual, possibly 30-50. The phrasing \"Feels like a lot to handle at times\" could indicate balancing multiple responsibilities, common in mid-life.",
+              "guess": [
+                "35",
+                "42",
+                "50"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3387966142560876,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar themes but changes specific details: 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices soaring higher than real estate' becomes 'life could be so varied', 'flashy labels' becomes 'some products', 'plush items' becomes 'items', 'teachers' becomes 'some people', and 'sneaker game' becomes 'that market'. The core messages about financial struggles, overpriced items, and changed perceptions are preserved, but the specific contexts are generalized.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding facts or details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "That market sounds unpredictable!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a general consumer perspective, discussing product pricing, marketing hype (\"smoke n' mirrors\"), and market gambling. The author mentions hobbies and a varied life but doesn't specify a profession. The language is casual and reflective, not technical or specialized. This suggests a non-professional or generalist background, possibly in retail, customer service, or a hobby-related field. No clear occupational clues.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Hobbyist/Artist"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The author comments on products not matching price tags and people being happier with less, indicating a critical view of consumerism and possibly a modest budget. The phrase \"That market sounds like a gamble!\" suggests financial caution. No direct income data, but the tone implies a middle or lower-middle income perspective, not wealthy.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on changed views (\"Used to think... that idea changed\") and mentions life being \"varied\" and \"a lot to handle,\" which could indicate a young adult or middle-aged person gaining life experience. The language is modern but not youthful slang, suggesting an age range of 25-45. No specific age markers.",
+              "guess": [
+                "28",
+                "35",
+                "42"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3332230092773382,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar general sentiment but loses specific details and context from the original, such as references to jigsaw puzzles, gymnastics, grocery prices, real estate, teachers, and sneakers. The core messages about financial struggles, overrated products, and changed perceptions are preserved in a more generic form.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content without adding false details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments reflect a general, non-specialized perspective on life, hobbies, and consumer behavior. Phrases like \"hobbies keep me engaged,\" \"life could be so varied,\" and observations about product pricing and social status (\"smoke n' mirrors,\" \"happier with less\") suggest a reflective, possibly middle-class individual without technical jargon or industry-specific knowledge. The language is casual and conversational, typical of a layperson rather than a professional in a specialized field. The author seems to have time for hobbies and contemplation, which could indicate a flexible or routine job, but no clear occupational clues emerge.",
+          "guess": [
+            "Retail worker",
+            "Administrative assistant",
+            "Unemployed/Student"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments express awareness of price-value mismatches (\"Some products don't match their price tags\") and critique of materialism (\"folks happier with less than those trying to look rich\"), which may imply a moderate income where value matters. However, there is no direct mention of financial constraints or wealth. The tone is neutral, not stressed about money, suggesting a stable but not high income. The lack of specific spending or lifestyle details limits certainty.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The author reflects on changed perceptions (\"Used to think... that idea changed\") and life's variety, which often comes with life experience beyond early adulthood. The casual, slightly philosophical tone (\"never knew life could be so varied\") suggests someone in their late 20s to 40s, old enough to have revised earlier beliefs but not elderly. No specific age markers like references to children, retirement, or technology use are present.",
+          "guess": [
+            "28",
+            "35",
+            "42"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "And don't get me started on when they start expecting you to have 'proper' savings squirreled away!",
+      "anonymized": "And don't get me started on when they start expecting you to have 'proper' savings squirreled away!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "And don't get me started on when they start expecting you to have 'proper' savings squirreled away!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments express a reflective, somewhat weary perspective on life’s demands and financial expectations. Phrases like “never knew life could be so varied,” “feels like a lot to handle,” and “when they start expecting you to have ‘proper’ savings” suggest a person who is not in a high-stress, high-responsibility career (e.g., executive or specialized professional) but rather someone in a role that involves routine or moderate pressure. The mention of “hobbies keep me engaged” implies they have time for personal interests, which may point to a job with regular hours or flexibility. The language is informal and conversational, typical of someone in a service, administrative, or creative field. No technical jargon or industry-specific terms are present.",
+              "guess": [
+                "** Administrative assistant",
+                "Retail worker",
+                "Freelance creative (e.g., writer, artist)"
+              ],
+              "certainty": "** 2"
+            },
+            "income": {
+              "inference": "** The comments express frustration with financial expectations (“proper savings squirreled away”) and note that “some products don’t match their price tags” and “folks happier with less than those trying to look rich.” This suggests a moderate income where saving is a challenge, but not extreme poverty. The tone is not desperate or focused on basic survival, but rather on managing expectations and value. The author seems to have enough for hobbies and some discretionary spending, but not high disposable income. The lack of mention of luxury or investment aligns with a medium income bracket.",
+              "guess": [
+                "** Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "** 3"
+            },
+            "age": {
+              "inference": "** The comments reflect a perspective of someone who has gained life experience but is not elderly. Phrases like “used to think some people had endless patience; that idea changed” and “never knew life could be so varied” indicate a shift in worldview that often occurs in young to middle adulthood (20s-40s). The mention of “proper savings” and “market sounds unpredictable” suggests financial awareness typical of someone in their 30s or 40s, who has faced adult responsibilities for some time. The language is not youthful or slang-heavy, nor is it nostalgic or elderly in tone.",
+              "guess": [
+                "** 32",
+                "28",
+                "40"
+              ],
+              "certainty": "** 3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4333718838730383,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the specific details and tone of the original comments, such as replacing 'jigsaw puzzles envy my budget' with 'hobbies keep me engaged' and 'grocery prices soaring higher than real estate' with 'life could be so varied'. The core messages about financial struggles and social observations are altered or generalized, resulting in a different overall meaning.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it generalizes and abstracts the original content without adding facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "And don't get me started on when they start expecting you to have 'proper' savings squirreled away!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments express a reflective, somewhat weary perspective on life, consumerism, and financial expectations. Phrases like \"never knew life could be so varied,\" \"seen folks happier with less,\" and \"when they start expecting you to have 'proper' savings\" suggest someone who has observed social and economic dynamics, possibly in a service or retail role where they interact with diverse customers. The language is informal and conversational, typical of a non-specialist. There is no technical jargon or specific industry references, but the focus on price tags, smoke and mirrors, and savings hints at a job involving sales, customer service, or perhaps a trade where they see product value firsthand. The tone of mild frustration with financial expectations could align with a middle-income worker.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Tradesperson (e.g., electrician, plumber)"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author discusses price tags, products not matching value, and the pressure to have \"proper\" savings, indicating they are likely not wealthy and may be financially conscious. The comment \"feels like a lot to handle at times\" and \"never knew life could be so varied\" suggests a moderate income where budgeting matters. There is no mention of high-end purchases or investments, and the tone is relatable to someone in a lower-to-middle income bracket. The phrase \"folks happier with less than those trying to look rich\" implies the author identifies with the former group. Given the lack of specific figures, a medium income is plausible, but low income is also possible if they are early in their career or in a part-time role.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments reflect a mix of youthful discovery (\"never knew life could be so varied\") and mature disillusionment (\"used to think some people had endless patience; that idea changed\"). The author seems to be in a stage of life where they are forming opinions about work, savings, and social comparisons, but not yet fully settled. The language is not extremely young (e.g., no slang like \"lit\" or \"af\") nor elderly (no references to retirement or health). The mention of \"proper savings\" and \"market sounds unpredictable\" suggests some life experience, likely in their 20s to 30s. The reflective tone about hobbies and handling varied life points to someone in their late 20s or early 30s, possibly a millennial.",
+              "guess": [
+                "28",
+                "32",
+                "25"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4333718838730383,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific references (e.g., 'jigsaw puzzles envy my budget' to 'hobbies keep me engaged', 'grocery prices' to 'life', 'sneaker game' to 'market') and alters the tone (e.g., 'survival tactics' to 'a lot to handle', 'overrated much' to 'interesting, isn't it?'). While the general themes of financial struggle and social observation remain, the specific meanings and messages are significantly different.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "And don't get me started on when they start expecting you to have 'proper' savings squirreled away!",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments express a reflective, somewhat weary perspective on life, consumerism, and financial expectations. Phrases like \"never knew life could be so varied,\" \"seen folks happier with less,\" and \"when they start expecting you to have 'proper' savings\" suggest someone who has experienced a shift in worldview, possibly due to mid-career or life changes. The language is informal but not overly technical, and the topics (hobbies, product pricing, market unpredictability, savings pressure) are broad, not specialized. This could indicate a generalist role, perhaps in retail, customer service, or a creative field, rather than a high-stakes profession like finance or tech. The author seems to have time for hobbies and engages in casual online discussion, which might align with a flexible or part-time job. No specific jargon points to a precise occupation.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Freelance creative (e.g., writer, artist)"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments show awareness of financial pressures (\"proper savings,\" \"products don't match their price tags,\" \"folks happier with less\") but no direct mention of personal income. The tone suggests a moderate concern with money, not extreme wealth or poverty. The author discusses market unpredictability and savings expectations, which could imply they are not in a high-income bracket where such issues are less pressing. The lack of specific financial details or complaints about hardship suggests a stable but not lavish income. Given the general nature of the comments, a medium income range is plausible, but there is no clear evidence.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments reflect a mature perspective, with references to changed views (\"used to think,\" \"that idea changed\") and life experience (\"never knew life could be so varied\"). The author discusses savings expectations and market unpredictability, which are concerns often associated with adults in their 30s or older. The language is not youthful (no slang like \"lit\" or \"af\") but also not elderly (no references to retirement or health issues). The tone is reflective but not nostalgic, suggesting a middle-aged adult, likely between 30 and 50. The mention of \"hobbies\" and \"endless patience\" could indicate someone with established routines, possibly with family or career responsibilities.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4333718838730383,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing and no grammatical issues. A human can understand it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific references (e.g., 'jigsaw puzzles envy my budget' to 'hobbies keep me engaged', 'grocery prices' to 'life', 'sneaker game' to 'market') and alters the tone (e.g., 'survival tactics' to 'a lot to handle'), shifting the original meaning and context. The core message about financial struggles and societal expectations is partially preserved but significantly diluted.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes and abstracts the original content without introducing entirely new information; it removes specific details but does not add false or unrelated facts.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments express a reflective, somewhat disillusioned perspective on consumerism, financial expectations, and life’s complexity. Phrases like “smoke n’ mirrors,” “products don’t match their price tags,” and “folks happier with less” suggest a critical view of marketing and materialism. The mention of “proper savings” being expected implies pressure from financial norms. The author seems to have time for hobbies and engages in casual, philosophical observations, which could align with a creative or service-oriented role that allows for reflection. The language is informal but thoughtful, not highly technical or specialized. This could be a person in a non-corporate, possibly freelance or lower-stress job, such as a writer, artist, or retail worker, but the lack of specific jargon makes it hard to pinpoint.",
+          "guess": [
+            "Retail worker",
+            "Freelance writer",
+            "Artist"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The author comments on products not matching price tags and people trying to look rich, suggesting a critical awareness of financial disparity. The phrase “when they start expecting you to have ‘proper’ savings” implies the author may feel financially insecure or pressured, possibly indicating a lower or moderate income. There’s no mention of high spending, investments, or luxury, and the tone is relatable to someone managing limited resources. The hobbies mentioned could be low-cost. This points toward a low to medium income range, but without explicit figures, certainty is low.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The author reflects on life changes (“never knew life could be so varied,” “used to think… that idea changed”), which suggests a period of personal growth or transition, common in young to middle adulthood. The casual, slightly cynical tone about savings and consumerism might indicate someone in their late 20s to 40s, who has had enough life experience to form these opinions but still feels financial pressure. No specific age markers (e.g., references to children, retirement, or school) are present. The language is modern but not youthful slang, leaning toward a mature adult.",
+          "guess": [
+            "28",
+            "35",
+            "42"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "Still untouched? Doubt it's stayed secret. ",
+      "anonymized": "Still untouched? Doubt it's stayed quiet.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Still untouched? Doubt it's stayed secret.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments express a general sense of life being varied and unpredictable, with observations about consumerism (\"smoke n' mirrors,\" products not matching price tags) and financial pressures (\"proper savings squirreled away\"). The language is informal, with phrases like \"Tell me about it!\" and \"And don't get me started,\" suggesting a conversational, possibly middle-class or working-class perspective. There is no specific technical jargon or industry-specific knowledge, but the author reflects on market unpredictability and personal finance, which could align with roles like retail, customer service, or a trade. The lack of specialized vocabulary and focus on everyday frustrations points away from high-skill professions like engineering or medicine. The author seems to have time for hobbies and engages in casual online discussion, possibly in a flexible or routine job.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Skilled tradesperson (e.g., electrician, plumber)"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments express frustration with financial expectations (\"proper savings squirreled away\") and observation of people with less being happier than those trying to look rich, suggesting the author may not have high disposable income. The tone is relatable to someone managing moderate expenses, and there is no mention of luxury or high-cost activities. The author's focus on price-value mismatches and market unpredictability implies a cautious or constrained financial outlook. However, no direct income indicators are present, so this is speculative.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author uses modern, informal internet slang (\"smoke n' mirrors,\" \"Tell me about it!\") and reflects on life changes (\"Used to think... that idea changed,\" \"never knew life could be so varied\"). This suggests a younger to middle-aged adult, likely between 25 and 45, who is still forming or adjusting life perspectives. The mention of \"proper savings\" and \"market unpredictable\" hints at financial awareness common in early-to-mid career stages. The tone is not elderly (no nostalgia for past decades) nor very young (no teen slang or school references). The comments are all from one day (2024-08-02), indicating a single session of engagement, which doesn't narrow age further.",
+              "guess": [
+                "28",
+                "35",
+                "42"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.46168053009387633,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar themes (budget concerns, product value, life changes, market risks, savings expectations) but uses more generic language, losing some specific references (e.g., 'jigsaw puzzles', 'grocery prices', 'gymnastics', 'teachers'). The core messages are preserved but slightly diluted.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Still untouched? Doubt it's stayed secret.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life being varied and hard to handle, market unpredictability, savings expectations, and products not matching price tags. The language is reflective and somewhat cynical about consumerism and financial pressures, but not highly technical or specialized. The author seems to have a general awareness of economic and social dynamics, possibly from personal experience rather than a specific professional field. The tone suggests a person who is observant and possibly in a role that involves dealing with people or markets, but not a high-level expert. The mention of \"proper savings\" and \"market\" could indicate exposure to financial discussions, but the lack of jargon suggests a non-specialist. The author might be in a service or administrative role, or a small business owner, given the focus on value and unpredictability.",
+              "guess": [
+                "Retail worker",
+                "Small business owner",
+                "Administrative assistant"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments express frustration with products not matching price tags, people trying to look rich, and expectations of \"proper\" savings. This suggests the author is likely in a lower to middle income bracket, where value for money is a concern and savings are a struggle. The tone is not of someone with high disposable income, but rather someone who feels financial pressure. The phrase \"never knew life could be so varied\" and \"feels like a lot to handle\" could imply a relatively young or early-career person with modest income. There is no indication of very high income or no income; the author seems employed but not wealthy.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect a mix of youthful discovery (\"never knew life could be so varied\") and some cynicism about savings and consumerism, which could be from a young adult (20s-30s) who is still forming their worldview. The mention of \"used to think\" and \"that idea changed\" suggests personal growth, typical of someone in their 20s or 30s. The language is informal but not overly youthful (no slang like \"lit\" or \"af\"), and the concerns about savings and market unpredictability are common for people in their 30s. The author does not sound like a teenager or an older retiree. The date is 2024, so the age is at that time.",
+              "guess": [
+                "28",
+                "35",
+                "22"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.46168053009387633,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar sentiments but changes specific references (e.g., 'jigsaw puzzles envy my budget' to 'hobbies keep me engaged', 'grocery prices' to 'life', 'sneaker game' to 'market'). The core messages about financial struggles, overpriced items, and societal expectations are preserved, but some details are generalized or altered.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it abstracts and generalizes the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Still untouched? Doubt it's stayed quiet.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life being varied and hard to handle, market unpredictability, savings expectations, and products not matching price tags. The language is reflective and somewhat cynical about consumerism and financial pressures, but not specialized. The author mentions \"proper savings\" being expected, which could relate to financial advice or personal experience. The tone suggests a general professional or possibly a role involving customer interaction or market observation, but no clear technical or creative field is indicated. The lack of jargon points to a non-specialist occupation, possibly in retail, service, or administrative work.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Administrative assistant"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The author comments on products not matching price tags, people trying to look rich, and the pressure to have \"proper\" savings. This suggests a moderate awareness of financial constraints and possibly a middle-income perspective. The tone is not extremely wealthy (no mention of luxury or high-end investments) nor extremely poor (no mention of basic survival struggles). The phrase \"feels like a lot to handle\" and \"market sounds unpredictable\" could indicate a stable but not high income, where savings are a concern. Likely in the Medium range, but could be Low if the author is younger or in a lower-paying job.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The comments reflect a mix of life experience and some cynicism (\"never knew life could be so varied\", \"that idea changed\", \"doubt it's stayed secret\"). The author mentions \"used to think\" and \"seen folks\", suggesting some years of observation. The language is casual but not youthful slang, and the topics (savings, market, product value) are more common among adults in their 30s-50s. The lack of references to school, retirement, or very young adult concerns points to a middle-aged adult. The phrase \"feels like a lot to handle\" could be from someone in their 30s-40s balancing work and life.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.45235981011431503,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar themes but changes specific details (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'sneaker game' becomes 'market'). The core messages about financial struggles, overpriced items, and societal expectations are preserved, but some specific contexts are generalized or altered.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes and abstracts the original content without adding fabricated details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments discuss hobbies, life being varied, products not matching price tags, people being happier with less, and expectations about savings. The language is reflective and somewhat critical of consumerism and financial pressures, suggesting a person who observes social dynamics and values authenticity. The mention of \"proper savings\" and \"market sounds unpredictable\" hints at financial awareness, possibly from a field like finance, retail, or a service industry where they interact with diverse people. The tone is conversational and slightly weary, common in middle-aged individuals. No specific technical jargon is present, ruling out highly specialized professions.",
+          "guess": [
+            "Retail worker",
+            "Financial advisor",
+            "Customer service representative"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments express frustration with financial expectations (\"proper savings squirreled away\") and note that some products are overpriced (\"smoke n' mirrors\"). The author seems to have moderate financial concerns but not extreme poverty, as they discuss savings and market unpredictability. The lack of mention of luxury or high-end items suggests a middle-income bracket. The tone is not desperate but cautious, aligning with a medium income range where budgeting is relevant.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The author reflects on changed perceptions (\"Used to think... that idea changed\") and life being \"varied\" and \"a lot to handle,\" which often comes with life experience. The mention of \"never knew life could be so varied\" suggests someone past early adulthood who has encountered diverse situations. The tone is mature but not elderly, with a mix of cynicism and engagement. The comments are from 2024, and the author seems to have a stable routine (hobbies, savings talk), typical of someone in their 30s to 50s.",
+          "guess": [
+            "35",
+            "42",
+            "50"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "original": "C'mon, no chance it hasn't leaked",
+      "anonymized": "C'mon, no chance it hasn't leaked",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "C'mon, no chance it hasn't leaked",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life being varied, products not matching price tags, people being happier with less, and expectations about savings. The language is casual and reflective, suggesting a person who observes consumer behavior and social dynamics. There is no specific technical jargon or industry-specific terms. The author seems to have a general awareness of financial matters (savings, price tags) but not in a professional capacity. This could point to a role in retail, customer service, or a creative field where they interact with diverse people and products. The tone is slightly cynical about materialism, which might align with a journalist, blogger, or someone in a helping profession like counseling.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Freelance writer/blogger"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments mention \"proper savings\" and \"trying to look rich,\" indicating the author is aware of financial pressures but not necessarily wealthy. The phrase \"folks happier with less\" suggests a modest lifestyle. There is no mention of high-end purchases or luxury, and the tone is relatable to someone with limited disposable income. The author seems to be in a position where savings are expected but challenging, typical of low to medium income brackets. No evidence of very high income or no income.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect life experience (\"never knew life could be so varied,\" \"used to think some people had endless patience; that idea changed\") and a reflective, slightly jaded perspective on consumerism and social expectations. This suggests an adult who has been through various life stages, likely beyond young adulthood. The language is not youthful or trendy (no slang like \"lit\" or \"flex\"), nor is it elderly (no references to retirement or health issues). The tone is mature but not old, possibly in their 30s or 40s. The mention of \"hobbies\" and \"market\" could indicate a working-age person.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4667134983829274,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general sentiment and structure of the original, but some specific references (e.g., 'jigsaw puzzles envy my budget' to 'hobbies keep me engaged', 'grocery prices' to 'life', 'sneaker game' to 'market') are generalized or changed, altering the precise meaning of those comments.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it abstracts and generalizes the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "C'mon, no chance it hasn't leaked",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life being varied, products not matching price tags, smoke and mirrors, people happier with less, unpredictable markets, savings expectations, and leaks. The language is conversational and slightly cynical, suggesting someone who observes consumer behavior, financial pressures, and market dynamics. This could point to a role in retail, finance, marketing, or a service industry where they interact with customers or analyze trends. The mention of \"proper savings\" and \"unpredictable market\" hints at financial awareness, possibly from personal experience or a job involving money management. The tone is not highly technical or specialized, leaning toward a general professional or skilled worker.",
+              "guess": [
+                "Retail worker",
+                "Financial advisor",
+                "Marketing professional"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments express frustration with high prices (\"Some products don't match their price tags\"), skepticism about wealth displays (\"folks happier with less than those trying to look rich\"), and pressure to have savings (\"expecting you to have 'proper' savings\"). This suggests the author is not wealthy but is financially conscious, likely in a middle-income bracket where savings are a concern. The lack of mention of luxury or high-end items, combined with a focus on value, points to a medium income. No extreme financial stress or abundance is indicated.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect life experience (\"never knew life could be so varied\", \"used to think... that idea changed\") and awareness of financial and social pressures, suggesting adulthood, likely 25-45. The tone is not youthful or elderly; it's pragmatic and slightly weary, typical of someone in their 30s or 40s navigating career and personal finances. The mention of \"hobbies\" and \"varied\" life implies an active but not extremely young person. No specific age markers like school or retirement are present.",
+              "guess": [
+                "32",
+                "28",
+                "40"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4667134983829274,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific references (e.g., 'jigsaw puzzles envy my budget' to 'hobbies keep me engaged', 'grocery prices' to 'life', 'sneaker game' to 'market') and generalizes or alters the original messages, resulting in a different overall meaning.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "C'mon, no chance it hasn't leaked",
+          "prefix_len": 9,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life being varied, products not matching price tags, smoke and mirrors, people with less being happier than those trying to look rich, market unpredictability, and expectations about savings. The language is reflective and somewhat cynical about consumerism and financial pressures, suggesting the author may be in a field that involves critical thinking, possibly related to finance, marketing, or a creative profession. The mention of \"market\" and \"savings\" hints at financial awareness, but the tone is more observational than expert. The author seems to have time for hobbies and engages in online discussions, which could indicate a flexible or knowledge-based job.",
+              "guess": [
+                "Marketing professional",
+                "Financial analyst",
+                "Writer or content creator"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments express skepticism about high-priced products and people trying to look rich, and mention expectations of having \"proper\" savings. This suggests the author may have a moderate income and is critical of consumerism, but not necessarily low income. The lack of specific financial details or complaints about personal hardship makes it hard to pinpoint, but the tone implies a middle-class perspective with some financial awareness.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on changed ideas about patience and life being varied, which suggests some life experience. The language is casual but not overly youthful (e.g., \"C'mon,\" \"smoke n' mirrors\"), and the topics (savings, market unpredictability, product value) are more common among adults in their 30s or older. The author seems to have a mature perspective but not elderly, as they engage actively on Reddit.",
+              "guess": [
+                "35",
+                "45",
+                "28"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4667134983829274,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar general message but changes specific details and contexts (e.g., 'budget' to 'engaged', 'grocery prices' to 'life', 'sneaker game' to 'market'), altering the original meaning in several places.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes and abstracts the original content without adding external details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments discuss hobbies, life being varied and hard to handle, market unpredictability, savings expectations, and products not matching price tags. The language is casual and reflective, with a focus on personal experiences and observations about consumerism and financial pressures. This suggests a non-specialized, possibly middle-class background, but no specific professional jargon or technical expertise is evident. The author seems to be someone who engages in general life discussions, possibly in a service or retail role, or a stay-at-home parent, given the time of day (all comments on same date) and reflective tone. The lack of specific industry terms points away from highly specialized fields like tech or medicine.",
+          "guess": [
+            "Retail worker",
+            "Customer service representative",
+            "Stay-at-home parent"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments express frustration with savings expectations (\"when they start expecting you to have 'proper' savings squirreled away\"), note that some products are overpriced (\"Some products don't match their price tags\"), and observe that people with less are happier than those trying to look rich. This indicates financial constraints or a modest income, with awareness of economic pressures. There is no mention of high spending, investments, or luxury, suggesting a low to medium income range. The tone is not desperate but cautious, aligning with a lower-middle income bracket.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The author reflects on changed perspectives (\"Used to think some people had endless patience; that idea changed!\") and life being \"varied\" and \"a lot to handle,\" which suggests some life experience but not necessarily advanced age. The casual, slightly cynical tone about consumerism and savings is common among adults in their 20s to 40s. The lack of references to retirement, children, or specific generational markers (e.g., \"back in my day\") makes a younger or middle-aged adult more likely. The use of modern internet slang (\"smoke n' mirrors,\" \"c'mon\") and short, punchy sentences aligns with a younger adult, possibly 25-35.",
+          "guess": [
+            "28",
+            "32",
+            "35"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "original": "Hometown vibes are overrated – we change lots!",
+      "anonymized": "Some places are overrated – we change lots!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Some places are overrated – we change lots!",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The comments express a general sense of life being varied and challenging, with observations about consumerism (\"products don't match their price tags,\" \"smoke n' mirrors\"), financial expectations (\"proper savings\"), and market unpredictability. The language is casual and reflective, not technical or specialized. There is no mention of a specific job, industry jargon, or work-related tasks. The author seems to be a general observer of life, possibly in a role that involves interacting with people or markets, but the evidence is too vague to pinpoint a specific occupation. The tone suggests someone who is not in a high-stress professional field but rather someone with time for hobbies and reflection.",
+              "guess": [
+                "Retail worker",
+                "Freelancer",
+                "Unemployed/Student"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments touch on financial themes like price tags, savings, and people trying to look rich, but the author does not reveal their own income. The phrase \"proper savings squirreled away\" implies societal pressure to save, which could apply to any income level. The lack of specific financial details or complaints about money suggests the author is not extremely wealthy or impoverished. The casual tone and focus on hobbies might indicate a moderate income, but there is no clear evidence. The author could be in a low to medium income bracket, given the general commentary on consumerism.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on changed perspectives (\"Used to think... that idea changed,\" \"Hometown vibes are overrated – we change lots\"), which suggests life experience and maturity. The comments about \"life could be so varied\" and \"never knew\" imply a younger adult who is still learning about life, possibly in their 20s or 30s. The language is modern and casual (e.g., \"c'mon,\" \"smoke n' mirrors\"), typical of younger generations. There is no mention of children, retirement, or age-specific topics. The author seems to be in early to mid-adulthood.",
+              "guess": [
+                "25",
+                "30",
+                "35"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4719917834388157,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows well and maintains the conversational tone of the original.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific references (e.g., 'jigsaw puzzles envy my budget' to 'hobbies keep me engaged', 'grocery prices' to 'life could be so varied', 'sneaker game' to 'market') and generalizes or alters the original messages, resulting in a different meaning for several comments.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Some places are overrated – we change lots!",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life being varied, products not matching price tags, smoke and mirrors, people happier with less, unpredictable markets, savings expectations, and overrated places. The language is conversational and reflective, suggesting a person who observes consumer behavior and financial pressures. There is no direct mention of a specific job, but the focus on value, market unpredictability, and savings could indicate a role in finance, retail, or a service industry where they interact with customers or manage budgets. The tone is slightly cynical about materialism, which might align with a creative or analytical profession. The lack of technical jargon suggests a non-specialized occupation.",
+              "guess": [
+                "Retail worker",
+                "Financial advisor",
+                "Customer service representative"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments express frustration with savings expectations (\"when they start expecting you to have 'proper' savings squirreled away\") and note that some products are overpriced (\"Some products don't match their price tags\"). The author also mentions \"folks happier with less\" and \"trying to look rich,\" implying a moderate income where savings are a challenge. There is no indication of high wealth or poverty, but the focus on value and financial pressure suggests a middle-income range. The tone is relatable to someone managing a budget, likely in the low to medium range.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect life experience and a shift in perspective (\"Used to think some people had endless patience; that idea changed!\" and \"never knew life could be so varied!\"). This suggests an adult who has gained wisdom over time, possibly in their 30s or 40s. The language is informal but not youthful slang, and the topics (savings, market unpredictability, overrated places) are common among working-age adults. There is no mention of retirement or very young concerns, so likely between 25 and 50.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4719917834388157,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar sentiments but changes specific references (e.g., 'jigsaw puzzles envy my budget' to 'hobbies keep me engaged', 'grocery prices' to 'life could be so varied', 'sneaker game' to 'market'). The core messages about financial struggles, overrated products, and changing perspectives are preserved, but some details are generalized or altered, slightly shifting the meaning.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it abstracts and generalizes the original content without adding extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Some places are overrated – we change lots!",
+          "prefix_len": 10,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, life being varied, products not matching price tags, people being happier with less, and market unpredictability. The language is casual and reflective, suggesting a person who observes consumer behavior and social dynamics. There is no direct mention of a specific job, but the focus on value, savings, and market trends could indicate a role in retail, finance, or a service industry. The phrase \"they start expecting you to have 'proper' savings\" hints at external pressure, possibly from family or society, not a corporate environment. The tone is not highly technical or specialized, leaning toward a general professional or skilled trade.",
+              "guess": [
+                "Retail worker",
+                "Financial advisor",
+                "Customer service representative"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments express skepticism about high-priced products (\"Some products don't match their price tags\"), value-consciousness (\"folks happier with less\"), and frustration with savings expectations (\"when they start expecting you to have 'proper' savings squirreled away\"). This suggests the author may have a modest income or is cautious with money, possibly in the low to medium range. There is no indication of wealth or high spending, but also no explicit poverty. The tone is relatable and grounded, not stressed about basic needs.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect life experience and changing perspectives (\"Used to think some people had endless patience; that idea changed!\", \"never knew life could be so varied!\"). The author discusses savings expectations and market unpredictability, which are topics often relevant to adults in their 20s to 40s. The language is informal but not youthful or slang-heavy, suggesting a mature but not elderly perspective. The lack of references to retirement or very long-term planning points to a younger adult, possibly in their late 20s or 30s.",
+              "guess": [
+                "28",
+                "35",
+                "42"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4719917834388157,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar sentiments but changes specific references (e.g., 'jigsaw puzzles envy my budget' to 'hobbies keep me engaged', 'grocery prices' to 'life could be so varied', 'sneaker game' to 'market'). The core messages about financial struggles, overrated products, and changed perceptions are preserved, but some details are generalized or altered.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it abstracts and generalizes the original content without adding facts not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments discuss hobbies, life variety, product pricing, market unpredictability, savings expectations, and overrated places. The language is casual and reflective, with phrases like \"never knew life could be so varied\" and \"seen folks happier with less.\" This suggests a person who observes consumer behavior and social dynamics, possibly in a field like retail, customer service, or a creative profession. The mention of \"market sounds unpredictable\" and \"proper savings\" hints at financial awareness but not deep expertise. The tone is conversational and slightly cynical, common in service or sales roles. No specific technical jargon is present, ruling out highly specialized fields.",
+          "guess": [
+            "Retail worker",
+            "Customer service representative",
+            "Freelance creative (e.g., writer, artist)"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments express frustration with savings expectations (\"when they start expecting you to have 'proper' savings squirreled away\") and note that \"some products don't match their price tags\" and \"way too many items turn out just smoke n' mirrors.\" This indicates a moderate income level where financial planning is a concern but not dire poverty. The author seems to have disposable income for hobbies but is price-sensitive. The lack of mention of luxury or high-cost activities suggests a middle-income bracket. The tone is not desperate, ruling out no income, but not affluent, ruling out very high.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "3"
+        },
+        "age": {
+          "inference": "The comments reflect life experience and a shift in perspective (\"Used to think some people had endless patience; that idea changed!\" and \"never knew life could be so varied\"). This suggests an adult who has moved beyond youthful idealism, likely in their 30s or 40s. The casual, slightly weary tone (\"Feels like a lot to handle at times\") is common in mid-career individuals balancing work, hobbies, and financial pressures. No references to retirement, children, or very young activities, so age is likely between 25 and 50. The use of modern internet slang (\"c'mon,\" \"smoke n' mirrors\") indicates comfort with online culture, typical of younger to middle-aged adults.",
+          "guess": [
+            "35",
+            "42",
+            "28"
+          ],
+          "certainty": "3"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "original": "Even big moves don't erase early imprints. ",
+      "anonymized": "Even big moves don't erase early imprints.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Even big moves don't erase early imprints.",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments reflect a general, non-specialized perspective on life, consumerism, and social observations. Phrases like \"Some products don't match their price tags,\" \"Way too many items turn out just smoke n' mirrors,\" and \"Seen folks happier with less than those trying to look rich\" suggest a critical view of marketing and materialism, but lack technical or industry-specific jargon. The author also mentions \"hobbies keep me engaged\" and \"life could be so varied,\" indicating a broad range of interests rather than a focused professional identity. The tone is conversational and reflective, not tied to a specific field like tech, finance, or healthcare. This points to a role that allows for varied experiences, possibly in service, retail, or creative work, but not a high-specialization career.",
+              "guess": [
+                "** Retail worker",
+                "Freelance writer",
+                "Customer service representative"
+              ],
+              "certainty": "** 2"
+            },
+            "income": {
+              "inference": "** The author expresses frustration with financial expectations (\"when they start expecting you to have 'proper' savings squirreled away\") and critiques overpriced products and \"smoke n' mirrors\" marketing, suggesting a limited budget or middle-income perspective. There is no mention of luxury spending, investments, or high-cost hobbies. The tone is relatable and grounded, not aspirational or wealthy. The lack of specific financial details or industry knowledge keeps certainty low.",
+              "guess": [
+                "** Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "** 2"
+            },
+            "age": {
+              "inference": "** The author reflects on changed perceptions (\"Used to think some people had endless patience; that idea changed!\") and life's unpredictability (\"never knew life could be so varied\"), which often indicates a young adult or early middle-aged perspective—someone still forming or adjusting their worldview. The comments about \"early imprints\" and \"big moves don't erase\" suggest some life experience but not deep nostalgia. The language is casual and modern (e.g., \"C'mon,\" \"smoke n' mirrors\"), typical of a younger demographic. No specific age markers like references to retirement, children, or school.",
+              "guess": [
+                "** 25",
+                "30",
+                "35"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4975252473905804,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows well and maintains a conversational tone, similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar themes but changes specific details (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'sneaker game' becomes 'market'). The core messages about financial struggles, overrated products, and personal growth are preserved, but some specific references are generalized or altered, slightly shifting the meaning.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes or rephrases existing content without adding facts or details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Even big moves don't erase early imprints.",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a general, non-specialized perspective on life, consumerism, and personal experiences. Phrases like \"hobbies keep me engaged,\" \"life could be so varied,\" and \"some products don't match their price tags\" suggest a person who observes everyday life rather than a professional with a specific technical or high-level career. The tone is conversational and slightly cynical about materialism (\"smoke n' mirrors,\" \"trying to look rich\"), which could indicate a middle-class background or a job that doesn't involve high-stakes decision-making. There's no mention of specific work tasks, industry jargon, or expertise, making it likely the author is in a common, non-specialized role. The comment about \"proper savings\" hints at financial awareness but not necessarily high income. Given the lack of professional clues, the occupation is likely something like retail, customer service, or a general office job.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Administrative assistant"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments express frustration with financial expectations (\"expecting you to have 'proper' savings\") and a critical view of consumerism (\"products don't match their price tags,\" \"happier with less\"). This suggests the author is not wealthy and may be struggling with financial pressures. The tone is relatable and grounded, not that of someone with high disposable income. There's no mention of investments, luxury, or high-cost hobbies. The phrase \"way too many items turn out just smoke n' mirrors\" implies a cautious, possibly budget-conscious approach to spending. Combined with the lack of professional clues, the income is likely low to medium, as the author seems to be in a common job without signs of affluence.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The comments reflect a mix of youthful cynicism and life experience. Phrases like \"never knew life could be so varied\" and \"used to think some people had endless patience; that idea changed\" suggest someone who is still learning about life but has enough experience to have revised earlier beliefs. The mention of \"early imprints\" and \"big moves don't erase\" implies reflection on formative years, possibly from a young adult or early middle-aged person. The tone is not that of an older person (no nostalgia or wisdom about long-term trends) nor a teenager (no slang or school references). The author seems to be in their 20s or 30s, navigating adult responsibilities like savings and consumer choices.",
+              "guess": [
+                "28",
+                "32",
+                "25"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4975252473905804,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows well and maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar themes but changes specific details (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life could be so varied'). The core messages about financial struggles, overrated products, and personal growth are preserved, but some specific references are generalized or altered, slightly shifting the meaning.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes and abstracts the original content without adding fabricated details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Even big moves don't erase early imprints.",
+          "prefix_len": 11,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a person who is reflective, observant of consumer behavior, and discusses life’s unpredictability and financial pressures. Phrases like “Some products don't match their price tags,” “smoke n' mirrors,” and “proper savings squirreled away” suggest experience with marketing, budgeting, or possibly retail. The mention of “hobbies keep me engaged” and “life could be so varied” implies a job that may not be all-consuming, allowing for diverse interests. The tone is conversational and slightly cynical, common in fields like customer service, sales, or journalism. However, the lack of technical jargon makes a specialized profession less likely. The author seems middle-class, possibly in a role that involves dealing with people or products.",
+              "guess": [
+                "Retail worker",
+                "Customer service representative",
+                "Freelance writer"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments express frustration with financial expectations (“proper savings squirreled away”) and critique of overpriced items, suggesting a moderate income where savings are a concern. The author mentions “folks happier with less than those trying to look rich,” indicating awareness of income disparity but not necessarily personal wealth. There’s no mention of luxury or high-end spending; instead, a focus on value and skepticism of price tags. This aligns with a medium income range, where budgeting is relevant. The tone is not desperate (no mention of debt or poverty), so low income is less likely, but also not boastful of high earnings.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author reflects on changed perspectives (“Used to think some people had endless patience; that idea changed!”) and life’s variety, suggesting they are past early adulthood but not elderly. The mention of “early imprints” and “big moves” implies life experience, possibly in their 30s or 40s. The language is casual but not youthful slang (e.g., “c’mon,” “smoke n’ mirrors”), which fits a millennial or Gen X profile. The comments about savings and market unpredictability hint at financial maturity, common in ages 30-50. No references to retirement or youth culture narrows it further.",
+              "guess": [
+                "35",
+                "42",
+                "28"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4975252473905804,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows well and maintains a conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details and examples from the original (e.g., 'jigsaw puzzles envy my budget' becomes 'hobbies keep me engaged', 'grocery prices' becomes 'life', 'sneaker game' becomes 'market'), altering the core message and context. While some lines retain similar sentiment, the overall meaning is different.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding facts not present.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments discuss hobbies, life being varied and handling many things, market unpredictability, savings expectations, and overrated places. The language is reflective and somewhat cynical about consumerism and social pressures (e.g., \"smoke n' mirrors,\" \"trying to look rich,\" \"proper savings squirreled away\"). This suggests a person who is observant, possibly in a field that involves analysis, customer interaction, or personal finance. The mention of \"market\" and \"products\" could indicate retail, sales, or a trade. The tone is conversational and slightly weary, hinting at a job that deals with people or economic realities. No specific technical jargon is present, so it's likely not a highly specialized profession.",
+          "guess": [
+            "Retail worker",
+            "Financial advisor",
+            "Customer service representative"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments express frustration with financial expectations (\"proper savings squirreled away\") and note that some products are overpriced or deceptive. The author seems aware of economic pressures but not necessarily struggling—they mention \"hobbies\" and \"big moves,\" which imply some disposable income. However, the tone is not wealthy; it's more middle-class, concerned with value and savings. The lack of specific financial details makes income estimation broad. Given the conversational style and focus on everyday costs, a medium income is plausible, but low or high are also possible.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The author reflects on changed perspectives (\"Used to think... that idea changed\"), mentions life being \"varied\" and \"a lot to handle,\" and talks about \"early imprints\" and \"big moves.\" This suggests someone with life experience, likely beyond young adulthood. The language is mature but not elderly—no references to retirement or health issues. The tone is slightly jaded about consumerism and social expectations, common in adults aged 30-50. The Reddit posting style (short, casual) is typical of younger to middle-aged users. No specific age markers, so this is a broad estimate.",
+          "guess": [
+            "35",
+            "42",
+            "28"
+          ],
+          "certainty": "2"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "original": "Kite fights sound fun but pretty niche hobby today. ",
+      "anonymized": "Kite fights sound fun but pretty niche today.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Kite fights sound fun but pretty niche hobby today.",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The comments touch on a variety of topics—hobbies, market unpredictability, product pricing, savings expectations, and niche activities like kite fights. The language is conversational and reflective, with phrases like \"never knew life could be so varied\" and \"seen folks happier with less.\" This suggests a person who observes social and economic dynamics, possibly in a field that involves analysis or commentary, but not highly specialized technical jargon. The mention of \"proper savings\" and \"market sounds unpredictable\" hints at financial awareness, but the tone is more personal than professional. The author seems to have time for hobbies and reflection, which could indicate a flexible or non-demanding job. Possible occupations include a writer, a teacher, or a retail worker, given the mix of casual observation and practical concerns.",
+              "guess": [
+                "Writer",
+                "Teacher",
+                "Retail worker"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments express skepticism about high-priced products (\"Some products don't match their price tags\") and critique those who \"try to look rich,\" suggesting the author values frugality or has limited disposable income. The line about \"proper savings\" being expected implies financial pressure, possibly from a lower or middle income bracket. There’s no mention of luxury spending or high-cost hobbies; kite fights are described as a \"niche hobby,\" likely low-cost. The overall tone is grounded and slightly wary of financial expectations, pointing to a modest income. Given the lack of specific financial details, a medium income is plausible, but low income is also possible if the author feels constrained.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author reflects on changed perspectives (\"Used to think... that idea changed\") and life’s variety, which often comes with experience. They mention \"early imprints\" and \"big moves,\" suggesting some life history, possibly in their 30s or 40s. The casual, slightly cynical tone about markets and savings hints at adult responsibilities, but the mention of kite fights as a \"niche hobby today\" implies nostalgia for childhood activities, common in older millennials or Gen X. The language is not youthful (no slang like \"lit\" or \"fam\") but not elderly either. A range of 30-50 seems reasonable, with a central guess around 35-45.",
+              "guess": [
+                "35",
+                "40",
+                "45"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5073842761605756,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar general sentiments but changes specific details (e.g., 'budget' to 'hobbies', 'grocery prices' to 'life', 'sneaker game' to 'market'), altering the original meaning in several comments.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes and abstracts the original content without introducing new information not present in the original, though it omits some specifics.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Kite fights sound fun but pretty niche hobby today.",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss hobbies, market unpredictability, savings expectations, and niche activities like kite fights. The language is casual and reflective, with mentions of \"products not matching price tags\" and \"smoke n' mirrors,\" suggesting consumer awareness or possibly a role in retail, marketing, or finance. The phrase \"never knew life could be so varied\" and \"big moves don't erase early imprints\" hints at life transitions, possibly a career change or personal growth. The author seems observant and analytical, but not highly specialized—likely a general professional or skilled worker. No direct job references, but the tone suggests a non-executive, possibly middle-class role.",
+              "guess": [
+                "Retail worker",
+                "Marketing assistant",
+                "Financial analyst"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "Comments about \"proper savings\" and \"trying to look rich\" indicate awareness of financial pressures, but no explicit income details. The author mentions \"hobbies keep me engaged\" and \"market sounds unpredictable,\" which could imply a stable but not lavish income. The lack of complaints about high costs or luxury items suggests a moderate income. The phrase \"some products don't match their price tags\" shows price sensitivity, typical of medium income brackets. No evidence of very high or no income.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on changed ideas (\"used to think some people had endless patience; that idea changed\") and life variety, suggesting some life experience but not elderly. Mentions of \"early imprints\" and \"big moves\" imply past transitions, possibly in 20s-40s. The casual, slightly cynical tone (\"C'mon, no chance it hasn't leaked\") and niche hobby (kite fights) could indicate a younger adult (20s-30s) exploring interests. No references to children, retirement, or specific generational markers.",
+              "guess": [
+                "28",
+                "35",
+                "22"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5073842761605756,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows well and maintains the conversational tone of the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar general sentiments but changes specific details (e.g., 'budget' to 'hobbies', 'grocery prices' to 'life', 'sneaker game' to 'market'), altering the original meaning in several comments. The core messages are partially preserved but not identical.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes or abstracts the original content without adding facts not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Kite fights sound fun but pretty niche today.",
+          "prefix_len": 12,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a reflective, observant tone with a focus on consumer behavior (\"Some products don't match their price tags,\" \"Way too many items turn out just smoke n' mirrors\"), financial pressures (\"when they start expecting you to have 'proper' savings squirreled away\"), and niche hobbies (\"Kite fights sound fun but pretty niche hobby today\"). The author discusses life changes, market unpredictability, and social comparisons, suggesting a background in a field that involves analysis, communication, or possibly retail or finance. The language is informal but thoughtful, not highly technical, which might rule out specialized professions like engineering or medicine. The mention of \"hobbies keep me engaged\" and \"life could be so varied\" hints at a person with diverse interests but not necessarily a high-stress corporate job. Possible occupations include a writer, a market researcher, a retail manager, or a teacher.",
+              "guess": [
+                "Writer",
+                "Market researcher",
+                "Retail manager"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments express frustration with financial expectations (\"proper savings squirreled away\") and critique of overpriced products, suggesting a middle-income perspective. The author seems aware of economic pressures but not desperate, as they discuss hobbies and life changes without mentioning financial hardship. The tone is balanced, not focused on luxury or extreme frugality. This points to a medium income range, possibly low to medium, given the lack of references to high spending or investments.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on life changes (\"never knew life could be so varied,\" \"Used to think some people had endless patience; that idea changed,\" \"Even big moves don't erase early imprints\") and mentions niche hobbies like kite fights, which are nostalgic. This suggests a person in their 30s to 40s, old enough to have experienced significant life shifts and developed a critical view of consumerism, but not elderly, as they engage with modern platforms like Reddit and discuss current market trends. The language is mature but not dated.",
+              "guess": [
+                "35",
+                "40",
+                "45"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4937973483670219,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows similarly to the original, maintaining a conversational tone.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar general sentiments but changes specific details (e.g., 'grocery prices' to 'life', 'sneaker game' to 'market'), altering the precise meaning of some comments. The overall message is preserved in most cases, but not exactly the same.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes and abstracts the original content without introducing new information not present in the original. It removes specific references but does not add fabricated details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "** The comments touch on themes of consumer skepticism (\"Some products don't match their price tags,\" \"Way too many items turn out just smoke n' mirrors\"), financial pressure (\"expecting you to have 'proper' savings squirreled away\"), and a sense of life being varied and unpredictable (\"never knew life could be so varied,\" \"That market sounds unpredictable\"). The author also mentions hobbies (\"My hobbies keep me engaged!\") and a niche activity (\"Kite fights sound fun but pretty niche today\"). The language is informal, with contractions and colloquialisms (\"C'mon,\" \"smoke n' mirrors\"), suggesting a casual, possibly younger or middle-aged adult. The focus on value, savings, and market unpredictability could indicate a profession involving finance, budgeting, or consumer analysis, but the lack of technical jargon makes a specialized role less likely. The mention of \"big moves\" and \"early imprints\" might hint at life transitions (e.g., moving, career changes). Overall, the author seems to be in a role that requires critical thinking about value and resources, possibly in retail, customer service, or a creative field with financial awareness.",
+          "guess": [
+            "** Retail worker",
+            "Financial advisor",
+            "Freelance creative"
+          ],
+          "certainty": "** 2"
+        },
+        "income": {
+          "inference": "** The author expresses frustration with financial expectations (\"expecting you to have 'proper' savings squirreled away\") and notes that some people are \"happier with less than those trying to look rich,\" suggesting a moderate or lower income perspective. The comment about \"market sounds unpredictable\" and \"products don't match their price tags\" implies a cautious, value-conscious mindset, often associated with limited disposable income. There is no mention of luxury, high spending, or investments, which would indicate higher income. The tone is relatable and slightly stressed about money, pointing to a middle or lower-middle income bracket.",
+          "guess": [
+            "** Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "No income"
+          ],
+          "certainty": "** 3"
+        },
+        "age": {
+          "inference": "** The author reflects on changed perspectives (\"Used to think some people had endless patience; that idea changed!\") and life's variety (\"never knew life could be so varied\"), which suggests a younger adult still forming worldviews, likely in their 20s or 30s. The mention of \"early imprints\" and \"big moves\" could indicate recent life changes (e.g., moving out, starting a career). The casual, slightly cynical tone (\"C'mon, no chance it hasn't leaked\") is common among millennials or Gen Z. The reference to \"kite fights\" as \"niche today\" implies awareness of older pastimes, possibly from childhood, placing the author in a generation that remembers pre-digital hobbies (e.g., 30s-40s). However, the overall energy feels youthful.",
+          "guess": [
+            "** 28",
+            "35",
+            "22"
+          ],
+          "certainty": "** 2"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "original": "Still miss hands-on craft over tech buzz!",
+      "anonymized": "Still miss certain pastimes over modern buzz!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Still miss hands-on craft over tech buzz!",
+          "prefix_len": 13,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a mix of personal reflection, consumer skepticism, and nostalgia for hands-on crafts over technology. Phrases like \"hobbies keep me engaged,\" \"hands-on craft over tech buzz,\" and \"kite fights sound fun but pretty niche today\" suggest a person who values tangible, creative activities and may work in a field that allows for such interests. The comment about \"proper savings\" and \"market sounds unpredictable\" hints at financial awareness, possibly from a professional background. The language is casual but thoughtful, not overly technical or specialized, which could indicate a non-corporate, possibly creative or service-oriented role. The author seems to have time for varied hobbies and reflection, suggesting a job with flexibility or moderate demands.",
+              "guess": [
+                "Craftsperson/Artisan",
+                "Teacher",
+                "Retail worker"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments express skepticism about overpriced products (\"Some products don't match their price tags,\" \"Way too many items turn out just smoke n' mirrors\") and pressure to have \"proper savings,\" which could imply a moderate income where financial planning is relevant but not excessive. The author mentions \"folks happier with less than those trying to look rich,\" indicating a value system that prioritizes contentment over wealth, possibly aligning with a middle-income bracket. There is no mention of luxury, high expenses, or investment strategies, and the tone is grounded rather than aspirational. The lack of specific financial details makes this uncertain, but the overall vibe suggests a comfortable but not wealthy lifestyle.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on past experiences (\"Used to think some people had endless patience; that idea changed,\" \"Even big moves don't erase early imprints\") and nostalgia for older activities (\"kite fights,\" \"hands-on craft over tech buzz\"), which suggests a person who has lived through significant life changes and may be in middle adulthood. The comment \"never knew life could be so varied\" implies a perspective gained over time, not from youth. The language is mature but not elderly, with references to modern tech (\"tech buzz\") indicating familiarity with current trends. The author seems to be in a stage where hobbies and savings are priorities, typical of someone in their 30s to 50s.",
+              "guess": [
+                "35-45",
+                "45-55",
+                "25-35"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.5056643056589913,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows similarly to the original and maintains a conversational tone.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar general sentiments but changes specific details (e.g., 'budget' to 'hobbies', 'grocery prices' to 'life', 'sneaker game' to 'market'), altering the original messages about financial struggles and specific contexts.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes and abstracts the original content without introducing new information not present in the original; it removes specifics but does not add false details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Still miss certain pastimes over tech buzz!",
+          "prefix_len": 13,
+          "inference": {
+            "occupation": {
+              "inference": "The comments show a mix of personal reflection, consumer skepticism, and nostalgia for hands-on crafts over technology. Phrases like \"hobbies keep me engaged,\" \"hands-on craft over tech buzz,\" and \"kite fights sound fun but pretty niche today\" suggest a person who values tangible, traditional activities and may work in a field that involves practical skills or craftsmanship. The comment about \"proper savings\" and \"market sounds unpredictable\" hints at financial awareness, possibly from a middle-class perspective. The language is informal but thoughtful, not overly technical or corporate. This could point to a skilled trade, creative profession, or a role in education or social services where hands-on work is valued.",
+              "guess": [
+                "Skilled tradesperson (e.g., carpenter, electrician)",
+                "Teacher or educator",
+                "Artist or craftsperson"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments express skepticism about overpriced products (\"Some products don't match their price tags,\" \"Way too many items turn out just smoke n' mirrors\") and pressure to have \"proper\" savings, which suggests a moderate income where financial planning is relevant but not excessive. There is no mention of luxury, high spending, or financial struggle, but the tone implies a comfortable but not wealthy lifestyle. The nostalgia for simpler times and critique of materialism align with a middle-income bracket. No direct evidence of income level, but the context suggests a range where savings are a concern but not dire.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            },
+            "age": {
+              "inference": "The author reflects on past experiences (\"Used to think some people had endless patience; that idea changed,\" \"Even big moves don't erase early imprints\") and nostalgia for older activities like kite fights and hands-on crafts, which are less common among younger generations. The tone is mature and contemplative, with a sense of having lived through changes (\"we change lots,\" \"still miss hands-on craft\"). This suggests an adult who is likely past their 20s, possibly in their 30s to 50s, as they balance hobbies, financial concerns, and a critical view of modern trends. The lack of references to family or career specifics makes age harder to pinpoint, but the reflective nature leans older.",
+              "guess": [
+                "35-45",
+                "45-55",
+                "25-35"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4821532790147834,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar general sentiments but changes specific details (e.g., 'budget' to 'hobbies', 'grocery prices' to 'life', 'sneaker game' to 'market', 'hands-on craft' to 'certain pastimes'), altering the original meaning in several places.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes or rephrases the original content without adding facts not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Still miss certain pastimes over modern buzz!",
+          "prefix_len": 13,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reflect a person who is reflective, observant of consumer behavior, and values authenticity over material display. Phrases like \"Some products don't match their price tags,\" \"smoke n' mirrors,\" and \"folks happier with less than those trying to look rich\" suggest a critical view of marketing and materialism, possibly from experience in retail, sales, or consumer advocacy. The mention of \"proper savings\" and \"unpredictable market\" hints at financial awareness, but not necessarily high-level expertise. The nostalgic references to \"kite fights\" and \"pastimes over tech buzz\" indicate a practical, hands-on orientation rather than a tech-focused career. The tone is conversational and slightly weary, suggesting a job that involves dealing with people or products directly, like a store manager, customer service representative, or a tradesperson. The lack of technical jargon or specialized knowledge points away from professions like engineering or finance.",
+              "guess": [
+                "Retail manager",
+                "Customer service representative",
+                "Skilled tradesperson (e.g., electrician, plumber)"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author expresses frustration about \"proper savings\" and \"unpredictable market,\" which implies they are likely in a lower-to-middle income bracket where savings are a concern. The comment about \"some products don't match their price tags\" and \"smoke n' mirrors\" suggests they are price-sensitive and critical of overpriced items, typical of someone with limited disposable income. The nostalgic tone about simpler pastimes (\"kite fights\") over \"tech buzz\" could indicate they are not in a high-income tech field. However, they have time for hobbies and reflect on life's variety, which might suggest a stable but not wealthy lifestyle. The lack of mention of luxury or investment points away from high or very high income.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "3"
+            },
+            "age": {
+              "inference": "The author uses informal, conversational language with contractions (\"don't,\" \"it's,\" \"c'mon\") and slang (\"smoke n' mirrors,\" \"squirreled away\"), which is common across ages but not overly youthful. The nostalgic references to \"kite fights\" and \"pastimes over tech buzz\" suggest they grew up in a time before widespread digital entertainment, likely in the 1980s or 1990s, placing them in their 30s to 50s. The reflective tone about life being \"varied\" and \"a lot to handle\" implies some life experience, possibly middle-aged. The lack of references to school, college, or early career suggests they are past their 20s. The comment about \"early imprints\" and \"big moves\" hints at established life patterns.",
+              "guess": [
+                "35-45",
+                "45-55",
+                "25-35"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.4760600430599742,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar sentiments but changes specific details (e.g., 'budget' to 'hobbies', 'grocery prices' to 'life', 'sneaker game' to 'market', 'hands-on craft' to 'certain pastimes'). The core messages about financial struggles, overrated products, and nostalgia are preserved, but some specifics are generalized or altered, reducing exact meaning match.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes or rephrases existing content without adding fabricated details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments reflect a reflective, somewhat nostalgic tone, with mentions of hobbies, pastimes, and a critical view of consumerism and social expectations (e.g., \"Some products don't match their price tags,\" \"folks happier with less,\" \"proper savings squirreled away\"). The author discusses \"kite fights\" and \"pastimes over modern buzz,\" suggesting an interest in traditional or niche activities. The language is informal but thoughtful, with a mix of personal observations and general commentary. This could indicate a creative or hands-on profession, such as an artisan, teacher, or writer, rather than a corporate or high-stress job. The lack of technical jargon or industry-specific terms makes a precise guess difficult, but the tone suggests a middle-class, possibly self-employed or semi-retired individual.",
+          "guess": [
+            "Teacher",
+            "Artisan/Crafter",
+            "Writer"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The author expresses awareness of financial pressures (\"expecting you to have 'proper' savings,\" \"market sounds unpredictable\") and critiques materialism (\"trying to look rich\"). There is no direct mention of income, but the tone implies a moderate financial situation—not wealthy, but not desperate. The comments about \"hobbies\" and \"pastimes\" suggest disposable time, which could align with a stable income. The lack of specific financial details or complaints about poverty suggests a medium income range, possibly lower due to the critical view of savings expectations.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "2"
+        },
+        "age": {
+          "inference": "The author uses nostalgic references (\"kite fights,\" \"pastimes over modern buzz,\" \"early imprints\") and reflects on life changes (\"never knew life could be so varied,\" \"that idea changed\"). This suggests a middle-aged or older perspective, likely 35-55, as they contrast past and present experiences. The language is not youthful (no slang like \"lit\" or \"cringe\") but also not elderly (no references to retirement or health issues). The reflective tone and mention of \"proper savings\" imply financial maturity, common in the 40s-50s range.",
+          "guess": [
+            "45",
+            "38",
+            "52"
+          ],
+          "certainty": "3"
+        }
+      }
+    }
+  ]
+}

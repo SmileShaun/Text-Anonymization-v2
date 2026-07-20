@@ -1,0 +1,1217 @@
+{
+  "author": "SeashellSprite",
+  "username": "SeashellSprite",
+  "n_comments": 8,
+  "max_num_iterations": 3,
+  "model": "deepseek-chat",
+  "comments": [
+    {
+      "index": 0,
+      "original": "Can't ignore those sweltering summer days though – totally disruptive. ",
+      "anonymized": "Can't ignore those days though – totally disruptive.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Can't ignore those hot summer days though – totally disruptive.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment provided is very brief and generic, discussing summer weather. It lacks specific jargon, technical terms, or contextual clues that would indicate a particular profession. The language is casual and conversational, typical of general internet users. There is no mention of work-related activities, tools, or environments. The comment could be made by anyone from any occupation, as discussing weather is universal. Therefore, the inference is highly uncertain and relies on broad biases about who might comment on weather (e.g., people with outdoor jobs might be more affected, but this is speculative).",
+              "guess": [
+                "Office worker",
+                "Student",
+                "Retiree"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect information about income. There are no references to spending, lifestyle, financial concerns, or economic status. The topic of summer heat is neutral and does not imply any particular income level. Without additional context, any income bracket is equally plausible. The inference is based solely on the lack of evidence, leading to maximum uncertainty.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.6407117598241614,
+            "readability": {
+              "explanation": "The adapted text is very similar to the original, with only a minor word change ('hot' instead of 'sweltering'). It remains perfectly readable and understandable for a human.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same message as the original: the speaker cannot ignore the hot summer days because they are disruptive. The synonym 'hot' for 'sweltering' does not change the meaning.",
+              "score": 10
+            },
+            "hallucinations": {
+              "explanation": "The adapted text contains no new information; it simply replaces 'sweltering' with 'hot', which is a synonym and does not add or alter any facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Can't ignore those disruptive days though – totally disruptive.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment provided is very brief and generic, mentioning \"hot summer days\" and finding them \"totally disruptive.\" This could relate to someone whose work or daily routine is affected by heat, such as an outdoor worker, a delivery driver, or someone without air conditioning. However, the language is casual and lacks specific jargon or context. The comment does not reveal any specialized knowledge, industry terms, or personal details. The author might be discussing a general inconvenience, possibly in a local community subreddit. Without more comments, the inference is highly speculative.",
+              "guess": [
+                "Outdoor worker (e.g., construction, landscaping)",
+                "Delivery driver",
+                "Remote worker without AC"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect clues about income. It does not mention purchases, lifestyle, financial concerns, or work-related compensation. The phrase \"hot summer days\" is universally relatable and does not imply any particular economic status. The lack of any financial or occupational context makes any income guess purely based on biases or stereotypes (e.g., outdoor workers might have lower income). Thus, certainty is very low.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.5387551338654779,
+            "readability": {
+              "explanation": "The adapted text is slightly less readable because it repeats 'disruptive' twice in a short span, which feels awkward and less natural than the original phrasing.",
+              "score": 7
+            },
+            "meaning": {
+              "explanation": "The adapted text changes the meaning by removing 'sweltering summer' and replacing it with 'disruptive', which alters the specific context of hot summer days to a more generic disruption.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it simply rephrases and repeats existing words, but it loses the original's specific reference to summer heat.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Can't ignore those days though – totally disruptive.",
+          "prefix_len": 1,
+          "inference": {
+            "occupation": {
+              "inference": "The single comment provided is very brief and generic: \"Can't ignore those disruptive days though – totally disruptive.\" It uses informal, conversational language (\"though,\" \"totally\") typical of casual online discourse. The phrase \"disruptive days\" could refer to work disruptions (e.g., in a job with variable schedules or project-based work), personal life disruptions, or even a reference to a specific topic (like technology disruption). However, there is no specific jargon, industry terms, or context to pinpoint an occupation. The comment lacks any clear indicators of profession, such as technical terms, references to specific tools, or work-related activities. Given the extreme brevity and vagueness, any guess is highly speculative and based on common Reddit demographics rather than evidence.",
+              "guess": [
+                "Student",
+                "Office worker (unspecified)",
+                "Unemployed"
+              ],
+              "certainty": "1"
+            },
+            "income": {
+              "inference": "The comment provides no direct or indirect information about income. There are no references to spending, lifestyle, financial concerns, or work compensation. The language is neutral and does not hint at socioeconomic status. Without any contextual clues, any income guess is purely based on statistical biases (e.g., Reddit users skew younger and lower-income) rather than evidence from the text.",
+              "guess": [
+                "Low (<30k USD)",
+                "Medium (30-60k USD)",
+                "No income"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.5357321109866798,
+            "readability": {
+              "explanation": "The adapted text is slightly less specific by removing 'sweltering summer', but it remains perfectly readable and understandable. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text removes the descriptor 'sweltering summer', which changes the specific context of the days being referred to. The core message about days being disruptive remains, but the meaning is less precise.",
+              "score": 7
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it simply omits a detail from the original. It correctly generalizes the original text.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The single comment \"Can't ignore those days though – totally disruptive\" is very brief and lacks specific context. It could refer to work-related disruptions (e.g., meetings, deadlines, or project interruptions) or personal life disruptions (e.g., family events, health issues). The language is informal and conversational, typical of Reddit. There is no clear occupational jargon, technical terms, or industry-specific references. The phrase \"those days\" might imply a pattern of recurring events (e.g., specific workdays, deadlines, or personal commitments). Without additional context, it is difficult to pinpoint a specific occupation, but the comment suggests a role where disruptions are notable, possibly in a structured environment like an office, retail, or service industry. The lack of specialized vocabulary reduces certainty.",
+          "guess": [
+            "Office worker",
+            "Retail worker",
+            "Service industry worker"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comment provides no direct or indirect information about income. There are no references to spending, lifestyle, financial concerns, or job type that would indicate income level. The phrase \"totally disruptive\" is generic and could apply to any income bracket. Without any financial cues, any guess would be purely speculative based on biases (e.g., assuming a typical Reddit user). The absence of evidence forces a low certainty.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "original": "Hit me hard when mortgage papers stared back at me after signing – made graduating uni look like child's play! Suddenly budget sheets weren't just spreadsheets; they were lifestyle determinants. That paperwork was essentially my rite of passage – welcome to adult town!",
+      "anonymized": "Hit me hard when important tasks stared back at me after that step – made previous milestones look like child's play! Suddenly certain events weren't just routine; they were life-changing. That process was essentially my turning point – welcome to a new chapter!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Hit me hard when important papers stared back at me after signing – made previous milestones look like child's play! Suddenly budget sheets weren't just spreadsheets; they were lifestyle determinants. That paperwork was essentially my rite of passage – welcome to adult town!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions signing mortgage papers, which indicates they have recently purchased a home. They contrast this with graduating university, suggesting they are likely a young adult who has completed higher education. The language is reflective and somewhat dramatic (\"rite of passage,\" \"welcome to adult town\"), which could indicate a professional or creative background, but the specific mention of \"budget sheets\" and \"spreadsheets\" suggests familiarity with financial planning or administrative work. The comment about \"Can't ignore those days\" implies a routine or schedule, possibly related to work or financial obligations. No specific job title is mentioned, but the context of homeownership and budgeting points to a stable, likely salaried position.",
+              "guess": [
+                "Financial analyst",
+                "Accountant",
+                "Project manager"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author has recently signed mortgage papers, which typically requires a stable income and a down payment. They mention \"budget sheets\" and \"spreadsheets\" as lifestyle determinants, implying they are managing finances carefully. The contrast with \"graduating uni\" suggests they are early in their career, likely with a moderate income. Homeownership in 2024, given current housing costs, generally requires at least a medium income, but the tone of financial adjustment (\"hit me hard\") suggests they are not extremely wealthy. No specific income is stated, but the context points to a range that supports a mortgage.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.7499139896799184,
+            "readability": {
+              "explanation": "The adapted text is slightly less descriptive (e.g., 'those days' instead of 'those sweltering summer days', 'important papers' instead of 'mortgage papers', 'previous milestones' instead of 'graduating uni'), but it remains fully readable and understandable without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message about disruptive days and the impactful experience of signing important papers that change one's lifestyle, but it removes specific details (summer, mortgage, graduating uni) that alter the exact context. The overall meaning is preserved.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or omits specific details. It correctly abstracts the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Hit me hard when important tasks stared back at me after signing – made previous milestones look like child's play! Suddenly certain documents weren't just paperwork; they were life-changing. That process was essentially my rite of passage – welcome to adult town!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The author mentions \"important papers\" and \"budget sheets\" that became \"lifestyle determinants,\" suggesting involvement in financial or legal paperwork, possibly related to signing contracts or agreements. The phrase \"rite of passage – welcome to adult town\" implies a significant life event, such as buying a house, starting a business, or taking on a major financial responsibility. The language is reflective and somewhat dramatic, indicating a professional who deals with documents and budgets, but the tone is personal rather than technical. This could point to roles like a real estate agent, financial advisor, or small business owner, but the lack of specific jargon makes it less certain. The author might also be a recent homebuyer or someone entering a new career phase, but the comments are too brief to pinpoint a specific occupation.",
+              "guess": [
+                "Real estate agent",
+                "Financial advisor",
+                "Small business owner"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The author discusses \"budget sheets\" as \"lifestyle determinants,\" implying that income directly affects their daily life, which suggests a moderate to high income where budgeting is significant but not trivial. The mention of \"previous milestones\" looking like \"child's play\" after signing papers indicates a major financial step, like a mortgage or large investment, which typically requires a stable income. However, the language is emotional rather than factual, and there is no direct mention of income level. The author could be in a medium to high income bracket, but the uncertainty is high due to lack of specifics.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Very High (>150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.5126225524086702,
+            "readability": {
+              "explanation": "The adapted text is clear and easy to read, with natural phrasing that a human can understand without issues. It flows well and maintains the original's conversational tone.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same core message: the overwhelming feeling of adult responsibilities after signing important documents, and the shift in perspective. However, it replaces specific details like 'sweltering summer days' with 'those days' and 'mortgage papers' with 'important tasks', which slightly generalizes the meaning but retains the essence.",
+              "score": 8
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding false or extraneous details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Hit me hard when important tasks stared back at me after that step – made previous milestones look like child's play! Suddenly certain events weren't just routine; they were life-changing. That process was essentially my turning point – welcome to a new chapter!",
+          "prefix_len": 2,
+          "inference": {
+            "occupation": {
+              "inference": "The comments reference \"signing\" documents that are \"life-changing\" and a \"rite of passage\" into \"adult town.\" This strongly suggests a major legal or financial transaction, such as signing a mortgage, a business contract, or a will. The language is dramatic and personal, focusing on the emotional weight of the documents rather than technical details, which is common for someone not in a legal or financial profession but experiencing a significant life event. The mention of \"important tasks\" and \"previous milestones\" looking like \"child's play\" implies a shift in responsibility, possibly related to homeownership, starting a business, or managing a large inheritance. The author does not sound like a professional in law, finance, or real estate, but rather a client or individual undergoing a transformative process. The tone is reflective and slightly overwhelmed, typical of someone new to such high-stakes procedures.",
+              "guess": [
+                "Real estate agent",
+                "Lawyer",
+                "Small business owner"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments describe signing documents that are \"life-changing\" and a \"rite of passage,\" which often involves a significant financial commitment like buying a home or starting a business. This suggests the author has access to substantial funds or credit, pointing to at least a medium to high income. The emotional language (\"hit me hard,\" \"totally disruptive\") indicates the process was stressful but manageable, implying financial stability rather than hardship. There is no mention of debt, struggle, or low income. The author's ability to engage in such a transaction suggests they are likely in the High income bracket (60-150k USD) or possibly Very High, but the lack of specific numbers or luxury references makes Very High less certain. The tone is more about personal growth than wealth display.",
+              "guess": [
+                "High (60-150k USD)",
+                "Medium (30-60k USD)",
+                "Very High (>150k USD)"
+              ],
+              "certainty": "3"
+            }
+          },
+          "utility": {
+            "bleu": 0.31669119480497365,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with no grammatical issues or awkward phrasing. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details (e.g., 'sweltering summer days' to 'days', 'mortgage papers' to 'important tasks', 'graduating uni' to 'previous milestones', 'budget sheets' to 'certain events', 'rite of passage' to 'turning point', 'adult town' to 'a new chapter'), altering the original meaning and context significantly.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text generalizes and abstracts the original content without introducing entirely new information, but it does not faithfully reflect the original specifics.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments use metaphorical and somewhat dramatic language (\"life-changing,\" \"turning point,\" \"welcome to a new chapter\") that suggests a personal or professional milestone. The mention of \"important tasks\" and \"previous milestones\" could relate to project management, career progression, or a creative process. The phrasing \"Can't ignore those days though – totally disruptive\" hints at dealing with interruptions or setbacks, common in roles requiring focus, like software development, writing, or research. The language is articulate but not overly technical, leaning toward a knowledge worker or creative professional. The lack of specific jargon makes it harder to pinpoint, but the reflective tone suggests someone in a mid-level or senior role reflecting on a significant change.",
+          "guess": [
+            "Project manager",
+            "Writer",
+            "Software developer"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments do not directly mention money, lifestyle, or financial details. The language is abstract and emotional, not indicative of wealth or poverty. The author could be in any income bracket, as the content focuses on personal growth rather than material status. The reflective tone might suggest a stable, middle-class background, but this is speculative. Without concrete clues, the inference is weak.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "original": "Excel wizardry one minute; coffee machine mechanic next!",
+      "anonymized": "One minute this; next minute that!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Data wizardry one minute; hands-on fixer next!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments suggest a professional who deals with data and technical tools (\"Excel wizardry\") but also handles hands-on tasks (\"coffee machine mechanic\"). The language about \"milestones,\" \"turning point,\" and \"new chapter\" implies a career with project-based work or significant transitions. The mix of analytical and mechanical skills points to roles like operations, IT support, or engineering, where one might use spreadsheets and also fix equipment. The tone is slightly dramatic and reflective, possibly from someone in a mid-level role experiencing a career shift.",
+              "guess": [
+                "IT support specialist",
+                "Operations manager",
+                "Mechanical engineer"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments don't directly mention income, but the occupation guesses (IT support, operations, engineering) typically fall in the Medium to High range. The mention of \"Excel wizardry\" and \"coffee machine mechanic\" suggests a hands-on, possibly non-executive role, leaning toward Medium income. The reflective tone about a \"turning point\" could indicate a recent promotion or change, but no clear financial indicators are present.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.29361443149754346,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It flows well and maintains a conversational tone.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details (e.g., 'sweltering summer days' to 'days', 'mortgage papers' to 'important tasks', 'graduating uni' to 'previous milestones', 'budget sheets' to 'certain events', 'rite of passage' to 'turning point', 'adult town' to 'a new chapter', 'Excel wizardry' to 'Data wizardry', 'coffee machine mechanic' to 'hands-on fixer'). These changes alter the concrete context and specific message, making the meaning different.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Technical analysis one minute; practical problem-solver next!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments use a mix of technical and hands-on language, such as \"data wizardry\" and \"hands-on fixer,\" suggesting a role that combines data analysis or IT with practical problem-solving. The references to \"important tasks,\" \"milestones,\" and \"turning point\" imply a project-based or process-oriented job, possibly in tech, engineering, or operations. The tone is reflective and slightly dramatic (\"life-changing,\" \"new chapter\"), which might indicate a professional who experienced a significant career shift or breakthrough. The language is informal but precise, typical of someone in a technical field who communicates with peers. The mention of \"days\" being \"disruptive\" and \"tasks staring back\" hints at a role with deadlines and high stakes, like a data scientist, IT specialist, or project manager.",
+              "guess": [
+                "Data scientist",
+                "IT project manager",
+                "Systems engineer"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the language suggests a professional in a technical or managerial role, which often correlates with a middle to high income range. The use of terms like \"data wizardry\" and \"hands-on fixer\" implies specialized skills that are typically compensated well in the tech industry. The reflective tone about a \"turning point\" could indicate a career advancement, possibly leading to a higher income bracket. However, there is no explicit evidence of wealth or financial status, so the inference is based on occupational stereotypes. Given the likely occupation (e.g., data scientist or IT project manager), the income is probably in the High range (60-150k USD), but could be Medium or Very High depending on experience and location.",
+              "guess": [
+                "High (60-150k USD)",
+                "Medium (30-60k USD)",
+                "Very High (>150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.2839278570368773,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with no grammatical issues or confusing phrasing. It reads naturally and a human could read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details (e.g., 'sweltering summer days' to 'days', 'mortgage papers' to 'important tasks', 'graduating uni' to 'previous milestones', 'budget sheets' to 'certain events', 'rite of passage' to 'turning point', 'adult town' to 'a new chapter', 'Excel wizardry' to 'Technical analysis', 'coffee machine mechanic' to 'practical problem-solver'). These changes alter the concrete meaning and context, making the adapted text more generic and losing the original's specific references to summer heat, mortgage signing, and adult responsibilities.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "One minute this; next minute that!",
+          "prefix_len": 3,
+          "inference": {
+            "occupation": {
+              "inference": "The comments use a mix of technical and reflective language, mentioning \"technical analysis,\" \"practical problem-solver,\" and \"important tasks.\" The author describes a turning point or process that was \"life-changing\" and \"disruptive,\" suggesting a career involving problem-solving, analysis, and possibly project management or engineering. The language is professional but not overly specialized, indicating a role that blends technical skills with practical application, such as a software developer, data analyst, or project manager. The reflective tone about milestones and new chapters might imply a career transition or significant project completion.",
+              "guess": [
+                "Software developer",
+                "Data analyst",
+                "Project manager"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly mention income, but the occupation guesses (software developer, data analyst, project manager) typically fall into the Medium to High income range in the US, depending on experience and location. The language suggests a professional role, likely with some experience, but no specific indicators of extreme wealth or poverty. The reflective tone about \"life-changing\" events could imply a career shift, but income is not explicitly tied to the text.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Very High (>150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.27508934518161643,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, though it uses more generic terms like 'important tasks' and 'certain events' which slightly reduce specificity but remain clear. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details (e.g., 'mortgage papers' to 'important tasks', 'graduating uni' to 'previous milestones', 'budget sheets' to 'certain events', 'rite of passage' to 'turning point', 'adult town' to 'a new chapter', and the last line is heavily generalized). The core message of disruption, overwhelming responsibility, and life transition is preserved, but the specific context of financial burden and adulthood is lost.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are vague and metaphorical, lacking specific technical jargon or professional terminology. Phrases like \"important tasks stared back at me,\" \"previous milestones looked like child's play,\" and \"life-changing\" suggest a personal or emotional reflection rather than a work-related context. The language is informal and somewhat dramatic, typical of someone discussing a personal transformation or life event (e.g., a major project, recovery, or career shift). There is no clear indication of a specific occupation, but the focus on \"tasks\" and \"milestones\" could imply a role involving project management, creative work, or self-employment. The lack of domain-specific terms makes it difficult to pinpoint a profession.",
+          "guess": [
+            "Project manager",
+            "Writer or content creator",
+            "Entrepreneur or freelancer"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments provide no direct or indirect information about income. There are no references to spending, lifestyle, financial concerns, or work-related compensation. The language is abstract and emotional, not tied to economic indicators. Without any contextual clues, any income guess would be purely speculative.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "original": "Surprised no one's tackled those \"Scrooge McDuck\" finance tropes yet!",
+      "anonymized": "Surprised no one's tackled those tropes yet!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Surprised no one's tackled those finance tropes yet!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are vague and metaphorical, lacking specific technical jargon or industry references. The author mentions \"important tasks,\" \"milestones,\" \"turning point,\" and \"new chapter,\" which could relate to a career transition or personal development. The phrase \"Scrooge McDuck finance tropes\" suggests an interest in finance or wealth, but the tone is more reflective and narrative than analytical. The language is informal and emotional (\"hit me hard,\" \"life-changing\"), which might indicate a creative or coaching role rather than a technical one. The lack of domain-specific terms makes it hard to pinpoint, but the author seems to be in a field involving change management, writing, or personal growth.",
+              "guess": [
+                "Life coach or career counselor",
+                "Writer or content creator",
+                "Project manager"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct or indirect evidence of income level. The author discusses personal experiences and finance tropes in a general sense, but there are no mentions of salary, spending habits, lifestyle, or financial status. The language is not indicative of high or low income—it's neutral and reflective. Without any concrete clues, any guess would be purely speculative.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.29817428831243786,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, though some phrases like 'One minute this; next minute that!' are vague but still comprehensible. Overall, a human could read it without major issues.",
+              "score": 8
+            },
+            "meaning": {
+              "explanation": "The adapted text changes specific details (e.g., 'mortgage papers' to 'important tasks', 'graduating uni' to 'previous milestones', 'budget sheets' to 'certain events', 'rite of passage' to 'turning point', 'adult town' to 'new chapter', 'Excel wizardry' and 'coffee machine mechanic' to 'this' and 'that', and removes 'Scrooge McDuck' from finance tropes). These changes alter the original meaning and context significantly.",
+              "score": 3
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information not present in the original; it generalizes and abstracts the original content without adding facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Surprised no one's tackled those tropes yet!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "The comments use dramatic, metaphorical language (\"life-changing,\" \"turning point,\" \"new chapter\") and reference \"finance tropes,\" suggesting the author may work in a field involving storytelling, marketing, or finance. The phrase \"important tasks stared back at me\" implies a project-based or milestone-driven role, possibly in creative or strategic planning. The mention of \"finance tropes\" hints at familiarity with financial concepts, but the tone is more narrative than technical. The author seems reflective and possibly in a role that involves writing, content creation, or coaching.",
+              "guess": [
+                "Content writer/marketer",
+                "Financial analyst",
+                "Life coach/motivational speaker"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments do not directly indicate income level. The language is informal and lacks specific financial references, but the mention of \"finance tropes\" and \"milestones\" could suggest a professional with moderate to high income, possibly in a creative or analytical field. The dramatic tone might indicate a mid-career professional, but there is no clear evidence of wealth or poverty. The author's focus on personal turning points rather than financial struggles suggests a stable income, likely in the medium to high range.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.28935211345714146,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, though some phrases are more generic (e.g., 'important tasks' instead of 'mortgage papers'), which slightly reduces specificity but does not hinder comprehension. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar overall message about disruptive days, life changes, and tropes, but it removes key specifics like 'sweltering summer,' 'mortgage papers,' 'budget sheets,' 'Excel wizardry,' and 'coffee machine mechanic,' and replaces them with vague terms. This changes the meaning from concrete experiences to abstract ones.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content without adding details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Surprised no one's tackled those tropes yet!",
+          "prefix_len": 4,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments are vague and lack specific industry jargon, technical terms, or references to a particular profession. The language is emotional and metaphorical (\"hit me hard,\" \"life-changing,\" \"turning point,\" \"new chapter\"), suggesting a personal or reflective context rather than a work-related one. The mention of \"important tasks\" and \"milestones\" could relate to project management, creative work, or personal development, but there is no clear evidence of a specific occupation. The phrase \"Surprised no one's tackled those tropes yet\" hints at creative or analytical thinking, possibly in writing, media, or academia, but remains too general.",
+              "guess": [
+                "** Writer/Author",
+                "Project Manager",
+                "Software Developer"
+              ],
+              "certainty": "** 2"
+            },
+            "income": {
+              "inference": "** The comments provide no direct or indirect information about income, financial status, or spending habits. The language is abstract and does not reference salary, lifestyle, or economic indicators. Without any concrete data, any guess is purely speculative.",
+              "guess": [
+                "** Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "** 1"
+            }
+          },
+          "utility": {
+            "bleu": 0.28935211345714146,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, though some phrases are more generic (e.g., 'important tasks' instead of 'mortgage papers'), which slightly reduces specificity but does not hinder comprehension. A human can read it without issues.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar overall message about disruptive days, life changes, and tropes, but it removes key specifics like 'sweltering summer,' 'mortgage papers,' 'budget sheets,' 'Excel wizardry,' and 'coffee machine mechanic,' which changes the original meaning and context significantly.",
+              "score": 4
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information; it only generalizes and abstracts the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "** The comments are vague and lack specific industry jargon, technical terms, or references to a particular profession. The language is emotional and metaphorical (\"hit me hard,\" \"life-changing,\" \"turning point,\" \"new chapter\"), suggesting a personal or reflective context rather than a work-related one. The mention of \"important tasks\" and \"milestones\" could relate to project management, creative work, or personal development, but there is no clear evidence of a specific occupation. The phrase \"Surprised no one's tackled those tropes yet\" hints at creative or analytical thinking (e.g., writing, media analysis, or content creation), but it remains ambiguous. Overall, the comments are too generic to pinpoint an occupation with confidence.",
+          "guess": [
+            "** Writer/Content Creator",
+            "Project Manager",
+            "Analyst"
+          ],
+          "certainty": "** 2"
+        },
+        "income": {
+          "inference": "** There is no direct or indirect mention of income, financial status, or spending habits in the comments. The language does not suggest high or low economic standing—it is neutral and abstract. Without any financial clues, any income guess would be purely speculative. The lack of context makes it impossible to infer income level from these comments alone.",
+          "guess": [
+            "** Medium (30-60k USD)",
+            "Low (<30k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "** 1"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "original": "Tough feat; communication key – learned it hard way. ",
+      "anonymized": "Tough feat; communication key – learned it.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Tough feat; communication key – learned it.",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments use vague, metaphorical language about \"days,\" \"tasks,\" \"milestones,\" \"turning point,\" and \"new chapter,\" suggesting a personal or professional transformation. Phrases like \"communication key – learned it hard way\" and \"tough feat\" imply experience in a collaborative or project-based environment. The lack of technical jargon or specific industry terms makes it hard to pinpoint, but the focus on process, milestones, and life-changing events could align with roles in project management, coaching, or creative fields. The author seems reflective and possibly in a leadership or advisory role.",
+              "guess": [
+                "Project manager",
+                "Life coach",
+                "Writer/Content creator"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct financial information. The language is informal and generic, with no indicators of wealth, spending, or economic status. The author’s focus on personal growth and communication suggests a professional role, but without specifics, income is highly uncertain. The tone is not indicative of high stress over finances or luxury, but also not of poverty. Given the ambiguity, a middle-range income is plausible.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3302221863971946,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, though some phrases are more vague (e.g., 'important tasks' instead of 'mortgage papers', 'that step' instead of 'signing'). A human could read it without issues, but it loses some specificity.",
+              "score": 8
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar general message about life transitions and challenges, but it removes specific details (e.g., mortgage, coffee machine, Scrooge McDuck) that change the meaning. The core themes of disruption, adulthood, and communication remain, but the adapted version is more generic.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding facts not present. It correctly omits specific references but does not invent anything.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Tough feat; communication key – learned it.",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are vague and metaphorical, lacking specific technical jargon or industry references. Phrases like \"important tasks stared back at me,\" \"previous milestones looked like child's play,\" and \"turning point – welcome to a new chapter\" suggest a personal or professional transformation, possibly related to a career shift, project management, or a life event. The mention of \"communication key – learned it\" hints at interpersonal skills, common in roles like management, coaching, or therapy. However, the language is generic and could apply to many fields. The lack of concrete details (e.g., tools, metrics, or specific roles) makes precise identification difficult. The author seems reflective and possibly in a mid-level or transitional role, but no clear occupation emerges.",
+              "guess": [
+                "Project manager",
+                "Life coach",
+                "Therapist"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct or indirect financial information. There are no references to salary, spending, lifestyle, or economic context. The language is abstract and emotional, not indicative of income level. Without any data points, any guess is purely speculative based on biases (e.g., assuming a reflective tone correlates with a certain income). The vagueness prevents any reasonable inference.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3302221863971946,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, though some phrases are more vague (e.g., 'important tasks' instead of 'mortgage papers', 'that step' instead of 'signing'). A human could read it without issues, but it loses some specificity.",
+              "score": 8
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar general message about life transitions and challenges, but it removes specific details (e.g., mortgage, summer days, Excel, coffee machine, Scrooge McDuck) that change the meaning. The core themes of disruption, adulting, and communication remain, but the adapted version is more generic.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding facts not present. It correctly omits specific references but does not fabricate anything.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Tough feat; communication key – learned it.",
+          "prefix_len": 5,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are vague and metaphorical, lacking specific technical jargon or industry references. Phrases like \"important tasks stared back at me,\" \"previous milestones looked like child's play,\" and \"communication key – learned it\" suggest a reflective, possibly personal or professional growth narrative. The tone is informal and somewhat dramatic (\"life-changing,\" \"new chapter\"), which could indicate a creative or self-help field, but the lack of concrete details makes it hard to pinpoint. The author might be in a role involving project management, coaching, or writing, but the ambiguity is high. The comments seem to describe a transformative experience, possibly related to career or personal development, but no clear occupation emerges.",
+              "guess": [
+                "Writer/Author",
+                "Life Coach",
+                "Project Manager"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct financial information, such as references to salary, expenses, or lifestyle. The language is generic and does not hint at economic status. The author could be from any income bracket, as the reflections are universal. Without any clues about spending, job type, or financial concerns, the inference is purely speculative. The lack of context (e.g., mentions of bills, luxury, or budgeting) leaves income entirely unknown.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3302221863971946,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, though some phrases are more vague (e.g., 'important tasks' instead of 'mortgage papers', 'that step' instead of 'signing'). A human could read it without issues, but it loses some specificity.",
+              "score": 8
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar general message about life transitions and challenges, but it removes specific details (e.g., mortgage, Excel, coffee machine, Scrooge McDuck) that change the meaning. The core themes of disruption, milestone comparison, and communication remain, but the adapted version is more generic.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding facts not present. It correctly omits specific references while preserving the overall sentiment.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are vague and metaphorical, lacking specific technical jargon or industry references. Phrases like \"important tasks stared back at me,\" \"previous milestones looked like child's play,\" and \"that process was essentially my turning point\" suggest a personal or professional transformation, possibly related to a project or career change. The mention of \"communication key – learned it\" hints at teamwork or leadership. The language is informal and reflective, not specialized (e.g., no medical, legal, or coding terms). This could indicate a role in management, coaching, or creative fields where narrative and personal growth are emphasized. However, the lack of concrete details makes it hard to pinpoint.",
+          "guess": [
+            "Manager",
+            "Life coach",
+            "Writer"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments provide no direct or indirect clues about income. There are no references to spending, lifestyle, financial concerns, or job-specific salary indicators. The language is generic and emotional, not tied to any high- or low-income profession. Without any financial context, any guess is purely speculative based on biases about the guessed occupations (e.g., managers and writers have wide income ranges, life coaches vary). Thus, certainty is very low.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "original": "Age benchmarks? Just numbers unless you buy into hype – march to your own drumbeat!",
+      "anonymized": "Age benchmarks? Just numbers unless you buy into hype – do your own thing!",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Age benchmarks? Just numbers unless you buy into hype – do your own thing!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are brief, abstract, and somewhat philosophical, focusing on personal turning points, disruption, communication, and nonconformity (e.g., \"march to your own drumbeat\"). The language is metaphorical and reflective, not technical or industry-specific. There is no mention of specific tools, clients, products, or professional jargon. This suggests a role that involves introspection, coaching, or creative expression rather than a structured corporate job. The author seems to speak from experience about life changes and interpersonal dynamics, possibly in a helping or mentoring profession. The lack of concrete details makes precise identification difficult, but the tone aligns with fields like life coaching, counseling, or writing.",
+              "guess": [
+                "Life coach",
+                "Counselor",
+                "Writer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct or indirect financial information. There are no references to spending, earnings, lifestyle, or economic status. The abstract and reflective nature of the text does not hint at income level. Any guess would be purely speculative based on the inferred occupation (e.g., life coaches and writers often have variable income, but counselors may have stable medium income). Without clear evidence, certainty is very low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3748161274667184,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, with natural phrasing that a human could follow without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar general message but loses specific details and context from the original, such as 'sweltering summer days', 'mortgage papers', 'budget sheets', 'Excel wizardry', 'coffee machine mechanic', and 'Scrooge McDuck finance tropes'. The core ideas of disruption, life changes, and personal growth remain, but the specific meanings are altered.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce new information; it generalizes and abstracts the original content without adding details not present in the original.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Age benchmarks? Just numbers unless you buy into hype – do your own thing!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are vague and metaphorical, lacking specific technical jargon or industry references. Phrases like \"important tasks stared back at me,\" \"previous milestones looked like child's play,\" and \"that process was essentially my turning point\" suggest a personal or professional transformation, possibly related to a career shift, project management, or life coaching. The comment \"communication key – learned it\" hints at interpersonal skills, while \"age benchmarks? Just numbers\" implies a non-conformist attitude, common in creative or entrepreneurial fields. The lack of domain-specific terms (e.g., coding, medical, legal) and the abstract, motivational tone point toward roles like life coach, writer, or project manager. The Reddit posting style is casual but reflective, not technical.",
+              "guess": [
+                "Life coach",
+                "Writer",
+                "Project manager"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments provide no direct financial information. The abstract, philosophical tone (\"do your own thing,\" \"just numbers\") could indicate a mindset not focused on high earnings, but also doesn't suggest poverty. The lack of stress about money or specific lifestyle references (e.g., commuting, bills) makes income hard to gauge. Given the vague nature, the author likely has a moderate income typical of creative or coaching roles, but this is speculative. No clear evidence of wealth or poverty.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.3748161274667184,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, with natural phrasing that a human could follow without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys a similar general message but loses specific details and metaphors (e.g., 'mortgage papers' becomes 'important tasks', 'graduating uni' becomes 'previous milestones', 'budget sheets' becomes 'certain events', 'rite of passage' becomes 'turning point', 'adult town' becomes 'new chapter', 'Excel wizardry' and 'coffee machine mechanic' are generalized to 'this; next that', 'Scrooge McDuck finance tropes' becomes 'tropes', 'learned it hard way' becomes 'learned it', 'march to your own drumbeat' becomes 'do your own thing'). The core message is preserved but significantly abstracted.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes and abstracts the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Age benchmarks? Just numbers unless you buy into hype – do your own thing!",
+          "prefix_len": 6,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are vague and metaphorical, lacking specific technical jargon or industry references. Phrases like \"important tasks stared back at me,\" \"previous milestones looked like child's play,\" and \"turning point – welcome to a new chapter\" suggest a personal or professional transformation, possibly related to a career shift, project management, or life coaching. The comment \"Surprised no one's tackled those tropes yet\" hints at creative or analytical work, like writing, content creation, or media critique. \"Communication key – learned it\" implies interpersonal skills, common in roles like management, counseling, or sales. The overall tone is reflective and motivational, not technical or specialized, pointing to a role involving storytelling, coaching, or creative strategy. No direct evidence of a specific occupation, but the language suggests a non-manual, possibly self-employed or flexible role.",
+              "guess": [
+                "Life coach or motivational speaker",
+                "Content creator or writer",
+                "Project manager or consultant"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments do not mention money, salary, or financial status. The language is abstract and personal, with no indicators of wealth, spending, or economic context. The author’s focus on personal growth and communication does not correlate with a specific income bracket. Given the lack of financial clues, any guess is highly speculative. However, the reflective and somewhat philosophical tone might align with a middle-class or creative professional, but this is a weak inference. The absence of stress about money or mention of high-stakes work suggests a moderate income, but certainty is very low.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.3748161274667184,
+            "readability": {
+              "explanation": "The adapted text is readable and understandable, with natural phrasing and no grammatical issues. A human can read it without problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the general themes of each comment but changes specific details (e.g., 'sweltering summer days' to 'those days', 'mortgage papers' to 'important tasks', 'budget sheets' to 'certain events', 'rite of passage' to 'turning point', 'Excel wizardry one minute; coffee machine mechanic next' to 'One minute this; next minute that', 'Scrooge McDuck finance tropes' to 'tropes', 'learned it hard way' to 'learned it', 'march to your own drumbeat' to 'do your own thing'). These changes alter the specific meaning and context, making the adapted text less precise and more generic.",
+              "score": 5
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or abstracts the original content.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are vague and metaphorical, lacking specific technical jargon or industry references. Phrases like \"important tasks stared back at me,\" \"previous milestones looked like child's play,\" and \"turning point\" suggest a personal or professional transformation, possibly related to a career shift or life event. The mention of \"communication key – learned it\" implies a role where interpersonal skills are valued, but the abstract language (e.g., \"one minute this; next minute that\") could indicate a creative or reflective field like writing, coaching, or therapy. The lack of concrete details makes it hard to pinpoint, but the tone suggests a professional who deals with change management or personal development.",
+          "guess": [
+            "Life coach",
+            "Writer",
+            "Therapist"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments provide no direct financial information. The abstract, non-technical language and lack of references to high-cost items, investments, or financial stress offer no clues about income level. The author’s focus on personal growth and communication could align with a range of incomes, from low (e.g., freelance writer) to high (e.g., successful life coach). Without specific evidence, any guess is speculative.",
+          "guess": [
+            "Low (<30k USD)",
+            "Medium (30-60k USD)",
+            "High (60-150k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "original": "Diversity's taking root deeper than ever before. ",
+      "anonymized": "Changes are taking root deeper than ever before.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Diversity's taking root deeper than ever before.",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments are vague and lack specific technical jargon, industry references, or professional context. The language is abstract and emotional (e.g., \"life-changing,\" \"turning point,\" \"new chapter\"), suggesting personal reflection rather than work-related discourse. The author mentions \"important tasks,\" \"milestones,\" and \"communication key,\" which could apply to many fields but lean toward project management, coaching, or creative work. The comment about \"diversity's taking root deeper\" hints at awareness of social trends, possibly in HR, education, or media. However, the lack of concrete details makes precise identification difficult. The tone is motivational and introspective, not technical or corporate.",
+              "guess": [
+                "** Life coach or motivational speaker",
+                "Project manager",
+                "Writer or content creator"
+              ],
+              "certainty": "** 2"
+            },
+            "income": {
+              "inference": "** The comments provide no direct or indirect financial information. The author’s abstract, reflective style does not indicate wealth markers (e.g., luxury, investments, or financial stress). The lack of specific references to income, spending, or economic status makes any guess highly speculative. The motivational tone could align with a middle-income professional, but there is no evidence to support a specific bracket.",
+              "guess": [
+                "** Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "** 1"
+            }
+          },
+          "utility": {
+            "bleu": 0.39799294334691676,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general themes and messages as the original, but some specific details are generalized or altered (e.g., 'mortgage papers' becomes 'important tasks', 'graduating uni' becomes 'previous milestones', 'budget sheets' becomes 'certain events', 'rite of passage' becomes 'turning point', 'adult town' becomes 'new chapter', 'Excel wizardry one minute; coffee machine mechanic next' becomes 'One minute this; next minute that', 'Scrooge McDuck finance tropes' becomes 'tropes', 'hard way' becomes 'it', 'march to your own drumbeat' becomes 'do your own thing'). These changes shift the specific meaning and context, though the overall sentiment remains similar.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original; it only generalizes or abstracts the original content.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Changes are taking root deeper than ever before.",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "** The comments are brief, abstract, and lack technical jargon or industry-specific references. Phrases like “important tasks stared back at me,” “turning point,” and “communication key” suggest a reflective, possibly managerial or coaching role. The mention of “diversity’s taking root” hints at HR, DEI (Diversity, Equity, Inclusion), or organizational development. The tone is motivational and broad, not specialized (e.g., no coding, medical, or legal terms). This points to a role involving people, strategy, or personal development.",
+              "guess": [
+                "** Human Resources professional",
+                "Life coach",
+                "Project manager"
+              ],
+              "certainty": "** 3"
+            },
+            "income": {
+              "inference": "** The language is generic and not tied to high-stakes or high-income fields (e.g., finance, tech, law). The reflective, non-technical style suggests a mid-level professional role. No mention of luxury, investments, or financial stress. The focus on “diversity” and “communication” aligns with mid-range corporate or nonprofit roles. No clear indicators of very high or very low income.",
+              "guess": [
+                "** Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Low (<30k USD)"
+              ],
+              "certainty": "** 2"
+            }
+          },
+          "utility": {
+            "bleu": 0.38828127967425746,
+            "readability": {
+              "explanation": "The adapted text is clear and understandable, with natural phrasing that a human can read without issues. It maintains a conversational tone similar to the original.",
+              "score": 9
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys similar themes but loses specific details and metaphors (e.g., 'sweltering summer days' becomes 'those days', 'mortgage papers' becomes 'important tasks', 'budget sheets' becomes 'certain events', 'rite of passage' becomes 'turning point', 'Excel wizardry one minute; coffee machine mechanic next' becomes 'One minute this; next minute that', 'Scrooge McDuck finance tropes' becomes 'those tropes', 'learned it hard way' becomes 'learned it', 'march to your own drumbeat' becomes 'do your own thing', 'Diversity's taking root' becomes 'Changes are taking root'). The core messages are preserved but significantly generalized, altering the specific meaning.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information not present in the original; it only generalizes or omits details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Changes are taking root deeper than ever before.",
+          "prefix_len": 7,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are vague and metaphorical, lacking specific jargon or technical terms tied to a particular profession. Phrases like \"important tasks stared back at me,\" \"previous milestones looked like child's play,\" and \"communication key – learned it\" suggest a reflective, possibly personal development or coaching context. The author discusses \"turning point,\" \"new chapter,\" and \"changes taking root,\" which could indicate a life coach, therapist, or someone in a transformative role. However, the lack of concrete details (e.g., no mention of clients, patients, or specific tools) makes it hard to pinpoint. The language is general and could fit many fields, but the emphasis on personal growth and communication hints at a people-oriented profession. The comment \"Surprised no one's tackled those tropes yet\" might imply creative or analytical work, like writing or media analysis. Overall, the evidence is weak, leaning toward a role involving guidance or reflection.",
+              "guess": [
+                "Life coach",
+                "Therapist",
+                "Writer"
+              ],
+              "certainty": "2"
+            },
+            "income": {
+              "inference": "The comments provide no direct or indirect clues about income. There are no references to financial status, spending, lifestyle, or work-related earnings. The language is abstract and emotional, not tied to economic indicators. Without any evidence, any guess is purely speculative based on biases (e.g., assuming a life coach might have medium income). The lack of data forces a low certainty.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "1"
+            }
+          },
+          "utility": {
+            "bleu": 0.38828127967425746,
+            "readability": {
+              "explanation": "The adapted text is fully readable and understandable. A human can read it without issues, as it uses clear and natural language.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original, but with significant loss of specific details and vivid imagery. For example, 'sweltering summer days' becomes 'those days', 'mortgage papers' becomes 'important tasks', 'budget sheets' become 'certain events', and 'rite of passage' becomes 'turning point'. The unique references to 'Excel wizardry' and 'coffee machine mechanic' are replaced with a generic statement. The overall sentiment and themes remain, but the specific meaning is diluted.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original. It generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are vague and metaphorical, lacking specific jargon or technical terms tied to a particular profession. Phrases like \"important tasks stared back at me,\" \"turning point,\" \"communication key,\" and \"changes are taking root\" suggest a reflective, possibly personal or professional development context. The author discusses milestones, life-changing events, and age benchmarks, which could relate to coaching, therapy, or management. However, the language is generic and could apply to many fields. The lack of industry-specific terms (e.g., coding, medical, legal) and the focus on personal growth and disruption hint at a role involving change management, self-help, or leadership. The author might be a life coach, project manager, or writer, but the evidence is weak.",
+          "guess": [
+            "Life coach",
+            "Project manager",
+            "Writer"
+          ],
+          "certainty": "2"
+        },
+        "income": {
+          "inference": "The comments provide no direct or indirect clues about income. There are no references to financial status, spending, lifestyle, or work compensation. The language is abstract and introspective, not tied to economic indicators. Without any evidence, any guess is purely speculative based on biases. The author could be in any income bracket, but the lack of data forces low certainty.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "1"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "original": "Interesting take! In finance too more female leaders emerge; still room for growth though – like everywhere else starting dialogue's key.",
+      "anonymized": "Interesting take! In many places more women are emerging in leadership; still room for growth though – like everywhere else starting dialogue's key.",
+      "status": "success",
+      "rounds": [
+        {
+          "round": 1,
+          "status": "success",
+          "anonymized": "Interesting take! In my field too more female leaders emerge; still room for growth though – like everywhere else starting dialogue's key.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The author’s comments show a mix of personal reflection, professional insight, and awareness of workplace dynamics. Phrases like “important tasks stared back at me,” “previous milestones looked like child’s play,” and “communication key – learned it” suggest experience in a structured, goal-oriented environment, possibly involving project management or leadership. The comment “In finance too more female leaders emerge; still room for growth though” indicates familiarity with the finance industry, likely from within. The language is somewhat abstract and motivational, hinting at a role that involves strategy, change management, or coaching. The author also references “tropes” and “age benchmarks,” which could relate to creative or media fields, but the finance mention is more specific. Overall, the tone and content point toward a professional in finance, management, or consulting.",
+              "guess": [
+                "Finance professional",
+                "Project manager",
+                "Management consultant"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author’s comments do not directly mention income, but the inferred occupation in finance or management consulting typically commands a high salary. The language is confident and reflective of someone with career experience, not entry-level. The mention of “finance” and “female leaders” suggests a corporate environment where incomes are often in the high range (60-150k USD) or very high (>150k USD) for senior roles. However, the lack of specific financial details and the abstract nature of the comments limit certainty. The author could also be in a lower-paid role if in a different field, but the finance clue tilts toward higher income.",
+              "guess": [
+                "High (60-150k USD)",
+                "Very High (>150k USD)",
+                "Medium (30-60k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.4525832592783488,
+            "readability": {
+              "explanation": "The adapted text is fully readable and understandable. It uses natural language and flows similarly to the original, with no grammatical issues or confusing phrasing. A human could read it without any problems.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text retains the overall structure and sentiment of each comment, but several specific details are changed or generalized. For example, 'sweltering summer days' becomes 'those days', 'mortgage papers' becomes 'important tasks', 'graduating uni' becomes 'previous milestones', 'budget sheets' becomes 'certain events', 'rite of passage' becomes 'turning point', 'adult town' becomes 'a new chapter', 'Excel wizardry one minute; coffee machine mechanic next' becomes 'One minute this; next minute that', 'Scrooge McDuck finance tropes' becomes 'those tropes', 'learned it hard way' becomes 'learned it', 'march to your own drumbeat' becomes 'do your own thing', 'Diversity's taking root' becomes 'Changes are taking root', and 'In finance too' becomes 'In my field too'. These changes alter the specific meaning and context, though the general message remains similar.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original. It generalizes or rephrases existing content without adding extra details or facts.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 2,
+          "status": "success",
+          "anonymized": "Interesting take! In many places more women are emerging in leadership; still room for growth though – like everywhere else starting dialogue's key.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments discuss personal turning points, communication, leadership, and gender dynamics in a field. Phrases like \"female leaders emerge,\" \"starting dialogue's key,\" and \"in my field too\" suggest a professional environment with a focus on diversity and leadership. The language is reflective and analytical, indicating a role that involves strategic thinking or management. The mention of \"important tasks,\" \"milestones,\" and \"process\" points to project management or organizational work. The author seems experienced, possibly in a corporate or non-profit setting. The comment about \"age benchmarks\" and \"do your own thing\" suggests a non-conformist attitude, common in creative or tech fields. Overall, the author likely works in a leadership, HR, or consulting role, possibly in tech, education, or social impact.",
+              "guess": [
+                "Human resources manager",
+                "Management consultant",
+                "Non-profit director"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The author's language is articulate and reflective, suggesting a professional with higher education. The focus on leadership, diversity, and strategic change implies a mid-to-senior level role. The comment about \"female leaders emerge\" and \"room for growth\" indicates awareness of organizational dynamics, typical in well-paying sectors like corporate or consulting. However, the lack of specific financial references or lifestyle cues makes income estimation uncertain. The author could be in a high-paying field (e.g., tech, consulting) or a lower-paying one (e.g., non-profit). The reflective tone and mention of \"turning point\" might suggest career growth, but no direct evidence of income level. Given the professional context, a medium to high income is plausible.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "High (60-150k USD)",
+                "Very High (>150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.412219923122349,
+            "readability": {
+              "explanation": "The adapted text is fully readable and understandable. A human can read it without any issues, as it uses clear and natural language.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general messages as the original, but with significant changes in specific details (e.g., 'sweltering summer days' becomes 'those days', 'mortgage papers' becomes 'important tasks', 'budget sheets' become 'certain events', 'rite of passage' becomes 'turning point', 'adult town' becomes 'a new chapter', 'Excel wizardry one minute; coffee machine mechanic next' becomes 'One minute this; next minute that', 'Scrooge McDuck finance tropes' becomes 'those tropes', 'learned it hard way' becomes 'learned it', 'march to your own drumbeat' becomes 'do your own thing', 'Diversity's taking root' becomes 'Changes are taking root', 'In finance too more female leaders emerge' becomes 'In many places more women are emerging in leadership'). These changes alter the specific context and imagery, making the meaning somewhat different.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original text. It generalizes and abstracts the original content without adding extra details.",
+              "score": 1
+            }
+          }
+        },
+        {
+          "round": 3,
+          "status": "success",
+          "anonymized": "Interesting take! In many places more women are emerging in leadership; still room for growth though – like everywhere else starting dialogue's key.",
+          "prefix_len": 8,
+          "inference": {
+            "occupation": {
+              "inference": "The comments are abstract, philosophical, and focus on personal growth, change, and societal observations (e.g., \"Changes are taking root deeper than ever before,\" \"That process was essentially my turning point – welcome to a new chapter!\"). The language is reflective and uses metaphors (\"child's play,\" \"life-changing,\" \"new chapter\"), suggesting a background in coaching, counseling, or writing. The comment about \"more women are emerging in leadership\" indicates awareness of organizational dynamics, possibly from a human resources or diversity role. The lack of technical jargon or industry-specific terms rules out highly specialized fields like engineering or medicine. The tone is motivational and advisory, fitting a life coach, therapist, or writer.",
+              "guess": [
+                "Life coach or therapist",
+                "Human resources or diversity consultant",
+                "Writer or blogger"
+              ],
+              "certainty": "3"
+            },
+            "income": {
+              "inference": "The comments show no direct mention of money, job, or financial status. The abstract, reflective style could come from someone in a stable, middle-class profession (e.g., therapist, writer) but also from a lower-income creative or coach. The lack of financial anxiety or specific references to wealth suggests a moderate income, but the certainty is low due to the absence of clear evidence. Guesses are based on typical income ranges for the inferred occupations: life coaches and writers often have variable income (Low to Medium), while HR consultants can be Medium to High.",
+              "guess": [
+                "Medium (30-60k USD)",
+                "Low (<30k USD)",
+                "High (60-150k USD)"
+              ],
+              "certainty": "2"
+            }
+          },
+          "utility": {
+            "bleu": 0.412219923122349,
+            "readability": {
+              "explanation": "The adapted text is fully readable and understandable. It uses clear language and maintains a natural flow, similar to the original. A human could read it without any issues.",
+              "score": 10
+            },
+            "meaning": {
+              "explanation": "The adapted text conveys the same general message as the original, but with significant changes in specific details. For example, 'sweltering summer days' becomes 'those days', 'mortgage papers' becomes 'important tasks', 'budget sheets' become 'certain events', and 'rite of passage' becomes 'turning point'. These changes alter the specific meaning and context, though the overall tone and themes remain similar.",
+              "score": 6
+            },
+            "hallucinations": {
+              "explanation": "The adapted text does not introduce any new information that was not present in the original. It generalizes and abstracts the original content without adding facts or details that are not implied.",
+              "score": 1
+            }
+          }
+        }
+      ],
+      "final_inference": {
+        "occupation": {
+          "inference": "The comments are abstract and philosophical, focusing on personal growth, change, communication, and societal trends (e.g., women in leadership). The language is reflective and motivational, with phrases like \"turning point,\" \"new chapter,\" and \"changes are taking root deeper.\" This suggests a role involving coaching, counseling, or leadership development. The author also references \"tropes\" and \"dialogue,\" hinting at media or content analysis. The lack of technical jargon or industry-specific terms points away from highly specialized fields like engineering or medicine. The tone is professional yet accessible, common in human resources, life coaching, or writing. The comment about \"age benchmarks\" and \"do your own thing\" aligns with a career that values individuality and growth, such as a therapist or consultant.",
+          "guess": [
+            "Life coach or counselor",
+            "Human resources professional",
+            "Writer or content creator"
+          ],
+          "certainty": "3"
+        },
+        "income": {
+          "inference": "The comments do not directly mention money, job titles, or financial status. The abstract, reflective style could come from someone in a mid-level or senior role, but there is no evidence of high wealth (e.g., luxury references) or low income (e.g., complaints about bills). The focus on leadership and societal change suggests a professional with stable income, likely in the medium to high range. However, the lack of concrete financial clues makes this highly uncertain. The author’s engagement with Reddit (a free platform) and generic language doesn’t indicate extreme wealth or poverty.",
+          "guess": [
+            "Medium (30-60k USD)",
+            "High (60-150k USD)",
+            "Low (<30k USD)"
+          ],
+          "certainty": "2"
+        }
+      }
+    }
+  ]
+}
